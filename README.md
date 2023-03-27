@@ -12,28 +12,6 @@ seo:
 
 Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)!
 
-**Algorithm 1: Task Decider**
-
-```
-you <- role
-
-if you == student then
-
-    continue reading
-
-else if you == instructor then
-
-    read wiki
-
-end if
-```
-
----
-
-We hope you are excited to learn more about machine learning and its intersection with neuroscience. To get started, check out the [Schedule](schedule.md). **This is where you will have guided content week-to-week**
-
-This course relies heavily on the i2 Megadoc, which can be found here: [i2 Megadoc](megadoc)
-
 Please remember:
 - We are all trying to learn, and learn at different speeds.
 - This course is somewhat of a commitment. You will get out what you put in
@@ -58,7 +36,5 @@ And also:
 - Jupyter notebooks
 - LaTeX
 - Self-learning skills
-
-**Go ahead and check out the [Schedule!](schedule.md)**
 
 ## **Also please check out the [i2 Labs Website](https://i2-labs.org/)**
