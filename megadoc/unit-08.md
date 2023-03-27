@@ -95,7 +95,9 @@ Finally we get into the Transformer architecture, which as of 2023 seems to have
 
 Awesome job answering those synthesis questions for Transformers! Now we move onto the project (which won't be nearly as difficult)
 
-**Project Spec:**
+---
+
+# **Project Spec:**
 
 The project for this “_Language Modeling_” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
 

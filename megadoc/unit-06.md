@@ -72,7 +72,9 @@ The last thing I will talk about before the project is the concept of **epsilon-
 
 You can read more about epsilon-greedy algorithms in [this](https://www.baeldung.com/cs/epsilon-greedy-q-learning#:~:text=The%20epsilon%2Dgreedy%20approach%20selects,what%20we%20have%20already%20learned.) article (Section 5.2). It works quite well and often gets a model “unstuck” from optimizing poorly through not exploring.
 
-**Project Spec:**
+---
+
+# **Project Spec:**
 
 The project for this “_Reinforcement Learning_” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
 

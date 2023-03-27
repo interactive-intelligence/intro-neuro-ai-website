@@ -54,8 +54,9 @@ This final video gives a swift overview of many functional modules of visual pro
 * `What is the "where" stream? What does it do?`
 * `What is a region that processes faces? What inputs does it receive? What other regions is it near?`
 
+---
 
-**Project Spec:**
+# **Project Spec:**
 
 **There is no programming for this project. Instead, we have provided a LaTeX template for you to fill out.**
 

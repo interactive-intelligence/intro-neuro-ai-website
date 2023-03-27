@@ -83,9 +83,9 @@ For those of you more interested in CV, there are a bunch more things to do in t
 
 Here are some slides from a JC on Variational Autoencoders (somewhat related, but very cool!): [Variational Autoencoder JC Slides](https://docs.google.com/presentation/d/1KTb7wxnsBryuar-yB-AVrizw88Wc3Vue46iCwmN0558/edit?usp=sharing)
 
+---
 
-
-**Project Spec:**
+# **Project Spec:**
 
 The project for this “_Computer Vision_” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
 

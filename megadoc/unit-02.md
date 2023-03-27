@@ -73,7 +73,9 @@ If you would like to jump into the math further, here is a longer lecture for JC
 **Part 2:**
 [Backpropagation, Part 2 | I2 JC](https://www.youtube.com/watch?v=Hib0cFxJOFg)
 
-**Project Spec:**
+---
+
+# **Project Spec:**
 
 The project for this “_Basics_” section will be following the tutorial below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
 

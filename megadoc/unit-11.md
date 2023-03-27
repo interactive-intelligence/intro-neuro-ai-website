@@ -36,9 +36,9 @@ For your reference, a voxel is a 3D pixel. Think of it as a minecraft block of t
     * `If you were to build an analog of the DMN in a machine learning network placed in your favorite video game as an environment, what function would you design it to serve?`
 * `Hypothesize how multiple demand regions might work and why they might be necessary. I don't know the right answer here so go nuts.`
 
+---
 
-
-**Project Spec:**
+# **Project Spec:**
 
 **There is no programming for this project. Instead, we have provided a LaTeX template for you to fill out.**
 

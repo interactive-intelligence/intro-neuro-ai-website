@@ -50,7 +50,9 @@ Welcome to the first lesson studying the most powerful and intelligent computer 
 
 Congratulations! That was a lot of neuroscience! On to some more creative ways of learning in the project section.
 
-**Project Spec:**
+---
+
+# **Project Spec:**
 
 **There is no programming for this project. Instead, we have provided a LaTeX template for you to fill out.**
 
