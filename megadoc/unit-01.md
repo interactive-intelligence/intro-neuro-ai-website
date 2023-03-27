@@ -92,7 +92,9 @@ There is a part in the video (20 seconds) that handles some pretty complex math.
 * `What does PCA do?`
     * `Give 3 use cases that you can think of`
 * `What is a principal component?`
+
 ---
+
 # **Project Spec:**
 
 The project for this “_Basics_” section will **have you finish a code template on github.** Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
