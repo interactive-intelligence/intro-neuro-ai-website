@@ -12,24 +12,6 @@ seo:
 
 Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)!
 
-**Algorithm 1: Task Decider**
-
-```
-you <- role
-
-if you == student then
-
-    continue reading
-
-else if you == instructor then
-
-    read wiki
-
-end if
-```
-
----
-
 Please remember:
 - We are all trying to learn, and learn at different speeds.
 - This course is somewhat of a commitment. You will get out what you put in
