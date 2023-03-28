@@ -10,6 +10,8 @@ seo:
 
 # I2 Intro Neuro/AI Course 
 
+## Click here to access the website: [I2 Intro Course Website](https://interactive-intelligence.github.io/intro-neuro-ai-website/)
+
 Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)!
 
 Please remember:
@@ -19,7 +21,7 @@ Please remember:
 - Contact any mentor at any point if you have any questions. **Seriously, we are here to help <3**
 - Be helpful, be kind, and have fun!
 
-What basics you will learn (a more detailed list can be found in the [wiki](wiki.md):
+What basics you will learn (a more detailed list can be found in the announcements:
 - ML
 - DL
 - Neuroanatomy
