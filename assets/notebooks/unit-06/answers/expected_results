@@ -1,0 +1,5 @@
+If the highest time alive (reward) you get is: 
+above 50, then you are doing slightly better than a random agent (not that good) **D grade**
+above 100, then the network is performing okay **C grade**
+above 195, the network is performing great, and cartpole can be considered "solved" **B Grade**
+450, then the network is doing the best it possibly can. **A Grade**
