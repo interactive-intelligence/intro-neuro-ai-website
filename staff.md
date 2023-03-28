@@ -19,7 +19,7 @@ Here are the awesome people who made the course + website. Feel free to contact 
 {% assign num_teaching_assistants = teaching_assistants | size %}
 {% if num_teaching_assistants != 0 %}
 
-## Creators
+## Other Creators
 
 {% for staffer in teaching_assistants %}
 {{ staffer }}
