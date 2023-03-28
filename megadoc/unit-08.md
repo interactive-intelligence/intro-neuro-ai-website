@@ -59,8 +59,7 @@ You may skip the “Word Embedding” and “Backward Pass” subsections of the
 
 ### `Synthesis Questions:`
 
-**TODO:** what are the sub tags?
-* `What are W<sub>x</sub>, W<sub>y</sub>, and W<sub>s</sub>?`
+* `What are W_x, W_y, and W_s?`
 * `Why does BPTT not work with a large number of timesteps?`
     * `What is this problem called?`
 * `How does Truncated BPTT solve this problem?`

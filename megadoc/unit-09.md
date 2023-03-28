@@ -5,7 +5,6 @@ parent: Megadoc
 
 # Unit 9: Fairness and Theory
 
-**TODO:** format
 
 Machine learning models are interesting, but they have substantive effects on the world they are deployed in. How can we make these models fairer, safer, less biased, and/or more responsible? Is this even rigorously possible? (Some researchers suggest not!) What is the source of bias? (“Garbage In, Garbage Out” is a stunted answer, and maybe even misleading.) These are all questions which are intimately linked with _deep learning theory_, a growing field which attempts to explain how neural networks work rather than attempting to advance the SOTA in performance or a similar task. Because of the close relationship between theory and fairness research, we will be exploring them together. After going through this unit, you will be able to reason about deep learning at a very abstract level (a powerful tool for research and experimentation); identify the core theoretical essence of various models and approaches; think critically about what the concepts of ‘bias’, ‘fairness’, ‘robustness’, ‘responsibility’, and ‘fairness’ mean and how we might build models which better embody these values.
 
