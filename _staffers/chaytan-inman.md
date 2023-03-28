@@ -1,5 +1,5 @@
 ---
-name: Varun Ananth
+name: Chaytan Inman
 role: Teaching Assistant
 email: chaytan@uw.edu
 website: https://github.com/chaytanc
