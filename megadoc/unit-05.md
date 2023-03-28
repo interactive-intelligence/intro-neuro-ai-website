@@ -104,7 +104,7 @@ A few helpful tips:
 
 Then, in your local copy of the GitHub repo, navigate to the unit-5 folder, and work on **conv-net.ipynb**. Instructions are in the Jupyter notebook. If you need help setting up your python environment, ask the TA’s!
 
-**GH Link:** [Unit 5 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-05/conv-net.ipynb)** (1 hr)**
+**GH Link:** [Unit 5 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-05/conv-net.ipynb) **(1 hr)**
 
 When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas. 
 
