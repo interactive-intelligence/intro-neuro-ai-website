@@ -45,4 +45,6 @@ And also:
 - LaTeX
 - Self-learning skills
 
+## If you wish to contrubute, check out the wiki tab!
+
 ## **Also please check out the [i2 Labs Website](https://i2-labs.org/) and register your team!**
