@@ -10,7 +10,13 @@ seo:
 
 # I2 Intro Neuro/AI Course 
 
-## Click here to access the website: [I2 Intro Course Website](https://interactive-intelligence.github.io/intro-neuro-ai-website/)
+---
+
+### Click here to access the website online: [I2 Intro Course Website](https://interactive-intelligence.github.io/intro-neuro-ai-website/)
+### Click here to access the github repository: [I2 Intro Course Website Github](https://github.com/interactive-intelligence/intro-neuro-ai-website)
+### Click here to access the project github repository: [I2 Intro Course Project Github](https://github.com/interactive-intelligence/intro-neuro-ai)
+
+---
 
 Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)!
 
@@ -39,4 +45,4 @@ And also:
 - LaTeX
 - Self-learning skills
 
-## **Also please check out the [i2 Labs Website](https://i2-labs.org/)**
+## **Also please check out the [i2 Labs Website](https://i2-labs.org/) and register your team!**
