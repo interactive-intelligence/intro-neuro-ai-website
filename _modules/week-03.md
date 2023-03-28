@@ -11,7 +11,6 @@ Welcome to a beginner's introduction to neuroscience! We will
 
 ### Resources
 - [Megadoc Unit 3](../megadoc/unit-03)
-    - Unit 3, Basic Neuroanatomy
 
 ### Assignment
 
