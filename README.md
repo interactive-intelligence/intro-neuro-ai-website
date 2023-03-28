@@ -27,7 +27,7 @@ Please remember:
 - Contact any mentor at any point if you have any questions. **Seriously, we are here to help <3**
 - Be helpful, be kind, and have fun!
 
-What basics you will learn (a more detailed list can be found in the announcements:
+What basics you will learn (a more detailed list can be found in the announcements):
 - ML
 - DL
 - Neuroanatomy
