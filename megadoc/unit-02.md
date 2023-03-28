@@ -95,7 +95,7 @@ A few helpful tips:
 Then, in your local copy of the GitHub repo, navigate to the unit-2 folder, and work on **mnist-dnn.ipynb**. Instructions are in the Jupyter notebook. If you need help setting up your python environment, ask the TA’s!
 
 **GH Link:**
-[Unit 2 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-2/mnist-dnn.ipynb) **(1 hr)**
+[Unit 2 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-02/mnist-dnn.ipynb) **(1 hr)**
 
 When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas. 
 
