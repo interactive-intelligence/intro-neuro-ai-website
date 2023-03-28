@@ -28,9 +28,9 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Interactive Intelligence:
+  UW Interactive Intelligence Website:
     - 'https://interactive-intelligence.github.io'
-  Course GitHub:
+  Course Project GitHub Repo:
     - 'https://github.com/interactive-intelligence/intro-neuro-ai'
 footer_content:
 
