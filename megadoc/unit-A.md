@@ -11,7 +11,7 @@ A deeper dive into Gradient Descent where you will be implementing backpropagati
 
 [The spelled-out intro to neural networks and backpropagation: building micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0)
 
-The templates we made for you can be found [here](https://github.com/interactive-intelligence/intro-neuro-ai/tree/main/unit-A).
+[Here's](../../notebooks/unit-A/starter_micrograd.ipynb) the starter notebook we wrote!
 
 Additionally, please implement the ReLU nonlinearity for the Value class. 
 

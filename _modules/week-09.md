@@ -10,8 +10,7 @@ This week, we're applying our knowledge. You're building a brain!
 - Creatively improvise on existing methods of creating intelligent systems
 
 ### Resources
-- [I2 Resources Doc](https://docs.google.com/document/d/1Sv8vHtzgqg4DMKjXRyvoRzjghlzFbDErwvN0DKh8yxk/edit?usp=sharing)
-    - Unit 11
+- [Megadoc Unit 11](../megadoc/unit-11)
 
 ### Assignment
 

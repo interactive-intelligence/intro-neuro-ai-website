@@ -63,7 +63,7 @@ This final video gives a swift overview of many functional modules of visual pro
 
 * If you are unaware of what LaTeX is, you can read about it [here](https://www.latex-project.org/about/).
 
-**GH Link:** [Unit 4 Template](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-04/intro_visual.tex) **(30 min)**
+**GH Link:** [Unit 4 Template](../../notebooks/unit-04/intro_visual.tex) **(30 min)**
 
 **The questions in the template are also written below:**
 

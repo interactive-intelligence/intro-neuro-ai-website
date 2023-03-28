@@ -7,8 +7,7 @@ title: "Week 7: Introduction to Movement"
 - Learn about movement in the context of the brain
 
 ### Resources
-- [I2 Resources Doc](https://docs.google.com/document/d/1Sv8vHtzgqg4DMKjXRyvoRzjghlzFbDErwvN0DKh8yxk/edit?usp=sharing)
-    - Unit 7
+- [Megadoc Unit 7](../megadoc/unit-07)
 
 ### Assignment
 

@@ -10,7 +10,7 @@ Welcome to a beginner's introduction to neuroscience! We will
  -Begin to hypothesize about the parallels and divergences of machine learning and the brain
 
 ### Resources
-- [I2 Resources Doc](https://docs.google.com/document/d/1Sv8vHtzgqg4DMKjXRyvoRzjghlzFbDErwvN0DKh8yxk/edit?usp=sharing)
+- [Megadoc Unit 3](../megadoc/unit-03)
     - Unit 3, Basic Neuroanatomy
 
 ### Assignment

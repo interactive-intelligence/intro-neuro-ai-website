@@ -90,7 +90,7 @@ A few helpful tips:
 
 Then, in your local copy of the GitHub repo, navigate to the unit-6 folder, and work on **rl_net.ipynb**. Instructions are in the Jupyter notebook. If you need help setting up your python environment, ask the TA’s!
 
-**GH Link:** [Unit 6 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-6/rl_net.ipynb) **(1.5 hr)**
+**GH Link:** [Unit 6 Notebook](../../notebooks/unit-06/rl_net.ipynb) **(1.5 hr)**
 
 
 

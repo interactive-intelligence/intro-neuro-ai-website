@@ -11,8 +11,7 @@ Our first foray into more complex networks and how they learn.
 
 ### Resources
 
-- [I2 Resources Doc](https://docs.google.com/document/d/1Sv8vHtzgqg4DMKjXRyvoRzjghlzFbDErwvN0DKh8yxk/edit?usp=sharing)
-    - Unit 2
+- [Megadoc Unit 2](../megadoc/unit-02)
 - [CS231n Notes on Neural Networks.](https://cs231n.github.io/) See Module 1: Neural Networks - great written resource for the basics.
 
 ### Assignment

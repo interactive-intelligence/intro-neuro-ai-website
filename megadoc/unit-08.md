@@ -115,11 +115,11 @@ A few helpful tips:
 
 In your local copy of the GitHub repo, navigate to the unit-8 folder, and work on **hf_tutorial.ipynb**. Instructions are in the Jupyter notebook. If you need help setting up your python environment, ask the TA’s!
 
-**GH Link:** [Unit 8 Notebook Part 1](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-08/hf_tutorial.ipynb) **(1 hr)**
+**GH Link:** [Unit 8 Notebook Part 1](../../notebooks/unit-08/hf_tutorial.ipynb) **(1 hr)**
 
 Now navigate to the application portion of this project, where you are given a dataset and asked to train an LLM of your choice to emulate Shakespeare! Be sure to reference your Unit 8 Notebook Part 1 to figure out how to do this. The starter code is in **lm_starter_code.ipynb**
 
-**GH Link:** [Unit 8 Notebook Part 2](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-08/lm_starter_code.ipynb) **(1 hr)**
+**GH Link:** [Unit 8 Notebook Part 2](../../notebooks/unit-08/lm_starter_code.ipynb) **(1 hr)**
 
 When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas. 
 

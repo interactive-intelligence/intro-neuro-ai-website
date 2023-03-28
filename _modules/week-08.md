@@ -9,8 +9,7 @@ title: "Week 8: Reinforcement Learning"
 
 ### Resources
 
-- [I2 Resources Doc](https://docs.google.com/document/d/1Sv8vHtzgqg4DMKjXRyvoRzjghlzFbDErwvN0DKh8yxk/edit?usp=sharing)
-  - Unit 6
+- [Megadoc Unit 6](../megadoc/unit-06)
 - [Spinning Up](https://spinningup.openai.com)
 
 ### Assignment
