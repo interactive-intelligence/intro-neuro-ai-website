@@ -129,6 +129,8 @@ Read up on k-means clustering in the provided link (Images provided above also c
 
 Then, in your local copy of the GitHub repo, navigate to the unit-1 folder, and work on **clustering-pca.ipynb**. Instructions are in the Jupyter notebook. If you need help setting up your python environment, ask the TA’s!
 
+If you just want to download a single file, [here](https://stackoverflow.com/questions/4604663/download-single-files-from-github) is how you do it.
+
 **GH Link:** [Unit 1 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-01/clustering-pca.ipynb) **(30 min)**
 
 When you are finished with your code, independently verify that it works and have fun with it! You could try this method on different datasets, such as [this one for example](https://www.kaggle.com/datasets/ashwingupta3012/human-faces). If you add any additional functionality be sure to talk about it with others and give them ideas. 
