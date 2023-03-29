@@ -19,7 +19,7 @@ It would be negligent not to begin by acknowledging the inadequacy of this chapt
     * `What might you wish you could learn faster, and what might be a cost to having neural architectures that support that kind of learning?`
 * `If humans are uniquely suited to recognizing faces, what might be a useful analogous skill in machine learning which may support more human-like behavior? `
 
-**Task 2: **Next, briefly skim the questions below then indulge in this scintillating lecture describing brain modules and the discovery of their connected wiring! 
+**Task 2:** Next, briefly skim the questions below then indulge in this scintillating lecture describing brain modules and the discovery of their connected wiring! 
 
 Start watching at 8:40, [21. Brain Networks](https://www.youtube.com/watch?v=SchmVoc5NzY&list=PLUl4u3cNGP60IKRN_pFptIBxeiMc0MCJP&index=16)
 

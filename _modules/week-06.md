@@ -13,8 +13,7 @@ title: "Week 6: Language Modeling"
 
 ### Resources
 
-- [I2 Resources Doc](https://docs.google.com/document/d/1Sv8vHtzgqg4DMKjXRyvoRzjghlzFbDErwvN0DKh8yxk/edit?usp=sharing)
-    - Unit 8
+- [Megadoc Unit 8](../megadoc/unit-08)
   
 ### Assignment
 

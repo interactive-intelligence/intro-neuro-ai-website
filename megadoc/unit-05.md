@@ -104,7 +104,7 @@ Now, follow the instructions on this Jupyter notebook to implement some of the t
 
 I would recommend downloading the entire "notebooks" folder all at once. Its one folder up.
 
-**GH Link:** [Unit 5 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-05/conv-net.ipynb)** (1 hr)**
+**GH Link:** [Unit 5 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-05/conv-net.ipynb) **(1 hr)**
 
 When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas. 
 

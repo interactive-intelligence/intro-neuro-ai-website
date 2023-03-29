@@ -11,13 +11,12 @@ An introduction to the foundation of modern AI!
 
 ### Resources
 
-- [I2 Resources Doc](https://docs.google.com/document/d/1Sv8vHtzgqg4DMKjXRyvoRzjghlzFbDErwvN0DKh8yxk/edit?usp=sharing)
-    - Unit 1
+- [Megadoc Unit 1](../megadoc/unit-01)
 
 ### Assignment
 
 - Complete Unit 1 in the megadoc (synthesis questions included)
-- Scikit-Learn ML Project (in megadoc/github)
+- Scikit-Learn ML Project (in megadoc)
 
 ### Summary Questions
 

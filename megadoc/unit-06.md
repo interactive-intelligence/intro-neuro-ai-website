@@ -46,9 +46,9 @@ You may skip the section on Diagonal Gaussian Policies.
 
 This was a lot of content. Good job on getting through it all! Reinforcement learning is quite a math heavy subfield. Get used to a whole lot of probability and integration. Spelling out exactly what the equations are doing (by reading them out loud) can help quite a bit. Next we will be diving into some in-practice algorithms on a high level.
 
-So, in general, these equations that you have learned about are ideals, not what is done in practice. What generally happens with deep learning RL algorithms is that these functions are **approximated **by a neural network rather than calculated. This is important to keep in mind as you go on, because a lot of these equations have some recursiveness to them and often have such a huge search space that finding the perfect parameters for V<sup>*</sup> or Q<sup>*</sup> is near impossible in complex environments. 
+So, in general, these equations that you have learned about are ideals, not what is done in practice. What generally happens with deep learning RL algorithms is that these functions are **approximated ** by a neural network rather than calculated. This is important to keep in mind as you go on, because a lot of these equations have some recursiveness to them and often have such a huge search space that finding the perfect parameters for V<sup>*</sup> or Q<sup>*</sup> is near impossible in complex environments. 
 
-**Task:** Read the “[Kinds of RL Algorithms](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html)” section of the Spinning Up Intro to RL page.** (15 min)**
+**Task:** Read the “[Kinds of RL Algorithms](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html)” section of the Spinning Up Intro to RL page. **(15 min)**
 
 You may skip the section on What to Learn in Model-Based RL
 
