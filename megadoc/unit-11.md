@@ -46,7 +46,7 @@ For your reference, a voxel is a 3D pixel. Think of it as a minecraft block of t
 
 * If you are unaware of what LaTeX is, you can read about it [here](https://www.latex-project.org/about/).
 
-**GH Link:** [Unit 11 Template](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-11/build_a_brain.tex) **(40 min)**
+**GH Link:** [Unit 11 Template](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-11/build_a_brain.tex) **(40 min)**
 
 <span style="text-decoration:underline;">The questions in the template are also written below:</span>
 

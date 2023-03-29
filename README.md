@@ -14,7 +14,7 @@ seo:
 
 ### Click here to access the website online: [I2 Intro Course Website](https://interactive-intelligence.github.io/intro-neuro-ai-website/)
 ### Click here to access the github repository: [I2 Intro Course Website Github](https://github.com/interactive-intelligence/intro-neuro-ai-website)
-### Click here to access the project github repository: [I2 Intro Course Project Github](https://github.com/interactive-intelligence/intro-neuro-ai)
+### Click here to access the project folder [I2 Intro Course Project Folder](https://github.com/interactive-intelligence/intro-neuro-ai-website/tree/main/notebooks)
 
 ---
 

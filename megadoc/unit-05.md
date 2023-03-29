@@ -100,11 +100,11 @@ A few helpful tips:
 * Leave comments to cement your understanding. Link syntax to ideas.
 * **Read up on what <span style="text-decoration:underline;">Fashion</span>-MNIST is (different than MNIST).**
 
-**Clone the Git repo onto your local device if you have not already.**
+Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" directory on the same level as this notebook that you can use if stuck. You will need to set up a Python environment to run this notebook. Ask around if you are unable to get it working!
 
-Then, in your local copy of the GitHub repo, navigate to the unit-5 folder, and work on **conv-net.ipynb**. Instructions are in the Jupyter notebook. If you need help setting up your python environment, ask the TA’s!
+I would recommend downloading the entire "notebooks" folder all at once. Its one folder up.
 
-**GH Link:** [Unit 5 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-05/conv-net.ipynb)** (1 hr)**
+**GH Link:** [Unit 5 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-05/conv-net.ipynb)** (1 hr)**
 
 When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas. 
 

@@ -56,11 +56,9 @@ Congratulations! That was a lot of neuroscience! On to some more creative ways o
 
 **There is no programming for this project. Instead, we have provided a LaTeX template for you to fill out.**
 
-
-
 * If you are unaware of what LaTeX is, you can read about it [here](https://www.latex-project.org/about/).
 
-**GH Link:** [Unit 3 Template](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-03/basic_neuro_project.tex) **(30 min)**
+**GH Link:** [Unit 3 Template](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-03/basic_neuro_project.tex) **(30 min)**
 
 **The questions in the template are also written below:**
 

@@ -125,13 +125,11 @@ Also this image visualizing the clustering algorithms:
 
 Read up on k-means clustering in the provided link (Images provided above also contained here). Feel free to check out the other algorithms as well: [SK-Learn Clustering](https://scikit-learn.org/stable/modules/clustering.html#k-means)
 
-**Clone the Git repo onto your local device if you have not already.**
+Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" directory on the same level as this notebook that you can use if stuck. You will need to set up a Python environment to run this notebook. Ask around if you are unable to get it working!
 
-Then, in your local copy of the GitHub repo, navigate to the unit-1 folder, and work on **clustering-pca.ipynb**. Instructions are in the Jupyter notebook. If you need help setting up your python environment, ask the TA’s!
+I would recommend downloading the entire "notebooks" folder all at once. Its one folder up.
 
-If you just want to download a single file, [here](https://stackoverflow.com/questions/4604663/download-single-files-from-github) is how you do it.
-
-**GH Link:** [Unit 1 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-01/clustering-pca.ipynb) **(30 min)**
+**GH Link:** [Unit 1 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-01/clustering-pca.ipynb) **(30 min)**
 
 When you are finished with your code, independently verify that it works and have fun with it! You could try this method on different datasets, such as [this one for example](https://www.kaggle.com/datasets/ashwingupta3012/human-faces). If you add any additional functionality be sure to talk about it with others and give them ideas. 
 

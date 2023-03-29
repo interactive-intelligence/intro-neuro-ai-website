@@ -88,9 +88,11 @@ A few helpful tips:
 * Type most of the code out yourself instead of just copying from the tutorial.
 * Leave comments to cement your understanding. Link syntax to ideas.
 
-Then, in your local copy of the GitHub repo, navigate to the unit-6 folder, and work on **rl_net.ipynb**. Instructions are in the Jupyter notebook. If you need help setting up your python environment, ask the TA’s!
+Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" directory on the same level as this notebook that you can use if stuck. You will need to set up a Python environment to run this notebook. Ask around if you are unable to get it working!
 
-**GH Link:** [Unit 6 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai/blob/main/unit-6/rl_net.ipynb) **(1.5 hr)**
+I would recommend downloading the entire "notebooks" folder all at once. Its one folder up.
+
+**GH Link:** [Unit 6 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-06/rl_net.ipynb) **(1.5 hr)**
 
 
 
