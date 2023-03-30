@@ -8,7 +8,7 @@
 
 ---
 
-Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)!
+Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now OpenCourseWare)!
 
 Please remember:
 - We are all trying to learn, and learn at different speeds.
