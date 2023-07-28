@@ -41,6 +41,7 @@ collections:
   schedules:
   announcements:
   wiki:
+  graduates:
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -66,6 +67,12 @@ defaults:
       type: announcements
     values:
       layout: announcement
+  - scope:
+      path: ''
+      type: graduates
+    values:
+      layout: staffer
+      subpath: '/assets/images/'
 
 compress_html:
   clippings: all
