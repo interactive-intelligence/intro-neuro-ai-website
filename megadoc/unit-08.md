@@ -66,7 +66,7 @@ You may skip the “Word Embedding” and “Backward Pass” subsections of the
 
 Finally we get into the Transformer architecture, which as of 2023 seems to have a grip on the DL market as the most generally powerful type of neural network used in all sorts of LM tasks. **This subsection is especially difficult. Please read the articles slowly and carefully. Be sure to ask for help if you have any questions or trouble understanding a statement!**
 
-**Task:** Read the following “Intuitive Explanation of GPT Models” [Part 1](https://cswartout.com/2022/11/25/intutive-explanation-of-gpt.html) and [Part 2](https://cswartout.com/2022/12/25/intuitive-explanation-of-gpt-part-2.html) (and hopefully part 3 soon!) (Made by University of Washington Interactive Intelligence member Carter!) and answer the following synthesis questions:
+**Task:** Read the following “Intuitive Explanation of GPT Models” [Part 1](https://blog.cswartout.com/2022/11/25/intutive-explanation-of-gpt.html) and [Part 2](https://blog.cswartout.com/2022/12/25/intuitive-explanation-of-gpt-part-2.html) (and hopefully part 3 soon!) (Made by University of Washington Interactive Intelligence member Carter!) and answer the following synthesis questions:
 
 **In case this article is not enough, or you find yourself struggling to fully understand transformers, take a look at this list of other links that can reinforce your knowledge:**
 
