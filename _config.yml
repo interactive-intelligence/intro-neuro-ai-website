@@ -17,8 +17,8 @@ title: I2 Intro Neuro/AI
 tagline: I2's Introductory Course!
 description: Welcome to Interactive Intelligence's Introduction to Neuro/AI crash course!
 author: Interactive Intelligence
-baseurl: '/intro-neuro-ai-website' # the subpath of your site, e.g. /blog
-url: 'https://interactive-intelligence.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/' # the subpath of your site, e.g. /blog
+url: 'https://course.uw-i2.org' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
