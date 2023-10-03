@@ -1,6 +1,6 @@
 ---
 name: Chaytan Inman
-role: Teaching Assistant
+role: Creator
 email: chaytan@uw.edu
 website: https://github.com/chaytanc
 photo: chaytan.jpg

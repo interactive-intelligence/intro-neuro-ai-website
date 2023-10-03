@@ -1,6 +1,6 @@
 ---
 name: Carter Swartout
-role: Teaching Assistant
+role: Creator
 email: swartout@uw.edu
 website: https://cswartout.com
 photo: carter.jpg
