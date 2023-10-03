@@ -1,6 +1,6 @@
 ---
 name: Varun Ananth
-role: Instructor
+role: Creator
 email: varunananth1@gmail.com
 website: https://github.com/VarunAnanth2003
 photo: varun.jpg
