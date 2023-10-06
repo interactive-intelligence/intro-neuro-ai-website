@@ -3,112 +3,77 @@ title: Unit 04
 parent: Megadoc
 ---
 
-# Unit 4: Computer Vision
+# Unit 4: Intro to the Visual System
 
-Hello and welcome to the _Computer Vision (CV)_ section of the I2 megadoc! This section is, due to time constraints, only a very cursory glance at the foundations of CV. This is a whole subfield of ML and even if we spent 10 weeks on it, we wouldn’t scratch the surface!
-
-Let’s start with some motivation. When you look at an image of (for example) a soda can, it does not matter where in the image the soda can is. You are able to detect it and know where it is. This detection ability is called _translational invariance_. You are able to detect an object even if it has been translated within an image. Traditional DNNs cannot do this (without being heavily overparameterized). Take a second to think about why the architecture of a DNN does not implicitly allow for translationally invariant object classification.
+Welcome to the visual system. Before we dive into how computer scientists have hacked together mathematical filters and matrix multiplication to process visual information and extract meaningful output, we will take a hard look at how your eyes and neurons process a continuous bombardment of photons. First, some vocab.
 
 
-
-* (Hint: Think about how different the vectorized images would be between the soda can image and its translated invariant. The inputs to the DNN would be drastically different and it would be hard to find any pattern!)
-
-Convolutional Neural Networks (or CNNs) solve this problem and much more. To understand what a CNN is though, you must first understand what a convolution is!
-
-**Task:** Watch and understand the following videos. We recommend taking notes and being able to answer the synthesis questions provided below. Send your I2 teacher/mentor/overlord the answers to the questions over Discord. **Watch up to <span style="text-decoration:underline;">13:42</span> in the video, anything after that is extra information not needed for Deep Learning.**
-
-**Video:** [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA&t=773s) **(13 min)**
-
-### `Synthesis Questions:`
-
-* `What is the name for the smaller grid that convolves over a larger image?`
-    * `Hint: Starts with a "k"`
-* `What are some examples of what you can do to images if you convolve them with special matrices?`
-* `How does Gaussian blur "work"?`
-* `What is the name for the actual operation that occurs when the smaller grid is overlaid on the larger one?`
-    * `When each element of the corresponding pixels are multiplied then summed.`
-* `Give an example of a 3x3 matrix that would not do anything to the image it convolves over. Why does it not impact the image?`
-    * `This is also known as the "do-nothing" matrix`
+> Dorsal: Upper or back side of something (like a dorsal fin on an orca!)
 
 
-![alt_text](../assets/image6.gif)
+> Ventral: Underside or underbelly of something
 
 
-Awesome job! Now we move onto integrating the concept of a convolution into a neural network.
+> Receptive Field: An input that produces the biggest response in some area or neuron is said to be its receptive field
 
-**Task:** Read the following article, watch the video, and answer the synthesis questions:
+**Task 1:** Watch the following videos and answer the questions! You know the drill. The first one will teach us about the physiology of processing light, the complex first layer of our own biological neural network. 
 
-**Article:** [Comprehensive CNN Guide](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53) **(15 min)**
+[Vision: Crash Course Anatomy & Physiology # 18](https://www.youtube.com/watch?v=o0DYP-u1rNM)
 
-**Video:** [Visualizing Convolutional Neural Networks \| Layer by Layer](https://www.youtube.com/watch?v=JboZfxUjLSk) **(5 min)**
 
 ### `Synthesis Questions:`
 
 
-* `The architecture of a CNN is loosely based on what part of the brain?`
-* `What is stride length?`
-* `What is padding?`
-    * `Why is padding useful?`
-* `What is the objective of the convolutional layer in a CNN?`
-* `What is the purpose of the pooling layer in a CNN?`
-    * `What are the two ways to pool shown to you in the article?`
-* `What is flattening and when is it done in a CNN?`
-* `What is the purpose of the feedforward layer in a CNN?`
-* `How do the convolutional layers before the feedforward layer in a CNN allow for higher accuracy?`
 
-We have introduced you to the idea of a convolution and how convolutions are applied in CNNs. Can you begin to see how convolutions help with _translational invariance_? Think about it for a bit! Before the project, we just want to expose you to a few different types of convolutions. They aren’t all the same and serve different purposes.
+* `Where in the brain do signals from the retina go before reaching the visual cortex?`
+* `Describe the phenomena of retinal neurons that "get tired". Do you think there are analogous processes in deep learning or convolutional neural networks?`
 
-**Task:** Read the following article for the following sections:
+The next video will describe the path of information flow through the visual cortex and some core properties of the structure of this process.
+
+[Perception: 3.2 Primary Visual Cortex](https://www.youtube.com/watch?v=rrG-Y41Omi4)
+
+### `Synthesis Questions:`
 
 
 
-1. **Convolution in Deep Learning**
-2. **3D Convolution**
-3. **Transposed Convolution/Deconvolution**
+* `What wavelengths of light can humans detect? Why might we only be able to detect such a narrow band of light wavelengths? What would be an advantage and downside of processing more?`
+* `What is V1 in the visual cortex? What are those cells most sensitive to?`
+* `What is the fovea best at detecting?`
+* `Describe the retinotopic nature of the visual cortex (7:58) in your own words. Hypothesize whether convolutional neural networks might be organized as "retinotopic". `
+* `Describe cortical magnification and the causes of the trade-off between acuity and sensitivity. What are several reasons we can't see details from extremely far away, as for example, hawks can?`
+* `Brains are constrained by space, which as we have seen with vision, drives trade-offs in our processing. Do neural networks have analogous constraints? What are the effects of this?`
 
-**Article:** [Comprehensive Convolution Types Guide](https://towardsdatascience.com/a-comprehensive-introduction-to-different-types-of-convolutions-in-deep-learning-669281e58215#:~:text=Convolution%20Arithmetic,Spatially%20Separable%20Convolution%2C%20Depthwise%20Convolution)) **(15 min)**
+This final video gives a swift overview of many functional modules of visual processing. This is a great time to start thinking about how all this vision processing compares to our methods of processing information with neural networks! We will learn even more in the next Unit on convolutional neural networks too :)
 
-Awesome job! Feel free to move onto the project now.
+[Perception: 3.3 Functional Areas, Pathways, and Modules](https://www.youtube.com/watch?v=vTIxvw9QAY8)
 
-For those of you more interested in CV, there are a bunch more things to do in this sphere. Here are some topics you can explore independently:
+### `Synthesis Questions:`
 
-
-
-* **Transfer learning**
-* **Object detection (r-cnn, yolo)**
-* **Semantic segmentation (u-net, deeplab)**
-* **Self-supervised learning (colorization, damage correction, noise decoding)**
-* **Adversarial attacks**
-* **Image generation - variational autoencoders, generative adversarial networks**
-
-Here are some slides from a JC on Variational Autoencoders (somewhat related, but very cool!): [Variational Autoencoder JC Slides](https://docs.google.com/presentation/d/1KTb7wxnsBryuar-yB-AVrizw88Wc3Vue46iCwmN0558/edit?usp=sharing)
+* `Describe at least 5 functional parts of the visual system`
+* `What is the "what" stream? What does it do?`
+* `What is the "where" stream? What does it do?`
+* `What is a region that processes faces? What inputs does it receive? What other regions is it near?`
 
 ---
 
 # **Project Spec:**
 
-The project for this “_Computer Vision_” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
-
-A few helpful tips:
+**There is no programming for this project. Instead, we have provided a LaTeX template for you to fill out.**
 
 
+* If you are unaware of what LaTeX is, you can read about it [here](https://www.latex-project.org/about/).
 
-* Use GitHub, it’s really just better
-* Use [Anaconda](https://www.anaconda.com/) with [Python3](https://www.python.org/downloads/) in [VSCode](https://code.visualstudio.com/).
-    * If you use Anaconda, create a separate environment so you can mess with libraries and imports all day without screwing up your base environment.
-* Type most of the code out yourself instead of just copying from the tutorial.
-* Leave comments to cement your understanding. Link syntax to ideas.
-* **Read up on what <span style="text-decoration:underline;">Fashion</span>-MNIST is (different than MNIST).**
+**GH Link:** [Unit 4 Template](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-04/intro_visual.tex) **(30 min)**
 
-Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" directory on the same level as this notebook that you can use if stuck. You will need to set up a Python environment to run this notebook. Ask around if you are unable to get it working!
+**The questions in the template are also written below:**
 
-I would recommend downloading the entire "notebooks" folder all at once. Its one folder up.
+Imagine you got a little too into neural networks and decided to replace your eyes with convolutional neural networks. You may use any sensors, hardware, brain computer interfaces, fungi, wires, Von Neumann computing, neuromorphic computing, or robots that you like (that seem vaguely feasible). How would you replace the algorithms run by the visual cortex with algorithms like those of convolution neural networks? 
 
-**GH Link:** [Unit 4 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-05/conv-net.ipynb) **(1 hr)**
+Draw your system in detail and write a short paragraph on the following:
 
-When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
 
-Remember that this is all for your learning, so do your best and don’t stress!
 
-Congratulations! You now understand the basics of Convolutional Neural networks!
-
+* Why did you make the design decisions you made?
+* What would be the advantages of your system? 
+* What would be the disadvantages?
+* What hardware did you use to implement this? In your opinion, is it possible to use the existing biological nervous system to run computation algorithms like CNNs? Why?
