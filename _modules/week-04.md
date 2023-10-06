@@ -1,14 +1,21 @@
 ---
-title: "Week 4: The Visual System"
+title: "Week 4: Convolutional Neural Networks"
 ---
 
 ### Purpose
 
-This week we take a small break from computation and return to the brain, specifically your insanely complex and elegant visual system!
-We will
-- Learn the basic anatomical and functional regions of the visual system
-- Compare biological solutions to visual tasks with computational solutions
+- Deep Learning for Vision
+- Learn about Convolutional Neural Networks
 
 ### Resources
 
-- [Megadoc Unit 4](../megadoc/unit-04)
+- [Megadoc Unit 5](../megadoc/unit-05)
+
+### Assignment
+
+- Complete Unit 5 in the megadoc (synthesis questions included)
+- ConvNet Project (in megadoc/github)
+
+### Summary Questions
+
+- Synthesis questions in the megadoc
