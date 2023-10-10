@@ -9,11 +9,11 @@ title: "Week 4: Convolutional Neural Networks"
 
 ### Resources
 
-- [Megadoc Unit 5](../megadoc/unit-05)
+- [Megadoc Unit 4](../megadoc/unit-04)
 
 ### Assignment
 
-- Complete Unit 5 in the megadoc (synthesis questions included)
+- Complete Unit 4 in the megadoc (synthesis questions included)
 - ConvNet Project (in megadoc/github)
 
 ### Summary Questions
