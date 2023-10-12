@@ -18,7 +18,7 @@ The two main tasks that statistical ML attempts to solve are the **classificatio
 
 Let's start with the case of one responding variable and one feature. Below is a plot with some data, and lines that could be the "best fit" for the data. Which line is the best fit?
 
-![alt_text](../assets/unit1/unit1_best_fit_lines.png)
+![alt_text](../assets/unit1/unit1_best_fit_lines.jpg)
 
 Obviously it is line **B**. But how do you know that? You will probably say that it is due to how close the dots are to the line (in comparison to the other lines). We
 can formalize this "goodness of fit" with a Sum of Squared Errors calculation (SSE).
@@ -30,7 +30,7 @@ the differences to account for negatives (absolute value cannot be used easily d
 
 $$SSE = \sum_{i} (y_i - \hat{y}_i)^2$$
 
-![alt_text](../assets/unit1/unit1_sse_lines.png)
+![alt_text](../assets/unit1/unit1_sse_lines.jpg)
 
 Intuitively, you can see that if $y$ and $\hat{y}$ are closer, the SSE will be smaller. Therefore we want to **minimize the SSE**. Doing this is called **Least Squares (LS)** regression.
 
@@ -50,13 +50,13 @@ NOTE: The $x$ subscript here represents 1 datapoint now instead of 1 feature (re
 
 Here is a visual diagram of why this an equivalence. This is where some linear algebra intuition may come in handy.
 
-![alt_text](../assets/unit1/unit1_dotproduct_viz.png)
+![alt_text](../assets/unit1/unit1_dotproduct_viz.jpg)
 
 ### Dealing with the b term
 
 To make this even easier for us, we can remove the $b$ term from the equation by appending a $b$ and $1$ to $w$ and $x_i^T$ respectively.
 
-![alt_text](../assets/unit1/unit1_append_bias.png)
+![alt_text](../assets/unit1/unit1_append_bias.jpg)
 
 Now we have that:
 
@@ -85,7 +85,7 @@ $$\frac{\partial}{\partial w}\sum_{i} (y_i - x_i^Tw)^2 = 0$$
 
 The derivation is difficult (and it is very easy to mess up) so we won't try and make you learn/memorize it. However, if you are curious, here is a whiteboard example.
 
-![alt_text](../assets/unit1/unit1_derivation.png)
+![alt_text](../assets/unit1/unit1_derivation.jpg)
 
 We ultimately get that:
 
@@ -93,7 +93,7 @@ $$\hat{w}_{LS} = (X^TX)^{-1}X^Ty$$
 
 Where $X$ is a matrix created from stacking all $x_i$ examples on top of one another, and $y$ is a vector of all of the $y_i$ labels stacked. Below is a visual to help you understand:
 
-![alt_text](../assets/unit1/unit1_matrix_viz.png)
+![alt_text](../assets/unit1/unit1_matrix_viz.jpg)
 
 Awesome! You now have a weight vector that you can multiply by a new set of features to predict the $y$ for that set of features! If you want to, you can
 easily code this up in `numpy` with a dummy dataset to prove to yourself that the simple equation I showed you previously works! The best part about this closed
@@ -210,7 +210,7 @@ Check out this handy image that gives popular sk-learn clustering algorithms and
 Also this image visualizing the clustering algorithms:
 
 
-![alt_text](../assets/_unit1/unit1_cluster_viz.png)
+![alt_text](../assets/unit1/unit1_cluster_viz.png)
 
 
 Read up on k-means clustering in the provided link (Images provided above also contained here). Feel free to check out the other algorithms as well: [SK-Learn Clustering](https://scikit-learn.org/stable/modules/clustering.html#k-means)
