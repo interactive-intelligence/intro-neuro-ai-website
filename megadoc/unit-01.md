@@ -7,37 +7,125 @@ parent: Megadoc
 
 Hello and welcome to the _Basics_ section of the I2 megadoc! The items here are fundamental building blocks for Deep Learning (powerful tools that are more complex in computation, but funnily enough not as technical). A lot of the things here are statistics-heavy so be sure to pay attention! We will start off with something I am sure most of you are familiar with - linear regression.
 
-**Task:** Read [this](https://towardsdatascience.com/the-basics-linear-regression-2fc9f5124687) article and answer the synthesis questions below! **(15 min)**
+## Linear Regression
 
+**Task:** Read the following introduction to Linear Regression. I skip over some parts that I believe are not needed to fully understand the power and utility of linear rgeression.
+I do sprinkle in some articles that you may read if you want a more comprehensive breakdown.
 
-Before you begin! There are a few points in this article that I believe are more confusing than helpful, so feel free to ignore them if they do not make complete sense. Keep this in mind as you read, just take note, and don’t stress about the sections I overview below:
+### What are we trying to do with regression?
 
+The two main tasks that statistical ML attempts to solve are the **classification** task and **regression** task. Classification is the task of bucketing a set of items $S$ into $k$ categories. We will explore classification more in Unit 2. Regression is the task of predicting the value of one variable (usually called the responding variable), given the values of other feature variables. For example, predicting a person's weight based on their height. The weight is the responding variable/label ($y$) and the height is the feature variable ($x$). You can also have the case with multiple dependent variables. You could be attempting to predict the cost of a house depending on its square footage ($x_1$), location ($x_2$), number of floors ($x_3$) and other things ($x_n$). Each of these $x$ items is called a *feature*.
 
+Let's start with the case of one responding variable and one feature. Below is a plot with some data, and lines that could be the "best fit" for the data. Which line is the best fit?
 
-* In the subheader “Assumptions and caveats”, there is a bullet titled _Output variable is a linear combination of feature variables — linearity_. The author claims that linear regression can be used to find non-linear trends. He is right! The methods described check out and make sense. However, this is not what I would consider “simple linear regression” and can be considered a cool footnote. A computer will be handling most of this for you anyways. It is a good rule of thumb to apply linear regression models to linearly correlated data!
-* In the subheader “Assumptions and caveats”, there is a bullet titled _Constant variance — homoscedasticity_. There is a part towards the end that begins with the words “Practically speaking, we can account for this in one model without splitting out data into three groups…”. The intuition behind the author’s solution to the problem he posed earlier makes sense, but strays from simple linear regression once again. The intuition behind the problem of heteroscedasticity is valid however, so be sure to take note of that.
+![alt_text](../assets/unit1/best_fit_lines.jpg)
 
+Obviously it is line **B**. But how do you know that? You will probably say that it is due to how close the dots are to the line (in comparison to the other lines). We
+can formalize this "goodness of fit" with a Sum of Squared Errors calculation (SSE).
+
+### Sum of Squared Errors and Least Squares
+
+To calculate this, simply compare the distance from the ACTUAL y-values/labels ($y_1$, $y_2$,...,$y_n$) to the PREDICTED y values ($\hat{y}_1$, $\hat{y}_2$,...,$\hat{y}_n$), and square
+the differences to account for negatives (absolute value cannot be used easily due to it not being differentiable everywhere. This becomes important later). The equation is:
+
+$$SSE = \sum_{i} (y_i - \hat{y}_i)^2$$
+
+![alt_text](../assets/unit1_sse_lines.jpg)
+
+Intuitively, you can see that if $y$ and $\hat{y}$ are closer, the SSE will be smaller. Therefore we want to **minimize the SSE**. Doing this is called **Least Squares (LS)** regression.
+
+Now we turn attention to $\hat{y}$ (the hat decorator just means that it is predicted, not a ground truth). How is it calculated? We all know the $y = mx + b$ formula for a line. $m$ is the slope and $b$ is the intercept. However, the equation looks different
+when we have many features (many $x$).
+
+$$\hat{y} = b + w_1x_1 + w_2x_2 +...+w_nx_n$$
+
+The $x$ subscript here represents different features within 1 datapoint. The $b$ term is the intercept and the $w$ terms are the slopes on different dimensions. You can just
+think of them as coefficients for each feature.
+
+We can rewrite this long form sum as a *dot product*.
+
+$$\hat{y}_i = x_i^Tw + b$$
+
+NOTE: The $x$ subscript here represents 1 datapoint now instead of 1 feature (remember we have many dots on the graph).
+
+Here is a visual diagram of why this an equivalence. This is where some linear algebra intuition may come in handy.
+
+![alt_text](../assets/unit1/dotproduct_viz.jpg)
+
+### Dealing with the b term
+
+To make this even easier for us, we can remove the $b$ term from the equation by appending a $b$ and $1$ to $w$ and $x_i^T$ respectively.
+
+![alt_text](../assets/unit1/append_bias.jpg)
+
+Now we have that:
+
+$$\hat{y}_i = x_i^Tw$$
+
+With the $b$ term implicitly encoded. Plugging this back into the SSE equation:
+
+$$SSE = \sum_{i} (y_i - x_i^Tw)^2$$
+
+$x$ and $y$ are provided by the data. We cannot change them. The $w$ vector, however, has *parameters* ($w_1$, $w_2$,...,$w_n$) that we can *learn* to fit the data!
+
+**This is Machine Learning!**
+
+Make sure you understand the setup so far, because we are going into some calculus now.
+
+### Solving for w
+
+We want to find the parameters ($w$, and $b$ implicilty) that minimize the SSE. In other words, what values of $w$, $b$ will make it so that the aforementioned equation evaluates to the smallest number possible?. 
+This notates as $argmin$.
+
+$$\hat{w}_{LS}=\underset{w}{\operatorname{\argmin}}\sum_{i} (y_i - x_i^Tw)^2$$
+
+$\hat{w}_{LS}$ is the vector of *weights* or coefficients that minimize the SSE in the Least Squares (LS) formulation of linear regression (which is what we are doing). To solve for $\hat{w}_{LS}$ and $\hat{b}_{LS}$, you would take the derivative of the equation $\biggl( \sum_{i} (y_i - x_i^Tw + b)^2 \biggr)$ with respect to $w$, set it equal to zero, and solve for the $w$ term.
+
+$$\frac{\partial}{\partial w}\sum_{i} (y_i - x_i^Tw)^2 = 0$$
+
+The derivation is difficult (and it is very easy to mess up) so we won't try and make you learn/memorize it. However, if you are curious, here is a whiteboard example.
+
+![alt_text](../assets/unit1/derivation.jpg)
+
+We ultimately get that:
+
+$$\hat{w}_{LS} = (X^TX)^{-1}X^Ty$$
+
+Where $X$ is a matrix created from stacking all $x_i$ examples on top of one another, and $y$ is a vector of all of the $y_i$ labels stacked. Below is a visual to help you understand:
+
+![alt_text](../assets/unit1/matrix_viz.jpg)
+
+Awesome! You now have a weight vector that you can multiply by a new set of features to predict the $y$ for that set of features! If you want to, you can
+easily code this up in `numpy` with a dummy dataset to prove to yourself that the simple equation I showed you previously works! The best part about this closed
+form solution is that this is the mathematically best set of weights that solves this problem. A problem where all minimas are global minimas is called *convex*.
+
+The main takeway here is the intuition behind setting up a machine learning problem
+
+- Create a model with parameters
+- Find an objective function to minimize that uses the model
+- Derive and solve if a closed form solution exists
+
+In some cases a closed form solution will not exist. There are ways around this, one of them being Gradient Descent (Unit 2). However, this is beyond the scope of this unit and a whole class could be taught on these concepts. If you wish to dive deeper, take the ML class offered by your university!
 
 ### `Synthesis Questions:`
 
 
 
 * `What is a feature in this context?`
-* `What are the significance of the β terms within the modified y = mx + b equation described in the article?`
+* `What are the significance of the w terms within the modified y = mx + b equation described in the article?`
 * `What is SSE?`
     * `How is it calculated?`
-    * `What can it tell you about the values you chose for β?`
-    * `If you modify the β<sub>1 </sub>term and the SSE goes up, was that a good modification?`
-* `Write out the linear regression formula (involving β) when you wish to estimate the impact of age, height, and weight of someone regarding their marital status.`
-    * `Hint: How many β terms will there be? How many features?`
-* `What are the 4 assumptions described that you need to confirm before using linear regression?`
-* `What is homoscedasticity? What is heteroscedasticity?`
+    * `What can it tell you about the values you chose for w?`
+    * `If you modify the ` $w_1$ `term and the SSE goes up, was that a good modification?`
+* `How is the bias term implicitly encoded?`
+* `Write out the linear regression formula when you wish to estimate the impact of age, height, and weight of someone on their marital status.`
+    * `Hint: How many x terms will there be? How many features?`
 
-Also skim over [this](https://medium.datadriveninvestor.com/basics-of-linear-regression-9b529aeaa0a5) article and focus on the equation provided. No questions!
-
-Something to note about ML in general: high-dimensional stuff is simply not visualizable as-is. If you have more than two features it's near impossible to visualize the spread of dependent variables on a graph with the features as independent variables (How would you graph in 4d like we do in 2d or 3d?). Just know that equations of best fits for linear regressions define hyperplanes of the dimensions that the variables occupy. What is a hyperplane? Well, for example, if a space is 3-dimensional then its hyperplanes are the 2-dimensional planes, while if the space is 2-dimensional, its hyperplanes are the 1-dimensional lines. Hyperplanes are one dimension less than the space they “draw” through. Think about why it's necessary to have a 2-d hyperplane for a 3d space of prediction (2 features) and a 1-d hyperplane for a 2d space of prediction (1 feature). While not visualizable, this reasoning applies to higher dimensions! Hyperplanes will become important as we move into dimensionality reduction so read up on them if you have time.
+Something to note about ML in general: high-dimensional stuff is simply not visualizable as-is. If you have more than two features it's near impossible to visualize the spread of dependent variables on a graph with the features as independent variables (How would you graph in 4d like we do in 2d or 3d?). Just know that equations of best fits for linear regressions define hyperplanes of the dimensions that the variables occupy (i.e. $b + w_1x_1 + w_2x_2 +...+w_nx_n$ defines a hyperplane). What is a hyperplane? Well, for example, if a space is 3-dimensional then its hyperplanes are the 2-dimensional planes, while if the space is 2-dimensional, its hyperplanes are the 1-dimensional lines. Hyperplanes are one dimension less than the space they “draw” through. Think about why it's necessary to have a 2-d hyperplane for a 3d space of prediction (2 features -> 1 prediction value, this equation ahs 2 coefficients) and a 1-d hyperplane for a 2d space of prediction (1 feature -> 1 prediction value, this equation has 1 coefficient). While not visualizable, this reasoning applies to higher dimensions! Hyperplanes will become important as we move into dimensionality reduction so read up on them if you have time.
 
 The next topic to cover will be Support Vector Machines (SVMs).
+
+## SVM
 
 **Task:** Watch and understand the following videos. We recommend taking notes and being able to answer the synthesis questions provided below. Send your I2 teacher/mentor/overlord the answers to the questions over Discord.
 
@@ -75,6 +163,8 @@ This next video is math heavy. If you do not understand a term, look it up! Reme
 So far you know about Linear Regression and SVMs! Take a moment to make sure you get the general idea of these concepts. We will now be moving into the idea of dimensionality reduction.
 
 As you may have noticed. A lot of what is done in the ML world is done in way more than three dimensions. Try as you might, you simply cannot accurately envision much above three dimensions concretely (Try and make a 4-d graph). We represent high-dimensional data in vectors, which is a nice numerical representation. But what if we want to see 100-dimensional data on a graph? This is where dimensionality reduction comes into play. We will cover a very basic dimensionality reduction algorithm. There are plenty more that have specific use cases so please **spend at least 10 minutes exploring others after learning about Principal Component Analysis (PCA)!**
+
+## PCA
 
 **Task:** Watch and understand the following videos. We recommend taking notes and being able to answer the synthesis questions provided below. Send your I2 teacher/mentor/overlord the answers to the questions over Discord.
 
