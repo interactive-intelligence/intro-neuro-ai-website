@@ -21,6 +21,9 @@ baseurl: '/' # the subpath of your site, e.g. /blog
 url: 'https://course.uw-i2.org' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
+# LaTeX rendering via "katex" (KaTeX, default) or "mathjax" (MathJax) or "none" / "off" (NO rendering)
+latex: katex
+
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.4.2
 color_scheme: dark
@@ -76,6 +79,6 @@ compress_html:
   clippings: all
   comments: all
   endings: all
-  startings: []
-  blanklines: false
+  startings: true
+  blanklines: true
   profile: false
