@@ -79,7 +79,7 @@ This notates as $argmin$.
 
 $$\hat{w}_{LS}=\underset{w}{\operatorname{\argmin}}\sum_{i} (y_i - x_i^Tw)^2$$
 
-Just to clarify: $\hat{w}_{LS}$ is the vector of *weights* or coefficients that minimize the SSE in the Least Squares (LS) formulation of linear regression (which is what we are doing). To solve for $\hat{w}_{LS}$ and $\hat{b}_{LS}$, you would take the derivative of the equation $\sum_{i} (y_i - x_i^Tw)^2$ with respect to $w$, set it equal to zero, and solve for the $w$ term. Once you write $w$ in terms of $x$ and $y$, it is the solution to the optimization problem we defined above ($\hat{w}_{LS}$).
+To solve for the left hand side of this equation, you would take the derivative of the equation $\sum_{i} (y_i - x_i^Tw)^2$ with respect to $w$, set it equal to zero, and solve for the $w$ term. Once you write $w$ in terms of $x$ and $y$, it is the solution to the optimization problem we defined above. Just to clarify: the value we are solving for is the vector of *weights* or coefficients that minimize the SSE in the Least Squares (LS) formulation of linear regression (which is what we are doing).
 
 $$\frac{\partial}{\partial w}\sum_{i} (y_i - x_i^Tw)^2 = 0$$
 
