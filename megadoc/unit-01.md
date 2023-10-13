@@ -3,7 +3,7 @@ title: "Unit 01"
 parent: Megadoc
 ---
 
-# Unit 1: The (machine learning) Basics 
+# Unit 1: The (machine learning) Basics
 
 Hello and welcome to the _Basics_ section of the I2 megadoc! The items here are fundamental building blocks for Deep Learning (powerful tools that are more complex in computation, but funnily enough not as technical). A lot of the things here are statistics-heavy so be sure to pay attention! We will start off with something I am sure most of you are familiar with - linear regression.
 
@@ -74,7 +74,7 @@ Make sure you understand the setup so far, because we are going into some calcul
 
 ### Solving for w
 
-We want to find the parameters ($w$, and $b$ implicilty) that minimize the SSE. In other words, what values of $w$, $b$ will make it so that the aforementioned equation evaluates to the smallest number possible?. 
+We want to find the parameters ($w$, and $b$ implicilty) that minimize the SSE. In other words, what values of $w$, $b$ will make it so that the aforementioned equation evaluates to the smallest number possible?.
 This notates as $argmin$.
 
 $$\hat{w}_{LS}=\underset{w}{\operatorname{\argmin}}\sum_{i} (y_i - x_i^Tw)^2$$
@@ -109,8 +109,6 @@ In some cases a closed form solution will not exist. There are ways around this,
 
 ### `Synthesis Questions:`
 
-
-
 * `What is a feature in this context?`
 * `What are the significance of the w terms within the modified y = mx + b equation described in the article?`
 * `What is SSE?`
@@ -129,14 +127,12 @@ The next topic to cover will be Support Vector Machines (SVMs).
 
 **Task:** Watch and understand the following videos. We recommend taking notes and being able to answer the synthesis questions provided below. Send your I2 teacher/mentor/overlord the answers to the questions over Discord.
 
-This first video is intuition only. 
+This first video is intuition only.
 
 **Video 1:**
 [Support Vector Machines: Data Science Concepts](https://www.youtube.com/watch?v=iEQ0e-WLgkQ)  **(8 min)**
 
 ### `Synthesis Questions:`
-
-
 
 * `What are some use cases for an SVM? What does it do?`
 * `What is the margin?`
@@ -149,8 +145,6 @@ This next video is math heavy. If you do not understand a term, look it up! Reme
 **Video 2:** [SVM (The Math): Data Science Concepts](https://www.youtube.com/watch?v=bM4_AstaBZo) **(10 min)**
 
 ### `Synthesis Questions:`
-
-
 
 * `wx - b = -1 defines a __________ `
     * `Hint: it's like a plane`
@@ -177,28 +171,21 @@ There is a part in the video (20 seconds) that handles some pretty complex math.
 
 ### `Synthesis Questions:`
 
-
-
 * `What does PCA do?`
     * `Give 3 use cases that you can think of`
 * `What is a principal component?`
 
 ---
 
-# **Project Spec:**
+# **Technical Project Spec:**
 
-The project for this “_Basics_” section will **have you finish a code template on github.** Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
+The project for this “_Basics_” section will **have you finish a code template through Google Colab.** Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
 
 This project will be going over k-means clustering (unsupervised ML). We will be using the Scikit-Learn library.
 
 A few general helpful tips (if applicable):
-
-
-
-* Use GitHub, it’s really just better
-* Use [Anaconda](https://www.anaconda.com/) with [Python3](https://www.python.org/downloads/) in [VSCode](https://code.visualstudio.com/). I personally create .py files but Jupyter Notebooks and Google Colab are also very powerful. 
-    * For a simple project like this though, powerful computing is unnecessary and you can figure out the details of those other technologies next week
-    * If you use Anaconda, create a separate environment so you can mess with libraries and imports all day without screwing up your base environment.
+* Be sure to appropriately make a copy of the Colab template before starting to save your progress!
+* Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
 * Leave comments to cement your understanding. Link syntax to ideas.
 
 Check out this handy image that gives popular sk-learn clustering algorithms and their usages:
@@ -219,10 +206,24 @@ Now, follow the instructions on this Jupyter notebook to implement some of the t
 
 I would recommend downloading the entire "notebooks" folder all at once. Its one folder up.
 
-**GH Link:** [Unit 1 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-01/clustering-pca.ipynb) **(30 min)**
+**Colab Link:** [Unit 1 Colab Template](https://colab.research.google.com/drive/1MjinvPqW9swK66yfvDzQ6h7Mg1L0qrzT) **(30 min)**
 
-When you are finished with your code, independently verify that it works and have fun with it! You could try this method on different datasets, such as [this one for example](https://www.kaggle.com/datasets/ashwingupta3012/human-faces). If you add any additional functionality be sure to talk about it with others and give them ideas. 
+When you are finished with your code, independently verify that it works and have fun with it! You could try this method on different datasets, such as [this one for example](https://www.kaggle.com/datasets/ashwingupta3012/human-faces). If you add any additional functionality be sure to talk about it with others and give them ideas.
 
 Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of Clustering and PCA!
+
+# **Non-Technical Project Spec:**
+
+The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
+
+* What might be some applications of principle component analysis (PCA) in neuroscience research? Explain your ideas.
+* What might be some advantages and disadvantages of applying machine learning to neuroscience?
+* What are the ethical implications of using machine learning in neuroscience research?
+* What might be some applications of support vector machines (SVM) in neuroscience? Be creative!
+* Reflecting on your learning from this unit, what is one thing you found to be most interesting? Something that
+* What is one concept from this unit that you would like to learn more about and why?
+
+Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
