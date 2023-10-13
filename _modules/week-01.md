@@ -16,7 +16,8 @@ An introduction to the foundation of modern AI!
 ### Assignment
 
 - Complete Unit 1 in the megadoc (synthesis questions included)
-- Scikit-Learn ML Project (in megadoc)
+- _Either_ Scikit-Learn ML Technical-Project (in megadoc)
+- _Or_ Non-Technical Writing Project (bottom of megadoc)
 
 ### Summary Questions
 
