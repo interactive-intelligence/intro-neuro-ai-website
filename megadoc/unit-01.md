@@ -202,9 +202,7 @@ Also this image visualizing the clustering algorithms:
 
 Read up on k-means clustering in the provided link (Images provided above also contained here). Feel free to check out the other algorithms as well: [SK-Learn Clustering](https://scikit-learn.org/stable/modules/clustering.html#k-means)
 
-Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" directory on the same level as this notebook that you can use if stuck. You will need to set up a Python environment to run this notebook. Ask around if you are unable to get it working!
-
-I would recommend downloading the entire "notebooks" folder all at once. Its one folder up.
+Now, follow the instructions on this Jupyter notebook (hosted on Google Colab) to implement some of the things we talked about! The notebook contains a link to the answers for this project. To use it, you will need to import the '.ipynb' file to a new Colab project yourself. It is highly recommended that you only use this to check your answers after you are done completing the project yourself. This is a trust-based system!
 
 **Colab Link:** [Unit 1 Colab Template](https://colab.research.google.com/drive/1MjinvPqW9swK66yfvDzQ6h7Mg1L0qrzT) **(30 min)**
 
