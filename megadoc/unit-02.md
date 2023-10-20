@@ -3,14 +3,14 @@ title: Unit 02
 parent: Megadoc
 ---
 
-# Unit 2: The (deep learning) Basics 
+# Unit 2: The (deep learning) Basics
 
 Hello and welcome to the _Basics_ section of the I2 megadoc! We will start by throwing a few videos at you that we believe give incredibly intuitive explanations of one of the foundational building blocks of modern Deep Learning.
 
 **Task:** Watch and understand the following videos. We recommend taking notes and being able to answer the synthesis questions provided below. Send your I2 teacher/mentor/overlord the answers to the questions over Discord.
 
-**Video 1:** 
-[But what is a neural network? | Chapter 1, Deep learning](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1&t=637s) **(20 min)**
+**Video 1:**
+[But what is a neural network? | Chapter 1, Deep learning](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) **(20 min)**
 
 
 ### `Synthesis Questions:`
@@ -35,7 +35,7 @@ Great job! Now onto video two. Remember that all questions should be answered th
 **Fully Connected NN:** Specifying that every single possible connection is made between adjacent layers (this is implicit to the networks shown in the video, but is not always the case!)
 
 **Video 2:**
-[Gradient descent, how neural networks learn | Chapter 2, Deep learning](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2) **(20 min)**
+[Gradient descent, how neural networks learn | Chapter 2, Deep learning](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3piå) **(20 min)**
 
 
 ### `Synthesis Questions:`
@@ -65,7 +65,7 @@ The last video may require understanding of **partial derivatives** (a MATH 126 
 **Video 4:**
 [Backpropagation calculus | Chapter 4, Deep learning](https://www.youtube.com/watch?v=tIeHLnjs5U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4) **(10 min)**
 
-If you would like to jump into the math further, here is a longer lecture for JC I did last year walking through how backpropagation is done: 
+If you would like to jump into the math further, here is a longer lecture for JC Varun did last year walking through how backpropagation is done:
 
 **Part 1:**
 [Backpropagation, Part 1 | I2 JC](https://www.youtube.com/watch?v=0HEd-ajSAZ4&t=781s)
@@ -75,30 +75,40 @@ If you would like to jump into the math further, here is a longer lecture for JC
 
 ---
 
-# **Project Spec:**
+# **Technical Project Spec:**
 
-The project for this “_Basics_” section will be following the tutorial below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
+The project for this “_Basics_” section will **have you finish a code template through Google Colab.** Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
 
-A few helpful tips:
+In this project, you will be implementing a Deep Neural Network (DNN)!
 
-
-
-* Use GitHub, it’s really just better
-* Use [Anaconda](https://www.anaconda.com/) with [Python3](https://www.python.org/downloads/) in [VSCode](https://code.visualstudio.com/). I personally create .py files but Jupyter Notebooks and Google Colab are also very powerful. 
-    * For a simple project like this though, powerful computing is unnecessary and you can figure out the details of those other technologies next week
-    * If you use Anaconda, create a separate environment so you can mess with libraries and imports all day without screwing up your base environment.
+A few general helpful tips (if applicable):
+* Be sure to appropriately make a copy of the Colab template before starting to save your progress!
+* Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
 * Leave comments to cement your understanding. Link syntax to ideas.
 * **Read up on what [MNIST](https://wiki.pathmind.com/mnist) is.**
 
-Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" directory on the same level as this notebook that you can use if stuck. You will need to set up a Python environment to run this notebook. Ask around if you are unable to get it working!
+Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
 
-I would recommend downloading the entire "notebooks" folder all at once. Its one folder up.
+**Colab Link:**
+[Unit 2 Notebook](https://colab.research.google.com/drive/1R60m8LqXzZiia1vHB9nkSNsAKp7V6POJ?usp=sharing) **(1 hr)**
 
-**GH Link:**
-[Unit 2 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-02/mnist-dnn.ipynb) **(1 hr)**
-
-When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas. 
+When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
 
 Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of Deep Neural Network structure, how they learn, and how to create one using Python!
+
+# **Non-Technical Project Spec:**
+
+The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
+
+* What can we learn from neuroscience to improve the efficiency and performance of artificial neural networks?
+* What are the ethical implications of using insights from neuroscience to design artificial neural networks?
+* How are ANNs inspired by the structure and function of neurons in the brain?
+* What are some common applications of neural networks in real-world scenarios? Feel free to do some research on these!
+* How do neural networks relate to the broader field of machine learning? What are their strengths and weaknesses compared to other algorithms?
+* Reflecting on you learning from this unit, what is one thing you found to be most interesting about DNNs?
+* What is one concept from this unit that you would like to learn more about and why?
+
+Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
