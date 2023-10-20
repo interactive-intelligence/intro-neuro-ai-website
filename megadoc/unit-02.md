@@ -87,7 +87,7 @@ A few general helpful tips (if applicable):
 * Leave comments to cement your understanding. Link syntax to ideas.
 * **Read up on what [MNIST](https://wiki.pathmind.com/mnist) is.**
 
-Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" directory on the same level as this notebook that you can use if stuck. You will need to set up a Python environment to run this notebook. Ask around if you are unable to get it working!
+Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
 
 **Colab Link:**
 [Unit 2 Notebook](https://colab.research.google.com/drive/1R60m8LqXzZiia1vHB9nkSNsAKp7V6POJ?usp=sharing) **(1 hr)**
