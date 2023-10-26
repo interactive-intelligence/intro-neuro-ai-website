@@ -57,5 +57,3 @@ It is recommended to read the listed papers in order, and to at least skim each 
 **Task**
 
 Read the [GPT-3 paper](https://arxiv.org/abs/2005.14165), the [GPT-4 model card](https://cdn.openai.com/papers/gpt-4-system-card.pdf), or the [LaMDA paper](https://arxiv.org/pdf/2201.08239.pdf) (or another recent large language model paper). Focus on the discussions on safety and fairness. Drawing upon the sources in both the theory and the fairness sections of this unit, criticize the evaluations – identify what is mistaken, what assumptions are made, what is socially problematic, what possible biases may have been unidentified or which lie latent in the design, etc.
-
-Feel free to talk with Andre if you have any questions while reading or thinking about these topics. If you are interested in a more philosophical investigation of these topics, check in the machine subjectivity discord channel or join one of our meetings!

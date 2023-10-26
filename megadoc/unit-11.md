@@ -42,9 +42,10 @@ For your reference, a voxel is a 3D pixel. Think of it as a minecraft block of t
 
 **There is no programming for this project. Instead, we have provided a LaTeX template for you to fill out.**
 
+* If you are unaware of what $\LaTeX$ is, you can read about it [here](https://www.latex-project.org/about/).
 
-
-* If you are unaware of what LaTeX is, you can read about it [here](https://www.latex-project.org/about/).
+I would recommend taking a look at [Overleaf](https://www.overleaf.com/project) to edit/compile $\LaTeX$ code. Simply copy the code in the template into a blank 
+Overleaf project and type your answers into the `TODO` areas. Be sure to hit the "Recompile" button to see your work.
 
 **GH Link:** [Unit 11 Template](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-11/build_a_brain.tex) **(40 min)**
 

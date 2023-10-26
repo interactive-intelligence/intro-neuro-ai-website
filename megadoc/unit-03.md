@@ -5,7 +5,7 @@ parent: Megadoc
 
 # Unit 3: Basic Neuroanatomy 
 
-Welcome to the first lesson studying the most powerful and intelligent computer known to date – the brain. We will begin by studying what exactly it is. This is called neuroanatomy, and luckily for us, MIT OpenCourseware has a fabulous lecture on exactly that, which we will pair with some nice quick overviews from none other than Mr. Paul Andersen. Have a look!
+Welcome to the first lesson studying the most powerful and intelligent computer known to date – the brain. We will begin by studying what exactly it is. This is called neuroanatomy, and luckily for us, MIT OpenCourseware has a fabulous lecture on exactly that, which we will pair with some nice quick overviews from none other than Mr. Paul Andersen. In addition, we will attempt to tie in topics from Unit 2 (Deep Learning) to get you thinking more about NeuroAI. Have a look!
 
 
 ![alt_text](../assets/image2.png "image_tooltip")
@@ -19,14 +19,17 @@ Welcome to the first lesson studying the most powerful and intelligent computer 
 
 
 
-* `Recall the main parts of a neuron and list their function`
-* `An action potential travels from the direction of the __, along the __, before reaching the __.`
+* `Recall the main parts of a neuron and list their functions. Write 1 sentence for each.`
+* `Fill out the following sentence: An action potential travels from the direction of the __, along the __, before reaching the __.`
+* `What happens if a neuron becomes unmyelinated?`
+* `What is a synapse? What does it do?`
+* `Now that you understand the basics of a biological neuron, how is it similar/different to a neuron in a Neural Network? Feel free to review content from Unit 2 if needed.`
 
 **Bonus Video:** If you are interested in the gritty details of how computation works biologically, I suggest this video as a bonus: [The Action Potential](https://www.youtube.com/watch?v=HYLyhXRp298) (the brain is like a salty banana!)
 
 **Task 2:** Next, a crash course on the large modules of the brain before we go even deeper into the amazing functions of the brain.
 
-[The Brain](https://www.youtube.com/watch?v=kMKc8nfPATI)
+[The Brain: Structure and Function](https://www.youtube.com/watch?v=kMKc8nfPATI)
 
 
 ### `Synthesis Questions:`
@@ -35,10 +38,12 @@ Welcome to the first lesson studying the most powerful and intelligent computer 
 
 * `What distinguishes the forebrain, midbrain, and hindbrain? `
 * `What are several parts of the midbrain and what are their functions?`
+* `How did we discover what function(s) certain areas of the brain have?`
+* `What are the 4 lobes of the brain and their general functions? Write 2 sentences for each.`
 
 **Task 3:** Watch and understand this beautiful lecture, then answer the synthesis questions provided below.
 
-[2. Neuroanatomy](https://www.youtube.com/watch?v=bAkuNXtgrLA&list=PLUl4u3cNGP60IKRN_pFptIBxeiMc0MCJP&index=2)
+[MIT Neuroanatomy Lecture](https://www.youtube.com/watch?v=bAkuNXtgrLA&list=PLUl4u3cNGP60IKRN_pFptIBxeiMc0MCJP&index=2)
 
 ### `Synthesis Questions:`
 
@@ -54,9 +59,12 @@ Congratulations! That was a lot of neuroscience! On to some more creative ways o
 
 # **Project Spec:**
 
-**There is no programming for this project. Instead, we have provided a LaTeX template for you to fill out.**
+**There is no programming for this project. Instead, we have provided a $\LaTeX$ template for you to fill out.**
 
-* If you are unaware of what LaTeX is, you can read about it [here](https://www.latex-project.org/about/).
+* If you are unaware of what $\LaTeX$ is, you can read about it [here](https://www.latex-project.org/about/).
+
+I would recommend taking a look at [Overleaf](https://www.overleaf.com/project) to edit/compile $\LaTeX$ code. Simply copy the code in the template into a blank 
+Overleaf project and type your answers into the `TODO` areas. Be sure to hit the "Recompile" button to see your work.
 
 **GH Link:** [Unit 3 Template](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-03/basic_neuro_project.tex) **(30 min)**
 
