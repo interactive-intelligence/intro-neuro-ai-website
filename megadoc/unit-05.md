@@ -60,8 +60,10 @@ This final video gives a swift overview of many functional modules of visual pro
 
 **There is no programming for this project. Instead, we have provided a LaTeX template for you to fill out.**
 
+* If you are unaware of what $\LaTeX$ is, you can read about it [here](https://www.latex-project.org/about/).
 
-* If you are unaware of what LaTeX is, you can read about it [here](https://www.latex-project.org/about/).
+I would recommend taking a look at [Overleaf](https://www.overleaf.com/project) to edit/compile $\LaTeX$ code. Simply copy the code in the template into a blank 
+Overleaf project and type your answers into the `TODO` areas. Be sure to hit the "Recompile" button to see your work.
 
 **GH Link:** [Unit 5 Template](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-04/intro_visual.tex) **(30 min)**
 
