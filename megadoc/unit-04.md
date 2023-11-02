@@ -68,6 +68,17 @@ We have introduced you to the idea of a convolution and how convolutions are app
 
 **Article:** [Comprehensive Convolution Types Guide](https://towardsdatascience.com/a-comprehensive-introduction-to-different-types-of-convolutions-in-deep-learning-669281e58215#:~:text=Convolution%20Arithmetic,Spatially%20Separable%20Convolution%2C%20Depthwise%20Convolution)) **(15 min)**
 
+## Self-Supervised Learning and Denoising
+
+**Video (optional but helps with understanding the articles):** [Yann LeCun: Self-Supervised Learning Explained](https://youtu.be/JNiY0RXxFZY?si=v6YQODX92aGG2iVs) **(10 min)**
+
+**Article:** [Self-Supervised Learning: Definition, Tutorial & Examples](https://www.v7labs.com/blog/self-supervised-learning-guide) **(15 min)**
+
+**Article:** [Image De-noising Using Deep Learning – Towards AI](https://towardsai.net/p/deep-learning/image-de-noising-using-deep-learning) **(15 min)**
+
+**Article:** [The brain may learn about the world the same way some computational models do](https://news.mit.edu/2023/brain-self-supervised-computational-models-1030) **(5 min)**
+
+
 Awesome job! Feel free to move onto the project now.
 
 For those of you more interested in CV, there are a bunch more things to do in this sphere. Here are some topics you can explore independently:
