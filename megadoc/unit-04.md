@@ -68,22 +68,30 @@ We have introduced you to the idea of a convolution and how convolutions are app
 
 **Article:** [Comprehensive Convolution Types Guide](https://towardsdatascience.com/a-comprehensive-introduction-to-different-types-of-convolutions-in-deep-learning-669281e58215#:~:text=Convolution%20Arithmetic,Spatially%20Separable%20Convolution%2C%20Depthwise%20Convolution)) **(15 min)**
 
-Awesome job! Feel free to move onto the project now.
 
-For those of you more interested in CV, there are a bunch more things to do in this sphere. Here are some topics you can explore independently:
+## Self-Supervised Learning
 
+Human and machines learn in very different ways; think about how you learn new information vs how you gain new experience vs how toddlers learn. Therefore, it is important for us to understand and research different learning approaches. Read the articles listed below and answer the synthesis questions. Don't focus too much on the math and implementation, focus on getting an intuition. Optionally, watch the video (interview clip) and slides and notebook on variational autoencoders.
 
+**Video (optional):** [Yann LeCun: Self-Supervised Learning Explained](https://youtu.be/JNiY0RXxFZY?si=v6YQODX92aGG2iVs) **(10 min)**
 
-* **Transfer learning**
-* **Object detection (r-cnn, yolo)**
-* **Semantic segmentation (u-net, deeplab)**
-* **Self-supervised learning (colorization, damage correction, noise decoding)**
-* **Adversarial attacks**
-* **Image generation - variational autoencoders, generative adversarial networks**
+**Article:** [Self-Supervised Learning: Definition, Tutorial & Examples](https://www.v7labs.com/blog/self-supervised-learning-guide) **(15 min)**
 
-Here are some slides from a JC on Variational Autoencoders (somewhat related, but very cool!): [Variational Autoencoder JC Slides](https://docs.google.com/presentation/d/1KTb7wxnsBryuar-yB-AVrizw88Wc3Vue46iCwmN0558/edit?usp=sharing)
+**Article:** [Image De-noising Using Deep Learning – Towards AI](https://towardsai.net/p/deep-learning/image-de-noising-using-deep-learning) **(15 min)**
 
+**Article:** [The brain may learn about the world the same way some computational models do](https://news.mit.edu/2023/brain-self-supervised-computational-models-1030) **(5 min)**
 
+**Variational Autoencoder (optional):** [Variational Autoencoders JC Slides](https://docs.google.com/presentation/d/1KTb7wxnsBryuar-yB-AVrizw88Wc3Vue46iCwmN0558/edit#slide=id.p), [Notebook](https://colab.research.google.com/drive/1jpSFaB0UKYJFQ1COsPk6Gbz6frEPyU8X?usp=drive_link)
+
+### `Synthesis Questions:`
+
+* `In short, what is self-supervised learning?`
+* `What are some short comings of supervised and reinforcement learning?`
+  * `Consider training requirements: data, compute, etc`
+  * `And how does self-supervised learning overcome/mitigate these limitations?`
+* `How is self-supervised learning similar to human's learning process?`
+* `How do you think self-supervised learning can be applied to image denoising?`
+* `Why do you (or do you not) think self-supervised learning is meaningful?`
 
 ## Semantic Segmentation
 
