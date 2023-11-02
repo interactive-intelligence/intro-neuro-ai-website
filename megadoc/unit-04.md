@@ -83,6 +83,22 @@ For those of you more interested in CV, there are a bunch more things to do in t
 
 Here are some slides from a JC on Variational Autoencoders (somewhat related, but very cool!): [Variational Autoencoder JC Slides](https://docs.google.com/presentation/d/1KTb7wxnsBryuar-yB-AVrizw88Wc3Vue46iCwmN0558/edit?usp=sharing)
 
+
+
+## Semantic Segmentation
+
+Our goal with vanilla CNNs was to classify whole images. However, a single image can contain many different objects in different locations. In semantic segmentation, we identify both what is inside an image and where those things are in the image. This is done by classifying each pixel according to pre-defined categories. The first successful architecture for semantic segmentation is U-net. Watch the video below for a high-level understanding of U-net and read the article for more details.
+
+**Video:** https://www.youtube.com/watch?v=NhdzGfB1q74
+**Article:** https://www.jeremyjordan.me/semantic-segmentation/
+
+### `Synthesis Questions:`
+
+
+* `In the U-net architecture, what is the purpose of the downsampling step? What about the upsampling step? Why do skip connections improve the network’s performance?`
+* `Compare semantic segmentation with human vision. What capabilities could be added to a semantic segmentation model to make it more human-like?`
+
+
 ---
 
 # **Project Spec:**
