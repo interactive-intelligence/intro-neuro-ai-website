@@ -71,7 +71,7 @@ We have introduced you to the idea of a convolution and how convolutions are app
 
 ## Self-Supervised Learning
 
-Human and machines learn in very different ways, think about how you learn new information vs how you gain new experience vs how toddlers learn. Read the articles listed below and answer the synthesis questions. Don't focus too much on the math and implementation, focus on getting an intuition. Optionally, watch the video (interview clip) and slides and notebook on variational autoencoders.
+Human and machines learn in very different ways; think about how you learn new information vs how you gain new experience vs how toddlers learn. Therefore, it is important for us to understand and research different learning approaches. Read the articles listed below and answer the synthesis questions. Don't focus too much on the math and implementation, focus on getting an intuition. Optionally, watch the video (interview clip) and slides and notebook on variational autoencoders.
 
 **Video (optional):** [Yann LeCun: Self-Supervised Learning Explained](https://youtu.be/JNiY0RXxFZY?si=v6YQODX92aGG2iVs) **(10 min)**
 
