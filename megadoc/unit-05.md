@@ -16,7 +16,7 @@ Welcome to the visual system. Before we dive into how computer scientists have h
 
 > Receptive Field: An input that produces the biggest response in some area or neuron is said to be its receptive field
 
-**Task 1:** Watch the following videos and answer the questions! You know the drill. The first one will teach us about the physiology of processing light, the complex first layer of our own biological neural network. 
+**Task 1:** Watch the following videos and answer the questions! You know the drill. The first one will teach us about the physiology of processing light, the complex first layer of our own biological neural network.
 
 [Vision: Crash Course Anatomy & Physiology # 18](https://www.youtube.com/watch?v=o0DYP-u1rNM)
 
@@ -26,6 +26,7 @@ Welcome to the visual system. Before we dive into how computer scientists have h
 
 
 * `Where in the brain do signals from the retina go before reaching the visual cortex?`
+* `What are some differences between rods and cones?`
 * `Describe the phenomena of retinal neurons that "get tired". Do you think there are analogous processes in deep learning or convolutional neural networks?`
 
 The next video will describe the path of information flow through the visual cortex and some core properties of the structure of this process.
@@ -42,6 +43,7 @@ The next video will describe the path of information flow through the visual cor
 * `Describe the retinotopic nature of the visual cortex (7:58) in your own words. Hypothesize whether convolutional neural networks might be organized as "retinotopic". `
 * `Describe cortical magnification and the causes of the trade-off between acuity and sensitivity. What are several reasons we can't see details from extremely far away, as for example, hawks can?`
 * `Brains are constrained by space, which as we have seen with vision, drives trade-offs in our processing. Do neural networks have analogous constraints? What are the effects of this?`
+* `Brains are constrained by space, which as we have seen with vision, drives trade-offs in our processing. Do neural networks have analogous constraints? What are the effects of this?`
 
 This final video gives a swift overview of many functional modules of visual processing. This is a great time to start thinking about how all this vision processing compares to our methods of processing information with neural networks! We will learn even more in the next Unit on convolutional neural networks too :)
 
@@ -50,32 +52,35 @@ This final video gives a swift overview of many functional modules of visual pro
 ### `Synthesis Questions:`
 
 * `Describe at least 5 functional parts of the visual system`
+* `Explain the hierarchical model of the visual system`
 * `What is the "what" stream? What does it do?`
 * `What is the "where" stream? What does it do?`
 * `What is a region that processes faces? What inputs does it receive? What other regions is it near?`
+
+This last video is optional but it’s highly recommended that you watch it. This video does a good job at synthesizing all 3 videos and goes more in-depth into certain mechanisms:
+[Visual Processing and the Visual Cortex](https://youtu.be/MgMNUne9j9c?si=9pEM9EFYdv-9tq3y)
+
+Here’s some questions to think about as you watch the video:
+* `What direction does light go versus information in the retina?`
+* `What cells are in the retina?`
+* `How do rod photoreceptors adapt to light and dark?`
+* `How does each hemisphere receive information from the contralateral visual field?`
+* `What is the blind spot?`
 
 ---
 
 # **Project Spec:**
 
-**There is no programming for this project. Instead, we have provided a LaTeX template for you to fill out.**
+**There is no technical project for this unit. We have provided a scenario and instructions below:**
 
-* If you are unaware of what $\LaTeX$ is, you can read about it [here](https://www.latex-project.org/about/).
-
-I would recommend taking a look at [Overleaf](https://www.overleaf.com/project) to edit/compile $\LaTeX$ code. Simply copy the code in the template into a blank 
-Overleaf project and type your answers into the `TODO` areas. Be sure to hit the "Recompile" button to see your work.
-
-**GH Link:** [Unit 5 Template](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-04/intro_visual.tex) **(30 min)**
-
-**The questions in the template are also written below:**
-
-Imagine you got a little too into neural networks and decided to replace your eyes with convolutional neural networks. You may use any sensors, hardware, brain computer interfaces, fungi, wires, Von Neumann computing, neuromorphic computing, or robots that you like (that seem vaguely feasible). How would you replace the algorithms run by the visual cortex with algorithms like those of convolution neural networks? 
+Imagine you got a little too into neural networks and decided to replace your eyes with convolutional neural networks. You may use any sensors, hardware, brain computer interfaces, fungi, wires, Von Neumann computing, neuromorphic computing, or robots that you like (that seem vaguely feasible). How would you replace the algorithms run by the visual cortex with algorithms like those of convolution neural networks? Be creative and let your imagination run free!
 
 Draw your system in detail and write a short paragraph on the following:
-
-
-
 * Why did you make the design decisions you made?
-* What would be the advantages of your system? 
+* What would be the advantages of your system?
 * What would be the disadvantages?
 * What hardware did you use to implement this? In your opinion, is it possible to use the existing biological nervous system to run computation algorithms like CNNs? Why?
+
+Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+You can submit a pdf or a simple Google Doc, whichever you prefer!
