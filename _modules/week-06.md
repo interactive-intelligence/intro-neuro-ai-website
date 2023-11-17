@@ -1,27 +1,22 @@
 ---
-title: "Week 6: Language Modeling"
+title: "Week 6: Reinforcement Learning"
 ---
-
 
 ### Purpose
 
-- Learn about word embeddings
-- Learn about Recurrent Neural Networks
-- Learn about Transformers
-- Learn about fine-tuning foundation models like GPT
-- Gain a basic intuition about transformer and language models
+- Go over basics of RL
+- Learn about Deep Q Learning
 
 ### Resources
 
-- [Megadoc Unit 8](../megadoc/unit-08)
-  
+- [Megadoc Unit 6](../megadoc/unit-06)
+- [Spinning Up](https://spinningup.openai.com)
+
 ### Assignment
 
-- Complete Unit 8 in the megadoc (synthesis questions included)
-- HuggingFace Project Part 1 (in megadoc/github)
-- HuggingFace Project Part 2 (in megadoc/github)
-- **Sign up for a Neuro Topic Here (MUST DO):** [Sign Up Sheet](https://docs.google.com/spreadsheets/d/1AuQ3EUYiV-Swzcr3dgVSUcj2RUgbdkCW6qc7frougkY/edit)
+- Complete Unit 6 in the megadoc (synthesis questions included)
 
 ### Summary Questions
 
 - Synthesis questions in the megadoc
+- What's one resource that was helpful (suggested or found on your own)?
