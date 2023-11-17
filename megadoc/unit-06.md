@@ -87,7 +87,7 @@ A few general helpful tips (if applicable):
 
 Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
 
-**Colab Link:** [Unit 6 Notebook](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-06/rl_net.ipynb) **(1.5 hr)**
+**Colab Link:** [Unit 6 Notebook](https://colab.research.google.com/drive/1WRswrZX7KuI7xJMcHm26N3QaT2kXdqmi?usp=sharing) **(1.5 hr)**
 
 When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
 
@@ -99,7 +99,9 @@ Congratulations! You now understand the (_incredibly basic)_ basics of Deep RL!
 
 The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
 
-* _More questions coming soon_
+* Can you provide examples of experimental evidence linking reinforcement learning algorithms to observed synaptic changes in the brain?
+* How do human neural systems encode reward signals and how does this relate to the concept of rewards in reinforcement learning models?
+* What ethical considerations should be taken into account when developing interventions based on neuroscientific findings, and how can accountability be established for the potential impacts of such interventions?
 * Reflecting on you have learned from this unit, what is one thing you found to be most interesting?
 * What is one concept from this unit that you would like to learn more about and why?
 
