@@ -1,23 +1,19 @@
 ---
-title: "Week 8: Reinforcement Learning"
+title: "Week 8: AI Ethics"
 ---
 
 ### Purpose
 
-- Go over basics of RL
-- Learn about Deep Q Learning
+- Learn about ethics in AI and think about how ethical AI is developed.
 
 ### Resources
-
-- [Megadoc Unit 6](../megadoc/unit-06)
-- [Spinning Up](https://spinningup.openai.com)
+- [Megadoc Unit 7](../megadoc/unit-07)
 
 ### Assignment
 
-- Complete Unit 6 in the megadoc (synthesis questions included)
-- Complete Unit 7 synthesis questions in the megadoc (OPTIONAL)
+- TBD
+
 
 ### Summary Questions
 
-- Synthesis questions in the megadoc
-- What's one resource that was helpful (suggested or found on your own)?
+- TBD
