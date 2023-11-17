@@ -1,22 +1,26 @@
 ---
-title: "Week 9: Building a Brain"
+title: "Week 8: Language Modeling"
 ---
+
 
 ### Purpose
 
-This week, we're applying our knowledge. You're building a brain!
-- Understand the connectivity of the brain
-- Compare with the connectivity of analogous computation systems
-- Creatively improvise on existing methods of creating intelligent systems
+- Learn about word embeddings
+- Learn about Recurrent Neural Networks
+- Learn about Transformers
+- Learn about fine-tuning foundation models like GPT
+- Gain a basic intuition about transformer and language models
 
 ### Resources
-- [Megadoc Unit 11](../megadoc/unit-11)
+
+- [Megadoc Unit 8](../megadoc/unit-08)
 
 ### Assignment
 
-- Complete Unit 11 in the megadoc (synthesis questions included)
-- Building a Brain Project (LaTeX template in github)
+- Complete Unit 8 in the megadoc (synthesis questions included)
+- HuggingFace Project Part 1 (in megadoc/github)
+- HuggingFace Project Part 2 (in megadoc/github)
 
 ### Summary Questions
 
-- Synthesis Questions in the megadoc
+- Synthesis questions in the megadoc
