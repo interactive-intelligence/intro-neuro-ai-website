@@ -1,5 +1,5 @@
 ---
-title: "Week 7: AI Ethics"
+title: "Week 8: AI Ethics"
 ---
 
 ### Purpose
