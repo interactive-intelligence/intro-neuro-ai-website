@@ -5,94 +5,169 @@ parent: Megadoc
 
 # Unit 8: Language Modeling 
 
-Hello and welcome to the _Language Modeling (LM)_ section of the I2 megadoc! Language modeling is an incredibly pertinent field of deep learning that is focused on using statistical modeling to generate sequences of language tokens (I made this term very general on purpose). This can mean Q/A prompts/output like ChatGPT,  Seq2Seq models for machine translation, or sentiment analysis on text messages. Language Modeling, like Reinforcement Learning, is an incredibly large subfield that we simply cannot do justice in 1 unit. We will, however, try to introduce you to some basic language Modeling Deep Learning architectures that get more and more complex. We will also introduce you to _HuggingFace_, a service that allows you to learn about, train, load, finetune, and save DL models.
+## Intro
 
-First, we will explore the concept of word embeddings. Understanding this is crucial to clearing up some FAQ about Language Modeling. So far most of the data you have worked with has been easily “castable” into n-dimensional vectors. However, when we are working with language, how can we convert a word like “King” into a vector? Performing computation directly on words is an incredibly difficult task. However, if we can “encode” the meaning of the word “King” into a vector consisting of numbers and have some way of converting between the two then the problem becomes easier.
+Language modeling has become ubiquitous in our society, used in chatbots, content moderation, translation, and more. In this unit, we will explore natural language processing (NLP), discussing common model architectures, their applications, and training methods.
 
-**Task:** Read this “[Word Embeddings](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)” article and answer the following synthesis questions:
+## NLP Tasks
 
-You may skip the “Recursive Neural Networks” subsection of the article if you wish
+NLP encompasses various tasks, each with specific architectures and applications:
 
+- Text Generation: Models like ChatGPT, autocomplete systems.
+- Sequence-to-Sequence: Language translation models.
+- Sequence-to-Vector: Hate speech detection (text classification).
+- Word2Vec: Mapping words to nearby vectors.
+- Word Embeddings: Identifying similarities between words.
 
-### `Synthesis Questions:`
+These tasks are crucial in NLP, employing different algorithms for solutions. Our focus will be on text generation and word embeddings, but we will also touch on other tasks.
 
+## Text Generation
 
-* `What is a word embedding? How long are they usually?`
-* `How does training a network to recognize the validity of 5-grams result in a Word-to-Vector "map"?`
-    * `Can you think of another training method to achieve the same side-effect?`
-* `Pretend you are a word embedder. Give examples (2-3 for each) of words in the same family as:`
-    * `King`
-    * `Button`
-    * `Pain`
-    * `Water Bottle`
-* `What is the explanation given for the emergence of the "male-female difference vector"?`
-* `What is pre training/transfer learning/multi-task learning?`
+Text generation involves creating new text by framing it as a classification problem: predicting the next word in a given text sequence.
 
-Now we go into Recurrent Neural Networks (RNN’s) and the concept of Backpropagation Through Time (BPTT) and its drawbacks. This builds off of Unit 2 (Deep learning) so feel free to revisit those if you are having trouble!
+**Example:**
 
-**Task:** Read this “[How RNN’s Work](https://blog.paperspace.com/recurrent-neural-networks-part-1-2/)” article and answer the following synthesis questions:
+- pass 1:
+    - model input: `the` `quick` `brown` `fox`
+    - model prediction: `jumps`
+- pass 2:
+    - model input: `the` `quick` `brown` `fox` `jumps`
+    - model prediction: `over`
+- pass 3:
+    - model input: `the` `quick` `brown` `fox` `jumps` `over`
+    - model prediction: `the`
+- ...
 
-You may skip the “Word Embedding” and “Backward Pass” subsections of the article if you wish. There is a better resource below that explains the concept of a Backwards Pass in RNNs (BPTT)
+By appending the prediction to the given sequence, we get a new base sequence for predicting the next token. This iterative process allows generating arbitrary-length sequences. Such models are autoregressive, using previous outputs as inputs for subsequent predictions. This means the model can generate as much text as desired, limited only by computational resources and the coherence of the content.
 
-**Helpful clarifications for after you read:**
+Self-supervised learning in NLP utilizes the natural structure of language, where examples for learning are implicit in the text itself. In this approach, a sentence or a passage serves as both the input and the label, with certain parts masked or predicted by the model. For instance, in the sentence "The cat sat on the ___", the blank can be used as a prediction target, teaching the model the context and structure of language. This method enables models to learn from large amounts of unlabeled text, grasping grammar, syntax, and context naturally.
 
-* Note that what is “inside” the RNN unit (the circles on the computational graph) is modifiable, and I have attached here a simple look into the inside:
+## Word Embeddings and Tokenization
 
-![alt_text](../assets/image7.png)
+Tokenization and Embeddings are vital in NLP as models inherently process numerical data. Tokenization converts text into manageable units (like words or characters), which are then transformed into numbers. This allows models to interpret and process language data. Embeddings take this further by converting these tokens into vectors of real numbers, capturing semantic meanings. For example, in word embeddings, words with similar meanings are closer in the vector space, enabling the model to understand relationships and nuances in language. These techniques are crucial for handling the complexity and variability of human language in computational models.
 
-* I also have attached an optional reading about [Gated Recurrent Units](https://d2l.ai/chapter_recurrent-modern/gru.html) (GRU’s) here. “GRUs have the ability to keep memory/state from previous activations rather than replacing the entire activation like a vanilla RNN, allowing them to remember features for a long time and allowing backpropagation to happen through multiple bounded nonlinearities, which reduces the likelihood of the vanishing gradient” ([GRUs vs LSTMs](https://medium.com/paper-club/grus-vs-lstms-e9d8e2484848)).
+Please read this article on [word embeddings](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/) and answer the following questions:
 
+`Synthesis questions:`
+- `What is a word embedding? How long are they usually?`
+- `How does training a network to recognize the validity of 5-grams result in a Word-to-Vector "map"?`
+- `Pretend you are a word embedder. Give examples (2-3 for each) of words in the same family as:`
+    - `King`
+    - `Button`
+    - `Pain`
+    - `Water Bottle`
+- `What is the explanation given for the emergence of the "male-female difference vector"?`
+- `What is pre training/transfer learning/multi-task learning?`
 
-### `Synthesis Questions:`
+## Feed-Forward Network
 
-* `What does a language model, in general, try to predict?`
-    * `Hint: Predicting X given Y. What are X and Y?`
-* `What happens to the memory vector as we move through time?`
-* `Describe how a RNN would deal with the sentence "How are you?" in terms of its unrolled computational graph`
-    * `Basically, what happens to these words and the hidden states generated from these words?`
-    * `How long would the unrolled computational graph be in terms of RNN nodes (circles)?`
-* `What is the memory vector initialized to?`
-* `What is &lt;\s>? What does it signify according to the article?`
+A simple model for text generation could be a feed-forward network. As feed-forward networks always need a constant input size, it uses a specified **context length** to determine how many previous words to consider when predicting the next one. When the input is shorter than the context length, we use padding tokens (`<PAD>`) to fill the gap.
 
-**Task:** Read this “[Backpropagation Through Time](https://www.geeksforgeeks.org/ml-back-propagation-through-time/)” (BPTT) article, a small extension: “[Truncated BPTT](http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf)” **(read only section 2.8.6)** and answer the following synthesis questions:
+**Example:**
 
+Context length = 4
 
-### `Synthesis Questions:`
+- "the quick brown fox"
+    - Input: `the`, `quick`, `brown`, `fox`
+    - Output: `jumps`
+- "an apple a day keeps the doctor"
+    - Input: `day`, `keeps`, `the`, `doctor`
+    - Output: `away`
+- "ignorance is"
+    - Input: `<PAD>`, `<PAD>`, `ignorance`, `is`
+    - Output: `bliss`
 
-* `What are W_x, W_y, and W_s?`
-* `Why does BPTT not work with a large number of timesteps?`
-    * `What is this problem called?`
-* `How does Truncated BPTT solve this problem?`
+However, feed-forward networks have limitations:
+- Fixed context length: Cannot consider words beyond a certain range.
+- Fixed input size: Requires padding for shorter inputs.
+- Difficulty in capturing word relationships: Not optimized for understanding the connections between words.
 
-Finally we get into the Transformer architecture, which as of 2023 seems to have a grip on the DL market as the most generally powerful type of neural network used in all sorts of LM tasks. **This subsection is especially difficult. Please read the articles slowly and carefully. Be sure to ask for help if you have any questions or trouble understanding a statement!**
+## Recurrent Neural Networks (RNNs)
 
-**Task:** Read the following “Intuitive Explanation of GPT Models” [Part 1](https://blog.cswartout.com/2022/11/25/intutive-explanation-of-gpt.html) and [Part 2](https://blog.cswartout.com/2022/12/25/intuitive-explanation-of-gpt-part-2.html) (and hopefully part 3 soon!) (Made by University of Washington Interactive Intelligence member Carter!) and answer the following synthesis questions:
+RNNs maintain an internal hidden state updated at each token. This hidden state represents all that the model has seen so far. RNNs solve many of the problems experienced by feed-forward networks by allowing variable-length sequences and "sharing" parameters, improving efficiency.
 
-**In case this article is not enough, or you find yourself struggling to fully understand transformers, take a look at this list of other links that can reinforce your knowledge:**
+They operate with the following weights and biases:
+- $W_{xh}$: Converts a token to the hidden state.
+- $W_{hh}$: Converts a previous hidden state to the next hidden state.
+- $b_h$: Bias for moving to the next hidden state.
+- $W_{ho}$: Predicts the next token from the current hidden state.
+- $b_o$: Bias for the output prediction.
 
+At each time step (this means for each token) the RNN does two things:
+1. Update the internal hidden state from $H_{t-1}$ to $H_t$
+    - This is done using the formula: $H_t = \text{tanh}(X_tW_{xh} + H_{t-1}W_{hh} + b_h)$
+2. Predict the output token at time $T$
+    - This is done using: $O_t = H_tW_{ho} + b_o$
+    - If the task for the RNN is not text generation, this can be omitted
 
+There always needs to be a preceding hidden state, so before any token is processed the hidden state is initialized (often to zero).
 
-* [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) Another good explanation of Transformers.
-* [GPT in 60 lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/) - explains GPT in a concise way using code!
-* [The Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/) - the [Attention Is All You Need](https://arxiv.org/abs/1706.03762) paper annotated with PyTorch.
-* [NanoGPT](https://github.com/karpathy/nanoGPT), simple example code for a GPT model.
+**Example:**
 
+Let's run the RNN on a demo sentence, `i`, `love`
 
-### `Synthesis Questions:`
+1. Initialize the hidden state to zeros $H_{-1} = 0$
+2. Repeatedly update the hidden state and generate next-token probabilities
+    0. $t=0$, `<START>` (we need a special start token to tell the model to begin)
+        - Update hidden state: $H_0 = \text{tanh}(X_\text{\<START\>}W_{xh} + H_{-1}W_{hh} + b_h)$
+        - Generate next-token probabilities (target is `i`): $O_1 = H_0W_{ho} + b_o$
+    1. $t=1$, `i`
+        - Update hidden state: $H_1 = \text{tanh}(X_\text{love}W_{xh} + H_0W_{hh} + b_h)$
+        - Generate next-token probabilities (target is `love`): $O_2 = H_1W_{ho} + b_o$
+    2. $t=2$, `love`
+        - Update hidden state: $H_2 = \text{tanh}(X_\text{love}W_{xh} + H_1W_{hh} + b_h)$
+        - Generate next-token probabilities (unknown target!): $O_3 = H_2W_{ho} + b_o$
+        - If we want to continue generating, predict next word $X_3$ from $O_2$
+    3. $t=3$, $X_3$ (autoregressive - we're inputting our previous outputs!)
+        - Update hidden state: $H_3 = \text{tanh}(X_3W_{xh} + H_3W_{hh} + b_h)$
+        - Generate next-token probabilities: $O_4 = H_3W_{ho} + b_o$
+    4. ...
 
-* `Why does not being able to capture long-term dependencies result in nonsensical generated paragraphs (like clicking autocomplete)?`
-* `What do the probabilities that GPT outputs represent, and what is greedy decoding?`
-* `What is a token?`
-* `What are the big blocks that make up the GPT architecture?`
-* `What are the two main blocks inside a transformer-decoder block?`
-* `Describe masked self-attention in your own words (not including the vector math).`
-    * `How would this help stop generated sequences from being mostly nonsensical?`
-* `How are Query, Key, and Value vectors generated from each word embedding?`
-* `How is the score for each word calculated using one word's query vector and all the other words' key vectors?`
-* `How is the score for each word and its value vector used to create the vector for a single transformed word? (In the case of the article, the word is "He").`
-* `Briefly describe multi-headed attention`
+Advantages of RNNs:
+- Efficient parameter sharing across time steps.
+- Handling variable sequence lengths without padding.
+- Capturing dependencies over time through the internal hidden state.
+- Enhanced ability to model sequential data, reflecting the natural flow of language.
 
-Awesome job answering those synthesis questions for Transformers! Now we move onto the project (which won't be nearly as difficult)
+Disadvantages of RNNs:
+- Tendency to forget early tokens due to continual updates of the hidden state.
+- Unstable gradients, leading to training challenges.
+- Difficulty in parallel processing, impacting training efficiency.
+
+Please read (or skim) the following article on [RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+and answer the synthesis questions:
+
+`Synthesis questions:`
+- `What happens to the memory vector as we move through time?`
+- `What is the memory vector initialized to?`
+- `Why might unstable gradients occur?`
+
+## Transformers
+
+Transformers represent the cutting-edge in NLP, known for their self-attention mechanisms and scalability. Unlike previous architectures, Transformers do not process text sequentially. Instead, they use self-attention to weigh the importance of each token in the context of others, regardless of their position. This allows for a more nuanced understanding of text, capturing long-range dependencies effectively. Their architecture enables parallel processing of tokens, significantly enhancing training speed.
+
+Advantages:
+- Excellent at capturing relationships between tokens, crucial for complex language understanding.
+- Highly scalable and parallelizable, allowing for efficient processing of large datasets.
+
+Disadvantages:
+- Require significant computational resources, making them expensive to train.
+- Complex models that are often less interpretable, making it hard to understand decision-making processes.
+
+Take a look at some (or all) of the following resources for how transformer/GPT models work. You
+might need to find external resources as well:
+- [GPT in 60 lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
+- [ Let's build GPT: from scratch, in code, spelled out. ](https:/youtu.be/kCc8FmEb1nY?feature=shared)
+- [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
+- [An Intuitive Explanation of GPT Models](https://blog.cswartout.com/2022/12/25/intuitive-explanation-of-gpt-part-2.html), written by Carter Swartout of I2
+
+Please answer the following synthesis questions:
+
+`Synthesis Questions:`
+- `What do the probabilities that GPT outputs represent, and what is greedy decoding?`
+- `Describe masked self-attention in your own words (not including the vector math)`
+- `How does self-attention allow tokens to have relationships with each other?`
+- `What are the big blocks that make up the GPT architecture?`
 
 ---
 
