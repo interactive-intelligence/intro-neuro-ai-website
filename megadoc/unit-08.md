@@ -168,6 +168,7 @@ Please answer the following synthesis questions:
 - `Describe masked self-attention in your own words (not including the vector math)`
 - `How does self-attention allow tokens to have relationships with each other?`
 - `What are the big blocks that make up the GPT architecture?`
+- `Why are positional encodings necessary?`
 
 ---
 
