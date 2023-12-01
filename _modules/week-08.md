@@ -11,9 +11,9 @@ title: "Week 8: AI Ethics"
 
 ### Assignment
 
-- TBD
+- Create a slideshow, details in the megadoc
 
 
 ### Summary Questions
 
-- TBD
+- Synthesis questions in the megadoc
