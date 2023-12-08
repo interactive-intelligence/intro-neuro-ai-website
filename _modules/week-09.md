@@ -18,8 +18,8 @@ title: "Week 9: Language Modeling"
 ### Assignment
 
 - Complete Unit 8 in the megadoc (synthesis questions included)
-- HuggingFace Project Part 1 (in megadoc/github)
-- HuggingFace Project Part 2 (in megadoc/github)
+- HuggingFace Project Part 1 (in megadoc)
+- HuggingFace Project Part 2 (in megadoc)
 
 ### Summary Questions
 
