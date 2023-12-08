@@ -185,7 +185,7 @@ A few general helpful tips (if applicable):
 Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
 
 **<span style="text-decoration:underline;">There are 2 parts (.ipynb files) to this unit. Try to finish both.</span>**
-This technical project is likely to be harder than anything you have done in this course before, so be patient with it and reach if you need support!
+This technical project is likely to be harder than anything you have done in this course before, so be patient with it and reach out if you need support!
 
 **Colab Link:** [Unit 8 Notebook Part 1](https://colab.research.google.com/drive/1KGXpdL9sxpio1Zau5LviAGlv8Y0RMRcD?usp=sharing) **(1 hr)**
 
