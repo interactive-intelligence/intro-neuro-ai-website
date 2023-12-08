@@ -3,7 +3,7 @@ title: Unit 08
 parent: Megadoc
 ---
 
-# Unit 8: Language Modeling 
+# Unit 8: Language Modeling
 
 ## Intro
 
@@ -172,33 +172,40 @@ Please answer the following synthesis questions:
 
 ---
 
-# **Project Spec:**
+# **Technical Project Spec:**
 
 The project for this “_Language Modeling_” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
 
-A few helpful tips:
-
-
-
-* Use GitHub, it’s really just better
-* Use [Anaconda](https://www.anaconda.com/) with [Python3](https://www.python.org/downloads/) in [VSCode](https://code.visualstudio.com/).
-    * If you use Anaconda, create a separate environment so you can mess with libraries and imports all day without screwing up your base environment.
+A few general helpful tips (if applicable):
+* Be sure to appropriately make a copy of the Colab template before starting to save your progress!
+* Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
+* Type most of the code out yourself instead of just copying from the tutorial.
 * Leave comments to cement your understanding. Link syntax to ideas.
 
-**Clone the Git repo onto your local device if you have not already.**
+Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
 
-**<span style="text-decoration:underline;">There are 2 parts (.ipynb files) to this unit. Finish both.</span>**
+**<span style="text-decoration:underline;">There are 2 parts (.ipynb files) to this unit. Try to finish both.</span>**
+This technical project is likely to be harder than anything you have done in this course before, so be patient with it and reach if you need support!
 
-Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" directory on the same level as this notebook that you can use if stuck. You will need to set up a Python environment to run this notebook. Ask around if you are unable to get it working!
+**Colab Link:** [Unit 8 Notebook Part 1](https://colab.research.google.com/drive/1KGXpdL9sxpio1Zau5LviAGlv8Y0RMRcD?usp=sharing) **(1 hr)**
 
-I would recommend downloading the entire "notebooks" folder all at once. Its one folder up.
+Now navigate to the application portion of this project (Part 2 below), where you are given a dataset and asked to train an LLM of your choice to emulate Shakespeare! Be sure to reference your Unit 8 Notebook Part 1 to figure out how to do this.
 
-**GH Link:** [Unit 8 Notebook Part 1](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-08/hf_tutorial.ipynb) **(1 hr)**
+**Colab Link:** [Unit 8 Notebook Part 2](https://colab.research.google.com/drive/1Sg6seRXQ4pd8TwO-lYkiTxygv0SPt20B?usp=sharing) **(1 hr)**
 
-Now navigate to the application portion of this project, where you are given a dataset and asked to train an LLM of your choice to emulate Shakespeare! Be sure to reference your Unit 8 Notebook Part 1 to figure out how to do this. The starter code is in **lm_starter_code.ipynb**
-
-**GH Link:** [Unit 8 Notebook Part 2](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-08/lm_starter_code.ipynb) **(1 hr)**
-
-When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas. 
+When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
 
 Congratulations! You now understand the basics of Language Modeling!
+
+# **Non-Technical Project Spec:**
+
+The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
+
+* What ethical considerations arise when developing language models that are inspired by neural processes involved in language?
+* To what extent do models used in language processing reflect the actual neural networks involved with language tasks in the brain?
+* How can insights from neuroscience be leveraged to enhance the design and development of language models?
+* Reflecting on you learning from this unit, what is the one thing you found to be most interesting?
+* What is one concept from this unit that you would like to learn more about and why?
+
+Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
