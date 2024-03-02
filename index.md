@@ -10,6 +10,18 @@ seo:
 
 # I2 Intro Neuro/AI Course
 
+---
+
+## *If you're looking to join Spring 2024*
+
+Please follow the following links!
+
+[**Course Application** (non-competitive)](https://docs.google.com/forms/d/e/1FAIpQLSexY2wbBBAi99AHdyEj0qt0FTQwV7OT-ar53QwwXxisxWAOsg/viewform)
+
+[**I2 Discord**](https://discord.com/invite/Ph8njzHedC)
+
+---
+
 
 Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)!
 
