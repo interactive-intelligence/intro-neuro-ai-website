@@ -1,6 +1,6 @@
 ---
 name: Justin Dong
-role: Teaching Assistant
+role: 23au Teaching Assistant
 email: justindong231@gmail.com
 website:
 photo: justin.jpg

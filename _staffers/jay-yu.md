@@ -1,6 +1,6 @@
 ---
 name: Jay Yu
-role: Teaching Assistant
+role: 23au Teaching Assistant
 email: hjyu@cs.washington.edu
 website:
 photo: jay.jpg
