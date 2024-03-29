@@ -1,18 +1,24 @@
 ---
-title: "Week 8: AI Ethics"
+title: "Week 8: Language Modeling"
 ---
 
 ### Purpose
 
-- Learn about ethics in AI and think about how ethical AI is developed.
+- Learn about word embeddings
+- Learn about Recurrent Neural Networks
+- Learn about Transformers
+- Learn about fine-tuning foundation models like GPT
+- Gain a basic intuition about transformer and language models
 
 ### Resources
-- [Megadoc Unit 7](../megadoc/unit-07)
+
+- [Megadoc Unit 8](../megadoc/unit-08)
 
 ### Assignment
 
-- Create a slideshow, details in the megadoc
-
+- Complete Unit 8 in the megadoc (synthesis questions included)
+- HuggingFace Project Part 1 (in megadoc)
+- HuggingFace Project Part 2 (in megadoc)
 
 ### Summary Questions
 
