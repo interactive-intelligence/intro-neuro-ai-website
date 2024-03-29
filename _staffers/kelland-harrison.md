@@ -1,6 +1,6 @@
 ---
 name: Kelland Harrison
-role: Teaching Assistant
+role: 23au Teaching Assistant
 email: knyo@uw.edu
 website:
 photo: kelland.jpg

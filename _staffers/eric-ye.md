@@ -1,6 +1,6 @@
 ---
 name: Eric Ye
-role: Teaching Assistant
+role: 23au Teaching Assistant
 email: ericy4@uw.edu
 website:
 photo: eric.jpg
