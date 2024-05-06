@@ -58,15 +58,6 @@ Awesome job! Now we move onto integrating the concept of a convolution into a ne
 
 We have introduced you to the idea of a convolution and how convolutions are applied in CNNs. Can you begin to see how convolutions help with _translational invariance_? Think about it for a bit! Before the project, we just want to expose you to a few different types of convolutions. They aren’t all the same and serve different purposes.
 
-**Task:** Read the following article for the following sections:
-
-
-
-1. **Convolution in Deep Learning**
-2. **3D Convolution**
-3. **Transposed Convolution/Deconvolution**
-
-**Article:** [Comprehensive Convolution Types Guide](https://towardsdatascience.com/a-comprehensive-introduction-to-different-types-of-convolutions-in-deep-learning-669281e58215#:~:text=Convolution%20Arithmetic,Spatially%20Separable%20Convolution%2C%20Depthwise%20Convolution)) **(15 min)**
 
 
 ## Self-Supervised Learning
