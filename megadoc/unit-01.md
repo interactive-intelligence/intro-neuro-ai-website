@@ -34,9 +34,10 @@ Now the computer has to figure out what makes the cat pictures different from th
 - otherwise the computer isn’t sure
 
 Okay, let’s see how it does! We give the computer these three pictures and ask it to classify them as “cat” or “pig.”
-
-| ![alt_text](../assets/unit1/literacy_images/testing_cat_1.jpg) | ![alt_text](../assets/unit1/literacy_images/testing_cat_2.jpg) | ![alt_text](../assets/unit1/literacy_images/testing_pig_1.png) |
+| | | |
 | ---- | ---- | ---- |
+| ![alt_text](../assets/unit1/literacy_images/testing_cat_1.jpg) | ![alt_text](../assets/unit1/literacy_images/testing_cat_2.jpg) | ![alt_text](../assets/unit1/literacy_images/testing_pig_1.png) |
+
 The computer classifies the first animal, which is furry and not pink, as a cat—perfect! But it classifies the second, which is not furry and pink, as a pig, and the third, which is furry and not pink, as a cat.
 
 Now we have to correct our computer. We let it know that it was right about the first image, but the other two were wrong.
