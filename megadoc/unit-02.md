@@ -22,7 +22,9 @@ Human brains use biological neural networks to process information. They send da
 
 First, let’s look at the structure of a neural network. You may have seen an image like this before:
 
-<img src="../megadoc/assets/unit2/literacy_images/neural_network.png" alt="Diagram of a neural network" width="500"/>
+<div style="text-align:center">
+    <img src="../megadoc/assets/unit2/literacy_images/neural_network.png" alt="Diagram of a neural network" width="500"/>
+</div>
 
 The <mark style="background-color: #d5a2fa">**input layer**</mark> is where we feed in the information we want our network to process. We give it information in the form of a single column vector.
 
@@ -41,7 +43,9 @@ Let’s look at an example. Imagine I want my computer to recognize handwritten 
 
 First of all, we need to give the computer some examples. We’re going to use the MNIST database, which contains thousands of images of handwritten digits, each one labeled with its actual number. Here’s an example ([credit](https://etzold.medium.com/mnist-dataset-of-handwritten-digits-f8cf28edafe)):
 
-<img src="../megadoc/assets/unit2/literacy_images/labeled_mnist.webp" alt="Labeled images from the MNIST database" width="500"/>
+<div style="text-align:center">
+    <img src="../megadoc/assets/unit2/literacy_images/labeled_mnist.webp" alt="Labeled images from the MNIST database" width="500"/>
+</div>
 
 Let’s define our output layer. We want the output nodes to represent all possible outcomes. So instead of a yes-no output, like in our dog-not dog example, let’s ask the network to output the probability that each digit is represented—one node is the probability of a 0, one is the probability of a 1, and so on. This gives us 10 nodes in our output layer, each corresponding to a digit. 
 
@@ -49,11 +53,15 @@ Now let’s set up our input layer. As previously stated, the input has to be a 
 
 We can assign each pixel in the image to a position in the vector. Our images are all 28x28 pixels, so positions 1-28 can represent the first row of pixels, positions 29-56 can represent the second row, and so on. Take a look at the image below for how this might work in a very simple 4x4 image. 
 
-<img src="../megadoc/assets/unit2/literacy_images/vector_flattening.png" alt="Diagram showing how a simple 4x4 image is flattened to a vector" width="500"/>
+<div style="text-align:center">
+    <img src="../megadoc/assets/unit2/literacy_images/vector_flattening.png" alt="Diagram showing how a simple 4x4 image is flattened to a vector" width="500"/>
+</div>
 
 The numerical value for each pixel can correspond to the color of the pixel. All the pictures in our dataset are in grayscale, so each pixel will be assigned a number corresponding to how bright or dark it is—0 for totally white pixels, 1 for totally black pixels, and decimals in between based on how light or dark the pixel is. Then, we fill in the vector accordingly. The image below shows how this would work in the previous example—note that because we only have two colors, white and purple, we assign white pixels a 0 and purple pixels a 1. 
 
-<img src="../megadoc/assets/unit2/literacy_images/numerical_assignment.png" alt="Diagram showing how numerical values would be assigned to each pixel in the above image" width="500"/>
+<div style="text-align:center">
+    <img src="../megadoc/assets/unit2/literacy_images/numerical_assignment.png" alt="Diagram showing how numerical values would be assigned to each pixel in the above image" width="500"/>
+</div>
 
 Now that we know how to input our images into the neural network, we can start training! The MNIST database has 60,000 designated training images. We’re going to flatten each one into a vector and feed it into the neural network. Then the neural network will give us an output back.
 
