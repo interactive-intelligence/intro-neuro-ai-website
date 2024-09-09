@@ -9,8 +9,10 @@ Hello and welcome to the _Basics_ section of the I2 megadoc! Our content will be
 **Task 1:** Read the Back to Basics article to get an intuitive understanding of machine learning. <span style="color:red">**This is required.**</span>
 
 **Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
+[Link to this task](https://course.uw-i2.org/megadoc/unit-01/#unit-1-synthesis-questions)
 
-**Task 3:** Complete either the technical project or the non-technical project. Submit your work to the intro course TA. 
+**Task 3:** Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
+[Link to this task](https://course.uw-i2.org/megadoc/unit-01/#unit-1-project-specs) 
 
 ## Back to Basics: Machine Learning
 
@@ -24,9 +26,17 @@ Imagine we want our computer to identify pictures of cats and pictures of pigs.
 
 Our computer has never seen a pig or a cat before, so we have to give it some information to help it get started. Let’s feed our computer the following images. We’ll label the pictures of cats “cat” and the pictures of pigs “pig,” so the computer knows which is which.
 
-| ![alt_text](../assets/unit1/literacy_images/training_cat_1.jpg) | ![alt_text](../assets/unit1/literacy_images/training_cat_2.jpg) | ![alt_text](../assets/unit1/literacy_images/training_cat_3.jpg) |
-| ---- | ---- | ---- |
-| ![alt_text](../assets/unit1/literacy_images/training_pig_1.jpg) | ![alt_text](../assets/unit1/literacy_images/training_pig_2.jpg) | ![alt_text](../assets/unit1/literacy_images/training_pig_3.jpg) |
+<p float="middle">
+  <img src="../megadoc/assets/unit1/literacy_images/training_cat_1.jpg" width="30%" />
+  <img src="../megadoc/assets/unit1/literacy_images/training_cat_2.jpg" width="36%" /> 
+  <img src="../megadoc/assets/unit1/literacy_images/training_cat_3.jpg" width="26.5%" />
+</p>
+<p float="middle">
+  <img src="../megadoc/assets/unit1/literacy_images/training_pig_1.jpg" width="33%" />
+  <img src="../megadoc/assets/unit1/literacy_images/training_pig_2.jpg" width="33%" /> 
+  <img src="../megadoc/assets/unit1/literacy_images/training_pig_3.jpg" width="21.5%" />
+</p>
+
 
 Now the computer has to figure out what makes the cat pictures different from the pig pictures. What does it notice? Well, all the cats are furry and all the pigs are pink. So the computer comes up with the following system:
 - if the picture has a furry, non-pink animal, it’s a cat
@@ -34,9 +44,11 @@ Now the computer has to figure out what makes the cat pictures different from th
 - otherwise the computer isn’t sure
 
 Okay, let’s see how it does! We give the computer these three pictures and ask it to classify them as “cat” or “pig.”
-| | | |
-| ---- | ---- | ---- |
-| ![alt_text](../assets/unit1/literacy_images/testing_cat_1.jpg) | ![alt_text](../assets/unit1/literacy_images/testing_cat_2.jpg) | ![alt_text](../assets/unit1/literacy_images/testing_pig_1.png) |
+<p float="middle">
+  <img src="../megadoc/assets/unit1/literacy_images/testing_cat_1.jpg" width="33%" />
+  <img src="../megadoc/assets/unit1/literacy_images/testing_cat_2.jpg" width="26%" /> 
+  <img src="../megadoc/assets/unit1/literacy_images/testing_pig_1.webp" width="19.5%" />
+</p>
 
 The computer classifies the first animal, which is furry and not pink, as a cat—perfect! But it classifies the second, which is not furry and pink, as a pig, and the third, which is furry and not pink, as a cat.
 
@@ -67,7 +79,7 @@ This first video describes how exactly a machine “learns”—we’ll talk abo
 ### **Article 1:** (this is the same article from later in this megadoc!)
 
 The next article is math-heavy, but very useful for understanding how ML works. Reach out to a TA if you have any questions--this can be tough! 
-#### Linear Regression
+### Linear Regression
 
 The two main tasks that statistical ML attempts to solve are the **classification** task and **regression** task. Classification is the task of bucketing a set of items $S$ into $k$ categories. We will explore classification more in Unit 2. Regression is the task of predicting the value of one variable (usually called the responding variable), given the values of other feature variables. For example, predicting a person's weight based on their height. The weight is the <mark style="background-color: lightblue">responding variable/label</mark> ($y$) and the height is the <mark style="background-color: lightblue">feature variable</mark> ($x$). You can also have the case with multiple dependent variables. You could be attempting to predict the cost of a house depending on its square footage ($x_1$), location ($x_2$), number of floors ($x_3$) and other things ($x_n$). Each of these $x$ items is called a *<mark style="background-color: lightblue">feature</mark>*.
 
@@ -152,7 +164,7 @@ Awesome! You now have a weight vector that you can multiply by a new set of feat
 
 In some cases a closed form solution will not exist. There are ways around this, one of them being Gradient Descent (Unit 2). However, this is beyond the scope of this unit and a whole class could be taught on these concepts. If you wish to dive deeper, take the ML class offered by your university!
 
-#### *Synthesis Questions:*
+### *Synthesis Questions:*
 * *What is a feature in this context?*
 * *What are the significance of the w terms within the modified y = mx + b equation described in the article?*
 * *What is SSE?*

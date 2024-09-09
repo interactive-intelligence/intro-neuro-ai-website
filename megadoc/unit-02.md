@@ -5,6 +5,133 @@ parent: Megadoc
 
 # Unit 2: The (deep learning) Basics
 
+Hello and welcome to the _Basics_ section of the I2 megadoc! Like last week, we're going to split our content into literacy and technical understanding. 
+
+**Task 1:** Read the Back to Basics article to get an intuitive understanding of neural networks. <span style="color:red">**This is required.**</span>
+
+**Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
+[Link to this task](https://course.uw-i2.org/megadoc/unit-02/#unit-2-synthesis-questions)
+
+**Task 3:** Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
+[Link to this task](https://course.uw-i2.org/megadoc/unit-02/#unit-2-project-specs)
+
+## Back to Basics: Neural Networks
+Simply put, we use neural networks to make computers process information in a way similar to how the human brain processes information.  
+
+Human brains use biological neural networks to process information. They send data from neuron to neuron in the form of electrical signals. A neural network attempts to replicate this processing using a computer. 
+
+First, let’s look at the structure of a neural network. You may have seen an image like this before:
+
+<div style="text-align:center">
+    <img src="../megadoc/assets/unit2/literacy_images/neural_network.png" alt="Diagram of a neural network" width="500"/>
+</div>
+
+The <mark style="background-color: #d5a2fa">**input layer**</mark> is where we feed in the information we want our network to process. We give it information in the form of a single column vector.
+
+The <mark style="background-color: #f7ee86">**output layer**</mark> gives us the probabilities corresponding with our inputs, with one node corresponding to each outcome. For example, suppose we want our neural network to identify pictures of dogs. First, we’d input a picture of a dog (more on how inputs work later!). Our output layer would have two nodes: one representing the probability that the image was a dog, and one representing the probability that it wasn’t. Note that the values in the output nodes always sum up to one! If our neural network was, say 90% sure that the inputted image had a dog, the “yes dog” output node would output 90%, and the “not dog” output node would output 10%. 
+
+Finally, the <mark style="background-color: #f5a9e8">**hidden layer**</mark> is where all the processing happens. Going back to our dog example, this is where the computer figures out whether the picture has a dog or not. It does this by identifying common features between all pictures that have dogs and distinguishing features between all pictures that don’t.
+
+This hidden layer gets developed using **training data**. This is input data that’s been labeled with the “right answer”—in our dog analogy, it’s a bunch of images that are labeled “dog” or “not dog.” We feed one of these images into the neural network, let it make a prediction, and then tell it the right answer.
+
+This is where the learning happens. The computer uses the right answer to “learn” from its mistakes and adjust the weights and connections between the nodes. It does this via a process called **backpropagation**, which we’ll learn more about in the rest of the homework.
+
+This layer is called a hidden layer because often times, humans can’t understand the math involved in these computations. Remember, we aren’t telling the computer what makes a dog different from a non-dog: it makes these connections itself using math. These connections are so intricate that we humans can’t understand them, in the same way we can’t understand the fine details of how neurons transmit information in the human brain. Like the human brain, we can control the input state, or what information is provided, and we can give feedback on the output state, or what information is spit out.
+
+
+Let’s look at an example. Imagine I want my computer to recognize handwritten numbers and convert them into text. How might we do that?
+
+First of all, we need to give the computer some examples. We’re going to use the MNIST database, which contains thousands of images of handwritten digits, each one labeled with its actual number. Here’s an example ([credit](https://etzold.medium.com/mnist-dataset-of-handwritten-digits-f8cf28edafe)):
+
+<div style="text-align:center">
+    <img src="../megadoc/assets/unit2/literacy_images/labeled_mnist.webp" alt="Labeled images from the MNIST database" width="500"/>
+</div>
+
+Let’s define our output layer. We want the output nodes to represent all possible outcomes. So instead of a yes-no output, like in our dog-not dog example, let’s ask the network to output the probability that each digit is represented—one node is the probability of a 0, one is the probability of a 1, and so on. This gives us 10 nodes in our output layer, each corresponding to a digit. 
+
+Now let’s set up our input layer. As previously stated, the input has to be a single column vector of numbers. How do we convert these images to a vector?
+
+We can assign each pixel in the image to a position in the vector. Our images are all 28x28 pixels, so positions 1-28 can represent the first row of pixels, positions 29-56 can represent the second row, and so on. Take a look at the image below for how this might work in a very simple 4x4 image. 
+
+<div style="text-align:center">
+    <img src="../megadoc/assets/unit2/literacy_images/vector_flattening.png" alt="Diagram showing how a simple 4x4 image is flattened to a vector" width="500"/>
+</div>
+
+The numerical value for each pixel can correspond to the color of the pixel. All the pictures in our dataset are in grayscale, so each pixel will be assigned a number corresponding to how bright or dark it is—0 for totally white pixels, 1 for totally black pixels, and decimals in between based on how light or dark the pixel is. Then, we fill in the vector accordingly. The image below shows how this would work in the previous example—note that because we only have two colors, white and purple, we assign white pixels a 0 and purple pixels a 1. 
+
+<div style="text-align:center">
+    <img src="../megadoc/assets/unit2/literacy_images/numerical_assignment.png" alt="Diagram showing how numerical values would be assigned to each pixel in the above image" width="500"/>
+</div>
+
+Now that we know how to input our images into the neural network, we can start training! The MNIST database has 60,000 designated training images. We’re going to flatten each one into a vector and feed it into the neural network. Then the neural network will give us an output back.
+
+The first several are going to be pretty bad because the computer is still figuring out the connections between different images. But eventually it’ll start to realize that a “1” is usually a long vertical line, and an “8” is usually two ellipses on top of each other. As it starts to make these connections, the network makes better and better predictions.
+
+Once we’ve exhausted our training data, and the computer has made all its connections, we can test our network. In addition to training data, the dataset has 10,000 designated testing images. Like the training data, these are also labeled: the difference is that the network doesn’t learn from them. We just use them to verify the accuracy of our network.
+
+In the rest of your homework, you’ll learn more about the mathematical aspects of neural networks. You’ll even get to build a neural network yourself!
+
+## Unit 2 Synthesis Questions
+### **Video 1:** [Neural Networks and Deep Learning | Crash Course AI #3](https://youtu.be/oV3ZY6tJiA0?si=AYWscg7BYV8u7J7X) **(12 min)**
+### *Synthesis Questions*
+* *Why was ImageNet significant to the development of neural networks? What about AlexNet?*
+* *What are some real-world applications of neural networks? What are some ethical considerations associated with them?*
+
+### **Video 2:** [But what is a neural network? | Chapter 1, Deep learning](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) **(20 min)**
+### *Synthesis Questions*
+* *What is a neuron (in terms of Neural Networks) and what does its "activation" represent?*
+    * *Bonus: Research and consider the correlation between a biological neuron and an artificial neuron. How are they similar/different?*
+* *What is a network layer? How is it connected to other network layers?*
+* *How is a picture of a digit decomposed into a network layer?*
+* *What does the final layer of a neural network represent?*
+* *What are weights? What are biases? Can you describe in English how information is passed from one layer to the next?*
+* *A neural network <strong>IS/IS NOT</strong> just a very highly parameterized function (Choose one)*
+* *What is the purpose of the sigmoid function?*
+
+## Unit 2 Project Specs
+<mark style="background-color: lightblue">**Homework Help:**</mark> if you’re having trouble with the technical homework, or just want to try a slightly easier version, try following along with this video! It references the Crash Course video from the synthesis questions, so make sure you watch that first. Reach out to a TA if you have any questions!
+
+**[How to make an AI read your handwriting (LAB): Crash Course AI #5](https://youtu.be/6nGCGYWMObE?si=DHk1j96LDHETD-h4)**
+### **Technical Project Spec:**
+
+The project for this “_Basics_” section will **have you finish a code template through Google Colab.** Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
+
+In this project, you will be implementing a Deep Neural Network (DNN)!
+
+A few general helpful tips (if applicable):
+* Be sure to appropriately make a copy of the Colab template before starting to save your progress!
+* Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
+* Leave comments to cement your understanding. Link syntax to ideas.
+* **Read up on what [MNIST](https://wiki.pathmind.com/mnist) is.**
+
+Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
+
+**Colab Link:**
+[Unit 2 Notebook](https://colab.research.google.com/drive/1R60m8LqXzZiia1vHB9nkSNsAKp7V6POJ?usp=sharing) **(1 hr)**
+
+When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
+
+Remember that this is all for your learning, so do your best and don’t stress!
+
+Congratulations! You now understand the basics of Deep Neural Network structure, how they learn, and how to create one using Python!
+
+### **Non-Technical Project Spec:**
+
+The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
+
+* What can we learn from neuroscience to improve the efficiency and performance of artificial neural networks?
+* What are the ethical implications of using insights from neuroscience to design artificial neural networks?
+* How are ANNs inspired by the structure and function of neurons in the brain?
+* What are some common applications of neural networks in real-world scenarios? Feel free to do some research on these!
+* How do neural networks relate to the broader field of machine learning? What are their strengths and weaknesses compared to other algorithms?
+* Reflecting on you learning from this unit, what is one thing you found to be most interesting about DNNs?
+* What is one concept from this unit that you would like to learn more about and why?
+
+Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+
+
+# Old Course Content
 Hello and welcome to the _Basics_ section of the I2 megadoc! We will start by throwing a few videos at you that we believe give incredibly intuitive explanations of one of the foundational building blocks of modern Deep Learning.
 
 **Task:** Watch and understand the following videos. We recommend taking notes and being able to answer the synthesis questions provided below. Send your I2 teacher/mentor/overlord the answers to the questions over Discord.
