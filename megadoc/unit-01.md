@@ -27,14 +27,14 @@ Imagine we want our computer to identify pictures of cats and pictures of pigs.
 Our computer has never seen a pig or a cat before, so we have to give it some information to help it get started. Let’s feed our computer the following images. We’ll label the pictures of cats “cat” and the pictures of pigs “pig,” so the computer knows which is which.
 
 <p float="middle">
-  <img src="./assets/unit1/literacy_images/training_cat_1.jpg" width="30%" />
-  <img src="./assets/unit1/literacy_images/training_cat_2.jpg" width="36%" /> 
-  <img src="./assets/unit1/literacy_images/training_cat_3.jpg" width="26.5%" />
+  <img src="../assets/unit1/literacy_images/training_cat_1.jpg" width="30%" />
+  <img src="../assets/unit1/literacy_images/training_cat_2.jpg" width="36%" /> 
+  <img src="../assets/unit1/literacy_images/training_cat_3.jpg" width="26.5%" />
 </p>
 <p float="middle">
-  <img src="./assets/unit1/literacy_images/training_pig_1.jpg" width="33%" />
-  <img src="./assets/unit1/literacy_images/training_pig_2.jpg" width="33%" /> 
-  <img src="./assets/unit1/literacy_images/training_pig_3.jpg" width="21.5%" />
+  <img src="../assets/unit1/literacy_images/training_pig_1.jpg" width="33%" />
+  <img src="../assets/unit1/literacy_images/training_pig_2.jpg" width="33%" /> 
+  <img src="../assets/unit1/literacy_images/training_pig_3.jpg" width="21.5%" />
 </p>
 
 
@@ -45,9 +45,9 @@ Now the computer has to figure out what makes the cat pictures different from th
 
 Okay, let’s see how it does! We give the computer these three pictures and ask it to classify them as “cat” or “pig.”
 <p float="middle">
-  <img src="./assets/unit1/literacy_images/testing_cat_1.jpg" width="33%" />
-  <img src="./assets/unit1/literacy_images/testing_cat_2.jpg" width="26%" /> 
-  <img src="./assets/unit1/literacy_images/testing_pig_1.webp" width="19.5%" />
+  <img src="../assets/unit1/literacy_images/testing_cat_1.jpg" width="33%" />
+  <img src="../assets/unit1/literacy_images/testing_cat_2.jpg" width="26%" /> 
+  <img src="../assets/unit1/literacy_images/testing_pig_1.webp" width="19.5%" />
 </p>
 
 The computer classifies the first animal, which is furry and not pink, as a cat—perfect! But it classifies the second, which is not furry and pink, as a pig, and the third, which is furry and not pink, as a cat.

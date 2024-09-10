@@ -22,31 +22,31 @@ Reinforcement learning is the study of how a free object, or **agent**, moves ar
 For example, suppose we’re teaching a computer how to play chess against a human. In this case, the agent would be the computer and the environment would be the chess game (i.e. the opponent, board, and pieces).
 
 <div style="text-align:center">
-    <img src="./assets/unit6/literacy_images/agent_environment.png" alt="Diagram of the agent and environment described above" width="500"/>
+    <img src="../assets/unit6/literacy_images/agent_environment.png" alt="Diagram of the agent and environment described above" width="500"/>
 </div>
 
 The computer starts by taking an **action**--in other words, it does something. In this case, say the computer captures one of the human opponent’s pawns. Now the environment (the chess game) looks different from before the computer took its action; the computer has changed the **state** of the environment.
 
 <div style="text-align:center">
-    <img src="./assets/unit6/literacy_images/good_action.png" alt="Diagram of the environment after a good action is taken" width="500"/>
+    <img src="../assets/unit6/literacy_images/good_action.png" alt="Diagram of the environment after a good action is taken" width="500"/>
 </div>
 
 The state of the environment is favorable—we’re glad the computer took this action, and we want to reinforce it (we want it to keep taking actions like this). So we give the computer a **reward** that’s proportional to how desirable the action was. In this case, the reward is pretty moderate—capturing a pawn is good, but it’s not one of the best moves the computer can make. If the computer had captured the opponent’s queen, for example, we’d give it more of a reward because that’s a more desirable action.
 
 <div style="text-align:center">
-    <img src="./assets/unit6/literacy_images/good_reward.png" alt="Diagram of the environment after a reward is given" width="500"/>
+    <img src="../assets/unit6/literacy_images/good_reward.png" alt="Diagram of the environment after a reward is given" width="500"/>
 </div>
 
 Suppose the computer takes a different action: instead of capturing a pawn, it knocks over the entire board. Again, our environment is in a new state as a result of this action. 
 
 <div style="text-align:center">
-    <img src="./assets/unit6/literacy_images/bad_action.png" alt="Diagram of the environment after a bad action is taken" width="500"/>
+    <img src="../assets/unit6/literacy_images/bad_action.png" alt="Diagram of the environment after a bad action is taken" width="500"/>
 </div>
 
 Unfortunately, this new state is very bad for the computer because there’s no way it can win the game now. So we want to punish this action and make sure the computer avoids it in the future. We can do this by giving it a negative reward to indicate that it’s an undesirable action.
 
 <div style="text-align:center">
-    <img src="./assets/unit6/literacy_images/bad_reward.png" alt="Diagram of the environment after a punishment is given" width="500"/>
+    <img src="../assets/unit6/literacy_images/bad_reward.png" alt="Diagram of the environment after a punishment is given" width="500"/>
 </div>
 
 The computer decides what steps to take using something called a **policy**. A computer uses a policy to decide what its next step should be. For example, maybe the computer’s policy is to maximize its rewards. Then, every single action it takes is the action that produces the highest reward. This helps it avoid undesirable actions, like knocking over the board, because they have such low rewards. 
@@ -66,7 +66,7 @@ If we apply this to our chess example, the target might be to win the game by ca
 Also, like in the video, we can put our chess computer in different environments to force it to learn new actions. For example, we can start it out in an environment where its opponent is a three-year-old. As the computer gets better, we can put it in new environments with more and more advanced opponents to force it to learn new skills, in the same way the robot in the video became better at walking by crossing more and more difficult terrain.
 
 <div style="text-align:center">
-    <img src="./assets/unit6/literacy_images/opponents.png" alt="Diagram of how the environment gets more advanced" width="500"/>
+    <img src="../assets/unit6/literacy_images/opponents.png" alt="Diagram of how the environment gets more advanced" width="500"/>
 </div>
 
 ## Unit 6 Synthesis Questions
@@ -149,11 +149,11 @@ You may skip the section on Diagonal Gaussian Policies.
     * `Describe the connection between the two`
 * <code>Based on the idea behind Bellman Equations<strong> ("The value of your starting point is the reward you expect to get from being there, plus the value of wherever you land next.") </strong>Explain how the following two equations satisfy the idea behind Bellman Equations: </code>
 
-![alt_text](../assets/image3.png "image_tooltip")
+![alt_text](.../assets/image3.png "image_tooltip")
 
 `This may help:`
 
-![alt_text](../assets/image4.png "image_tooltip")
+![alt_text](.../assets/image4.png "image_tooltip")
 
 * <code>What is the advantage function?</code>
 

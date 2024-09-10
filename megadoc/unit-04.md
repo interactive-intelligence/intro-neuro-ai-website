@@ -19,7 +19,7 @@ In Week 2, we talked about how deep neural networks work on a very general level
 
 Let’s think back to our discussion of neural networks in unit 2. Recall that we used the MNIST dataset, which contains images of handwritten numbers (here’s a picture to remind you, with [credit](https://etzold.medium.com/mnist-dataset-of-handwritten-digits-f8cf28edafe)):
 <div style="text-align:center">
-    <img src="./assets/unit2/literacy_images/labeled_mnist.webp" alt="Labeled images from the MNIST database" width="500"/>
+    <img src="../assets/unit2/literacy_images/labeled_mnist.webp" alt="Labeled images from the MNIST database" width="500"/>
 </div>
 
 Near the end of the article, we mentioned that as we kept training our neural network, the computer would begin to pick out patterns associated with each number (like ones usually being a straight vertical line, or zeroes being a circle). But how exactly does the computer figure that out? How does the neural network “realize” what a one, a zero, or any other number looks like? 
@@ -28,7 +28,7 @@ This is where the **convolutional layer** comes in. A CNN uses its convolutional
 
 Recall the structure of a general neural network. 
 <div style="text-align:center">
-    <img src="./assets/unit2/literacy_images/neural_network.png" alt="Diagram of a neural network" width="500"/>
+    <img src="../assets/unit2/literacy_images/neural_network.png" alt="Diagram of a neural network" width="500"/>
 </div>
 
 Notice that every single node in the input layer is connected to every single node in the hidden layer. Remember, every node in the input layer corresponds to a pixel in the image. Our pictures of handwritten numbers contain 784 pixels (28 x 28), which means there are 784 nodes in the input layer. This means we have a lot of connections between the input layer and the first hidden layer, and the first hidden layer and the second hidden layer, and so on. 
@@ -37,7 +37,7 @@ The reason the neural network is set up like this is because it assumes that inf
 
 Also, the patterns associated with a given number are not exactly the same every time. Take a look at the image below ([credit](https://towardsdatascience.com/part-5-training-the-network-to-read-handwritten-digits-c2288f1a2de3)) and notice how there are slight differences in the way the numbers are written (e.g. the number 7 vs. 7 with a line through it). We need the computer to recognize that these are just variations on the exact same number. 
 <div style="text-align:center"> 
-    <img src="./assets/unit4/literacy_images/various_numbers.png" alt="Various numbers in the MNIST dataset" width="500"/>
+    <img src="../assets/unit4/literacy_images/various_numbers.png" alt="Various numbers in the MNIST dataset" width="500"/>
 </div>
 
 CNNs account for both of these things, reducing the number of input nodes and allowing for variations in the pixels when identifying features in an image. 
@@ -46,31 +46,31 @@ Now we’re going to get into how CNNs actually work, using a very simple image 
 
 Take a look at the image below, which shows the number 8. We’ve assigned a numerical value to each pixel, like was discussed in Unit 2. 
 <div style="text-align:center">
-    <img src="./assets/unit4/literacy_images/cnn_sample_8.png" alt="Sample image showing the number 8, with pixels labeled and numbered" width="300"/>
+    <img src="../assets/unit4/literacy_images/cnn_sample_8.png" alt="Sample image showing the number 8, with pixels labeled and numbered" width="300"/>
 </div>
 
 The first thing a CNN does is use filters to identify the locations of features in the image. In our example, the most important feature of an 8 is an ellipse, because an 8 is made of two ellipses stacked on top of each other. So let’s use a filter to identify any ellipses in the image. At first, our filter just contains random numbers—but through backpropagation, it starts to resemble the shape of the feature we’re looking for (an ellipse). Below is an example of what the correct filter would look like. 
 <div style="text-align:center">
-    <img src="./assets/unit4/literacy_images/cnn_filter.png" alt="Sample filter for above image" width="300"/>
+    <img src="../assets/unit4/literacy_images/cnn_filter.png" alt="Sample filter for above image" width="300"/>
 </div>
 
 Next, we put the filter over the image and compute the **dot product** of the filter and the portion of the image that it overlaps. This involves multiplying the value in the filter by the value of the pixel underneath, and adding up all the products. 
 
 Take a look at the example below. Notice that the feature in the filter (the ellipse) doesn’t perfectly match up with the pixels underneath it, so our dot product ends up being 4. 
 <div style="text-align:center">
-    <img src="./assets/unit4/literacy_images/conv1.png" alt="Diagram of first convolution" width="500"/>
+    <img src="../assets/unit4/literacy_images/conv1.png" alt="Diagram of first convolution" width="500"/>
 </div>
 
 Then, we shift our filter over by one and do the same thing. The distance by which we move our filter is called the **stride**. Notice that in this next example, the feature in the filter perfectly matches with the pixels underneath, so our dot product is much larger (8). 
 <div style="text-align:center">
-    <img src="./assets/unit4/literacy_images/conv2.png" alt="Diagram of second convolution" width="500"/>
+    <img src="../assets/unit4/literacy_images/conv2.png" alt="Diagram of second convolution" width="500"/>
 </div>
 
 We’ll continue shifting the filter until we’ve covered the entire image (there will probably be a lot of overlap). We keep track of all these dot products in a **feature map**. The feature map is useful because it tells us the general locations of the feature we’re tracking. Our feature map is a 3 by 3 matrix because we apply the filter nine times overall (you can try shifting the filter and calculating the dot products yourself!). 
 
 Remember, we said that when the filter perfectly matched the pixels underneath (i.e., there was an ellipse in the image), the dot product was 8. The feature map has two 8s, which tells us that there are two ellipses in the image: in the top middle of the image and in the bottom middle of the image. This fits with what we know an 8 should look like: two ellipses stacked on top of each other! 
 <div style="text-align:center">
-    <img src="./assets/unit4/literacy_images/feature_map.png" alt="Diagram of feature map" width="500"/>
+    <img src="../assets/unit4/literacy_images/feature_map.png" alt="Diagram of feature map" width="500"/>
 </div>
 
 The entire process we just did, of converting an image into a feature map, is called a **convolution**.
@@ -81,12 +81,12 @@ Next, we’re going to simplify this information a little bit using a strategy c
 
 The example below uses “max pooling,” which means it takes the largest value from each region to represent the region as a whole. There are other types of pooling as well, such as “average pooling,” which takes the average of the region to represent the overall region. 
 <div style="text-align:center">
-    <img src="./assets/unit4/literacy_images/pooling.png" alt="Example of max pooling" width="500"/>
+    <img src="../assets/unit4/literacy_images/pooling.png" alt="Example of max pooling" width="500"/>
 </div>
 
 We repeat the convolution-pooling cycle until our feature map (or maps, if we have multiple features) is sufficiently small. Finally, we plug our resulting feature maps into a **fully connected layer**, which is like a regular old neural network. Before, all our features were analyzed independently in different convolutions. Here, we’re putting everything together and using all our collected information to classify our image. We do this by taking all of our small, pooled feature maps, flattening them into a column vector, and treating this column vector as the **input layer** to a standard neural network, which then predicts what the final image is. Take a look at the image below for an example ([credit](https://slds-lmu.github.io/seminar_nlp_ss20/convolutional-neural-networks-and-their-applications-in-nlp.html)). 
 <div style="text-align:center">
-    <img src="./assets/unit4/literacy_images/fully_connected.png" alt="Example of fully connected layer" width="500"/>
+    <img src="../assets/unit4/literacy_images/fully_connected.png" alt="Example of fully connected layer" width="500"/>
 </div>
 
 This was a lot of information, so please reach out to a TA if you’re having trouble with these concepts or with the homework! Since this article was very abstract and conceptual, the homework is going to be much more technically focused. 
