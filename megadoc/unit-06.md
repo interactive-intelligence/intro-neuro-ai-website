@@ -153,7 +153,7 @@ You may skip the section on Diagonal Gaussian Policies.
 
 `This may help:`
 
-![alt_text](.../assets/image4.png "image_tooltip")
+![alt_text](../assets/image4.png "image_tooltip")
 
 * <code>What is the advantage function?</code>
 
