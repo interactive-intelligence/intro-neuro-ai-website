@@ -12,7 +12,7 @@ seo:
 
 ---
 
-## *If you're looking to join Spring 2024*
+## *If you're looking to join Autumn 2024*
 
 Please follow the following links!
 
