@@ -224,6 +224,10 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 
 Be sure to submit your work through google drive using the submission form!
 We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+
+
+### [Download Unit 01 Technical Article (PDF)](/assets/unit1/Unit_01_Technical_Article.pdf)
+
 # Old Intro Course Content
 ## Linear Regression
 
