@@ -10,6 +10,7 @@ Hello and welcome to the _Basics_ section of the I2 megadoc! Our content will be
 
 #### [Download Unit 01 Technical Article (PDF)](/assets/unit1/Unit_01_Technical_Article.pdf)
 
+
 **Task 2:** Go through the text and videos in your respective article and answer the provided synthesis questions. Submit your answers to your intro course TA. Make sure to indicate in your submission or file name which article (technical or literacy) you read and which questions you're answering.
 [Link to this task](https://course.uw-i2.org/megadoc/unit-01/#unit-1-synthesis-questions)
 
