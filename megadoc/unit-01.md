@@ -6,9 +6,11 @@ parent: Megadoc
 
 Hello and welcome to the _Basics_ section of the I2 megadoc! Our content will be split into two categories: literacy and technical understanding. These topics are fundamental to the entire rest of our course, so please don't hesitate to reach out to the course staff if you have any questions! 
 
-**Task 1:** Read the Back to Basics article to get an intuitive understanding of machine learning. <span style="color:red">**This is required.**</span>
+**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or download and read the <ins>technical article</ins> linked below to get an intuitive understanding of machine learning. <span style="color:red">**This is required.**</span>
 
-**Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
+#### [Download Unit 01 Technical Article (PDF)](/assets/unit1/Unit_01_Technical_Article.pdf)
+
+**Task 2:** Go through the text and videos in your respective article and answer the provided synthesis questions. Submit your answers to your intro course TA. Make sure to indicate in your submission or file name which article (technical or literacy) you read and which questions you're answering.
 [Link to this task](https://course.uw-i2.org/megadoc/unit-01/#unit-1-synthesis-questions)
 
 **Task 3:** Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
@@ -176,6 +178,20 @@ In some cases a closed form solution will not exist. There are ways around this,
     * *Hint: How many x terms will there be? How many features?*
 
 ## Unit 1 Project Specs
+### **Non-Technical Project Spec:**
+
+The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
+
+* What might be some applications of principle component analysis (PCA) in neuroscience research? Explain your ideas.
+* What might be some advantages and disadvantages of applying machine learning to neuroscience?
+* What are the ethical implications of using machine learning in neuroscience research?
+* What might be some applications of support vector machines (SVM) in neuroscience? Be creative!
+* Reflecting on your learning from this unit, what is one thing you found to be most interesting? Something that
+* What is one concept from this unit that you would like to learn more about and why?
+
+Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+
 ### **Technical Project Spec:**
 
 The project for this “_Basics_” section will **have you finish a code template through Google Colab.** Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
@@ -211,23 +227,9 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of Clustering and PCA!
 
-### **Non-Technical Project Spec:**
-
-The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
-
-* What might be some applications of principle component analysis (PCA) in neuroscience research? Explain your ideas.
-* What might be some advantages and disadvantages of applying machine learning to neuroscience?
-* What are the ethical implications of using machine learning in neuroscience research?
-* What might be some applications of support vector machines (SVM) in neuroscience? Be creative!
-* Reflecting on your learning from this unit, what is one thing you found to be most interesting? Something that
-* What is one concept from this unit that you would like to learn more about and why?
-
-Be sure to submit your work through google drive using the submission form!
-We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
-
-
 ### [Download Unit 01 Technical Article (PDF)](/assets/unit1/Unit_01_Technical_Article.pdf)
 
+```
 # Old Intro Course Content
 ## Linear Regression
 
@@ -446,3 +448,4 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 
 Be sure to submit your work through google drive using the submission form!
 We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+```
