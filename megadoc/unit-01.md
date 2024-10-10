@@ -176,6 +176,20 @@ In some cases a closed form solution will not exist. There are ways around this,
     * *Hint: How many x terms will there be? How many features?*
 
 ## Unit 1 Project Specs
+### **Non-Technical Project Spec:**
+
+The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
+
+* What might be some applications of principle component analysis (PCA) in neuroscience research? Explain your ideas.
+* What might be some advantages and disadvantages of applying machine learning to neuroscience?
+* What are the ethical implications of using machine learning in neuroscience research?
+* What might be some applications of support vector machines (SVM) in neuroscience? Be creative!
+* Reflecting on your learning from this unit, what is one thing you found to be most interesting? Something that
+* What is one concept from this unit that you would like to learn more about and why?
+
+Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+
 ### **Technical Project Spec:**
 
 The project for this “_Basics_” section will **have you finish a code template through Google Colab.** Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
@@ -211,23 +225,9 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of Clustering and PCA!
 
-### **Non-Technical Project Spec:**
-
-The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
-
-* What might be some applications of principle component analysis (PCA) in neuroscience research? Explain your ideas.
-* What might be some advantages and disadvantages of applying machine learning to neuroscience?
-* What are the ethical implications of using machine learning in neuroscience research?
-* What might be some applications of support vector machines (SVM) in neuroscience? Be creative!
-* Reflecting on your learning from this unit, what is one thing you found to be most interesting? Something that
-* What is one concept from this unit that you would like to learn more about and why?
-
-Be sure to submit your work through google drive using the submission form!
-We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
-
-
 ### [Download Unit 01 Technical Article (PDF)](/assets/unit1/Unit_01_Technical_Article.pdf)
 
+```
 # Old Intro Course Content
 ## Linear Regression
 
@@ -446,3 +446,4 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 
 Be sure to submit your work through google drive using the submission form!
 We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+```
