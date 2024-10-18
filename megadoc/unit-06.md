@@ -83,6 +83,19 @@ Also, like in the video, we can put our chess computer in different environments
 * *Describe the idea of gradient descent and how we use it in reinforcement learning.*
 
 ## Unit 6 Project Specs
+### **Non-Technical Project Spec:**
+
+The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
+
+* Can you provide examples of experimental evidence linking reinforcement learning algorithms to observed synaptic changes in the brain?
+* How do human neural systems encode reward signals and how does this relate to the concept of rewards in reinforcement learning models?
+* What ethical considerations should be taken into account when developing interventions based on neuroscientific findings, and how can accountability be established for the potential impacts of such interventions?
+* Reflecting on you have learned from this unit, what is one thing you found to be most interesting?
+* What is one concept from this unit that you would like to learn more about and why?
+
+Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+
 ### **Technical Project Spec:**
 
 The project for this “_Reinforcement Learning_” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
@@ -103,20 +116,7 @@ When you are finished with your code, independently verify that it works and hav
 Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the (_incredibly basic)_ basics of Deep RL!
-
-### **Non-Technical Project Spec:**
-
-The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
-
-* Can you provide examples of experimental evidence linking reinforcement learning algorithms to observed synaptic changes in the brain?
-* How do human neural systems encode reward signals and how does this relate to the concept of rewards in reinforcement learning models?
-* What ethical considerations should be taken into account when developing interventions based on neuroscientific findings, and how can accountability be established for the potential impacts of such interventions?
-* Reflecting on you have learned from this unit, what is one thing you found to be most interesting?
-* What is one concept from this unit that you would like to learn more about and why?
-
-Be sure to submit your work through google drive using the submission form!
-We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
-
+<!---
 # Old Course Content
 Hello and welcome to the _Reinforcement Learning (RL)_ section of the I2 megadoc! Reinforcement learning is an incredibly powerful subfield of Machine Learning that can be used to deploy intelligent autonomous agents in both real and simulated systems. Reinforcement learning in itself is not inherently tied to AI. It is its own field that has strong ties to probability and statistics theory.
 
@@ -220,3 +220,4 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 
 Be sure to submit your work through google drive using the submission form!
 We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+--->
