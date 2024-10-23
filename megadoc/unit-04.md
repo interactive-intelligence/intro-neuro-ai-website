@@ -8,6 +8,10 @@ Hello and welcome to the _Basics_ section of the I2 megadoc!
 
 **Task 1:** Read the Back to Basics article to get an intuitive understanding of computer vision. <span style="color:red">**This is required.**</span>
 
+#### [Unit 04 Technical Article](unit-04-tech-article.md)
+
+&nbsp;
+
 **Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
 [Link to this task](https://course.uw-i2.org/megadoc/unit-04/#unit-4-synthesis-questions)
 
