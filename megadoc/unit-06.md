@@ -6,7 +6,11 @@ parent: Megadoc
 # Unit 6: Reinforcement Learning
 Hello and welcome to the _Basics_ section of the I2 megadoc! 
 
-**Task 1:** Read the Back to Basics article to get an intuitive understanding of computer vision. <span style="color:red">**This is required.**</span>
+**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked below to get an intuitive understanding of reinforcement learning. <span style="color:red">**This is required.**</span>
+
+#### [Unit 06 Technical Article](unit-06-tech-article.md)
+
+&nbsp;
 
 **Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
 [Link to this task](https://course.uw-i2.org/megadoc/unit-06/#unit-6-synthesis-questions)
