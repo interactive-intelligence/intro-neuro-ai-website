@@ -1,7 +1,6 @@
 ---
 title: Unit 02
 parent: Megadoc
-has_children: true
 ---
 
 # Unit 2: The (deep learning) Basics
