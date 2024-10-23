@@ -6,7 +6,7 @@ parent: Megadoc
 # Unit 4: Computer Vision
 Hello and welcome to the _Basics_ section of the I2 megadoc! 
 
-**Task 1:** Read the Back to Basics article to get an intuitive understanding of computer vision. <span style="color:red">**This is required.**</span>
+**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked below to get an intuitive understanding of computer vision. <span style="color:red">**This is required.**</span>
 
 #### [Unit 04 Technical Article](unit-04-tech-article.md)
 
