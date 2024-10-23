@@ -1,6 +1,6 @@
 ---
 title: Unit 02 Technical Article
-parent: Unit 02
+parent: Megadoc
 ---
 
 # Unit 2: Technical Article
