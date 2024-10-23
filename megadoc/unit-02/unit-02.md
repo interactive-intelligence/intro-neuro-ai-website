@@ -10,7 +10,7 @@ Hello and welcome to the _Basics_ section of the I2 megadoc! Like last week, we'
 
 **Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked below to get an intuitive understanding of neural networks. <span style="color:red">**This is required.**</span>
 
-#### [Unit 02 Technical Article)](unit-02-tech-article.md)
+#### [Unit 02 Technical Article](unit-02-tech-article.md)
 
 **Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
 [Link to this task](https://course.uw-i2.org/megadoc/unit-02/#unit-2-synthesis-questions)
