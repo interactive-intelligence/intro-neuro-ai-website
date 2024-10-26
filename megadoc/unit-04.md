@@ -149,6 +149,7 @@ When you are finished with your code, independently verify that it works and hav
 Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of Convolutional Neural networks!
+
 <!---
 # Old Course Content
 Hello and welcome to the _Computer Vision (CV)_ section of the I2 megadoc! This section is, due to time constraints, only a very cursory glance at the foundations of CV. This is a whole subfield of ML and even if we spent 10 weeks on it, we wouldn’t scratch the surface!
