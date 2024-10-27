@@ -22,8 +22,7 @@ jobs:
 
       - name: Edit base url in config.yml
         run: |
-          ls
-          sed -i '' 's/^baseurl: .*/baseurl: https://intro-neuro-ai-website-pr-preview.onrender.com/pr-preview/pr-'"$PR_NUMBER"'/' config.yml
+          sed -i '' 's/^baseurl: .*/baseurl: https://intro-neuro-ai-website-pr-preview.onrender.com/pr-preview/pr-'"$PR_NUMBER"'/' _config.yml
         shell: bash
         
       - name: Build
