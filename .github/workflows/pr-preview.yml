@@ -10,6 +10,8 @@ on:
       - closed
 
 concurrency: preview-${{ github.ref }}
+env:
+  PR_NUMBER: ${{ github.event.number }}
 
 jobs:
   deploy-preview:
@@ -18,6 +20,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Edit base url in config.yml
+        run: |
+          sed -i '' 's/^baseurl: .*/baseurl: \'https://intro-neuro-ai-website-pr-preview.onrender.com/pr-preview/pr-'"$PR_NUMBER"'\'/' config.yml
+        shell: bash
+        
       - name: Build
         uses: actions/jekyll-build-pages@v1
         with:
@@ -27,3 +34,4 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./output/
+          custom-url: https://intro-neuro-ai-website-pr-preview.onrender.com
