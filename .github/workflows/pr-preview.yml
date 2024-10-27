@@ -25,6 +25,7 @@ jobs:
         shell: bash
         
       - name: Build
+        if: github.event.action != 'closed'
         uses: actions/jekyll-build-pages@v1
         with:
           destination: "./output"
