@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Edit base url in config.yml
+      - name: Edit base url in _config.yml
         run: |
           sed -i -e 's,^baseurl: .*,baseurl: /pr-preview/pr-'"$PR_NUMBER"'/,' _config.yml
         shell: bash
