@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="/pr-preview/pr-36/assets/css/just-the-docs-default.css">
+    <script src="/pr-preview/pr-36/assets/js/vendor/lunr.min.js"></script>
+  <script src="/pr-preview/pr-36/assets/js/just-the-docs.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 02 | I2 Intro Neuro/AI</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Unit 02" />
+<meta name="author" content="Interactive Intelligence" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!" />
+<meta property="og:description" content="Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!" />
+<link rel="canonical" href="https://course.uw-i2.org/pr-preview/pr-36/megadoc/unit-02/" />
+<meta property="og:url" content="https://course.uw-i2.org/pr-preview/pr-36/megadoc/unit-02/" />
+<meta property="og:site_name" content="I2 Intro Neuro/AI" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Unit 02" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Interactive Intelligence"},"description":"Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!","headline":"Unit 02","url":"https://course.uw-i2.org/pr-preview/pr-36/megadoc/unit-02/"}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+ <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+ <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+   <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+ <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+   <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+ <title id="svg-external-link-title">(external link)</title>
+ <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+ <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+ <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+<symbol id="svg-copy" viewBox="0 0 16 16">
+ <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+   <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+ <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+   <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+</svg>
+ <div class="side-bar">
+ <div class="site-header">
+    <a href="/pr-preview/pr-36/" class="site-title lh-tight">
+  I2 Intro Neuro/AI
+</a>
+    <a href="#" id="menu-button" class="site-button">
+      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+    </a>
+ </div>
+ <nav aria-label="Main" id="site-nav" class="site-nav">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/pr-preview/pr-36/announcements/" class="nav-list-link">Announcements</a><li class="nav-list-item"><a href="/pr-preview/pr-36/staff/" class="nav-list-link">Course Staff</a><li class="nav-list-item"><a href="/pr-preview/pr-36/graduates/" class="nav-list-link">Graduates</a><li class="nav-list-item active"><a href="#" class="nav-list-expander" aria-label="toggle links in Megadoc category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/pr-preview/pr-36/megadoc/" class="nav-list-link">Megadoc</a><ul class="nav-list"><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-01/" class="nav-list-link">Unit 01</a><li class="nav-list-item  active"><a href="/pr-preview/pr-36/megadoc/unit-02/" class="nav-list-link active">Unit 02</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-03/" class="nav-list-link">Unit 03</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-04/" class="nav-list-link">Unit 04</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-05/" class="nav-list-link">Unit 05</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-06/" class="nav-list-link">Unit 06</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-07/" class="nav-list-link">Unit 07</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-08/" class="nav-list-link">Unit 08</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-09/" class="nav-list-link">Unit 09</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-10/" class="nav-list-link">Unit 10</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-11/" class="nav-list-link">Unit 11</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-12/" class="nav-list-link">Unit 12</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-13/" class="nav-list-link">Unit 13</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-A/" class="nav-list-link">Unit A</a><li class="nav-list-item "><a href="/pr-preview/pr-36/megadoc/unit-B/" class="nav-list-link">Unit B</a></ul><li class="nav-list-item"><a href="/pr-preview/pr-36/schedule/" class="nav-list-link">Schedule</a></ul>
+ </nav>
+   <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+   </footer>
+</div>
+ <div class="main" id="top">
+   <div id="main-header" class="main-header">
+<div class="search">
+ <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search I2 Intro Neuro/AI" aria-label="Search I2 Intro Neuro/AI" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+ </div>
+ <div id="search-results" class="search-results"></div>
+</div>
+   <nav aria-label="Auxiliary" class="aux-nav">
+ <ul class="aux-nav-list">
+     <li class="aux-nav-list-item">
+        <a href="https://interactive-intelligence.github.io" class="site-button"
+        >
+          UW Interactive Intelligence Website
+        </a>
+ </ul>
+</nav>
+</div>
+   <div id="main-content-wrap" class="main-content-wrap">
+   <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+     <ol class="breadcrumb-nav-list">
+         <li class="breadcrumb-nav-list-item"><a href="/pr-preview/pr-36/megadoc/">Megadoc</a>
+       <li class="breadcrumb-nav-list-item"><span>Unit 02</span>
+     </ol>
+   </nav>
+     <div id="main-content" class="main-content" role="main">
+         <h1 id="unit-2-the-deep-learning-basics">
+    <a href="#unit-2-the-deep-learning-basics" class="anchor-heading" aria-labelledby="unit-2-the-deep-learning-basics"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Unit 2: The (deep learning) Basics
+</h1>
+<p>Hello and welcome to the <em>Basics</em> section of the I2 megadoc! Like last week, we’re going to split our content into literacy and technical understanding.</p>
+<p><strong>Task 1:</strong> Read either the <ins>literacy article</ins> “Back to Basics” or the <ins>technical article</ins> linked below to get an intuitive understanding of neural networks. <span style="color:red"><strong>This is required.</strong></span></p>
+<h4 id="unit-02-technical-article">
+    <a href="#unit-02-technical-article" class="anchor-heading" aria-labelledby="unit-02-technical-article"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <a href="/pr-preview/pr-36/megadoc/unit-02-tech-article/">Unit 02 Technical Article</a>
+</h4>
+<p> </p>
+<p><strong>Task 2:</strong> Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
+<a href="https://course.uw-i2.org/megadoc/unit-02/#unit-2-synthesis-questions">Link to this task</a></p>
+<p><strong>Task 3:</strong> Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
+<a href="https://course.uw-i2.org/megadoc/unit-02/#unit-2-project-specs">Link to this task</a></p>
+<h2 id="back-to-basics-neural-networks">
+    <a href="#back-to-basics-neural-networks" class="anchor-heading" aria-labelledby="back-to-basics-neural-networks"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Back to Basics: Neural Networks
+</h2>
+<p>Simply put, we use neural networks to make computers process information in a way similar to how the human brain processes information.</p>
+<p>Human brains use biological neural networks to process information. They send data from neuron to neuron in the form of electrical signals. A neural network attempts to replicate this processing using a computer.</p>
+<p>First, let’s look at the structure of a neural network. You may have seen an image like this before:</p>
+<div style="text-align:center">
+    <img src="../assets/unit2/literacy_images/neural_network.png" alt="Diagram of a neural network" width="500" />
+</div>
+<p>The <strong><mark style="background-color: #d5a2fa">input layer</mark></strong> is where we feed in the information we want our network to process. We give it information in the form of a single column vector.</p>
+<p>The <strong><mark style="background-color: #f7ee86">output layer</mark></strong> gives us the probabilities corresponding with our inputs, with one node corresponding to each outcome. For example, suppose we want our neural network to identify pictures of dogs. First, we’d input a picture of a dog (more on how inputs work later!). Our output layer would have two nodes: one representing the probability that the image was a dog, and one representing the probability that it wasn’t. Note that the values in the output nodes always sum up to one! If our neural network was, say 90% sure that the inputted image had a dog, the “yes dog” output node would output 90%, and the “not dog” output node would output 10%.</p>
+<p>Finally, the <strong><mark style="background-color: #f5a9e8">hidden layer</mark></strong> is where all the processing happens. Going back to our dog example, this is where the computer figures out whether the picture has a dog or not. It does this by identifying common features between all pictures that have dogs and distinguishing features between all pictures that don’t.</p>
+<p>This hidden layer gets developed using <strong>training data</strong>. This is input data that’s been labeled with the “right answer”—in our dog analogy, it’s a bunch of images that are labeled “dog” or “not dog.” We feed one of these images into the neural network, let it make a prediction, and then tell it the right answer.</p>
+<p>This is where the learning happens. The computer uses the right answer to “learn” from its mistakes and adjust the weights and connections between the nodes. It does this via a process called <strong>backpropagation</strong>, which we’ll learn more about in the rest of the homework.</p>
+<p>This layer is called a hidden layer because often times, humans can’t understand the math involved in these computations. Remember, we aren’t telling the computer what makes a dog different from a non-dog: it makes these connections itself using math. These connections are so intricate that we humans can’t understand them, in the same way we can’t understand the fine details of how neurons transmit information in the human brain. Like the human brain, we can control the input state, or what information is provided, and we can give feedback on the output state, or what information is spit out.</p>
+<p>Let’s look at an example. Imagine I want my computer to recognize handwritten numbers and convert them into text. How might we do that?</p>
+<p>First of all, we need to give the computer some examples. We’re going to use the MNIST database, which contains thousands of images of handwritten digits, each one labeled with its actual number. Here’s an example (<a href="https://etzold.medium.com/mnist-dataset-of-handwritten-digits-f8cf28edafe">credit</a>):</p>
+<div style="text-align:center">
+    <img src="../assets/unit2/literacy_images/labeled_mnist.webp" alt="Labeled images from the MNIST database" width="500" />
+</div>
+<p>Let’s define our output layer. We want the output nodes to represent all possible outcomes. So instead of a yes-no output, like in our dog-not dog example, let’s ask the network to output the probability that each digit is represented—one node is the probability of a 0, one is the probability of a 1, and so on. This gives us 10 nodes in our output layer, each corresponding to a digit.</p>
+<p>Now let’s set up our input layer. As previously stated, the input has to be a single column vector of numbers. How do we convert these images to a vector?</p>
+<p>We can assign each pixel in the image to a position in the vector. Our images are all 28x28 pixels, so positions 1-28 can represent the first row of pixels, positions 29-56 can represent the second row, and so on. Take a look at the image below for how this might work in a very simple 4x4 image.</p>
+<div style="text-align:center">
+    <img src="../assets/unit2/literacy_images/vector_flattening.png" alt="Diagram showing how a simple 4x4 image is flattened to a vector" width="500" />
+</div>
+<p>The numerical value for each pixel can correspond to the color of the pixel. All the pictures in our dataset are in grayscale, so each pixel will be assigned a number corresponding to how bright or dark it is—0 for totally white pixels, 1 for totally black pixels, and decimals in between based on how light or dark the pixel is. Then, we fill in the vector accordingly. The image below shows how this would work in the previous example—note that because we only have two colors, white and purple, we assign white pixels a 0 and purple pixels a 1.</p>
+<div style="text-align:center">
+    <img src="../assets/unit2/literacy_images/numerical_assignment.png" alt="Diagram showing how numerical values would be assigned to each pixel in the above image" width="500" />
+</div>
+<p>Now that we know how to input our images into the neural network, we can start training! The MNIST database has 60,000 designated training images. We’re going to flatten each one into a vector and feed it into the neural network. Then the neural network will give us an output back.</p>
+<p>The first several are going to be pretty bad because the computer is still figuring out the connections between different images. But eventually it’ll start to realize that a “1” is usually a long vertical line, and an “8” is usually two ellipses on top of each other. As it starts to make these connections, the network makes better and better predictions.</p>
+<p>Once we’ve exhausted our training data, and the computer has made all its connections, we can test our network. In addition to training data, the dataset has 10,000 designated testing images. Like the training data, these are also labeled: the difference is that the network doesn’t learn from them. We just use them to verify the accuracy of our network.</p>
+<p>In the rest of your homework, you’ll learn more about the mathematical aspects of neural networks. You’ll even get to build a neural network yourself!</p>
+<h2 id="unit-2-synthesis-questions">
+    <a href="#unit-2-synthesis-questions" class="anchor-heading" aria-labelledby="unit-2-synthesis-questions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Unit 2 Synthesis Questions
+</h2>
+<h3 id="video-1-neural-networks-and-deep-learning--crash-course-ai-3-12-min">
+    <a href="#video-1-neural-networks-and-deep-learning--crash-course-ai-3-12-min" class="anchor-heading" aria-labelledby="video-1-neural-networks-and-deep-learning--crash-course-ai-3-12-min"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Video 1:</strong> <a href="https://youtu.be/oV3ZY6tJiA0?si=AYWscg7BYV8u7J7X">Neural Networks and Deep Learning | Crash Course AI #3</a> <strong>(12 min)</strong>
+</h3>
+<h3 id="synthesis-questions">
+    <a href="#synthesis-questions" class="anchor-heading" aria-labelledby="synthesis-questions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <em>Synthesis Questions</em>
+</h3>
+<ul>
+ <li><em>Why was ImageNet significant to the development of neural networks? What about AlexNet?</em>
+ <li><em>What are some real-world applications of neural networks? What are some ethical considerations associated with them?</em>
+</ul>
+<h3 id="video-2-but-what-is-a-neural-network--chapter-1-deep-learning-20-min">
+    <a href="#video-2-but-what-is-a-neural-network--chapter-1-deep-learning-20-min" class="anchor-heading" aria-labelledby="video-2-but-what-is-a-neural-network--chapter-1-deep-learning-20-min"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Video 2:</strong> <a href="https://www.youtube.com/watch?v=aircAruvnKk&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">But what is a neural network? | Chapter 1, Deep learning</a> <strong>(20 min)</strong>
+</h3>
+<h3 id="synthesis-questions-1">
+    <a href="#synthesis-questions-1" class="anchor-heading" aria-labelledby="synthesis-questions-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <em>Synthesis Questions</em>
+</h3>
+<ul>
+ <li><em>What is a neuron (in terms of Neural Networks) and what does its “activation” represent?</em>
+   <ul>
+     <li><em>Bonus: Research and consider the correlation between a biological neuron and an artificial neuron. How are they similar/different?</em>
+   </ul>
+ <li><em>What is a network layer? How is it connected to other network layers?</em>
+ <li><em>How is a picture of a digit decomposed into a network layer?</em>
+ <li><em>What does the final layer of a neural network represent?</em>
+ <li><em>What are weights? What are biases? Can you describe in English how information is passed from one layer to the next?</em>
+ <li><em>A neural network <strong>IS/IS NOT</strong> just a very highly parameterized function (Choose one)</em>
+ <li><em>What is the purpose of the sigmoid function?</em>
+</ul>
+<h2 id="unit-2-project-specs">
+    <a href="#unit-2-project-specs" class="anchor-heading" aria-labelledby="unit-2-project-specs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Unit 2 Project Specs
+</h2>
+<p><strong><mark style="background-color: lightblue">Homework Help:</mark></strong> if you’re having trouble with the technical homework, or just want to try a slightly easier version, try following along with this video! It references the Crash Course video from the synthesis questions, so make sure you watch that first. Reach out to a TA if you have any questions!</p>
+<p><strong><a href="https://youtu.be/6nGCGYWMObE?si=DHk1j96LDHETD-h4">How to make an AI read your handwriting (LAB): Crash Course AI #5</a></strong></p>
+<h3 id="non-technical-project-spec">
+    <a href="#non-technical-project-spec" class="anchor-heading" aria-labelledby="non-technical-project-spec"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Non-Technical Project Spec:</strong>
+</h3>
+<p>The non-technical project for this unit will involve some writing! <strong>Choose 3</strong> of the prompts below and write <strong>at least 200</strong> (<em>meaningful!</em>) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!</p>
+<ul>
+ <li>What can we learn from neuroscience to improve the efficiency and performance of artificial neural networks?
+ <li>What are the ethical implications of using insights from neuroscience to design artificial neural networks?
+ <li>How are ANNs inspired by the structure and function of neurons in the brain?
+ <li>What are some common applications of neural networks in real-world scenarios? Feel free to do some research on these!
+ <li>How do neural networks relate to the broader field of machine learning? What are their strengths and weaknesses compared to other algorithms?
+ <li>Reflecting on you learning from this unit, what is one thing you found to be most interesting about DNNs?
+ <li>What is one concept from this unit that you would like to learn more about and why?
+</ul>
+<p>Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!</p>
+<h3 id="technical-project-spec">
+    <a href="#technical-project-spec" class="anchor-heading" aria-labelledby="technical-project-spec"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Technical Project Spec:</strong>
+</h3>
+<p>The project for this “<em>Basics</em>” section will <strong>have you finish a code template through Google Colab.</strong> Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.</p>
+<p>In this project, you will be implementing a Deep Neural Network (DNN)!</p>
+<p>A few general helpful tips (if applicable):</p>
+<ul>
+ <li>Be sure to appropriately make a copy of the Colab template before starting to save your progress!
+ <li>Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
+ <li>Leave comments to cement your understanding. Link syntax to ideas.
+ <li><strong>Read up on what <a href="https://wiki.pathmind.com/mnist">MNIST</a> is.</strong>
+</ul>
+<p>Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an “answers” link at the bottom of the notebook that you can use if stuck. You will need to download the ‘.ipynb’ found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!</p>
+<p><strong>Colab Link:</strong>
+<a href="https://colab.research.google.com/drive/1R60m8LqXzZiia1vHB9nkSNsAKp7V6POJ?usp=sharing">Unit 2 Notebook</a> <strong>(1 hr)</strong></p>
+<p>When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.</p>
+<p>Remember that this is all for your learning, so do your best and don’t stress!</p>
+<p>Congratulations! You now understand the basics of Deep Neural Network structure, how they learn, and how to create one using Python!</p>
+     </div>
+   </div>
+<div class="search-overlay"></div>
+ </div>
+  
