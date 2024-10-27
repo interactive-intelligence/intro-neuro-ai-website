@@ -120,6 +120,8 @@ When you are finished with your code, independently verify that it works and hav
 Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the (_incredibly basic)_ basics of Deep RL!
+
+
 <!---
 # Old Course Content
 Hello and welcome to the _Reinforcement Learning (RL)_ section of the I2 megadoc! Reinforcement learning is an incredibly powerful subfield of Machine Learning that can be used to deploy intelligent autonomous agents in both real and simulated systems. Reinforcement learning in itself is not inherently tied to AI. It is its own field that has strong ties to probability and statistics theory.
