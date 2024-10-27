@@ -34,4 +34,4 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./output/
-          custom-url: https://intro-neuro-ai-website-pr-preview.onrender.com
+          custom-url: intro-neuro-ai-website-pr-preview.onrender.com
