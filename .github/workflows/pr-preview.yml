@@ -1,0 +1,36 @@
+name: Deploy PR previews
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
+env:
+  PR_NUMBER: ${{ github.event.number }}
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Edit base url in config.yml
+        run: |
+          sed -i -e 's,^baseurl: .*,baseurl: /pr-preview/pr-'"$PR_NUMBER"'/,' _config.yml
+        shell: bash
+        
+      - name: Build
+        uses: actions/jekyll-build-pages@v1
+        with:
+          destination: "./output"
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./output/
+          custom-url: intro-neuro-ai-website-pr-preview.onrender.com
