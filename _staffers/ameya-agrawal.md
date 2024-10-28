@@ -1,6 +1,6 @@
 ---
 name: Ameya Agrawal
-role: Instructor
+role: OldInstructor
 email: aameya16@cs.washington.edu
 website: https://github.com/ameyaagrawal
 photo: ameya.jpeg

@@ -15,9 +15,9 @@ Here are the awesome people who made the course + website. Feel free to contact 
 {{ staffer }}
 {% endfor %}
 
-## Spring 2024 Teaching Assistants
+## Autumn 2024 Teaching Assistants
 
-{% assign teaching_assistants = site.staffers | where: 'role', '24sp Teaching Assistant' %}
+{% assign teaching_assistants = site.staffers | where: 'role', '24au Teaching Assistant' %}
 {% for staffer in teaching_assistants %}
 {{ staffer }}
 {% endfor %}
@@ -26,6 +26,20 @@ Here are the awesome people who made the course + website. Feel free to contact 
 
 {% assign creators = site.staffers | where: 'role', 'Creator' %}
 {% for staffer in creators %}
+{{ staffer }}
+{% endfor %}
+
+## Previous Education Leads
+
+{% assign instructors = site.staffers | where: 'role', 'OldInstructor' %}
+{% for staffer in instructors %}
+{{ staffer }}
+{% endfor %}
+
+## Spring 2024 Teaching Assistants
+
+{% assign teaching_assistants = site.staffers | where: 'role', '24sp Teaching Assistant' %}
+{% for staffer in teaching_assistants %}
 {{ staffer }}
 {% endfor %}
 

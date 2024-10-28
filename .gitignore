@@ -6,3 +6,6 @@ _site/
 .bundle/
 vendor/
 .DS_Store
+# jupyter notebook checkpoints
+.ipynb_checkpoints
+.virtual_documents
