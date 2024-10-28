@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="/pr-preview/pr-38/assets/css/just-the-docs-default.css">
+    <script src="/pr-preview/pr-38/assets/js/vendor/lunr.min.js"></script>
+  <script src="/pr-preview/pr-38/assets/js/just-the-docs.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 08 | I2 Intro Neuro/AI</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Unit 08" />
+<meta name="author" content="Interactive Intelligence" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!" />
+<meta property="og:description" content="Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!" />
+<link rel="canonical" href="https://course.uw-i2.org/pr-preview/pr-38/megadoc/unit-08/" />
+<meta property="og:url" content="https://course.uw-i2.org/pr-preview/pr-38/megadoc/unit-08/" />
+<meta property="og:site_name" content="I2 Intro Neuro/AI" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Unit 08" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Interactive Intelligence"},"description":"Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!","headline":"Unit 08","url":"https://course.uw-i2.org/pr-preview/pr-38/megadoc/unit-08/"}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+ <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+ <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+   <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+ <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+   <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+ <title id="svg-external-link-title">(external link)</title>
+ <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+ <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+ <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+<symbol id="svg-copy" viewBox="0 0 16 16">
+ <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+   <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+ <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+   <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+</svg>
+ <div class="side-bar">
+ <div class="site-header">
+    <a href="/pr-preview/pr-38/" class="site-title lh-tight">
+  I2 Intro Neuro/AI
+</a>
+    <a href="#" id="menu-button" class="site-button">
+      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+    </a>
+ </div>
+ <nav aria-label="Main" id="site-nav" class="site-nav">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/pr-preview/pr-38/announcements/" class="nav-list-link">Announcements</a><li class="nav-list-item"><a href="/pr-preview/pr-38/staff/" class="nav-list-link">Course Staff</a><li class="nav-list-item"><a href="/pr-preview/pr-38/graduates/" class="nav-list-link">Graduates</a><li class="nav-list-item active"><a href="#" class="nav-list-expander" aria-label="toggle links in Megadoc category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/pr-preview/pr-38/megadoc/" class="nav-list-link">Megadoc</a><ul class="nav-list"><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-01/" class="nav-list-link">Unit 01</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-02/" class="nav-list-link">Unit 02</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-03/" class="nav-list-link">Unit 03</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-04/" class="nav-list-link">Unit 04</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-05/" class="nav-list-link">Unit 05</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-06/" class="nav-list-link">Unit 06</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-07/" class="nav-list-link">Unit 07</a><li class="nav-list-item  active"><a href="/pr-preview/pr-38/megadoc/unit-08/" class="nav-list-link active">Unit 08</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-09/" class="nav-list-link">Unit 09</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-10/" class="nav-list-link">Unit 10</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-11/" class="nav-list-link">Unit 11</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-12/" class="nav-list-link">Unit 12</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-13/" class="nav-list-link">Unit 13</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-A/" class="nav-list-link">Unit A</a><li class="nav-list-item "><a href="/pr-preview/pr-38/megadoc/unit-B/" class="nav-list-link">Unit B</a></ul><li class="nav-list-item"><a href="/pr-preview/pr-38/schedule/" class="nav-list-link">Schedule</a></ul>
+ </nav>
+   <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+   </footer>
+</div>
+ <div class="main" id="top">
+   <div id="main-header" class="main-header">
+<div class="search">
+ <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search I2 Intro Neuro/AI" aria-label="Search I2 Intro Neuro/AI" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+ </div>
+ <div id="search-results" class="search-results"></div>
+</div>
+   <nav aria-label="Auxiliary" class="aux-nav">
+ <ul class="aux-nav-list">
+     <li class="aux-nav-list-item">
+        <a href="https://interactive-intelligence.github.io" class="site-button"
+        >
+          UW Interactive Intelligence Website
+        </a>
+ </ul>
+</nav>
+</div>
+   <div id="main-content-wrap" class="main-content-wrap">
+   <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+     <ol class="breadcrumb-nav-list">
+         <li class="breadcrumb-nav-list-item"><a href="/pr-preview/pr-38/megadoc/">Megadoc</a>
+       <li class="breadcrumb-nav-list-item"><span>Unit 08</span>
+     </ol>
+   </nav>
+     <div id="main-content" class="main-content" role="main">
+         <h1 id="unit-8-language-modeling">
+    <a href="#unit-8-language-modeling" class="anchor-heading" aria-labelledby="unit-8-language-modeling"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Unit 8: Language Modeling
+</h1>
+<h2 id="intro">
+    <a href="#intro" class="anchor-heading" aria-labelledby="intro"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Intro
+</h2>
+<p>Language modeling has become ubiquitous in our society, used in chatbots, content moderation, translation, and more. In this unit, we will explore natural language processing (NLP), discussing common model architectures, their applications, and training methods.</p>
+<h2 id="nlp-tasks">
+    <a href="#nlp-tasks" class="anchor-heading" aria-labelledby="nlp-tasks"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> NLP Tasks
+</h2>
+<p>NLP encompasses various tasks, each with specific architectures and applications:</p>
+<ul>
+ <li>Text Generation: Models like ChatGPT, autocomplete systems.
+ <li>Sequence-to-Sequence: Language translation models.
+ <li>Sequence-to-Vector: Hate speech detection (text classification).
+ <li>Word2Vec: Mapping words to nearby vectors.
+ <li>Word Embeddings: Identifying similarities between words.
+</ul>
+<p>These tasks are crucial in NLP, employing different algorithms for solutions. Our focus will be on text generation and word embeddings, but we will also touch on other tasks.</p>
+<h2 id="text-generation">
+    <a href="#text-generation" class="anchor-heading" aria-labelledby="text-generation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Text Generation
+</h2>
+<p>Text generation involves creating new text by framing it as a classification problem: predicting the next word in a given text sequence.</p>
+<p><strong>Example:</strong></p>
+<ul>
+ <li>pass 1:
+   <ul>
+     <li>model input: <code class="language-plaintext highlighter-rouge">the</code> <code class="language-plaintext highlighter-rouge">quick</code> <code class="language-plaintext highlighter-rouge">brown</code> <code class="language-plaintext highlighter-rouge">fox</code>
+     <li>model prediction: <code class="language-plaintext highlighter-rouge">jumps</code>
+   </ul>
+ <li>pass 2:
+   <ul>
+     <li>model input: <code class="language-plaintext highlighter-rouge">the</code> <code class="language-plaintext highlighter-rouge">quick</code> <code class="language-plaintext highlighter-rouge">brown</code> <code class="language-plaintext highlighter-rouge">fox</code> <code class="language-plaintext highlighter-rouge">jumps</code>
+     <li>model prediction: <code class="language-plaintext highlighter-rouge">over</code>
+   </ul>
+ <li>pass 3:
+   <ul>
+     <li>model input: <code class="language-plaintext highlighter-rouge">the</code> <code class="language-plaintext highlighter-rouge">quick</code> <code class="language-plaintext highlighter-rouge">brown</code> <code class="language-plaintext highlighter-rouge">fox</code> <code class="language-plaintext highlighter-rouge">jumps</code> <code class="language-plaintext highlighter-rouge">over</code>
+     <li>model prediction: <code class="language-plaintext highlighter-rouge">the</code>
+   </ul>
+ <li>…
+</ul>
+<p>By appending the prediction to the given sequence, we get a new base sequence for predicting the next token. This iterative process allows generating arbitrary-length sequences. Such models are autoregressive, using previous outputs as inputs for subsequent predictions. This means the model can generate as much text as desired, limited only by computational resources and the coherence of the content.</p>
+<p>Self-supervised learning in NLP utilizes the natural structure of language, where examples for learning are implicit in the text itself. In this approach, a sentence or a passage serves as both the input and the label, with certain parts masked or predicted by the model. For instance, in the sentence “The cat sat on the ___”, the blank can be used as a prediction target, teaching the model the context and structure of language. This method enables models to learn from large amounts of unlabeled text, grasping grammar, syntax, and context naturally.</p>
+<h2 id="word-embeddings-and-tokenization">
+    <a href="#word-embeddings-and-tokenization" class="anchor-heading" aria-labelledby="word-embeddings-and-tokenization"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Word Embeddings and Tokenization
+</h2>
+<p>Tokenization and Embeddings are vital in NLP as models inherently process numerical data. Tokenization converts text into manageable units (like words or characters), which are then transformed into numbers. This allows models to interpret and process language data. Embeddings take this further by converting these tokens into vectors of real numbers, capturing semantic meanings. For example, in word embeddings, words with similar meanings are closer in the vector space, enabling the model to understand relationships and nuances in language. These techniques are crucial for handling the complexity and variability of human language in computational models.</p>
+<p>Please read this article on <a href="https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/">word embeddings</a> and answer the following questions:</p>
+<p><code class="language-plaintext highlighter-rouge">Synthesis questions:</code></p>
+<ul>
+ <li><code class="language-plaintext highlighter-rouge">What is a word embedding? How long are they usually?</code>
+ <li><code class="language-plaintext highlighter-rouge">How does training a network to recognize the validity of 5-grams result in a Word-to-Vector "map"?</code>
+ <li><code class="language-plaintext highlighter-rouge">Pretend you are a word embedder. Give examples (2-3 for each) of words in the same family as:</code>
+   <ul>
+     <li><code class="language-plaintext highlighter-rouge">King</code>
+     <li><code class="language-plaintext highlighter-rouge">Button</code>
+     <li><code class="language-plaintext highlighter-rouge">Pain</code>
+     <li><code class="language-plaintext highlighter-rouge">Water Bottle</code>
+   </ul>
+ <li><code class="language-plaintext highlighter-rouge">What is the explanation given for the emergence of the "male-female difference vector"?</code>
+ <li><code class="language-plaintext highlighter-rouge">What is pre training/transfer learning/multi-task learning?</code>
+</ul>
+<h2 id="feed-forward-network">
+    <a href="#feed-forward-network" class="anchor-heading" aria-labelledby="feed-forward-network"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Feed-Forward Network
+</h2>
+<p>A simple model for text generation could be a feed-forward network. As feed-forward networks always need a constant input size, it uses a specified <strong>context length</strong> to determine how many previous words to consider when predicting the next one. When the input is shorter than the context length, we use padding tokens (<code class="language-plaintext highlighter-rouge">&lt;PAD&gt;</code>) to fill the gap.</p>
+<p><strong>Example:</strong></p>
+<p>Context length = 4</p>
+<ul>
+ <li>“the quick brown fox”
+   <ul>
+     <li>Input: <code class="language-plaintext highlighter-rouge">the</code>, <code class="language-plaintext highlighter-rouge">quick</code>, <code class="language-plaintext highlighter-rouge">brown</code>, <code class="language-plaintext highlighter-rouge">fox</code>
+     <li>Output: <code class="language-plaintext highlighter-rouge">jumps</code>
+   </ul>
+ <li>“an apple a day keeps the doctor”
+   <ul>
+     <li>Input: <code class="language-plaintext highlighter-rouge">day</code>, <code class="language-plaintext highlighter-rouge">keeps</code>, <code class="language-plaintext highlighter-rouge">the</code>, <code class="language-plaintext highlighter-rouge">doctor</code>
+     <li>Output: <code class="language-plaintext highlighter-rouge">away</code>
+   </ul>
+ <li>“ignorance is”
+   <ul>
+     <li>Input: <code class="language-plaintext highlighter-rouge">&lt;PAD&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;PAD&gt;</code>, <code class="language-plaintext highlighter-rouge">ignorance</code>, <code class="language-plaintext highlighter-rouge">is</code>
+     <li>Output: <code class="language-plaintext highlighter-rouge">bliss</code>
+   </ul>
+</ul>
+<p>However, feed-forward networks have limitations:</p>
+<ul>
+ <li>Fixed context length: Cannot consider words beyond a certain range.
+ <li>Fixed input size: Requires padding for shorter inputs.
+ <li>Difficulty in capturing word relationships: Not optimized for understanding the connections between words.
+</ul>
+<h2 id="recurrent-neural-networks-rnns">
+    <a href="#recurrent-neural-networks-rnns" class="anchor-heading" aria-labelledby="recurrent-neural-networks-rnns"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Recurrent Neural Networks (RNNs)
+</h2>
+<p>RNNs maintain an internal hidden state updated at each token. This hidden state represents all that the model has seen so far. RNNs solve many of the problems experienced by feed-forward networks by allowing variable-length sequences and “sharing” parameters, improving efficiency.</p>
+<p>They operate with the following weights and biases:</p>
+<ul>
+ <li>$W_{xh}$: Converts a token to the hidden state.
+ <li>$W_{hh}$: Converts a previous hidden state to the next hidden state.
+ <li>$b_h$: Bias for moving to the next hidden state.
+ <li>$W_{ho}$: Predicts the next token from the current hidden state.
+ <li>$b_o$: Bias for the output prediction.
+</ul>
+<p>At each time step (this means for each token) the RNN does two things:</p>
+<ol>
+ <li>Update the internal hidden state from $H_{t-1}$ to $H_t$
+   <ul>
+     <li>This is done using the formula: $H_t = \text{tanh}(X_tW_{xh} + H_{t-1}W_{hh} + b_h)$
+   </ul>
+ <li>Predict the output token at time $T$
+   <ul>
+     <li>This is done using: $O_t = H_tW_{ho} + b_o$
+     <li>If the task for the RNN is not text generation, this can be omitted
+   </ul>
+</ol>
+<p>There always needs to be a preceding hidden state, so before any token is processed the hidden state is initialized (often to zero).</p>
+<p><strong>Example:</strong></p>
+<p>Let’s run the RNN on a demo sentence, <code class="language-plaintext highlighter-rouge">i</code>, <code class="language-plaintext highlighter-rouge">love</code></p>
+<ol>
+ <li>Initialize the hidden state to zeros $H_{-1} = 0$
+ <li>Repeatedly update the hidden state and generate next-token probabilities
+   <ol>
+     <li>$t=0$, <code class="language-plaintext highlighter-rouge">&lt;START&gt;</code> (we need a special start token to tell the model to begin)
+       <ul>
+         <li>Update hidden state: $H_0 = \text{tanh}(X_\text{&lt;START&gt;}W_{xh} + H_{-1}W_{hh} + b_h)$
+         <li>Generate next-token probabilities (target is <code class="language-plaintext highlighter-rouge">i</code>): $O_1 = H_0W_{ho} + b_o$
+       </ul>
+     <li>$t=1$, <code class="language-plaintext highlighter-rouge">i</code>
+       <ul>
+         <li>Update hidden state: $H_1 = \text{tanh}(X_\text{love}W_{xh} + H_0W_{hh} + b_h)$
+         <li>Generate next-token probabilities (target is <code class="language-plaintext highlighter-rouge">love</code>): $O_2 = H_1W_{ho} + b_o$
+       </ul>
+     <li>$t=2$, <code class="language-plaintext highlighter-rouge">love</code>
+       <ul>
+         <li>Update hidden state: $H_2 = \text{tanh}(X_\text{love}W_{xh} + H_1W_{hh} + b_h)$
+         <li>Generate next-token probabilities (unknown target!): $O_3 = H_2W_{ho} + b_o$
+         <li>If we want to continue generating, predict next word $X_3$ from $O_2$
+       </ul>
+     <li>$t=3$, $X_3$ (autoregressive - we’re inputting our previous outputs!)
+       <ul>
+         <li>Update hidden state: $H_3 = \text{tanh}(X_3W_{xh} + H_3W_{hh} + b_h)$
+         <li>Generate next-token probabilities: $O_4 = H_3W_{ho} + b_o$
+       </ul>
+     <li>…
+   </ol>
+</ol>
+<p>Advantages of RNNs:</p>
+<ul>
+ <li>Efficient parameter sharing across time steps.
+ <li>Handling variable sequence lengths without padding.
+ <li>Capturing dependencies over time through the internal hidden state.
+ <li>Enhanced ability to model sequential data, reflecting the natural flow of language.
+</ul>
+<p>Disadvantages of RNNs:</p>
+<ul>
+ <li>Tendency to forget early tokens due to continual updates of the hidden state.
+ <li>Unstable gradients, leading to training challenges.
+ <li>Difficulty in parallel processing, impacting training efficiency.
+</ul>
+<p>Please read (or skim) the following article on <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/">RNNs</a>
+and answer the synthesis questions:</p>
+<p><code class="language-plaintext highlighter-rouge">Synthesis questions:</code></p>
+<ul>
+ <li><code class="language-plaintext highlighter-rouge">What happens to the memory vector as we move through time?</code>
+ <li><code class="language-plaintext highlighter-rouge">What is the memory vector initialized to?</code>
+ <li><code class="language-plaintext highlighter-rouge">Why might unstable gradients occur?</code>
+</ul>
+<h2 id="transformers">
+    <a href="#transformers" class="anchor-heading" aria-labelledby="transformers"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Transformers
+</h2>
+<p>Transformers represent the cutting-edge in NLP, known for their self-attention mechanisms and scalability. Unlike previous architectures, Transformers do not process text sequentially. Instead, they use self-attention to weigh the importance of each token in the context of others, regardless of their position. This allows for a more nuanced understanding of text, capturing long-range dependencies effectively. Their architecture enables parallel processing of tokens, significantly enhancing training speed.</p>
+<p>Advantages:</p>
+<ul>
+ <li>Excellent at capturing relationships between tokens, crucial for complex language understanding.
+ <li>Highly scalable and parallelizable, allowing for efficient processing of large datasets.
+</ul>
+<p>Disadvantages:</p>
+<ul>
+ <li>Require significant computational resources, making them expensive to train.
+ <li>Complex models that are often less interpretable, making it hard to understand decision-making processes.
+</ul>
+<p>Take a look at some (or all) of the following resources for how transformer/GPT models work. You
+might need to find external resources as well:</p>
+<ul>
+ <li><a href="https://jaykmody.com/blog/gpt-from-scratch/">GPT in 60 lines of NumPy</a>
+ <li><a href="https:/youtu.be/kCc8FmEb1nY?feature=shared"> Let’s build GPT: from scratch, in code, spelled out. </a>
+ <li><a href="https://nlp.seas.harvard.edu/annotated-transformer/">The Annotated Transformer</a>
+ <li><a href="https://blog.cswartout.com/2022/12/25/intuitive-explanation-of-gpt-part-2.html">An Intuitive Explanation of GPT Models</a>, written by Carter Swartout of I2
+</ul>
+<p>Please answer the following synthesis questions:</p>
+<p><code class="language-plaintext highlighter-rouge">Synthesis Questions:</code></p>
+<ul>
+ <li><code class="language-plaintext highlighter-rouge">What do the probabilities that GPT outputs represent, and what is greedy decoding?</code>
+ <li><code class="language-plaintext highlighter-rouge">Describe masked self-attention in your own words (not including the vector math)</code>
+ <li><code class="language-plaintext highlighter-rouge">How does self-attention allow tokens to have relationships with each other?</code>
+ <li><code class="language-plaintext highlighter-rouge">What are the big blocks that make up the GPT architecture?</code>
+ <li><code class="language-plaintext highlighter-rouge">Why are positional encodings necessary?</code>
+</ul><hr />
+<h1 id="technical-project-spec">
+    <a href="#technical-project-spec" class="anchor-heading" aria-labelledby="technical-project-spec"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Technical Project Spec:</strong>
+</h1>
+<p>The project for this “<em>Language Modeling</em>” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!</p>
+<p>A few general helpful tips (if applicable):</p>
+<ul>
+ <li>Be sure to appropriately make a copy of the Colab template before starting to save your progress!
+ <li>Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
+ <li>Type most of the code out yourself instead of just copying from the tutorial.
+ <li>Leave comments to cement your understanding. Link syntax to ideas.
+</ul>
+<p>Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an “answers” link at the bottom of the notebook that you can use if stuck. You will need to download the ‘.ipynb’ found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!</p>
+<p><strong><span style="text-decoration:underline;">There are 2 parts (.ipynb files) to this unit. Try to finish both.</span></strong>
+This technical project is likely to be harder than anything you have done in this course before, so be patient with it and reach out if you need support!</p>
+<p><strong>Colab Link:</strong> <a href="https://colab.research.google.com/drive/1KGXpdL9sxpio1Zau5LviAGlv8Y0RMRcD?usp=sharing">Unit 8 Notebook Part 1</a> <strong>(1 hr)</strong></p>
+<p>Now navigate to the application portion of this project (Part 2 below), where you are given a dataset and asked to train an LLM of your choice to emulate Shakespeare! Be sure to reference your Unit 8 Notebook Part 1 to figure out how to do this.</p>
+<p><strong>Colab Link:</strong> <a href="https://colab.research.google.com/drive/1Sg6seRXQ4pd8TwO-lYkiTxygv0SPt20B?usp=sharing">Unit 8 Notebook Part 2</a> <strong>(1 hr)</strong></p>
+<p>When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.</p>
+<p>Congratulations! You now understand the basics of Language Modeling!</p>
+<h1 id="non-technical-project-spec">
+    <a href="#non-technical-project-spec" class="anchor-heading" aria-labelledby="non-technical-project-spec"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Non-Technical Project Spec:</strong>
+</h1>
+<p>The non-technical project for this unit will involve some writing! <strong>Choose 3</strong> of the prompts below and write <strong>at least 200</strong> (<em>meaningful!</em>) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!</p>
+<ul>
+ <li>What ethical considerations arise when developing language models that are inspired by neural processes involved in language?
+ <li>To what extent do models used in language processing reflect the actual neural networks involved with language tasks in the brain?
+ <li>How can insights from neuroscience be leveraged to enhance the design and development of language models?
+ <li>Reflecting on you learning from this unit, what is the one thing you found to be most interesting?
+ <li>What is one concept from this unit that you would like to learn more about and why?
+</ul>
+<p>Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!</p>
+     </div>
+   </div>
+<div class="search-overlay"></div>
+ </div>
+  
