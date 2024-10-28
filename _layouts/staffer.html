@@ -1,7 +1,7 @@
 <div class="staffer">
   {%- if page.photo -%}
   <div class="staffer-image-container">
-    <img class="staffer-image" src="{{ site.baseurl }}{{ page.subpath }}{{ page.photo }}" alt="">
+    <img class="staffer-image" src="{{ page.subpath | absolute_url }}{{ page.photo }}" alt="">
   </div>
   {%- endif -%}
   <div>
