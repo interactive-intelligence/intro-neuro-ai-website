@@ -51,7 +51,7 @@ defaults:
     values:
       layout: staffer
       height: 300
-      subpath: 'assets/images/'
+      subpath: '/assets/images/'
       width: 300
   - scope:
       path: ''
@@ -73,7 +73,7 @@ defaults:
       type: graduates
     values:
       layout: staffer
-      subpath: 'assets/images/'
+      subpath: '/assets/images/'
 
 compress_html:
   clippings: all
