@@ -149,11 +149,11 @@ You may skip the section on Diagonal Gaussian Policies.
     * `Describe the connection between the two`
 * <code>Based on the idea behind Bellman Equations<strong> ("The value of your starting point is the reward you expect to get from being there, plus the value of wherever you land next.") </strong>Explain how the following two equations satisfy the idea behind Bellman Equations: </code>
 
-![alt_text](.../assets/image3.png "image_tooltip")
+![alt_text](../assets/image3.png "image_tooltip")
 
 `This may help:`
 
-![alt_text](.../assets/image4.png "image_tooltip")
+![alt_text](../assets/image4.png "image_tooltip")
 
 * <code>What is the advantage function?</code>
 
