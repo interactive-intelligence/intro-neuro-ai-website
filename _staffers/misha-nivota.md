@@ -2,6 +2,7 @@
 name: Misha Nivota
 role: Instructor
 email: mnivota@uw.edu
+website: https://www.linkedin.com/in/misha-nivota
 photo: misha.jpg
 ---
 
