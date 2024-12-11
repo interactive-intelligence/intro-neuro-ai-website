@@ -5,6 +5,10 @@ parent: Megadoc
 
 # Unit 8: Language Modeling
 
+#### [Unit 06 Technical Article](unit-06-tech-article.md)
+
+&nbsp;
+
 ## Intro
 
 Language modeling has become ubiquitous in our society, used in chatbots, content moderation, translation, and more. In this unit, we will explore natural language processing (NLP), discussing common model architectures, their applications, and training methods.
