@@ -5,9 +5,8 @@ parent: Megadoc
 
 # Unit 8: Language Modeling
 
-#### [Unit 06 Technical Article](unit-06-tech-article.md)
+#### [Unit 08 Technical Article](unit-08-tech-article.md)
 
-&nbsp;
 
 ## Intro
 
