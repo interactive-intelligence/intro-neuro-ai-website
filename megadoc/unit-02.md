@@ -7,7 +7,11 @@ parent: Megadoc
 
 Hello and welcome to the _Basics_ section of the I2 megadoc! Like last week, we're going to split our content into literacy and technical understanding. 
 
-**Task 1:** Read the Back to Basics article to get an intuitive understanding of neural networks. <span style="color:red">**This is required.**</span>
+**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked below to get an intuitive understanding of neural networks. <span style="color:red">**This is required.**</span>
+
+#### [Unit 02 Technical Article](unit-02-tech-article.md)
+
+&nbsp;
 
 **Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
 [Link to this task](https://course.uw-i2.org/megadoc/unit-02/#unit-2-synthesis-questions)
@@ -92,6 +96,21 @@ In the rest of your homework, you’ll learn more about the mathematical aspects
 **<mark style="background-color: lightblue">Homework Help:</mark>** if you’re having trouble with the technical homework, or just want to try a slightly easier version, try following along with this video! It references the Crash Course video from the synthesis questions, so make sure you watch that first. Reach out to a TA if you have any questions!
 
 **[How to make an AI read your handwriting (LAB): Crash Course AI #5](https://youtu.be/6nGCGYWMObE?si=DHk1j96LDHETD-h4)**
+### **Non-Technical Project Spec:**
+
+The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
+
+* What can we learn from neuroscience to improve the efficiency and performance of artificial neural networks?
+* What are the ethical implications of using insights from neuroscience to design artificial neural networks?
+* How are ANNs inspired by the structure and function of neurons in the brain?
+* What are some common applications of neural networks in real-world scenarios? Feel free to do some research on these!
+* How do neural networks relate to the broader field of machine learning? What are their strengths and weaknesses compared to other algorithms?
+* Reflecting on you learning from this unit, what is one thing you found to be most interesting about DNNs?
+* What is one concept from this unit that you would like to learn more about and why?
+
+Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+
 ### **Technical Project Spec:**
 
 The project for this “_Basics_” section will **have you finish a code template through Google Colab.** Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
@@ -115,22 +134,8 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of Deep Neural Network structure, how they learn, and how to create one using Python!
 
-### **Non-Technical Project Spec:**
 
-The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
-
-* What can we learn from neuroscience to improve the efficiency and performance of artificial neural networks?
-* What are the ethical implications of using insights from neuroscience to design artificial neural networks?
-* How are ANNs inspired by the structure and function of neurons in the brain?
-* What are some common applications of neural networks in real-world scenarios? Feel free to do some research on these!
-* How do neural networks relate to the broader field of machine learning? What are their strengths and weaknesses compared to other algorithms?
-* Reflecting on you learning from this unit, what is one thing you found to be most interesting about DNNs?
-* What is one concept from this unit that you would like to learn more about and why?
-
-Be sure to submit your work through google drive using the submission form!
-We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
-
-
+<!---
 # Old Course Content
 Hello and welcome to the _Basics_ section of the I2 megadoc! We will start by throwing a few videos at you that we believe give incredibly intuitive explanations of one of the foundational building blocks of modern Deep Learning.
 
@@ -239,3 +244,4 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 
 Be sure to submit your work through google drive using the submission form!
 We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+--->

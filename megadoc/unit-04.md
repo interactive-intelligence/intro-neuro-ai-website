@@ -6,7 +6,11 @@ parent: Megadoc
 # Unit 4: Computer Vision
 Hello and welcome to the _Basics_ section of the I2 megadoc! 
 
-**Task 1:** Read the Back to Basics article to get an intuitive understanding of computer vision. <span style="color:red">**This is required.**</span>
+**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked below to get an intuitive understanding of computer vision. <span style="color:red">**This is required.**</span>
+
+#### [Unit 04 Technical Article](unit-04-tech-article.md)
+
+&nbsp;
 
 **Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
 [Link to this task](https://course.uw-i2.org/megadoc/unit-04/#unit-4-synthesis-questions)
@@ -112,6 +116,20 @@ This was a lot of information, so please reach out to a TA if you’re having tr
     * *This is also known as the "do-nothing" matrix*
 
 ## Unit 4 Project Specs
+### **Non-Technical Project Spec:**
+
+The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
+
+* How are CNNs inspired by the human visual system?
+* What are some similarities and differences between CNNs and the human visual system?
+* How is the pooling layer in CNNs related to the brain's visual processing?
+* What ways does the convolutional layer in CNNs resemble the receptive field in the visual system?
+* Reflecting on you have learned from this unit, what is one thing you found to be most interesting?
+* What is one concept from this unit that you would like to learn more about and why?
+
+Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+
 ### **Technical Project Spec:**
 
 The project for this “_Computer Vision_” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
@@ -132,20 +150,7 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of Convolutional Neural networks!
 
-### **Non-Technical Project Spec:**
-
-The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
-
-* How are CNNs inspired by the human visual system?
-* What are some similarities and differences between CNNs and the human visual system?
-* How is the pooling layer in CNNs related to the brain's visual processing?
-* What ways does the convolutional layer in CNNs resemble the receptive field in the visual system?
-* Reflecting on you have learned from this unit, what is one thing you found to be most interesting?
-* What is one concept from this unit that you would like to learn more about and why?
-
-Be sure to submit your work through google drive using the submission form!
-We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
-
+<!---
 # Old Course Content
 Hello and welcome to the _Computer Vision (CV)_ section of the I2 megadoc! This section is, due to time constraints, only a very cursory glance at the foundations of CV. This is a whole subfield of ML and even if we spent 10 weeks on it, we wouldn’t scratch the surface!
 
@@ -275,3 +280,4 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 
 Be sure to submit your work through google drive using the submission form!
 We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+--->

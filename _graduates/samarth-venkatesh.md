@@ -1,0 +1,5 @@
+---
+name: Samarth Venkatesh
+quarter: autumn-2023
+photo: empty.jpg
+---

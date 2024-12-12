@@ -85,6 +85,7 @@ Congratulations! You now understand the basics of Language Modeling!
 ### **Non-Technical Project Spec:**
 
 # Old Course Content
+#### [Unit 08 Technical Article](unit-08-tech-article.md)
 
 ## Intro
 
