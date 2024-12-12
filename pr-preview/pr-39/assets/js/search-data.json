@@ -197,7 +197,7 @@
   },"28": {
     "doc": "Course Staff",
     "title": "Education Leads",
-    "content": "Arya Sanjay . aryas1@cs.washington.edu . Hey, I’m Arya! I took the intro course myself because I was interested in ML and ethics, and wanted to learn more, but didn’t know where to start. I really enjoyed the intro course, and since I love teaching, I was a TA for it. Now, I’m excited to co-lead it and work with the rest of leadership to make this the best quarter yet! I’m a CS student at UW, and outside of school, I like exploring new food spots, music, and trying new things. Misha Nivota . mnivota@uw.edu . Hey, I’m Misha! I am a CS student at UW focused on machine learning and its applications in neuroscience. Outside of college, I am a classical Indian dancer and write poetry. I love Bollywood (movies and music), playing ultimate frisbee, and traveling. I became part of the i2 leadership because I really enjoy teaching and helping other students recognize their potential. Through my roles in i2 and the Data Science Initiative, I aim to help more students learn about machine learning, AI, and neuroscience, and feel more confident in these subjects. ",
+    "content": "Arya Sanjay . aryas1@cs.washington.edu . Hey, I’m Arya, one of the Education Leads of the I2 Intro Course! I took the intro course myself because I was interested in ML and ethics, and wanted to learn more, but didn’t know where to start. I really enjoyed the intro course, and since I love teaching, I was a TA for it. Now, I’m excited to co-lead it and work with the rest of leadership to make this the best quarter yet! I’m a CS student at UW, and outside of school, I like exploring new food spots, music, and trying new things. Misha Nivota . mnivota@uw.edu . Hey, I’m Misha, one of the Education Leads for the I2 Intro Course! I am a CS student at UW focused on machine learning and its applications in neuroscience. I became part of the I2 leadership because I really enjoy teaching and helping other students recognize their potential. Through my roles in the Intro Course and the Data Science Initiative, I aim to help more students learn practical skills in ML, AI, and neuroscience, and feel more confident in these subjects. Outside of college, I am a classical Indian dancer and write poetry. I love Bollywood (movies and music), playing ultimate frisbee, and traveling. ",
     "url": "/pr-preview/pr-39/staff/#education-leads",
     
     "relUrl": "/staff/#education-leads"
@@ -531,223 +531,237 @@
     
     "relUrl": "/megadoc/unit-07/"
   },"76": {
+    "doc": "Unit 08 Technical Article",
+    "title": "Unit 8: Technical Article",
+    "content": " ",
+    "url": "/pr-preview/pr-39/megadoc/unit-08-tech-article/#unit-8-technical-article",
+    
+    "relUrl": "/megadoc/unit-08-tech-article/#unit-8-technical-article"
+  },"77": {
+    "doc": "Unit 08 Technical Article",
+    "title": "Unit 08 Technical Article",
+    "content": " ",
+    "url": "/pr-preview/pr-39/megadoc/unit-08-tech-article/",
+    
+    "relUrl": "/megadoc/unit-08-tech-article/"
+  },"78": {
     "doc": "Unit 08",
     "title": "Unit 8: Language Modeling",
     "content": "Hello and welcome to the Basics section of the I2 megadoc! . Task 1: Read the Back to Basics article to get an intuitive understanding of language modeling. This is required. Task 2: Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. Link to this task . Task 3: Complete either the technical project or the non-technical project. Submit your work to the intro course TA. Link to this task . ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#unit-8-language-modeling",
     
     "relUrl": "/megadoc/unit-08/#unit-8-language-modeling"
-  },"77": {
+  },"79": {
     "doc": "Unit 08",
     "title": "Back to Basics: Language Modeling",
     "content": "This article will cover the idea of language modeling and how computers process human language. Put simply, the goal of language modeling is to predict the next word in a sentence using information about the definitions and grammatical rules of particular words as well as the contexts in which they appear. For example consider this sentence: . I want to cook an omelet, so I went to the store to buy some ___ . What comes next in this sentence? Chances are, you said “eggs.” There are plenty of “correct” answers—maybe you were out of salt and pepper—but it’s the most likely answer. Based on the sentence, we know that whatever comes next should be a noun phrase, and it’s probably related to the omelet we’re going to cook, and it’s something you can buy in a store. Given all that information, we conclude that we can fill in the blank with “eggs.” The goal of language modeling is to do something similar—that is, predict the next word in these sentences using probabilistic information about the sentence. There are two main types of language models: statistical language models and neural language models. Statistical language models use statistics and probability directly to predict the likely next word in a sentence of phrase. They generally get these statistics from a sample set of data. Based on this data, the model can identify patterns in the text and come up with predictions. Statistical language models usually take the form of an n-gram model. This model predicts the probability of a word in a sequence given the n previous words in the sequence. For example, a unigram predicts the probability of a word given the immediate previous word; a bigram predicts the probability given the two previous words; a trigram uses the three previous words, and so on. However, statistical language models have their limitations. For one, they will struggle with new words or phrases that don’t appear often in the original set of data (for example, if the phrase “time complexity” rarely appears in the original data, the model may struggle to predict that the word “complexity” can follow the word “time”). In addition, because these models look back at a fixed number of words, they can struggle to track and consider the long-term effects of a word on a phrase. This is where the other type of model, neural language models, come in. Neural language models use neural networks to predict the next word in a sequence. These models are able to handle more complex and diverse sets of training data and are better at handling context clues and long-term effects of words. We’ll continue to discuss neural language models in greater detail during the homework. Specifically, we’ll look at two types of neural language models: recurrent neural networks and transformers. ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#back-to-basics-language-modeling",
     
     "relUrl": "/megadoc/unit-08/#back-to-basics-language-modeling"
-  },"78": {
+  },"80": {
     "doc": "Unit 08",
     "title": "Unit 8 Synthesis Questions",
     "content": "Optional: Natural Language Processing: Crash Course AI #7 (13 min) . Great resource if you’re still having trouble with NLP! . Video 1: Illustrated Guide to Recurrent Neural Networks: Understanding the Intuition (10 min) . Synthesis Questions . | How does an RNN interact with a feed-forward neural network? What role does the RNN play in this process? | Describe the vanishing gradient problem in your own words. Does it relate to the drawbacks of statistical language models? | The video describes a few solutions to the short-term memory of RNNs. What changes do they make to address the problem? | . Video 2: Transformers, explained: Understand the model behind GPT, BERT, and T5 (9 min) . Synthesis Questions . | What are some of the limitations of previous NLP models, and how did transformers address these? | Describe the ideas of positional encoding and attention in your own words. | Like the “server” example at 6:50 in the video, create two sentences that can be disambiguated using self-attention. | . ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#unit-8-synthesis-questions",
     
     "relUrl": "/megadoc/unit-08/#unit-8-synthesis-questions"
-  },"79": {
+  },"81": {
     "doc": "Unit 08",
     "title": "Unit 8 Project Specs",
     "content": "Homework Help: if you’re having trouble with the technical homework, try following along with this video first! It also uses Python in Google Colab and should give you some good practice. Reach out to a TA if you have any questions! . Make an AI sound like a YouTuber (LAB): Crash Course AI #8 . Technical Project Spec: . Technical Project Spec: . The project for this “Language Modeling” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group! . A few general helpful tips (if applicable): . | Be sure to appropriately make a copy of the Colab template before starting to save your progress! | Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions. | Type most of the code out yourself instead of just copying from the tutorial. | Leave comments to cement your understanding. Link syntax to ideas. | . Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an “answers” link at the bottom of the notebook that you can use if stuck. You will need to download the ‘.ipynb’ found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working! . There are 2 parts (.ipynb files) to this unit. Try to finish both. This technical project is likely to be harder than anything you have done in this course before, so be patient with it and reach out if you need support! . Colab Link: Unit 8 Notebook Part 1 (1 hr) . Now navigate to the application portion of this project (Part 2 below), where you are given a dataset and asked to train an LLM of your choice to emulate Shakespeare! Be sure to reference your Unit 8 Notebook Part 1 to figure out how to do this. Colab Link: Unit 8 Notebook Part 2 (1 hr) . When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas. Congratulations! You now understand the basics of Language Modeling! . Non-Technical Project Spec: . ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#unit-8-project-specs",
     
     "relUrl": "/megadoc/unit-08/#unit-8-project-specs"
-  },"80": {
+  },"82": {
     "doc": "Unit 08",
     "title": "Old Course Content",
-    "content": " ",
+    "content": "Unit 08 Technical Article . ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#old-course-content",
     
     "relUrl": "/megadoc/unit-08/#old-course-content"
-  },"81": {
+  },"83": {
     "doc": "Unit 08",
     "title": "Intro",
     "content": "Language modeling has become ubiquitous in our society, used in chatbots, content moderation, translation, and more. In this unit, we will explore natural language processing (NLP), discussing common model architectures, their applications, and training methods. ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#intro",
     
     "relUrl": "/megadoc/unit-08/#intro"
-  },"82": {
+  },"84": {
     "doc": "Unit 08",
     "title": "NLP Tasks",
     "content": "NLP encompasses various tasks, each with specific architectures and applications: . | Text Generation: Models like ChatGPT, autocomplete systems. | Sequence-to-Sequence: Language translation models. | Sequence-to-Vector: Hate speech detection (text classification). | Word2Vec: Mapping words to nearby vectors. | Word Embeddings: Identifying similarities between words. | . These tasks are crucial in NLP, employing different algorithms for solutions. Our focus will be on text generation and word embeddings, but we will also touch on other tasks. ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#nlp-tasks",
     
     "relUrl": "/megadoc/unit-08/#nlp-tasks"
-  },"83": {
+  },"85": {
     "doc": "Unit 08",
     "title": "Text Generation",
     "content": "Text generation involves creating new text by framing it as a classification problem: predicting the next word in a given text sequence. Example: . | pass 1: . | model input: the quick brown fox | model prediction: jumps | . | pass 2: . | model input: the quick brown fox jumps | model prediction: over | . | pass 3: . | model input: the quick brown fox jumps over | model prediction: the | . | … | . By appending the prediction to the given sequence, we get a new base sequence for predicting the next token. This iterative process allows generating arbitrary-length sequences. Such models are autoregressive, using previous outputs as inputs for subsequent predictions. This means the model can generate as much text as desired, limited only by computational resources and the coherence of the content. Self-supervised learning in NLP utilizes the natural structure of language, where examples for learning are implicit in the text itself. In this approach, a sentence or a passage serves as both the input and the label, with certain parts masked or predicted by the model. For instance, in the sentence “The cat sat on the ___”, the blank can be used as a prediction target, teaching the model the context and structure of language. This method enables models to learn from large amounts of unlabeled text, grasping grammar, syntax, and context naturally. ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#text-generation",
     
     "relUrl": "/megadoc/unit-08/#text-generation"
-  },"84": {
+  },"86": {
     "doc": "Unit 08",
     "title": "Word Embeddings and Tokenization",
     "content": "Tokenization and Embeddings are vital in NLP as models inherently process numerical data. Tokenization converts text into manageable units (like words or characters), which are then transformed into numbers. This allows models to interpret and process language data. Embeddings take this further by converting these tokens into vectors of real numbers, capturing semantic meanings. For example, in word embeddings, words with similar meanings are closer in the vector space, enabling the model to understand relationships and nuances in language. These techniques are crucial for handling the complexity and variability of human language in computational models. Please read this article on word embeddings and answer the following questions: . Synthesis questions: . | What is a word embedding? How long are they usually? | How does training a network to recognize the validity of 5-grams result in a Word-to-Vector \"map\"? | Pretend you are a word embedder. Give examples (2-3 for each) of words in the same family as: . | King | Button | Pain | Water Bottle | . | What is the explanation given for the emergence of the \"male-female difference vector\"? | What is pre training/transfer learning/multi-task learning? | . ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#word-embeddings-and-tokenization",
     
     "relUrl": "/megadoc/unit-08/#word-embeddings-and-tokenization"
-  },"85": {
+  },"87": {
     "doc": "Unit 08",
     "title": "Feed-Forward Network",
     "content": "A simple model for text generation could be a feed-forward network. As feed-forward networks always need a constant input size, it uses a specified context length to determine how many previous words to consider when predicting the next one. When the input is shorter than the context length, we use padding tokens (&lt;PAD&gt;) to fill the gap. Example: . Context length = 4 . | “the quick brown fox” . | Input: the, quick, brown, fox | Output: jumps | . | “an apple a day keeps the doctor” . | Input: day, keeps, the, doctor | Output: away | . | “ignorance is” . | Input: &lt;PAD&gt;, &lt;PAD&gt;, ignorance, is | Output: bliss | . | . However, feed-forward networks have limitations: . | Fixed context length: Cannot consider words beyond a certain range. | Fixed input size: Requires padding for shorter inputs. | Difficulty in capturing word relationships: Not optimized for understanding the connections between words. | . ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#feed-forward-network",
     
     "relUrl": "/megadoc/unit-08/#feed-forward-network"
-  },"86": {
+  },"88": {
     "doc": "Unit 08",
     "title": "Recurrent Neural Networks (RNNs)",
     "content": "RNNs maintain an internal hidden state updated at each token. This hidden state represents all that the model has seen so far. RNNs solve many of the problems experienced by feed-forward networks by allowing variable-length sequences and “sharing” parameters, improving efficiency. They operate with the following weights and biases: . | $W_{xh}$: Converts a token to the hidden state. | $W_{hh}$: Converts a previous hidden state to the next hidden state. | $b_h$: Bias for moving to the next hidden state. | $W_{ho}$: Predicts the next token from the current hidden state. | $b_o$: Bias for the output prediction. | . At each time step (this means for each token) the RNN does two things: . | Update the internal hidden state from $H_{t-1}$ to $H_t$ . | This is done using the formula: $H_t = \\text{tanh}(X_tW_{xh} + H_{t-1}W_{hh} + b_h)$ | . | Predict the output token at time $T$ . | This is done using: $O_t = H_tW_{ho} + b_o$ | If the task for the RNN is not text generation, this can be omitted | . | . There always needs to be a preceding hidden state, so before any token is processed the hidden state is initialized (often to zero). Example: . Let’s run the RNN on a demo sentence, i, love . | Initialize the hidden state to zeros $H_{-1} = 0$ | Repeatedly update the hidden state and generate next-token probabilities . | $t=0$, &lt;START&gt; (we need a special start token to tell the model to begin) . | Update hidden state: $H_0 = \\text{tanh}(X_\\text{&lt;START&gt;}W_{xh} + H_{-1}W_{hh} + b_h)$ | Generate next-token probabilities (target is i): $O_1 = H_0W_{ho} + b_o$ | . | $t=1$, i . | Update hidden state: $H_1 = \\text{tanh}(X_\\text{love}W_{xh} + H_0W_{hh} + b_h)$ | Generate next-token probabilities (target is love): $O_2 = H_1W_{ho} + b_o$ | . | $t=2$, love . | Update hidden state: $H_2 = \\text{tanh}(X_\\text{love}W_{xh} + H_1W_{hh} + b_h)$ | Generate next-token probabilities (unknown target!): $O_3 = H_2W_{ho} + b_o$ | If we want to continue generating, predict next word $X_3$ from $O_2$ | . | $t=3$, $X_3$ (autoregressive - we’re inputting our previous outputs!) . | Update hidden state: $H_3 = \\text{tanh}(X_3W_{xh} + H_3W_{hh} + b_h)$ | Generate next-token probabilities: $O_4 = H_3W_{ho} + b_o$ | . | … | . | . Advantages of RNNs: . | Efficient parameter sharing across time steps. | Handling variable sequence lengths without padding. | Capturing dependencies over time through the internal hidden state. | Enhanced ability to model sequential data, reflecting the natural flow of language. | . Disadvantages of RNNs: . | Tendency to forget early tokens due to continual updates of the hidden state. | Unstable gradients, leading to training challenges. | Difficulty in parallel processing, impacting training efficiency. | . Please read (or skim) the following article on RNNs and answer the synthesis questions: . Synthesis questions: . | What happens to the memory vector as we move through time? | What is the memory vector initialized to? | Why might unstable gradients occur? | . ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#recurrent-neural-networks-rnns",
     
     "relUrl": "/megadoc/unit-08/#recurrent-neural-networks-rnns"
-  },"87": {
+  },"89": {
     "doc": "Unit 08",
     "title": "Transformers",
     "content": "Transformers represent the cutting-edge in NLP, known for their self-attention mechanisms and scalability. Unlike previous architectures, Transformers do not process text sequentially. Instead, they use self-attention to weigh the importance of each token in the context of others, regardless of their position. This allows for a more nuanced understanding of text, capturing long-range dependencies effectively. Their architecture enables parallel processing of tokens, significantly enhancing training speed. Advantages: . | Excellent at capturing relationships between tokens, crucial for complex language understanding. | Highly scalable and parallelizable, allowing for efficient processing of large datasets. | . Disadvantages: . | Require significant computational resources, making them expensive to train. | Complex models that are often less interpretable, making it hard to understand decision-making processes. | . Take a look at some (or all) of the following resources for how transformer/GPT models work. You might need to find external resources as well: . | GPT in 60 lines of NumPy | Let’s build GPT: from scratch, in code, spelled out. | The Annotated Transformer | An Intuitive Explanation of GPT Models, written by Carter Swartout of I2 | . Please answer the following synthesis questions: . Synthesis Questions: . | What do the probabilities that GPT outputs represent, and what is greedy decoding? | Describe masked self-attention in your own words (not including the vector math) | How does self-attention allow tokens to have relationships with each other? | What are the big blocks that make up the GPT architecture? | Why are positional encodings necessary? | . ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#transformers",
     
     "relUrl": "/megadoc/unit-08/#transformers"
-  },"88": {
+  },"90": {
     "doc": "Unit 08",
     "title": "Technical Project Spec:",
     "content": "The project for this “Language Modeling” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group! . A few general helpful tips (if applicable): . | Be sure to appropriately make a copy of the Colab template before starting to save your progress! | Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions. | Type most of the code out yourself instead of just copying from the tutorial. | Leave comments to cement your understanding. Link syntax to ideas. | . Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an “answers” link at the bottom of the notebook that you can use if stuck. You will need to download the ‘.ipynb’ found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working! . There are 2 parts (.ipynb files) to this unit. Try to finish both. This technical project is likely to be harder than anything you have done in this course before, so be patient with it and reach out if you need support! . Colab Link: Unit 8 Notebook Part 1 (1 hr) . Now navigate to the application portion of this project (Part 2 below), where you are given a dataset and asked to train an LLM of your choice to emulate Shakespeare! Be sure to reference your Unit 8 Notebook Part 1 to figure out how to do this. Colab Link: Unit 8 Notebook Part 2 (1 hr) . When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas. Congratulations! You now understand the basics of Language Modeling! . ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#technical-project-spec-2",
     
     "relUrl": "/megadoc/unit-08/#technical-project-spec-2"
-  },"89": {
+  },"91": {
     "doc": "Unit 08",
     "title": "Non-Technical Project Spec:",
     "content": "The non-technical project for this unit will involve some writing! Choose 3 of the prompts below and write at least 200 (meaningful!) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience! . | What ethical considerations arise when developing language models that are inspired by neural processes involved in language? | To what extent do models used in language processing reflect the actual neural networks involved with language tasks in the brain? | How can insights from neuroscience be leveraged to enhance the design and development of language models? | Reflecting on you learning from this unit, what is the one thing you found to be most interesting? | What is one concept from this unit that you would like to learn more about and why? | . Be sure to submit your work through google drive using the submission form! We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission! . ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/#non-technical-project-spec-1",
     
     "relUrl": "/megadoc/unit-08/#non-technical-project-spec-1"
-  },"90": {
+  },"92": {
     "doc": "Unit 08",
     "title": "Unit 08",
     "content": " ",
     "url": "/pr-preview/pr-39/megadoc/unit-08/",
     
     "relUrl": "/megadoc/unit-08/"
-  },"91": {
+  },"93": {
     "doc": "Unit 09",
     "title": "Unit 9: Fairness and Theory",
     "content": "Machine learning models are interesting, but they have substantive effects on the world they are deployed in. How can we make these models fairer, safer, less biased, and/or more responsible? Is this even rigorously possible? (Some researchers suggest not!) What is the source of bias? (“Garbage In, Garbage Out” is a stunted answer, and maybe even misleading.) These are all questions which are intimately linked with deep learning theory, a growing field which attempts to explain how neural networks work rather than attempting to advance the SOTA in performance or a similar task. Because of the close relationship between theory and fairness research, we will be exploring them together. After going through this unit, you will be able to reason about deep learning at a very abstract level (a powerful tool for research and experimentation); identify the core theoretical essence of various models and approaches; think critically about what the concepts of ‘bias’, ‘fairness’, ‘robustness’, ‘responsibility’, and ‘fairness’ mean and how we might build models which better embody these values. It is recommended to read the listed papers in order, and to at least skim each one. Theory . | Universal Approximation Theorem. While it’s not necessary to completely understand the proof, make sure you understand at least what the theorem is stating and why it is an interesting result. | Read this introductory article written by Andre (the author of this unit) on the UAT, then this Twitter thread of Yann Lecun blasting it. Then, read Lecun et al.’s paper Learning in High Dimension Always Amounts to Extrapolation. Lastly, read this document of the debate on Twitter. Now think about what your position in this debate is. What is interpolation? What is extrapolation? Do neural networks extrapolate? Is this a meaningful concept at all, and if not, what might be a more meaningful one? Keep thinking about these questions throughout the theory section. | Deep Double Descent: Where Bigger Models and More Data Hurt. A ‘classic’ empirical finding which points towards a weirdness of deep learning models as opposed to less parametrized, classical models. | Are Deep Neural Networks Dramatically Overfitted? A great technical blog post giving more theory on the question of overfitting. | Understanding Deep Learning Requires Rethinking Generalization. Important empirical results and speculative theoretical work. | Methods for Pruning Deep Neural Networks. You can skim this one, but it’s a good coverage of pruning – an empirical method whose success is surprising and is worth thinking about. | The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks. This is our second major theory paper. What explains the results found and answers the questions raised in 2, 3, 4, and 5? The Lottery Ticket Hypothesis is a compelling theory. | Deconstructing Lottery Tickets: Zeros, Signs, and the Supermask. A further investigation into the Lottery Ticket Hypothesis. | What’s Hidden in a Randomly Weighted Neural Network? A fascinating result from the Lottery Ticket Hypothesis. | Neural Tangent Kernel. Choose at least one of these to read. | https://lilianweng.github.io/posts/2022-09-08-ntk/ | https://blog.ml.cmu.edu/2019/10/03/ultra-wide-deep-nets-and-the-neural-tangent-kernel-ntk/ | https://rajatvd.github.io/NTK/ | https://www.inference.vc/neural-tangent-kernels-some-intuition-for-kernel-gradient-descent/ | . | The Modern Mathematics of Deep Learning. A landmark work in developing a mathematical theory of deep learning. Skim sections 2.3, 3.2, 3.3, and 4. Make sure you at least understand the results at a high level. | Language Models (Mostly) Know What They Know. A theoretical method for probing language model knowledge reveals interesting epistemic structures. | Bonus: A Mathematical Framework for Transformer Circuits. Think you know how transformers work? Think again! | . Fairness, Responsibility, Safety . | A Survey on Bias and Fairness in Machine Learning. A good and comprehensive survey of general concerns and approaches to addressing bias in machine learning problems. | On the (im)possibility of fairness. No need to read it too in detail; skimming it and understanding the main result is fine. Argues that different mathematized components of algorithmic fairness are fundamentally incompatible with each other in the ideal. | The Myth in the Methodology: Towards a Recontextualization of Fairness in Machine Learning. We’ve got it all wrong, philosopher Lily Hu shows us. Fairness cannot be mathematized. | What’s sex got to do with fair machine learning? An investigation of gender variables in machine learning models. | What is ‘race’ in algorithmic discrimination on the basis of race? An investigation of race variables in machine learning methods. | Moving beyond “algorithmic bias is a data problem”. Sara Hooker takes on the pervasive idea of GIGO (Garbage In, Garbage Out) suggests that data is the root source of bias. | What Do Compressed Deep Neural Networks Forget? An empirical follow-up from the previous opinion piece. How do different compression methods affect model performance? . | Optional: Characterizing and Mitigating Bias in Compact Models. Related work if you are interested in additional research in this direction. | . | The Curious Case of Common Sense. Our very own professor Yejin Choi reflects on the difficulty of codifying common sense into AI models. | You may be interested in Yejin Choi’s research papers, each of which address different dimensions of common sense reasoning: https://homes.cs.washington.edu/~yejin/ | . | Can Machines learn Morality? The Delphi Experiment. An attempt to train a language model to understand commonsense morality. You can play with the Delphi model at https://delphi.allenai.org/. | Constitutional AI: Harmlessness from AI Feedback. An important proposal for a framework to regulate AI with AI from a set of constitutional principles. | Predictability and Surprise in Large Generative Models. An empirical and theoretical investigation of the difficulties of regulating LLMs. | The Hardware Lottery. Thinking about how AI development is constrained by the hardware available. | Socially situated artificial intelligence enables learning from human interaction. A very interesting paper from our very own professor Ranjay Krishna on how humans can more actively engage with and shape AI models. | On the Opportunities and Risks of Foundation Models. A classic in AI safety. Read the introduction (section 1) and “Society” (section 5) at minimum. | The Dark Side of Techno-Utopianism. An accessible and thoughtful conclusion to this unit: what is our role in tech, and is it as rosy as we think it is? | . Task . Read the GPT-3 paper, the GPT-4 model card, or the LaMDA paper (or another recent large language model paper). Focus on the discussions on safety and fairness. Drawing upon the sources in both the theory and the fairness sections of this unit, criticize the evaluations – identify what is mistaken, what assumptions are made, what is socially problematic, what possible biases may have been unidentified or which lie latent in the design, etc. ",
     "url": "/pr-preview/pr-39/megadoc/unit-09/#unit-9-fairness-and-theory",
     
     "relUrl": "/megadoc/unit-09/#unit-9-fairness-and-theory"
-  },"92": {
+  },"94": {
     "doc": "Unit 09",
     "title": "Unit 09",
     "content": " ",
     "url": "/pr-preview/pr-39/megadoc/unit-09/",
     
     "relUrl": "/megadoc/unit-09/"
-  },"93": {
+  },"95": {
     "doc": "Unit 10",
     "title": "Unit 10: Cognitive Science and Psychology of Reward and Pain",
     "content": "Task: This unit is very simple. Read our paper! (1 hr) . Paper: Deinforcement Learning v2 . Post your thoughts/questions if you have any! Be sure to review Unit 6 if you need a refresher on Reinforcement Learning. ",
     "url": "/pr-preview/pr-39/megadoc/unit-10/#unit-10-cognitive-science-and-psychology-of-reward-and-pain",
     
     "relUrl": "/megadoc/unit-10/#unit-10-cognitive-science-and-psychology-of-reward-and-pain"
-  },"94": {
+  },"96": {
     "doc": "Unit 10",
     "title": "Unit 10",
     "content": " ",
     "url": "/pr-preview/pr-39/megadoc/unit-10/",
     
     "relUrl": "/megadoc/unit-10/"
-  },"95": {
+  },"97": {
     "doc": "Unit 11",
     "title": "Unit 11: Building a Brain: Networks and Systems",
     "content": "It would be negligent not to begin by acknowledging the inadequacy of this chapter. The connectivity and wiring of the brain as well as the genetics and epigenetics that comprise it are far from fully understood, and these resources are merely scratching the surface of a profound ocean of literature and undiscovered territory of building the systems of a mind. Nonetheless, we begin with a lecture investigating the genetic and learned nature of human behaviors. Task 1: 10. Development, Nature &amp; Nurture I . Synthesis Questions: . | What is one possible mechanism for building knowledge from parts of the brain present at birth? What kinds of knowledge might be innate and \"precursory\"? . | Why might it be useful for those precursors of knowledge to be innate rather than learned? | Google and find 1-2 other possible rudimentary or innate processes in the brain. Do any machine learning techniques use similar innate predispositions or ingrained knowledge? | . | What is perceptual narrowing? Are there analogous processes, protocols, or side effects in machine learning? What are possible downsides and upsides of the effect? . | What might you wish you could learn faster, and what might be a cost to having neural architectures that support that kind of learning? | . | If humans are uniquely suited to recognizing faces, what might be a useful analogous skill in machine learning which may support more human-like behavior? | . Task 2: Next, briefly skim the questions below then indulge in this scintillating lecture describing brain modules and the discovery of their connected wiring! . Start watching at 8:40, 21. Brain Networks . For your reference, a voxel is a 3D pixel. Think of it as a minecraft block of the brain. Also a term used in computer graphics. Synthesis Questions: . | What is white matter? Why does it matter? | What is a connectivity fingerprint? . | Why might we care about the connectivity similarities of other species and what implications might findings in this research have? | . | Describe three large connections between major regions in the brain and what those regions do, using Google if necessary. | What is the default mode network? What purpose is it hypothesized to serve? . | If you were to build an analog of the DMN in a machine learning network placed in your favorite video game as an environment, what function would you design it to serve? | . | Hypothesize how multiple demand regions might work and why they might be necessary. I don't know the right answer here so go nuts. | . ",
     "url": "/pr-preview/pr-39/megadoc/unit-11/#unit-11-building-a-brain-networks-and-systems",
     
     "relUrl": "/megadoc/unit-11/#unit-11-building-a-brain-networks-and-systems"
-  },"96": {
+  },"98": {
     "doc": "Unit 11",
     "title": "Project Spec:",
     "content": "There is no programming for this project. Instead, we have provided a LaTeX template for you to fill out. | If you are unaware of what $\\LaTeX$ is, you can read about it here. | . I would recommend taking a look at Overleaf to edit/compile $\\LaTeX$ code. Simply copy the code in the template into a blank Overleaf project and type your answers into the TODO areas. Be sure to hit the “Recompile” button to see your work. GH Link: Unit 11 Template (40 min) . The questions in the template are also written below: . Ohhh this one’s good. I’m tapping my fingers together like Dr. Evil. You are designing an egg. It will become a lifeform on a new planet. The planet is almost completely covered in water. Small islands made from underwater volcanoes dot the surface. The gravity is stronger on this planet and the biodiversity is lower than on Earth. There is less direct sunlight and fewer living organisms in general. Your task is to design the brain and the phenotypes of a successful organism on this new planet, using some of the neuroscience and machine learning principles you have learned so far. Your designed brain and nervous system will be translated into genetic instructions and inserted into an egg that will be sent to the new planet. Be as specific as you can so your egg doesn’t become a mutant! . If you are stuck, here are some options for getting started . | What do you consider a successful organism? | What kinds of traits would support this success; what kinds of organisms on Earth have these traits? | What parts of the brain support these traits and what kind of machine learning algorithms might also exhibit these abilities? | How might these different traits and abilities need to work together, or connect? | . ",
     "url": "/pr-preview/pr-39/megadoc/unit-11/#project-spec",
     
     "relUrl": "/megadoc/unit-11/#project-spec"
-  },"97": {
+  },"99": {
     "doc": "Unit 11",
     "title": "Unit 11",
     "content": " ",
     "url": "/pr-preview/pr-39/megadoc/unit-11/",
     
     "relUrl": "/megadoc/unit-11/"
-  },"98": {
+  },"100": {
     "doc": "Unit 12",
     "title": "Unit 12: Human Characteristics of the Brain",
     "content": "Several traits of humans appear to be unique to our species and may be essential in designing an intelligence similar to our own. This chapter is dedicated to the study of these phenomena of our brains. We begin by trying to peel back the layers of humans’ strong social tendencies: . Task 1: Complete the following lecture and synthesis questions. 20. Theory of Mind &amp; Mentalizing . Synthesis Questions: . | Describe the false belief paradigm and what function it serves. | What part of the brain is/are specifically involved in thinking about others' thoughts? Where is it located? What are several close by modules and their functions? | Google the terms TMS, EEG, and DBS. What are several differences and similarities between these cognitive science methods? | . Task 2: Depending on your level of comfort with languge modeling, take a look at the following resources below, and then watch the Attention and Awareness lecture. If you are familiar with Attention in Transformers, try comparing and contrasting to what the lecture says about the brain. If you are not familiar with Attention in Transformers, just learn what you can from the video purely from a neuroscience standpoint. If we have not completed the LM unit yet, Attention in ML may not be the most familiar. If you would like, here are some resources to prime your understanding: . Optional: A very comprehensive and visually helpful intuition for what the attention mechanism actually does: Attention Mechanism In a Nutshell . Optional: If you want to play with the math behind LLMs, this is pretty cool: 3Blue1Brown: Attention in Transformers . Optional: Self Attention Colab Notebook . For a deeper dive, feel free to take a look at the Language Modeling chapter of this document. Now we will dive into the capabilities of the brain and its own beautiful, endogenous attention mechanisms! . 24. Attention and Awareness . Synthesis Questions: . | Describe the brain's ability to multitask? What are some scenarios where parallel processing is feasible and some where it is not? | Describe covert and overt attention. | Describe \"priming the visual cortex\" why it might be useful. | \"You have 10x as many connections going down from cortex, down to the LGN ([lateral geniculate nucleus](https://en.wikipedia.org/wiki/Lateral_geniculate_nucleus))… than going forward. One of the things you're doing is setting up selective filters so that only the stuff you want to process makes it to higher stages.\" Compare this fact to deep learning algorithms. | Describe the role of the Fronto-Parietal Attention Network | If familiar with Attention in ML: Research some machine learning attention mechanisms. Compare and contrast the mechanism and the capabilities of one with what you learned about our biological attention mechanism. | . ",
     "url": "/pr-preview/pr-39/megadoc/unit-12/#unit-12-human-characteristics-of-the-brain",
     
     "relUrl": "/megadoc/unit-12/#unit-12-human-characteristics-of-the-brain"
-  },"99": {
+  },"101": {
     "doc": "Unit 12",
     "title": "Project Spec",
     "content": "Consider, for a moment, the ways in which there are or are not parallels between our current mechanisms of machine learning and the various modules and functions of the brain that we have learned about. In your opinion, are some crucial for intelligence? Which, if any, have we managed to emulate with algorithms? . Now consider attention. The brain seems to block out unwanted information from ever being processed (about minute 8:00, Attention and Awareness). Are there ML algorithms that do this? Should they? What should the function of attention be? Does it depend on the context or is it a fixed algorithm for all contexts? . Write some thoughts (200+ words) on these questions. Then, finally, find one article on Grey Matters that interests you and consider how it relates to the above questions. Provide the link and some thoughts :) . ",
     "url": "/pr-preview/pr-39/megadoc/unit-12/#project-spec",
     
     "relUrl": "/megadoc/unit-12/#project-spec"
-  },"100": {
+  },"102": {
     "doc": "Unit 12",
     "title": "Unit 12",
     "content": " ",
     "url": "/pr-preview/pr-39/megadoc/unit-12/",
     
     "relUrl": "/megadoc/unit-12/"
-  },"101": {
+  },"103": {
     "doc": "Unit 13",
     "title": "Unit 13: Intro to Movement",
     "content": "We are now going to be learning about how your brain makes you act and move in your environment. We start by investigating the cerebellum. This will tie into Reinforcement Learning (RL), so pay attention! . First, a few useful vocab words: . Afferent: Conducting towards something . Efferent: Conducting away from something . Task 1: Read the sections entitled “Feed forward control systems” and “The cerebellum may be a feedforward control system” from the notes here to get a sense for the purpose of the cerebellum. Cerebellum – The University of Texas Medical School . Then, watch the following brief videos, take notes if you’d like! . 2-Minute Neuroscience: Cerebellum . 19.3 Cerebellar Information Flow . Synthesis Questions: . | Explain the difference between mossy fibers and climbing fibers and their respective functions. | Which cells or fibers may be responsible for sending error signals to the cerebellum? | What is the function of a Purkinje cell? To what do they output? What do they look like? Why might they look like this? | What are the primary input sources of the cerebellum? Where do these signals originate? | . For more depth on these topics, here are some more fabulous resources. Bonus Videos: . 19.4 Cerebellar Circuits . 19.5 Afferent Tracts to the Cerebellum . ",
     "url": "/pr-preview/pr-39/megadoc/unit-13/#unit-13-intro-to-movement",
     
     "relUrl": "/megadoc/unit-13/#unit-13-intro-to-movement"
-  },"102": {
+  },"104": {
     "doc": "Unit 13",
     "title": "Project Spec",
     "content": "There is no project for this unit yet. We hope to make one soon! . ",
     "url": "/pr-preview/pr-39/megadoc/unit-13/#project-spec",
     
     "relUrl": "/megadoc/unit-13/#project-spec"
-  },"103": {
+  },"105": {
     "doc": "Unit 13",
     "title": "Unit 13",
     "content": " ",
     "url": "/pr-preview/pr-39/megadoc/unit-13/",
     
     "relUrl": "/megadoc/unit-13/"
-  },"104": {
+  },"106": {
     "doc": "Unit A",
     "title": "Unit A: Gradient Descent Deep Dive",
     "content": "A deeper dive into Gradient Descent where you will be implementing backpropagation on your own! This is an involved unit that, while technically not required, will push your understanding of neural networks to the max. Task 1: Watch the following video and implement micrograd as specified: . The spelled-out intro to neural networks and backpropagation: building micrograd . The templates we made for you can be found here. Additionally, please implement the ReLU nonlinearity for the Value class. | (Note: if you’re having a hard time with this, take a look at this code.) | . Implement and train a small neural network using micrograd. The training, validation, and test data will be included in the starter code. - Try to find the best network you can! . You might want to change the learning rate, size of the network, or Note your training, validation, and test loss for your best network. Synthesis Questions: . | In what direction do gradients flow (with regards to loss)? | How do gradients flow through addition? How do they flow through the ReLU function? | What was your best loss for the test dataset? | Was there something that stood out to you? Something that confused you? | What's one resource that was helpful (suggested or found on your own)? | . ",
     "url": "/pr-preview/pr-39/megadoc/unit-A/#unit-a-gradient-descent-deep-dive",
     
     "relUrl": "/megadoc/unit-A/#unit-a-gradient-descent-deep-dive"
-  },"105": {
+  },"107": {
     "doc": "Unit A",
     "title": "Unit A",
     "content": " ",
     "url": "/pr-preview/pr-39/megadoc/unit-A/",
     
     "relUrl": "/megadoc/unit-A/"
-  },"106": {
+  },"108": {
     "doc": "Unit B",
     "title": "Unit B: Neuroscience of Creativity",
     "content": "Are you curious about the mysterious force of invention, art, mathematics, and more that seems to allow the mind to expand beyond the information it was given to create beautiful new ideas? This is creativity, and with neuroscience, we can begin to dissect it such that we can begin to recreate it. Task 1: Listen or watch the following podcast (also available on Spotify if you prefer) and answer the Synthesis questions! . The Science of Creativity &amp; How to Enhance Creative Innovation - Huberman Lab . Synthesis Questions: . | TODO: add questions | . ",
     "url": "/pr-preview/pr-39/megadoc/unit-B/#unit-b-neuroscience-of-creativity",
     
     "relUrl": "/megadoc/unit-B/#unit-b-neuroscience-of-creativity"
-  },"107": {
+  },"109": {
     "doc": "Unit B",
     "title": "Unit B",
     "content": " ",
