@@ -7,7 +7,11 @@ parent: Megadoc
 
 Hello and welcome to the _Basics_ section of the I2 megadoc! 
 
-**Task 1:** Read the Back to Basics article to get an intuitive understanding of language modeling. <span style="color:red">**This is required.**</span>
+**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked belowto get an intuitive understanding of language modeling. <span style="color:red">**This is required.**</span>
+
+#### [Unit 08 Technical Article](unit-08-tech-article.md)
+
+&nbsp;
 
 **Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
 [Link to this task](https://course.uw-i2.org/megadoc/unit-08/#unit-8-synthesis-questions)
@@ -85,7 +89,6 @@ Congratulations! You now understand the basics of Language Modeling!
 ### **Non-Technical Project Spec:**
 
 # Old Course Content
-#### [Unit 08 Technical Article](unit-08-tech-article.md)
 
 ## Intro
 
