@@ -1,5 +1,5 @@
 ---
-title: "Unit 01"
+title: "Unit 01: Machine Learning"
 parent: Megadoc
 ---
 # Unit 1: The (machine learning) Basics
