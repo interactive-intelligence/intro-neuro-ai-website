@@ -76,11 +76,11 @@ Now, follow the instructions on this Jupyter notebook to implement some of the t
 **<span style="text-decoration:underline;">There are 2 parts (.ipynb files) to this unit. Try to finish both.</span>**
 This technical project is likely to be harder than anything you have done in this course before, so be patient with it and reach out if you need support!
 
-**Colab Link:** [Unit 8 Notebook Part 1](https://colab.research.google.com/drive/1KGXpdL9sxpio1Zau5LviAGlv8Y0RMRcD?usp=sharing) **(1 hr)**
+**Colab Link:** [Unit 8 Notebook Part 1](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-08/hf_tutorial.ipynb) **(1 hr)**
 
 Now navigate to the application portion of this project (Part 2 below), where you are given a dataset and asked to train an LLM of your choice to emulate Shakespeare! Be sure to reference your Unit 8 Notebook Part 1 to figure out how to do this.
 
-**Colab Link:** [Unit 8 Notebook Part 2](https://colab.research.google.com/drive/1Sg6seRXQ4pd8TwO-lYkiTxygv0SPt20B?usp=sharing) **(1 hr)**
+**Colab Link:** [Unit 8 Notebook Part 2](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-08/lm_starter_code.ipynb) **(1 hr)**
 
 When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
 
