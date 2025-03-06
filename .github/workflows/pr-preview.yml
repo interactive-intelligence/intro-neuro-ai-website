@@ -34,7 +34,7 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./output/
-          custom-url: intro-neuro-ai-website-pr-preview.onrender.com
+          pages-base-url: intro-neuro-ai-website-pr-preview.onrender.com
       
       - name: Notify render.com to update
         run: curl 'https://api.render.com/deploy/srv-csesvobtq21c738gku6g?key=d7aearqEmeM'
