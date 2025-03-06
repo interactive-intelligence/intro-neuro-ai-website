@@ -5,6 +5,92 @@ parent: Megadoc
 
 # Unit 8: Language Modeling
 
+Hello and welcome to the _Basics_ section of the I2 megadoc! 
+
+**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked belowto get an intuitive understanding of language modeling. <span style="color:red">**This is required.**</span>
+
+#### [Unit 08 Technical Article](unit-08-tech-article.md)
+
+&nbsp;
+
+**Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
+[Link to this task](https://course.uw-i2.org/megadoc/unit-08/#unit-8-synthesis-questions)
+
+**Task 3:** Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
+[Link to this task](https://course.uw-i2.org/megadoc/unit-08/#unit-8-project-specs)
+
+## Back to Basics: Language Modeling
+This article will cover the idea of language modeling and how computers process human language.
+
+Put simply, the goal of language modeling is to predict the next word in a sentence using information about the definitions and grammatical rules of particular words as well as the contexts in which they appear. 
+
+For example consider this sentence:
+> I want to cook an omelet, so I went to the store to buy some ___
+
+What comes next in this sentence? Chances are, you said “eggs.” There are plenty of “correct” answers—maybe you were out of salt and pepper—but it’s the most likely answer. Based on the sentence, we know that whatever comes next should be a noun phrase, and it’s probably related to the omelet we’re going to cook, and it’s something you can buy in a store. Given all that information, we conclude that we can fill in the blank with “eggs.” The goal of language modeling is to do something similar—that is, predict the next word in these sentences using probabilistic information about the sentence. 
+
+There are two main types of language models: **statistical language models** and **neural language models**. 
+
+Statistical language models use statistics and probability directly to predict the likely next word in a sentence of phrase. They generally get these statistics from a sample set of data. Based on this data, the model can identify patterns in the text and come up with predictions. 
+
+Statistical language models usually take the form of an **n-gram model**. This model predicts the probability of a word in a sequence given the n previous words in the sequence. For example, a unigram predicts the probability of a word given the immediate previous word; a bigram predicts the probability given the two previous words; a trigram uses the three previous words, and so on. 
+
+However, statistical language models have their limitations. For one, they will struggle with new words or phrases that don’t appear often in the original set of data (for example, if the phrase “time complexity” rarely appears in the original data, the model may struggle to predict that the word “complexity” can follow the word “time”). In addition, because these models look back at a fixed number of words, they can struggle to track and consider the long-term effects of a word on a phrase. 
+
+This is where the other type of model, neural language models, come in. Neural language models use neural networks to predict the next word in a sequence. These models are able to handle more complex and diverse sets of training data and are better at handling context clues and long-term effects of words. 
+We’ll continue to discuss neural language models in greater detail during the homework. Specifically, we’ll look at two types of neural language models: **recurrent neural networks** and **transformers**. 
+
+## Unit 8 Synthesis Questions
+### **Optional:** [Natural Language Processing: Crash Course AI #7](https://www.youtube.com/watch?v=oi0JXuL19TA&list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b&index=8) **(13 min)**
+**Great resource if you're still having trouble with NLP!**
+
+### **Video 1:** [Illustrated Guide to Recurrent Neural Networks: Understanding the Intuition](https://www.youtube.com/watch?v=LHXXI4-IEns) **(10 min)**
+### *Synthesis Questions*
+* *How does an RNN interact with a feed-forward neural network? What role does the RNN play in this process?*
+* *Describe the vanishing gradient problem in your own words. Does it relate to the drawbacks of statistical language models?*
+* *The video describes a few solutions to the short-term memory of RNNs. What changes do they make to address the problem?*
+
+### **Video 2:** [Transformers, explained: Understand the model behind GPT, BERT, and T5](https://www.youtube.com/watch?v=SZorAJ4I-sA) **(9 min)**
+### *Synthesis Questions*
+* *What are some of the limitations of previous NLP models, and how did transformers address these?*
+* *Describe the ideas of positional encoding and attention in your own words.*
+* *Like the “server” example at 6:50 in the video, create two sentences that can be disambiguated using self-attention.*
+
+## Unit 8 Project Specs
+**<mark style="background-color: lightblue">Homework Help:</mark>** if you’re having trouble with the technical homework, try following along with this video first! It also uses Python in Google Colab and should give you some good practice. Reach out to a TA if you have any questions! 
+
+**[Make an AI sound like a YouTuber (LAB): Crash Course AI #8](https://www.youtube.com/watch?v=kZWum5omEv4&list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b&index=9)**
+### **Technical Project Spec:**
+### **Technical Project Spec:**
+
+The project for this “_Language Modeling_” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
+
+A few general helpful tips (if applicable):
+* Be sure to appropriately make a copy of the Colab template before starting to save your progress!
+* Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
+* Type most of the code out yourself instead of just copying from the tutorial.
+* Leave comments to cement your understanding. Link syntax to ideas.
+
+Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
+
+**<span style="text-decoration:underline;">There are 2 parts (.ipynb files) to this unit. Try to finish both.</span>**
+This technical project is likely to be harder than anything you have done in this course before, so be patient with it and reach out if you need support!
+
+**Colab Link:** [Unit 8 Notebook Part 1](https://colab.research.google.com/drive/1KGXpdL9sxpio1Zau5LviAGlv8Y0RMRcD?usp=sharing) **(1 hr)**
+
+Now navigate to the application portion of this project (Part 2 below), where you are given a dataset and asked to train an LLM of your choice to emulate Shakespeare! Be sure to reference your Unit 8 Notebook Part 1 to figure out how to do this.
+
+**Colab Link:** [Unit 8 Notebook Part 2](https://colab.research.google.com/drive/1Sg6seRXQ4pd8TwO-lYkiTxygv0SPt20B?usp=sharing) **(1 hr)**
+
+When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
+
+Congratulations! You now understand the basics of Language Modeling!
+
+### **Non-Technical Project Spec:**
+
+<!---
+# Old Course Content
+
 ## Intro
 
 Language modeling has become ubiquitous in our society, used in chatbots, content moderation, translation, and more. In this unit, we will explore natural language processing (NLP), discussing common model architectures, their applications, and training methods.
@@ -209,3 +295,4 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 
 Be sure to submit your work through google drive using the submission form!
 We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
+--->
