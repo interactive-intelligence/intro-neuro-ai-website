@@ -220,7 +220,7 @@ Read up on k-means clustering in the provided link (Images provided above also c
 
 Now, follow the instructions on this Jupyter notebook (hosted on Google Colab) to implement some of the things we talked about! The notebook contains a link to the answers for this project. To use it, you will need to import the '.ipynb' file to a new Colab project yourself. It is highly recommended that you only use this to check your answers after you are done completing the project yourself. This is a trust-based system!
 
-**Colab Link:** [Unit 1 Colab Template](https://colab.research.google.com/drive/1MjinvPqW9swK66yfvDzQ6h7Mg1L0qrzT) **(30 min)**
+**Colab Link:** [Unit 1 Colab Template](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-01/clustering-pca.ipynb) **(30 min)**
 
 When you are finished with your code, independently verify that it works and have fun with it! You could try this method on different datasets, such as [this one for example](https://www.kaggle.com/datasets/ashwingupta3012/human-faces). If you add any additional functionality be sure to talk about it with others and give them ideas.
 

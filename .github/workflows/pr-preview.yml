@@ -14,7 +14,7 @@ env:
 
 jobs:
   deploy-preview:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -34,7 +34,7 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./output/
-          custom-url: intro-neuro-ai-website-pr-preview.onrender.com
+          pages-base-url: intro-neuro-ai-website-pr-preview.onrender.com
       
       - name: Notify render.com to update
         run: curl 'https://api.render.com/deploy/srv-csesvobtq21c738gku6g?key=d7aearqEmeM'

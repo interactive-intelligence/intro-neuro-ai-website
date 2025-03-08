@@ -113,7 +113,7 @@ A few general helpful tips (if applicable):
 
 Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
 
-**Colab Link:** [Unit 6 Notebook](https://colab.research.google.com/drive/1WRswrZX7KuI7xJMcHm26N3QaT2kXdqmi?usp=sharing) **(1.5 hr)**
+**Colab Link:** [Unit 6 Notebook](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-06/rl_net.ipynb) **(1.5 hr)**
 
 When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
 
