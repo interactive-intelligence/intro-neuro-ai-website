@@ -102,11 +102,11 @@ But what does it mean for a computer to “learn”? How does a machine “learn
 
 These are exactly the questions that this course aims to answer. We’ll learn how humans learn, how machines learn, and how our understanding of one allows us to develop our understanding of the other. We’ll also learn how humans interpret images and pictures, and how we can use that information to get computers to do the same thing. 
 
-***Synthesis Questions:***
-* *What are the limitations of early “if this, then that” logic?*
-* *Why do we need a teach-build cycle to get our machine to learn?*
-* *Why does this teach-build-teach-build cycle work? How do the "bots" get better over time?*
-* *Why is it so important for companies to use a good dataset to teach their bots?*
+### *Synthesis Questions*
+* `What are the limitations of early “if this, then that” logic?`
+* `Why do we need a teach-build cycle to get our machine to learn?`
+* `Why does this teach-build-teach-build cycle work? How do the "bots" get better over time?`
+* `Why is it so important for companies to use a good dataset to teach their bots?`
 
 TODO: Add more to the literacy article
 
