@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="/pr-preview/pr-42/assets/css/just-the-docs-default.css">
+    <script src="/pr-preview/pr-42/assets/js/vendor/lunr.min.js"></script>
+  <script src="/pr-preview/pr-42/assets/js/just-the-docs.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 06 | I2 Intro Neuro/AI</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Unit 06" />
+<meta name="author" content="Interactive Intelligence" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!" />
+<meta property="og:description" content="Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!" />
+<link rel="canonical" href="https://intro-neuro-ai-website-pr-preview.onrender.com/pr-preview/pr-42/megadoc/unit-06/" />
+<meta property="og:url" content="https://intro-neuro-ai-website-pr-preview.onrender.com/pr-preview/pr-42/megadoc/unit-06/" />
+<meta property="og:site_name" content="I2 Intro Neuro/AI" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Unit 06" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Interactive Intelligence"},"description":"Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!","headline":"Unit 06","url":"https://intro-neuro-ai-website-pr-preview.onrender.com/pr-preview/pr-42/megadoc/unit-06/"}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+ <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+ <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+   <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+ <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+   <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+ <title id="svg-external-link-title">(external link)</title>
+ <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+ <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+ <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+<symbol id="svg-copy" viewBox="0 0 16 16">
+ <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+   <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+ <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+   <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+</svg>
+ <div class="side-bar">
+ <div class="site-header">
+    <a href="/pr-preview/pr-42/" class="site-title lh-tight">
+  I2 Intro Neuro/AI
+</a>
+    <a href="#" id="menu-button" class="site-button">
+      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+    </a>
+ </div>
+ <nav aria-label="Main" id="site-nav" class="site-nav">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/pr-preview/pr-42/announcements/" class="nav-list-link">Announcements</a><li class="nav-list-item"><a href="/pr-preview/pr-42/staff/" class="nav-list-link">Course Staff</a><li class="nav-list-item"><a href="/pr-preview/pr-42/graduates/" class="nav-list-link">Graduates</a><li class="nav-list-item active"><a href="#" class="nav-list-expander" aria-label="toggle links in Megadoc category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/pr-preview/pr-42/megadoc/" class="nav-list-link">Megadoc</a><ul class="nav-list"><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-01/" class="nav-list-link">Unit 01</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-02/" class="nav-list-link">Unit 02</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-03/" class="nav-list-link">Unit 03</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-04/" class="nav-list-link">Unit 04</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-05/" class="nav-list-link">Unit 05</a><li class="nav-list-item  active"><a href="/pr-preview/pr-42/megadoc/unit-06/" class="nav-list-link active">Unit 06</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-07/" class="nav-list-link">Unit 07</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-08/" class="nav-list-link">Unit 08</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-09/" class="nav-list-link">Unit 09</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-10/" class="nav-list-link">Unit 10</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-11/" class="nav-list-link">Unit 11</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-12/" class="nav-list-link">Unit 12</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-13/" class="nav-list-link">Unit 13</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-A/" class="nav-list-link">Unit A</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-B/" class="nav-list-link">Unit B</a></ul><li class="nav-list-item"><a href="/pr-preview/pr-42/schedule/" class="nav-list-link">Schedule</a></ul>
+ </nav>
+   <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+   </footer>
+</div>
+ <div class="main" id="top">
+   <div id="main-header" class="main-header">
+<div class="search">
+ <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search I2 Intro Neuro/AI" aria-label="Search I2 Intro Neuro/AI" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+ </div>
+ <div id="search-results" class="search-results"></div>
+</div>
+   <nav aria-label="Auxiliary" class="aux-nav">
+ <ul class="aux-nav-list">
+     <li class="aux-nav-list-item">
+        <a href="https://interactive-intelligence.github.io" class="site-button"
+        >
+          UW Interactive Intelligence Website
+        </a>
+ </ul>
+</nav>
+</div>
+   <div id="main-content-wrap" class="main-content-wrap">
+   <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+     <ol class="breadcrumb-nav-list">
+         <li class="breadcrumb-nav-list-item"><a href="/pr-preview/pr-42/megadoc/">Megadoc</a>
+       <li class="breadcrumb-nav-list-item"><span>Unit 06</span>
+     </ol>
+   </nav>
+     <div id="main-content" class="main-content" role="main">
+         <h1 id="unit-6-reinforcement-learning">
+    <a href="#unit-6-reinforcement-learning" class="anchor-heading" aria-labelledby="unit-6-reinforcement-learning"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Unit 6: Reinforcement Learning
+</h1>
+<p>Hello and welcome to the <em>Basics</em> section of the I2 megadoc!</p>
+<p><strong>Task 1:</strong> Read either the <ins>literacy article</ins> “Back to Basics” or the <ins>technical article</ins> linked below to get an intuitive understanding of reinforcement learning. <span style="color:red"><strong>This is required.</strong></span></p>
+<h4 id="unit-06-technical-article">
+    <a href="#unit-06-technical-article" class="anchor-heading" aria-labelledby="unit-06-technical-article"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <a href="/pr-preview/pr-42/megadoc/unit-06-tech-article/">Unit 06 Technical Article</a>
+</h4>
+<p> </p>
+<p><strong>Task 2:</strong> Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
+<a href="https://course.uw-i2.org/megadoc/unit-06/#unit-6-synthesis-questions">Link to this task</a></p>
+<p><strong>Task 3:</strong> Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
+<a href="https://course.uw-i2.org/megadoc/unit-06/#unit-6-project-specs">Link to this task</a></p>
+<h2 id="back-to-basics-reinforcement-learning">
+    <a href="#back-to-basics-reinforcement-learning" class="anchor-heading" aria-labelledby="back-to-basics-reinforcement-learning"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Back to Basics: Reinforcement Learning
+</h2>
+<p>Welcome to one of the most important units in this course—and one of the most challenging! Like all our articles, the goal of this article is to give you an intuitive understanding of reinforcement learning so that you can recognize it in daily life and apply it to technical projects.</p>
+<p>Reinforcement learning is the study of how a free object, or <strong>agent</strong>, moves around and accomplishes tasks in an <strong>environment</strong>, either real or simulated. The very general idea involves rewarding the object for desirable actions (i.e. reinforcing that behavior) and punishing it for undesirable actions.</p>
+<p>For example, suppose we’re teaching a computer how to play chess against a human. In this case, the agent would be the computer and the environment would be the chess game (i.e. the opponent, board, and pieces).</p>
+<div style="text-align:center">
+    <img src="../assets/unit6/literacy_images/agent_environment.png" alt="Diagram of the agent and environment described above" width="500" />
+</div>
+<p>The computer starts by taking an <strong>action</strong>–in other words, it does something. In this case, say the computer captures one of the human opponent’s pawns. Now the environment (the chess game) looks different from before the computer took its action; the computer has changed the <strong>state</strong> of the environment.</p>
+<div style="text-align:center">
+    <img src="../assets/unit6/literacy_images/good_action.png" alt="Diagram of the environment after a good action is taken" width="500" />
+</div>
+<p>The state of the environment is favorable—we’re glad the computer took this action, and we want to reinforce it (we want it to keep taking actions like this). So we give the computer a <strong>reward</strong> that’s proportional to how desirable the action was. In this case, the reward is pretty moderate—capturing a pawn is good, but it’s not one of the best moves the computer can make. If the computer had captured the opponent’s queen, for example, we’d give it more of a reward because that’s a more desirable action.</p>
+<div style="text-align:center">
+    <img src="../assets/unit6/literacy_images/good_reward.png" alt="Diagram of the environment after a reward is given" width="500" />
+</div>
+<p>Suppose the computer takes a different action: instead of capturing a pawn, it knocks over the entire board. Again, our environment is in a new state as a result of this action.</p>
+<div style="text-align:center">
+    <img src="../assets/unit6/literacy_images/bad_action.png" alt="Diagram of the environment after a bad action is taken" width="500" />
+</div>
+<p>Unfortunately, this new state is very bad for the computer because there’s no way it can win the game now. So we want to punish this action and make sure the computer avoids it in the future. We can do this by giving it a negative reward to indicate that it’s an undesirable action.</p>
+<div style="text-align:center">
+    <img src="../assets/unit6/literacy_images/bad_reward.png" alt="Diagram of the environment after a punishment is given" width="500" />
+</div>
+<p>The computer decides what steps to take using something called a <strong>policy</strong>. A computer uses a policy to decide what its next step should be. For example, maybe the computer’s policy is to maximize its rewards. Then, every single action it takes is the action that produces the highest reward. This helps it avoid undesirable actions, like knocking over the board, because they have such low rewards.</p>
+<p>This isn’t always the best policy, though. We said earlier that capturing the opponent’s queen is a very high-reward action. Suppose the computer is in a position where it can capture its opponent’s queen, but in doing so leaves its king vulnerable. In this case, maybe taking the highest-reward action isn’t the best way to go. We would have to use a different policy in our decision-making.</p>
+<p>Deep reinforcement learning combines deep learning and reinforcement learning. Its goal is to get the computer to learn to do something, and it teaches the computer using the principles of RL.</p>
+<p>Take a look at the short video below, which tries to teach a robot to walk using deep reinforcement learning (don’t worry, you’ll have fewer Synthesis Questions to make up for the extra video!).</p>
+<p><a href="https://youtu.be/L_4BPjLBF4E?si=jtH5sPdoihN60MLh">AI Learns to Walk (deep reinforcement learning)</a> (9 min)</p>
+<p>Notice that the robot wasn’t given any directions. It was given a target, and every action it took was rewarded or punished, but it ultimately had to learn the correct sequence of actions that would allow it to walk.</p>
+<p>If we apply this to our chess example, the target might be to win the game by capturing the opponent’s king. We won’t tell the computer how to do that, but every time it takes an action we can reward or punish it. That way, it starts to learn the correct sequence of actions that it needs to take in order to win the game.</p>
+<p>Also, like in the video, we can put our chess computer in different environments to force it to learn new actions. For example, we can start it out in an environment where its opponent is a three-year-old. As the computer gets better, we can put it in new environments with more and more advanced opponents to force it to learn new skills, in the same way the robot in the video became better at walking by crossing more and more difficult terrain.</p>
+<div style="text-align:center">
+    <img src="../assets/unit6/literacy_images/opponents.png" alt="Diagram of how the environment gets more advanced" width="500" />
+</div>
+<h2 id="unit-6-synthesis-questions">
+    <a href="#unit-6-synthesis-questions" class="anchor-heading" aria-labelledby="unit-6-synthesis-questions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Unit 6 Synthesis Questions
+</h2>
+<h3 id="video-1-reinforcement-learning-crash-course-ai-9-12-min">
+    <a href="#video-1-reinforcement-learning-crash-course-ai-9-12-min" class="anchor-heading" aria-labelledby="video-1-reinforcement-learning-crash-course-ai-9-12-min"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Video 1:</strong> <a href="https://youtu.be/nIgIv4IfJ6s?si=_ppJ4srBtfy04L7x">Reinforcement Learning: Crash Course AI #9</a> <strong>(12 min)</strong>
+</h3>
+<h3 id="synthesis-questions">
+    <a href="#synthesis-questions" class="anchor-heading" aria-labelledby="synthesis-questions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <em>Synthesis Questions</em>
+</h3>
+<ul>
+ <li><em>When does it make sense to use reinforcement learning vs. other methods of machine learning to accomplish a task?</em>
+ <li><em>How do the agent, action, and environment interact in reinforcement learning?</em>
+ <li><em>Give an example of two different policies in a reinforcement learning environment that’s NOT the cookie-jar example from the video (but you can use the chess game, the walking robot, or something you come up with yourself!).</em>
+</ul>
+<h3 id="video-2-reinforcement-learning-from-scratch-8-min">
+    <a href="#video-2-reinforcement-learning-from-scratch-8-min" class="anchor-heading" aria-labelledby="video-2-reinforcement-learning-from-scratch-8-min"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Video 2:</strong> <a href="https://www.youtube.com/watch?v=vXtfdGphr3c">Reinforcement Learning from scratch</a> <strong>(8 min)</strong>
+</h3>
+<h3 id="synthesis-questions-1">
+    <a href="#synthesis-questions-1" class="anchor-heading" aria-labelledby="synthesis-questions-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <em>Synthesis Questions</em>
+</h3>
+<ul>
+ <li><em>What is the purpose of a sigmoid function, and what does its value tell us? What about an error function?</em>
+ <li><em>Describe the idea of gradient descent and how we use it in reinforcement learning.</em>
+</ul>
+<h2 id="unit-6-project-specs">
+    <a href="#unit-6-project-specs" class="anchor-heading" aria-labelledby="unit-6-project-specs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Unit 6 Project Specs
+</h2>
+<h3 id="non-technical-project-spec">
+    <a href="#non-technical-project-spec" class="anchor-heading" aria-labelledby="non-technical-project-spec"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Non-Technical Project Spec:</strong>
+</h3>
+<p>The non-technical project for this unit will involve some writing! <strong>Choose 3</strong> of the prompts below and write <strong>at least 200</strong> (<em>meaningful!</em>) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!</p>
+<ul>
+ <li>Can you provide examples of experimental evidence linking reinforcement learning algorithms to observed synaptic changes in the brain?
+ <li>How do human neural systems encode reward signals and how does this relate to the concept of rewards in reinforcement learning models?
+ <li>What ethical considerations should be taken into account when developing interventions based on neuroscientific findings, and how can accountability be established for the potential impacts of such interventions?
+ <li>Reflecting on you have learned from this unit, what is one thing you found to be most interesting?
+ <li>What is one concept from this unit that you would like to learn more about and why?
+</ul>
+<p>Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!</p>
+<h3 id="technical-project-spec">
+    <a href="#technical-project-spec" class="anchor-heading" aria-labelledby="technical-project-spec"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Technical Project Spec:</strong>
+</h3>
+<p>The project for this “<em>Reinforcement Learning</em>” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!</p>
+<p>A few general helpful tips (if applicable):</p>
+<ul>
+ <li>Be sure to appropriately make a copy of the Colab template before starting to save your progress!
+ <li>Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
+ <li>Type most of the code out yourself instead of just copying from the tutorial.
+ <li>Leave comments to cement your understanding. Link syntax to ideas.
+</ul>
+<p>Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an “answers” link at the bottom of the notebook that you can use if stuck. You will need to download the ‘.ipynb’ found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!</p>
+<p><strong>Colab Link:</strong> <a href="https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-06/rl_net.ipynb">Unit 6 Notebook</a> <strong>(1.5 hr)</strong></p>
+<p>When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.</p>
+<p>Remember that this is all for your learning, so do your best and don’t stress!</p>
+<p>Congratulations! You now understand the (<em>incredibly basic)</em> basics of Deep RL!</p>
+     </div>
+   </div>
+<div class="search-overlay"></div>
+ </div>
+  

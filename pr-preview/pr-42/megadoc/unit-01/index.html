@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="/pr-preview/pr-42/assets/css/just-the-docs-default.css">
+    <script src="/pr-preview/pr-42/assets/js/vendor/lunr.min.js"></script>
+  <script src="/pr-preview/pr-42/assets/js/just-the-docs.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 01 | I2 Intro Neuro/AI</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Unit 01" />
+<meta name="author" content="Interactive Intelligence" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!" />
+<meta property="og:description" content="Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!" />
+<link rel="canonical" href="https://intro-neuro-ai-website-pr-preview.onrender.com/pr-preview/pr-42/megadoc/unit-01/" />
+<meta property="og:url" content="https://intro-neuro-ai-website-pr-preview.onrender.com/pr-preview/pr-42/megadoc/unit-01/" />
+<meta property="og:site_name" content="I2 Intro Neuro/AI" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Unit 01" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Interactive Intelligence"},"description":"Welcome to Interactive Intelligence’s Introduction to Neuro/AI crash course!","headline":"Unit 01","url":"https://intro-neuro-ai-website-pr-preview.onrender.com/pr-preview/pr-42/megadoc/unit-01/"}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // customised options
+        // • auto-render specific keys, e.g.:
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true }
+        ],
+        // • rendering keys, e.g.:
+        throwOnError: false
+      });
+    });
+  </script>
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+ <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+ <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+   <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+ <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+   <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+ <title id="svg-external-link-title">(external link)</title>
+ <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+ <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+   <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+ <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+<symbol id="svg-copy" viewBox="0 0 16 16">
+ <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+   <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+ <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+   <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+   <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+</svg>
+ <div class="side-bar">
+ <div class="site-header">
+    <a href="/pr-preview/pr-42/" class="site-title lh-tight">
+  I2 Intro Neuro/AI
+</a>
+    <a href="#" id="menu-button" class="site-button">
+      <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+    </a>
+ </div>
+ <nav aria-label="Main" id="site-nav" class="site-nav">
+     <ul class="nav-list"><li class="nav-list-item"><a href="/pr-preview/pr-42/announcements/" class="nav-list-link">Announcements</a><li class="nav-list-item"><a href="/pr-preview/pr-42/staff/" class="nav-list-link">Course Staff</a><li class="nav-list-item"><a href="/pr-preview/pr-42/graduates/" class="nav-list-link">Graduates</a><li class="nav-list-item active"><a href="#" class="nav-list-expander" aria-label="toggle links in Megadoc category">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a><a href="/pr-preview/pr-42/megadoc/" class="nav-list-link">Megadoc</a><ul class="nav-list"><li class="nav-list-item  active"><a href="/pr-preview/pr-42/megadoc/unit-01/" class="nav-list-link active">Unit 01</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-02/" class="nav-list-link">Unit 02</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-03/" class="nav-list-link">Unit 03</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-04/" class="nav-list-link">Unit 04</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-05/" class="nav-list-link">Unit 05</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-06/" class="nav-list-link">Unit 06</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-07/" class="nav-list-link">Unit 07</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-08/" class="nav-list-link">Unit 08</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-09/" class="nav-list-link">Unit 09</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-10/" class="nav-list-link">Unit 10</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-11/" class="nav-list-link">Unit 11</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-12/" class="nav-list-link">Unit 12</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-13/" class="nav-list-link">Unit 13</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-A/" class="nav-list-link">Unit A</a><li class="nav-list-item "><a href="/pr-preview/pr-42/megadoc/unit-B/" class="nav-list-link">Unit B</a></ul><li class="nav-list-item"><a href="/pr-preview/pr-42/schedule/" class="nav-list-link">Schedule</a></ul>
+ </nav>
+   <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+   </footer>
+</div>
+ <div class="main" id="top">
+   <div id="main-header" class="main-header">
+<div class="search">
+ <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search I2 Intro Neuro/AI" aria-label="Search I2 Intro Neuro/AI" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+ </div>
+ <div id="search-results" class="search-results"></div>
+</div>
+   <nav aria-label="Auxiliary" class="aux-nav">
+ <ul class="aux-nav-list">
+     <li class="aux-nav-list-item">
+        <a href="https://interactive-intelligence.github.io" class="site-button"
+        >
+          UW Interactive Intelligence Website
+        </a>
+ </ul>
+</nav>
+</div>
+   <div id="main-content-wrap" class="main-content-wrap">
+   <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+     <ol class="breadcrumb-nav-list">
+         <li class="breadcrumb-nav-list-item"><a href="/pr-preview/pr-42/megadoc/">Megadoc</a>
+       <li class="breadcrumb-nav-list-item"><span>Unit 01</span>
+     </ol>
+   </nav>
+     <div id="main-content" class="main-content" role="main">
+         <h1 id="unit-1-the-machine-learning-basics">
+    <a href="#unit-1-the-machine-learning-basics" class="anchor-heading" aria-labelledby="unit-1-the-machine-learning-basics"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Unit 1: The (machine learning) Basics
+</h1>
+<p>Hello and welcome to the <em>Basics</em> section of the I2 megadoc! Our content will be split into two categories: literacy and technical understanding. These topics are fundamental to the entire rest of our course, so please don’t hesitate to reach out to the course staff if you have any questions!</p>
+<p><strong>Task 1:</strong> Read either the <ins>literacy article</ins> “Back to Basics” or the <ins>technical article</ins> linked below to get an intuitive understanding of machine learning. <span style="color:red"><strong>This is required.</strong></span></p>
+<h4 id="unit-01-technical-article">
+    <a href="#unit-01-technical-article" class="anchor-heading" aria-labelledby="unit-01-technical-article"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <a href="/pr-preview/pr-42/megadoc/unit-01-tech-article/">Unit 01 Technical Article</a>
+</h4>
+<p> 
+<strong>Task 2:</strong> Go through the text and videos in your respective article and answer the provided synthesis questions. Submit your answers to your intro course TA. Make sure to indicate in your submission or file name which article (technical or literacy) you read and which questions you’re answering.
+<a href="https://course.uw-i2.org/megadoc/unit-01/#unit-1-synthesis-questions">Link to this task</a></p>
+<p><strong>Task 3:</strong> Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
+<a href="https://course.uw-i2.org/megadoc/unit-01/#unit-1-project-specs">Link to this task</a></p>
+<h2 id="back-to-basics-machine-learning">
+    <a href="#back-to-basics-machine-learning" class="anchor-heading" aria-labelledby="back-to-basics-machine-learning"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Back to Basics: Machine Learning
+</h2>
+<p>This article is going to cover what machine learning is at a conceptual level.</p>
+<p>The general idea behind machine learning is that a machine uses known information to make predictions about unknown information—much like humans. For a long time, we used computer programming to manually give computers instructions on how to do things. But there are a lot of things that we may want computers to do that are far too advanced to manually instruct them on.  The goal of machine learning, then, is to get computers to “learn” how to do tasks so that we don’t have to give it explicit instructions.</p>
+<p>To better understand this, let’s look at an example.</p>
+<p>Imagine we want our computer to identify pictures of cats and pictures of pigs.</p>
+<p>Our computer has never seen a pig or a cat before, so we have to give it some information to help it get started. Let’s feed our computer the following images. We’ll label the pictures of cats “cat” and the pictures of pigs “pig,” so the computer knows which is which.</p>
+<p float="middle">
+  <img src="../assets/unit1/literacy_images/training_cat_1.jpg" width="30%" />
+  <img src="../assets/unit1/literacy_images/training_cat_2.jpg" width="36%" /> 
+  <img src="../assets/unit1/literacy_images/training_cat_3.jpg" width="26.5%" />
+</p>
+<p float="middle">
+  <img src="../assets/unit1/literacy_images/training_pig_1.jpg" width="33%" />
+  <img src="../assets/unit1/literacy_images/training_pig_2.jpg" width="33%" /> 
+  <img src="../assets/unit1/literacy_images/training_pig_3.jpg" width="21.5%" />
+</p>
+<p>Now the computer has to figure out what makes the cat pictures different from the pig pictures. What does it notice? Well, all the cats are furry and all the pigs are pink. So the computer comes up with the following system:</p>
+<ul>
+ <li>if the picture has a furry, non-pink animal, it’s a cat
+ <li>if the picture has a non-furry, pink animal, it’s a pig
+ <li>otherwise the computer isn’t sure
+</ul>
+<p>Okay, let’s see how it does! We give the computer these three pictures and ask it to classify them as “cat” or “pig.”</p>
+<p float="middle">
+  <img src="../assets/unit1/literacy_images/testing_cat_1.jpg" width="33%" />
+  <img src="../assets/unit1/literacy_images/testing_cat_2.jpg" width="26%" /> 
+  <img src="../assets/unit1/literacy_images/testing_pig_1.webp" width="19.5%" />
+</p>
+<p>The computer classifies the first animal, which is furry and not pink, as a cat—perfect! But it classifies the second, which is not furry and pink, as a pig, and the third, which is furry and not pink, as a cat.</p>
+<p>Now we have to correct our computer. We let it know that it was right about the first image, but the other two were wrong.</p>
+<p>Here’s where the crucial part of machine learning comes in: the computer looks at the images again and learns why it was wrong. It realizes that not all cats are furry and not all pigs are pink. Maybe it also realizes that all the cats we provided have long tails, and all the pigs have long snouts.</p>
+<p>Whatever the case, the computer learns how to better classify the animals based on the data we provided. It learns which features are crucial and which features are optional in its decision, and the more data we provide, the more it refines its processes and produces accurate predictions. This occurs over many, many, many trials, until it finally begins to make perfect predictions. This is the very general idea of how machine learning works.</p>
+<p>But what does it mean for a computer to “learn”? How does a machine “learn” anything, the way humans learn? For that matter, how can the computer tell that the pictures of cats have fur in them, or that the pictures of pigs contain long snouts?</p>
+<p>These are exactly the questions that this course aims to answer. We’ll learn how humans learn, how machines learn, and how our understanding of one allows us to develop our understanding of the other. We’ll also learn how humans interpret images and pictures, and how we can use that information to get computers to do the same thing.</p>
+<p>For now, though, check out the rest of the homework and the synthesis questions provided.</p>
+<h2 id="unit-1-synthesis-questions">
+    <a href="#unit-1-synthesis-questions" class="anchor-heading" aria-labelledby="unit-1-synthesis-questions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Unit 1 Synthesis Questions
+</h2>
+<h3 id="video-1-how-ais-like-chatgpt-learn--9-min">
+    <a href="#video-1-how-ais-like-chatgpt-learn--9-min" class="anchor-heading" aria-labelledby="video-1-how-ais-like-chatgpt-learn--9-min"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Video 1:</strong> <a href="https://www.youtube.com/watch?v=R9OHn5ZF4Uo">How AIs, like ChatGPT, Learn</a>  <strong>(9 min)</strong>
+</h3>
+<p>This first video describes how exactly a machine “learns”—we’ll talk about this even more in Unit 2!</p>
+<p><em>Synthesis Questions:</em></p>
+<ul>
+ <li><em>What are the limitations of early “if this, then that” logic?</em>
+ <li><em>Why do we need a teach-build cycle to get our machine to learn?</em>
+ <li><em>Why does this teach-build-teach-build cycle work? How do the “bots” get better over time?</em>
+ <li><em>Why is it so important for companies to use a good dataset to teach their bots?</em>
+</ul>
+<h3 id="article-1-this-is-the-same-article-from-later-in-this-megadoc">
+    <a href="#article-1-this-is-the-same-article-from-later-in-this-megadoc" class="anchor-heading" aria-labelledby="article-1-this-is-the-same-article-from-later-in-this-megadoc"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Article 1:</strong> (this is the same article from later in this megadoc!)
+</h3>
+<p>The next article is math-heavy, but very useful for understanding how ML works. Reach out to a TA if you have any questions–this can be tough!</p>
+<h3 id="linear-regression">
+    <a href="#linear-regression" class="anchor-heading" aria-labelledby="linear-regression"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Linear Regression
+</h3>
+<p>The two main tasks that statistical ML attempts to solve are the <strong>classification</strong> task and <strong>regression</strong> task. Classification is the task of bucketing a set of items $S$ into $k$ categories. We will explore classification more in Unit 2. Regression is the task of predicting the value of one variable (usually called the responding variable), given the values of other feature variables. For example, predicting a person’s weight based on their height. The weight is the <mark style="background-color: lightblue">responding variable/label</mark> ($y$) and the height is the <mark style="background-color: lightblue">feature variable</mark> ($x$). You can also have the case with multiple dependent variables. You could be attempting to predict the cost of a house depending on its square footage ($x_1$), location ($x_2$), number of floors ($x_3$) and other things ($x_n$). Each of these $x$ items is called a <em><mark style="background-color: lightblue">feature</mark></em>.</p>
+<p>Let’s start with the case of one responding variable and one feature. Below is a plot with some data, and lines that could be the “best fit” for the data. Which line is the best fit?</p>
+<p><img src="../assets/unit1/unit1_best_fit_lines.jpg" alt="alt_text" /></p>
+<p>Obviously it is line <strong>B</strong>. But how do you know that? You will probably say that it is due to how close the dots are to the line (in comparison to the other lines). We can formalize this “goodness of fit” with a <mark style="background-color: lightblue">Sum of Squared Errors calculation (SSE)</mark>.</p>
+<h3 id="sum-of-squared-errors-and-least-squares">
+    <a href="#sum-of-squared-errors-and-least-squares" class="anchor-heading" aria-labelledby="sum-of-squared-errors-and-least-squares"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Sum of Squared Errors and Least Squares
+</h3>
+<p>To calculate this, simply compare the distance from the ACTUAL y-values/labels ($y_1$, $y_2$,…,$y_n$) to the PREDICTED y values ($\hat{y}_1$, $\hat{y}_2$,…,$\hat{y}_n$), and square the differences to account for negatives (absolute value cannot be used easily due to it not being differentiable everywhere. This becomes important later). The equation is:
+\(SSE = \sum_{i} (y_i - \hat{y}_i)^2\)</p>
+<p><img src="../assets/unit1/unit1_sse_lines.jpg" alt="alt_text" /></p>
+<p>Intuitively, you can see that if $y$ and $\hat{y}$ are closer, the SSE will be smaller. Therefore we want to <strong>minimize the SSE</strong>. Doing this is called <mark style="background-color: lightblue">**Least Squares (LS)** regression</mark>.</p>
+<p>Now we turn attention to $\hat{y}$ (the hat decorator just means that it is predicted, not a ground truth). How is it calculated? We all know the $y = mx + b$ formula for a line. $m$ is the slope and $b$ is the intercept. However, the equation looks different when we have many features (many $x$).
+\(\hat{y} = b + w_1x_1 + w_2x_2 +...+w_nx_n\)
+The $x$ subscript here represents different features within 1 datapoint. The $b$ term is the intercept and the $w$ terms are the slopes on different dimensions. You can just think of them as coefficients for each feature.</p>
+<p>We can rewrite this long form sum as a <em>dot product</em>.</p>
+\[\hat{y}_i = x_i^Tw + b\]
+<p>NOTE: The $x$ subscript here represents 1 datapoint now instead of 1 feature (remember we have many dots on the graph).</p>
+<p>Here is a visual diagram of why this an equivalence. This is where some linear algebra intuition may come in handy.</p>
+<p><img src="../assets/unit1/unit1_dotproduct_viz.jpg" alt="alt_text" /></p>
+<h3 id="dealing-with-the-b-term">
+    <a href="#dealing-with-the-b-term" class="anchor-heading" aria-labelledby="dealing-with-the-b-term"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Dealing with the $b$-term
+</h3>
+<p>To make this even easier for us, we can remove the $b$ term from the equation by appending a $b$ and $1$ to $w$ and $x_i^T$ respectively.</p>
+<p><img src="../assets/unit1/unit1_append_bias.jpg" alt="alt_text" /></p>
+<p>Now we have that:</p>
+\[\hat{y}_i = x_i^Tw\]
+<p>With the $b$ term implicitly encoded. Plugging this back into the SSE equation:</p>
+\[SSE = \sum_{i} (y_i - x_i^Tw)^2\]
+<p>$x$ and $y$ are provided by the data. We cannot change them. The $w$ vector, however, has <em>parameters</em> ($w_1$, $w_2$,…,$w_n$) that we can <em>learn</em> to fit the data!</p>
+<p><strong>This is Machine Learning!</strong></p>
+<p>Make sure you understand the setup so far, because we are going into some calculus now.</p>
+<h3 id="solving-for-w">
+    <a href="#solving-for-w" class="anchor-heading" aria-labelledby="solving-for-w"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Solving for w
+</h3>
+<p>We want to find the parameters ($w$, and $b$ implicitly) that minimize the SSE. In other words, what values of $w$, $b$ will make it so that the SSE equation evaluates to the smallest number possible.
+This notates as $\arg\min$.</p>
+\[\hat{w}_{LS}=\underset{w}{\operatorname{\arg\min}}\sum_{i} (y_i - x_i^Tw)^2\]
+<p>To solve for the left hand side of this equation, you would take the derivative of the equation $\sum_{i} (y_i - x_i^Tw)^2$ with respect to $w$, set it equal to zero, and solve for the $w$ term. Once you write $w$ in terms of $x$ and $y$, it is the solution to the optimization problem we defined above. Just to clarify: the value we are solving for is the vector of <em><mark style="background-color: lightblue">weights</mark></em> or coefficients that minimize the SSE in the Least Squares (LS) formulation of linear regression (which is what we are doing).</p>
+\[\frac{\partial}{\partial w}\sum_{i} (y_i - x_i^Tw)^2 = 0\]
+<p>The derivation is difficult (and it is very easy to mess up) so we won’t try and make you learn/memorize it. However, if you are curious, here is a whiteboard example.</p>
+<p><img src="../assets/unit1/unit1_derivation.jpg" alt="alt_text" /></p>
+<p>We ultimately get that:</p>
+\[\hat{w}_{LS} = (X^TX)^{-1}X^Ty\]
+<p>Where $X$ is a matrix created from stacking all $x_i$ examples on top of one another, and $y$ is a vector of all of the $y_i$ labels stacked. Below is a visual to help you understand:</p>
+<p><img src="../assets/unit1/unit1_matrix_viz.jpg" alt="alt_text" /></p>
+<p>Awesome! You now have a weight vector that you can multiply by a new set of features to predict the $y$ for that set of features! If you want to, you can easily code this up in <code class="language-plaintext highlighter-rouge">numpy</code> with a dummy dataset to prove to yourself that the simple equation I showed you previously works! The best part about this closed form solution is that this is the mathematically best set of weights that solves this problem. A problem where all minima are global minima is called <em><mark style="background-color: lightblue">convex</mark></em>.</p>
+<p><strong>The main takeaway here is the intuition behind setting up a machine learning problem:</strong></p>
+<ul>
+ <li>Create a model with parameters
+ <li>Find an objective function to minimize that uses the model
+ <li>Derive and solve if a closed form solution exists
+</ul>
+<p>In some cases a closed form solution will not exist. There are ways around this, one of them being Gradient Descent (Unit 2). However, this is beyond the scope of this unit and a whole class could be taught on these concepts. If you wish to dive deeper, take the ML class offered by your university!</p>
+<h3 id="synthesis-questions">
+    <a href="#synthesis-questions" class="anchor-heading" aria-labelledby="synthesis-questions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <em>Synthesis Questions:</em>
+</h3>
+<ul>
+ <li><em>What is a feature in this context?</em>
+ <li><em>What are the significance of the w terms within the modified y = mx + b equation described in the article?</em>
+ <li><em>What is SSE?</em>
+   <ul>
+     <li><em>How is it calculated?</em>
+     <li><em>What can it tell you about the values you chose for w?</em>
+     <li><em>If you modify the  $w_1$ term and the SSE goes up, was that a good modification?</em>
+   </ul>
+ <li><em>How is the bias term implicitly encoded?</em>
+ <li><em>Write out the linear regression formula when you wish to estimate the impact of age, height, and weight of someone on their marital status.</em>
+   <ul>
+     <li><em>Hint: How many x terms will there be? How many features?</em>
+   </ul>
+</ul>
+<h2 id="unit-1-project-specs">
+    <a href="#unit-1-project-specs" class="anchor-heading" aria-labelledby="unit-1-project-specs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Unit 1 Project Specs
+</h2>
+<h3 id="non-technical-project-spec">
+    <a href="#non-technical-project-spec" class="anchor-heading" aria-labelledby="non-technical-project-spec"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Non-Technical Project Spec:</strong>
+</h3>
+<p>The non-technical project for this unit will involve some writing! <strong>Choose 3</strong> of the prompts below and write <strong>at least 200</strong> (<em>meaningful!</em>) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!</p>
+<ul>
+ <li>What might be some applications of principle component analysis (PCA) in neuroscience research? Explain your ideas.
+ <li>What might be some advantages and disadvantages of applying machine learning to neuroscience?
+ <li>What are the ethical implications of using machine learning in neuroscience research?
+ <li>What might be some applications of support vector machines (SVM) in neuroscience? Be creative!
+ <li>Reflecting on your learning from this unit, what is one thing you found to be most interesting? Something that
+ <li>What is one concept from this unit that you would like to learn more about and why?
+</ul>
+<p>Be sure to submit your work through google drive using the submission form!
+We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!</p>
+<h3 id="technical-project-spec">
+    <a href="#technical-project-spec" class="anchor-heading" aria-labelledby="technical-project-spec"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Technical Project Spec:</strong>
+</h3>
+<p>The project for this “<em>Basics</em>” section will <strong>have you finish a code template through Google Colab.</strong> Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.</p>
+<p>This project will be going over k-means clustering (unsupervised ML). We will be using the Scikit-Learn library.</p>
+<p>A few general helpful tips (if applicable):</p>
+<ul>
+ <li>Be sure to appropriately make a copy of the Colab template before starting to save your progress!
+ <li>Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
+ <li>Leave comments to cement your understanding. Link syntax to ideas.
+</ul>
+<p>Check out this handy image that gives popular sk-learn clustering algorithms and their usages:</p>
+<p><img src="../assets/unit1/unit1_cluster_desc.png" alt="alt_text" /></p>
+<p>Also this image visualizing the clustering algorithms:</p>
+<p><img src="../assets/unit1/unit1_cluster_viz.png" alt="alt_text" /></p>
+<p>Read up on k-means clustering in the provided link (Images provided above also contained here). Feel free to check out the other algorithms as well: <a href="https://scikit-learn.org/stable/modules/clustering.html#k-means">SK-Learn Clustering</a></p>
+<p>Now, follow the instructions on this Jupyter notebook (hosted on Google Colab) to implement some of the things we talked about! The notebook contains a link to the answers for this project. To use it, you will need to import the ‘.ipynb’ file to a new Colab project yourself. It is highly recommended that you only use this to check your answers after you are done completing the project yourself. This is a trust-based system!</p>
+<p><strong>Colab Link:</strong> <a href="https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-01/clustering-pca.ipynb">Unit 1 Colab Template</a> <strong>(30 min)</strong></p>
+<p>When you are finished with your code, independently verify that it works and have fun with it! You could try this method on different datasets, such as <a href="https://www.kaggle.com/datasets/ashwingupta3012/human-faces">this one for example</a>. If you add any additional functionality be sure to talk about it with others and give them ideas.</p>
+<p>Remember that this is all for your learning, so do your best and don’t stress!</p>
+<p>Congratulations! You now understand the basics of Clustering and PCA!</p>
+<h3 id="download-unit-01-technical-article-pdf">
+    <a href="#download-unit-01-technical-article-pdf" class="anchor-heading" aria-labelledby="download-unit-01-technical-article-pdf"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <a href="/pr-preview/pr-42/megadoc/assets/unit1/Unit_01_Technical_Article.pdf">Download Unit 01 Technical Article (PDF)</a>
+</h3>
+     </div>
+   </div>
+<div class="search-overlay"></div>
+ </div>
+  
