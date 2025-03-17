@@ -1,9 +1,10 @@
 ---
 title: AI Ethics
 parent: Megadoc
+nav_order: 7 ### Unit Number
 ---
 
-# AI Ethics
+# <u>AI Ethics</u>
 
 Welcome to the AI Ethics section of the I2 course! In this pivotal module, we'll journey through the ethical maze of AI, grounding our understanding in real-world applications and dilemmas. We will cover the following subsections of AI Ethics:
 - Introduction to AI Ethics
@@ -13,7 +14,7 @@ Welcome to the AI Ethics section of the I2 course! In this pivotal module, we'll
 - Ethics in AI Research and Applications
 - Global Perspectives on AI Ethics
 
-## **Literacy & Technical Track Content**
+## <u>Literacy & Technical Track Content</u>
 
 ### **Task 1:** 
 

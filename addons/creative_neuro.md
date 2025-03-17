@@ -1,6 +1,6 @@
 ---
-title: Unit B
-parent: Megadoc
+title: Neuroscience & Creativity
+parent: Additional Units
 ---
 
 # Unit B: Neuroscience of Creativity

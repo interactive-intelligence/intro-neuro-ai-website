@@ -4,9 +4,9 @@ title: Course Staff
 description: A listing of all the course creators.
 ---
 
-# Course Staff
+# Current Course Staff
 
-Here are the awesome people who made the course + website. Feel free to contact us if you have any issues!
+Here are the awesome people who made this course possible. Feel free to contact us if you have any issues!
 
 ## Education Leads
 
@@ -15,12 +15,7 @@ Here are the awesome people who made the course + website. Feel free to contact 
 {{ staffer }}
 {% endfor %}
 
-## Autumn 2024 Teaching Assistants
-
-{% assign teaching_assistants = site.staffers | where: 'role', '24au Teaching Assistant' %}
-{% for staffer in teaching_assistants %}
-{{ staffer }}
-{% endfor %}
+# Previous Course Staff
 
 ## The Creators
 
@@ -33,6 +28,13 @@ Here are the awesome people who made the course + website. Feel free to contact 
 
 {% assign instructors = site.staffers | where: 'role', 'OldInstructor' %}
 {% for staffer in instructors %}
+{{ staffer }}
+{% endfor %}
+
+## Autumn 2024 Teaching Assistants
+
+{% assign teaching_assistants = site.staffers | where: 'role', '24au Teaching Assistant' %}
+{% for staffer in teaching_assistants %}
 {{ staffer }}
 {% endfor %}
 

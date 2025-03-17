@@ -12,11 +12,7 @@ seo:
 
 ---
 
-## *If you're looking to join Autumn 2024*
-
 Please follow the following links!
-
-[**Course Application** (non-competitive)](https://docs.google.com/forms/d/e/1FAIpQLSeAcErbOSkVlxAbjbrrp-JnHP4T21FMT8OfwmvEief-xSVkjQ/viewform?usp=sf_link)
 
 [**I2 Discord**](https://discord.com/invite/Ph8njzHedC)
 

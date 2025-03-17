@@ -1,14 +1,15 @@
 ---
 title: Reinforcement Learning
 parent: Megadoc
+nav_order: 6 ### Unit Number
 ---
 
-# Reinforcement Learning
+# <u>Reinforcement Learning</u>
 
 Welcome to the Reinforcement Learning section of the I2 Course! The topics in this unit should get you really
 thinking about NeuroAI. Be sure to ask lots of questions!
 
-## **Technical Track Content**
+## <u>Technical Track Content</u>
 
 ### **Task 1:** 
 
@@ -34,7 +35,7 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the (_incredibly basic)_ basics of Deep RL!
 
-## **Literacy Track Content**
+## <u>Literacy Track Content</u>
 
 ### **Task 1:** 
 

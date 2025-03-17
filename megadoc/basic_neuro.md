@@ -1,19 +1,20 @@
 ---
 title: Basic Neuroanatomy
 parent: Megadoc
+nav_order: 3 ### Unit Number
 ---
 
-# Basic Neuroanatomy 
+# <u>Basic Neuroanatomy</u>
 
 Welcome to the first lesson studying the most powerful and intelligent computer known to date – the brain. We will begin by studying what exactly it is. This is called neuroanatomy, and luckily for us, MIT OpenCourseware has a fabulous lecture on exactly that, which we will pair with some nice quick overviews from none other than Mr. Paul Andersen. In addition, we will attempt to tie in topics from the deep learning unit to get you thinking more about NeuroAI. Have a look!
 
-## **Literacy & Technical Track Content**
+## <u>Literacy & Technical Track Content</u>
 
 ### **Task 1:** 
 
 *Watch the videos below, and answer any synthesis questions placed along the way.*
 
-![alt_text](../assets/image2.png "image_tooltip")
+![alt_text](../assets/unit3/brain_diagram.png "image_tooltip")
 
 First, we will begin with Mr. Andersen’s lovely introduction to the structure of the foundation of our biological computation: the neuron!
 ### **Video 1:** [The Neuron!](https://www.youtube.com/watch?v=HZh0A-lWSmY) 

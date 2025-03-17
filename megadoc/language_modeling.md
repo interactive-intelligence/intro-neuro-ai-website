@@ -1,13 +1,17 @@
 ---
 title: Language Modeling
 parent: Megadoc
+nav_order: 8 ### Unit Number
 ---
 
-# Language Modeling
+# <u>Language Modeling</u>
 
-<!-- TODO: Add blurb -->
+Welcome to the Language Modeling section of the I2 Course! Here you will learn 
+about the core concepts underlying textual GenAI tools that took the world by
+storm. Hopefully you can reason about these models better after learning more 
+about how they work!
 
-## **Technical Track Content**
+## <u>Technical Track Content</u>
 
 ### **Task 1:** 
 
@@ -37,7 +41,7 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of HuggingFace and Language Modeling!
 
-## **Literacy Track Content**
+## <u>Literacy Track Content</u>
 
 ### **Task 1:** 
 

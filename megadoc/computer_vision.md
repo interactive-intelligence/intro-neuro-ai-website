@@ -1,13 +1,14 @@
 ---
 title: Computer Vision
 parent: Megadoc
+nav_order: 4 ### Unit Number
 ---
 
-# Computer Vision
+# <u>Computer Vision</u>
 
 Hello and welcome to the _Computer Vision_ section of the I2 course! Here we will approach CV from a deep learning perspective, to connect better with other units.
 
-## **Technical Track Content**
+## <u>Technical Track Content</u>
 
 ### **Task 1:** 
 
@@ -33,7 +34,7 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of Convolutional Neural networks!
 
-## **Literacy Track Content**
+## <u>Literacy Track Content</u>
 
 ### **Task 1:** 
 

@@ -1,6 +1,6 @@
 ---
-title: Unit A
-parent: Megadoc
+title: Gradient Descent
+parent: Additional Units
 ---
 
 # Unit A: Gradient Descent Deep Dive

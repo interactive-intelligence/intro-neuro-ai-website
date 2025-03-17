@@ -1,6 +1,6 @@
 ---
-title: Unit 10
-parent: Megadoc
+title: Deinforcement Learning
+parent: Additional Units
 ---
 
 # Unit 10: Cognitive Science and Psychology of Reward and Pain

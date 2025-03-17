@@ -1,13 +1,14 @@
 ---
 title: Deep Learning
 parent: Megadoc
+nav_order: 2 ### Unit Number
 ---
 
-# Deep Learning
+# <u>Deep Learning</u>
 
 Hello and welcome to the _Deep Learning_ section of the I2 course! Like last unit, we're going to split our content into literacy and technical understanding. 
 
-## **Technical Track Content**
+## <u>Technical Track Content</u>
 
 ### **Task 1:** 
 
@@ -34,7 +35,7 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of Deep Neural Network structure, how they learn, and how to create one using Python!
 
-## **Literacy Track Content**
+## <u>Literacy Track Content</u>
 
 ### **Task 1:** 
 
