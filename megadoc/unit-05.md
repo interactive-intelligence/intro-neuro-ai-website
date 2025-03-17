@@ -1,42 +1,38 @@
 ---
-title: Unit 05
+title: Visual System
 parent: Megadoc
 ---
 
-# Unit 5: Intro to the Visual System
+# Intro to the Visual System
 
-Welcome to the visual system. Before we dive into how computer scientists have hacked together mathematical filters and matrix multiplication to process visual information and extract meaningful output, we will take a hard look at how your eyes and neurons process a continuous bombardment of photons. First, some vocab.
+Welcome to the visual system. Before we dive into how computer scientists have hacked together mathematical filters and matrix multiplication to process visual information and extract meaningful output, we will take a hard look at how your eyes and neurons process a continuous bombardment of photons.
 
+## **Literacy & Technical Track Content**
 
-> Dorsal: Upper or back side of something (like a dorsal fin on an orca!)
+### **Task 1:** 
 
+*Watch the videos below, and answer any synthesis questions placed along the way.*
 
-> Ventral: Underside or underbelly of something
+First, some vocab.
 
-
-> Receptive Field: An input that produces the biggest response in some area or neuron is said to be its receptive field
-
-**Task 1:** Watch the following videos and answer the questions! You know the drill. The first one will teach us about the physiology of processing light, the complex first layer of our own biological neural network.
-
-[Vision: Crash Course Anatomy & Physiology # 18](https://www.youtube.com/watch?v=o0DYP-u1rNM)
+> **Dorsal:** Upper or back side of something (like a dorsal fin on an orca!)
 
 
-### `Synthesis Questions:`
+> **Ventral:** Underside or underbelly of something
 
 
+> **Receptive Field:** An input that produces the biggest response in some area or neuron is said to be its receptive field
 
+Watch the following videos and answer the questions! You know the drill. The first one will teach us about the physiology of processing light, the complex first layer of our own biological neural network.
+### **Video 1:** [Vision: Crash Course Anatomy & Physiology # 18](https://www.youtube.com/watch?v=o0DYP-u1rNM)
+### *Synthesis Questions:*
 * `Where in the brain do signals from the retina go before reaching the visual cortex?`
 * `What are some differences between rods and cones?`
 * `Describe the phenomena of retinal neurons that "get tired". Do you think there are analogous processes in deep learning or convolutional neural networks?`
 
 The next video will describe the path of information flow through the visual cortex and some core properties of the structure of this process.
-
-[Perception: 3.2 Primary Visual Cortex](https://www.youtube.com/watch?v=rrG-Y41Omi4)
-
-### `Synthesis Questions:`
-
-
-
+### **Video 2:**  [Perception: 3.2 Primary Visual Cortex](https://www.youtube.com/watch?v=rrG-Y41Omi4)
+### *Synthesis Questions:*
 * `What wavelengths of light can humans detect? Why might we only be able to detect such a narrow band of light wavelengths? What would be an advantage and downside of processing more?`
 * `What is V1 in the visual cortex? What are those cells most sensitive to?`
 * `What is the fovea best at detecting?`
@@ -45,12 +41,10 @@ The next video will describe the path of information flow through the visual cor
 * `Brains are constrained by space, which as we have seen with vision, drives trade-offs in our processing. Do neural networks have analogous constraints? What are the effects of this?`
 * `Brains are constrained by space, which as we have seen with vision, drives trade-offs in our processing. Do neural networks have analogous constraints? What are the effects of this?`
 
-This final video gives a swift overview of many functional modules of visual processing. This is a great time to start thinking about how all this vision processing compares to our methods of processing information with neural networks! We will learn even more in the next Unit on convolutional neural networks too :)
+This final video gives a swift overview of many functional modules of visual processing. This is a great time to start thinking about how all this vision processing compares to our methods of processing information with neural networks! 
 
-[Perception: 3.3 Functional Areas, Pathways, and Modules](https://www.youtube.com/watch?v=vTIxvw9QAY8)
-
-### `Synthesis Questions:`
-
+### **Video 3:** [Perception: 3.3 Functional Areas, Pathways, and Modules](https://www.youtube.com/watch?v=vTIxvw9QAY8)
+### *Synthesis Questions:*
 * `Describe at least 5 functional parts of the visual system`
 * `Explain the hierarchical model of the visual system`
 * `What is the "what" stream? What does it do?`
@@ -59,7 +53,6 @@ This final video gives a swift overview of many functional modules of visual pro
 
 This last video is optional but it’s highly recommended that you watch it. This video does a good job at synthesizing all 3 videos and goes more in-depth into certain mechanisms:
 [Visual Processing and the Visual Cortex](https://youtu.be/MgMNUne9j9c?si=9pEM9EFYdv-9tq3y)
-
 Here’s some questions to think about as you watch the video:
 * `What direction does light go versus information in the retina?`
 * `What cells are in the retina?`
@@ -69,9 +62,9 @@ Here’s some questions to think about as you watch the video:
 
 ---
 
-# **Project Spec:**
+### **Task 2:** 
 
-**There is no technical project for this unit. We have provided a scenario and instructions below:**
+*Complete the following writing activity.*
 
 Imagine you got a little too into neural networks and decided to replace your eyes with convolutional neural networks. You may use any sensors, hardware, brain computer interfaces, fungi, wires, Von Neumann computing, neuromorphic computing, or robots that you like (that seem vaguely feasible). How would you replace the algorithms run by the visual cortex with algorithms like those of convolution neural networks? Be creative and let your imagination run free!
 
@@ -80,7 +73,3 @@ Draw your system in detail and write a short paragraph on the following:
 * What would be the advantages of your system?
 * What would be the disadvantages?
 * What hardware did you use to implement this? In your opinion, is it possible to use the existing biological nervous system to run computation algorithms like CNNs? Why?
-
-Be sure to submit your work through google drive using the submission form!
-We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
-You can submit a pdf or a simple Google Doc, whichever you prefer!

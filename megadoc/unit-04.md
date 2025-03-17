@@ -1,25 +1,45 @@
 ---
-title: Unit 04
+title: Computer Vision
 parent: Megadoc
 ---
 
-# Unit 4: Computer Vision
-Hello and welcome to the _Basics_ section of the I2 megadoc! 
+# Computer Vision
 
-**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked below to get an intuitive understanding of computer vision. <span style="color:red">**This is required.**</span>
+Hello and welcome to the _Computer Vision_ section of the I2 course! Here we will approach CV from a deep learning perspective, to connect better with other units.
 
-#### [Unit 04 Technical Article](unit-04-tech-article.md)
+## **Technical Track Content**
 
-&nbsp;
+### **Task 1:** 
 
-**Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
-[Link to this task](https://course.uw-i2.org/megadoc/unit-04/#unit-4-synthesis-questions)
+*Navigate to the relevant section of the I2 Grimoire using the link below. Read the textbook and answer all synthesis questions to the best of your ability. Be sure to save these somewhere for future reference.*
 
-**Task 3:** Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
-[Link to this task](https://course.uw-i2.org/megadoc/unit-04/#unit-4-project-specs)
+### [I2 Grimoire: Computer Vision](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/units/Computer%20Vision.pdf) 
 
-## Back to Basics: Computer Vision
-In Week 2, we talked about how deep neural networks work on a very general level. Today, we’re going to talk about a new type of neural network, called a Convolutional Neural Network (CNN). These are neural networks that are specifically designed to process images. While neural networks resemble the way the human brain works, CNNs resemble the way the human vision system works. Often, a CNN is a subsection of a larger neural network: it’s like a group of layers that exists to process images really efficiently. 
+---
+
+### **Task 2:** 
+
+*Solve the coding challenges within the Jupyter notebook linked below (through Colab). If you encounter any issues with the notebook not functioning as described, please let us know!*
+
+Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
+
+In this project, you will be implementing a Convolutional Neural Network (CNN)! I would suggest to **read up on what [CIFAR-10](https://en.wikipedia.org/wiki/CIFAR-10) is.** before starting since this is the data you will be working with.
+
+**Colab Link:** [Computer Vision Colab Notebook](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-04/conv-net.ipynb) **(1 hr)**
+
+When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
+
+Remember that this is all for your learning, so do your best and don’t stress!
+
+Congratulations! You now understand the basics of Convolutional Neural networks!
+
+## **Literacy Track Content**
+
+### **Task 1:** 
+
+*Read the article below, and answer any synthesis questions placed along the way.*
+
+In the deep learning unit, we talked about how deep neural networks work on a very general level. Today, we’re going to talk about a new type of neural network, called a Convolutional Neural Network (CNN). These are neural networks that are specifically designed to process images. While neural networks resemble the way the human brain works, CNNs resemble the way the human vision system works. Often, a CNN is a subsection of a larger neural network: it’s like a group of layers that exists to process images really efficiently. 
 
 Let’s think back to our discussion of neural networks in unit 2. Recall that we used the MNIST dataset, which contains images of handwritten numbers (here’s a picture to remind you, with [credit](https://etzold.medium.com/mnist-dataset-of-handwritten-digits-f8cf28edafe)):
 <div style="text-align:center">
@@ -93,30 +113,32 @@ We repeat the convolution-pooling cycle until our feature map (or maps, if we ha
     <img src="../assets/unit4/literacy_images/fully_connected.png" alt="Example of fully connected layer" width="500"/>
 </div>
 
-This was a lot of information, so please reach out to a TA if you’re having trouble with these concepts or with the homework! Since this article was very abstract and conceptual, the homework is going to be much more technically focused. 
+This was a lot of information, so please reach out to someone if you’re having trouble with these concepts! Now lets watch the following videos and answer the associated questions.
 
-## Unit 4 Synthesis Questions
 ### **Video 1:** [How Convolutional Neural Networks work](https://youtu.be/FmpDIaiMIeA?t=840) **(12 min)**
 **Note:** Watch from 13:54 onward to answer the questions below. Before that is mainly review from this article (but you may find it useful to skim through, as it covers helpful math concepts!). 
 ### *Synthesis Questions*
-* *How is backpropagation used in CNNs, and how does it differ from backpropagation in standard neural networks?*
-* *What outcomes can a designer achieve from adjusting the hyperparameters or architecture of a CNN?*
-* *Can you think of an example of when we can use a CNN on non-image data?*
+* `How is backpropagation used in CNNs, and how does it differ from backpropagation in standard neural networks?`
+* `What outcomes can a designer achieve from adjusting the hyperparameters or architecture of a CNN?`
+* `Can you think of an example of when we can use a CNN on non-image data?`
 
 ### **Video 2:** [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA) **(14 min)**
 **Note:** Watch up to 13:42 in this video; the rest is beyond the scope of this course. 
 ### *Synthesis Questions*
-* *What is the name for the smaller grid that convolves over a larger image?*
-    * *Hint: Starts with a "k"*
-* *What are some examples of what you can do to images if you convolve them with special matrices?*
-* *How does Gaussian blur "work"?*
-* *What is the name for the actual operation that occurs when the smaller grid is overlaid on the larger one?*
-    * *When each element of the corresponding pixels are multiplied then summed.*
-* *Give an example of a 3x3 matrix that would not do anything to the image it convolves over. Why does it not impact the image?*
-    * *This is also known as the "do-nothing" matrix*
+* `What is the name for the smaller grid that convolves over a larger image?`
+    * `Hint: Starts with a "k"`
+* `What are some examples of what you can do to images if you convolve them with special matrices?`
+* `How does Gaussian blur "work"?`
+* `What is the name for the actual operation that occurs when the smaller grid is overlaid on the larger one?`
+    * `When each element of the corresponding pixels are multiplied then summed.`
+* `Give an example of a 3x3 matrix that would not do anything to the image it convolves over. Why does it not impact the image?`
+    * `This is also known as the "do-nothing" matrix`
 
-## Unit 4 Project Specs
-### **Non-Technical Project Spec:**
+---
+
+### **Task 2:** 
+
+*Complete the following writing activity.*
 
 The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
 
@@ -126,29 +148,6 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 * What ways does the convolutional layer in CNNs resemble the receptive field in the visual system?
 * Reflecting on you have learned from this unit, what is one thing you found to be most interesting?
 * What is one concept from this unit that you would like to learn more about and why?
-
-Be sure to submit your work through google drive using the submission form!
-We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
-
-### **Technical Project Spec:**
-
-The project for this “_Computer Vision_” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
-
-A few general helpful tips (if applicable):
-* Be sure to appropriately make a copy of the Colab template before starting to save your progress!
-* Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
-* Leave comments to cement your understanding. Link syntax to ideas.
-* **Read up on what [CIFAR-10](https://en.wikipedia.org/wiki/CIFAR-10) is.**
-
-Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
-
-**Colab Link:** [Unit 4 Notebook](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-04/conv-net.ipynb) **(1 hr)**
-
-When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
-
-Remember that this is all for your learning, so do your best and don’t stress!
-
-Congratulations! You now understand the basics of Convolutional Neural networks!
 
 <!---
 # Old Course Content

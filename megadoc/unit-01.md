@@ -1,8 +1,8 @@
 ---
-title: "Unit 01"
+title: "Machine Learning"
 parent: Megadoc
 ---
-# Unit 1: Machine Learning
+# Machine Learning
 
 Hello and welcome to the _Machine Learning_ section of the I2 course! Our content will be split into two categories: literacy and technical tracks. These topics are fundamental to the entire rest of our course, so please don't hesitate to reach out to the course staff if you have any questions! 
 
