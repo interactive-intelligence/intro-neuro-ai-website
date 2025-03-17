@@ -45,7 +45,7 @@ Here are the awesome people who made this course possible. Feel free to contact 
 {{ staffer }}
 {% endfor %}
 
-## Fall 2023 Teaching Assistants
+## Autumn 2023 Teaching Assistants
 
 {% assign teaching_assistants = site.staffers | where: 'role', '23au Teaching Assistant' %}
 {% for staffer in teaching_assistants %}

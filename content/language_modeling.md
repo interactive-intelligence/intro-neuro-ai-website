@@ -1,6 +1,6 @@
 ---
 title: Language Modeling
-parent: Megadoc
+parent: Core Content
 nav_order: 8 ### Unit Number
 ---
 

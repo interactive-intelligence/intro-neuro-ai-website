@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Megadoc
+title: Core Content
 has_children: true
 nav_order: 3
 ---
 
-# Megadoc
+# Core Content
 
 Hello, and welcome to the I2 Neuro/AI Course. Here you can find all sorts of resources designed to help YOU become an amazing Neuro/AI* researcher!
 

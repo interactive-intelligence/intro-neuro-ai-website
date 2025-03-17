@@ -1,6 +1,6 @@
 ---
 title: Human Brain Characteristics
-parent: Additional Units
+parent: Additional Content
 ---
 
 # Unit 12: Human Characteristics of the Brain

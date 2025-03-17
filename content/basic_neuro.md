@@ -1,6 +1,6 @@
 ---
 title: Basic Neuroanatomy
-parent: Megadoc
+parent: Core Content
 nav_order: 3 ### Unit Number
 ---
 

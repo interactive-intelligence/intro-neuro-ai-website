@@ -1,6 +1,6 @@
 ---
 title: Build a Brain
-parent: Additional Units
+parent: Additional Content
 ---
 
 # Unit 11: Building a Brain: Networks and Systems

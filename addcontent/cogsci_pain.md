@@ -1,6 +1,6 @@
 ---
 title: Deinforcement Learning
-parent: Additional Units
+parent: Additional Content
 ---
 
 # Unit 10: Cognitive Science and Psychology of Reward and Pain

@@ -1,6 +1,6 @@
 ---
 title: AI Ethics
-parent: Megadoc
+parent: Core Content
 nav_order: 7 ### Unit Number
 ---
 

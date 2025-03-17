@@ -1,6 +1,6 @@
 ---
 title: Deep Learning
-parent: Megadoc
+parent: Core Content
 nav_order: 2 ### Unit Number
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Computer Vision
-parent: Megadoc
+parent: Core Content
 nav_order: 4 ### Unit Number
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning"
-parent: Megadoc
+parent: Core Content
 nav_order: 1 ### Unit Number
 ---
 # <u>Machine Learning</u>

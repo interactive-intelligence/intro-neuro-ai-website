@@ -1,6 +1,6 @@
 ---
 title: Fairness & Theory
-parent: Additional Units
+parent: Additional Content
 ---
 
 # Unit 9: Fairness and Theory

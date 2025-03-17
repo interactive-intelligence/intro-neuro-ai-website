@@ -1,6 +1,6 @@
 ---
 title: Gradient Descent
-parent: Additional Units
+parent: Additional Content
 ---
 
 # Unit A: Gradient Descent Deep Dive

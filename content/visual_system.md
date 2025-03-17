@@ -1,6 +1,6 @@
 ---
 title: Visual System
-parent: Megadoc
+parent: Core Content
 nav_order: 5 ### Unit Number
 ---
 
