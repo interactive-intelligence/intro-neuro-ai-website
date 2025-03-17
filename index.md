@@ -12,7 +12,11 @@ seo:
 
 ---
 
+## *If you're looking to join Spring 2025*
+
 Please follow the following links!
+
+[**Course Application** (non-competitive)](https://forms.gle/B69zbKf1QrumfSbs9)
 
 [**I2 Discord**](https://discord.com/invite/Ph8njzHedC)
 
