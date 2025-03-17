@@ -13,7 +13,7 @@ about how they work!
 
 ## <u>Technical Track Content</u>
 
-### **Task 1:** 
+### **<u>Task 1:</u>** 
 
 *Navigate to the relevant section of the I2 Grimoire using the link below. Read the textbook and answer all synthesis questions to the best of your ability. Be sure to save these somewhere for future reference.*
 
@@ -21,7 +21,7 @@ about how they work!
 
 ---
 
-### **Task 2:** 
+### **<u>Task 2:</u>** 
 
 *Solve the coding challenges within the Jupyter notebook linked below (through Colab). If you encounter any issues with the notebook not functioning as described, please let us know!*
 
@@ -41,9 +41,13 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of HuggingFace and Language Modeling!
 
+---
+---
+---
+
 ## <u>Literacy Track Content</u>
 
-### **Task 1:** 
+### **<u>Task 1:</u>** 
 
 *Read the article below, and answer any synthesis questions placed along the way.*
 
@@ -83,14 +87,14 @@ We’ll continue to discuss neural language models in greater detail through the
 ### **Optional:** [Natural Language Processing: Crash Course AI #7](https://www.youtube.com/watch?v=oi0JXuL19TA&list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b&index=8) **(13 min)**
 **Great resource if you're still having trouble with NLP!**
 
-## Unit 8 Project Specs
+<!-- ## Unit 8 Project Specs
 **<mark style="background-color: lightblue">Homework Help:</mark>** if you’re having trouble with the technical homework, try following along with this video first! It also uses Python in Google Colab and should give you some good practice. Reach out to a TA if you have any questions! 
 
-**[Make an AI sound like a YouTuber (LAB): Crash Course AI #8](https://www.youtube.com/watch?v=kZWum5omEv4&list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b&index=9)**
+**[Make an AI sound like a YouTuber (LAB): Crash Course AI #8](https://www.youtube.com/watch?v=kZWum5omEv4&list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b&index=9)** -->
 
 ---
 
-### **Task 2:** 
+### **<u>Task 2:</u>** 
 
 *Complete the following writing activity.*
 

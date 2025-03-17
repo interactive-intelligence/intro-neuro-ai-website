@@ -10,7 +10,7 @@ Welcome to the first lesson studying the most powerful and intelligent computer 
 
 ## <u>Literacy & Technical Track Content</u>
 
-### **Task 1:** 
+### **<u>Task 1:</u>** 
 
 *Watch the videos below, and answer any synthesis questions placed along the way.*
 
@@ -47,7 +47,7 @@ Congratulations! That was a lot of neuroscience! On to some more creative ways o
 
 ---
 
-### **Task 2:** 
+### **<u>Task 2:</u>** 
 
 *Complete the following writing activity.*
 

@@ -10,7 +10,7 @@ Welcome to the visual system. Before we dive into how computer scientists have h
 
 ## <u>Literacy & Technical Track Content</u>
 
-### **Task 1:** 
+### **<u>Task 1:</u>** 
 
 *Watch the videos below, and answer any synthesis questions placed along the way.*
 
@@ -63,7 +63,7 @@ Here’s some questions to think about as you watch the video:
 
 ---
 
-### **Task 2:** 
+### **<u>Task 2:</u>** 
 
 *Complete the following writing activity.*
 

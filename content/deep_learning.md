@@ -10,7 +10,7 @@ Hello and welcome to the _Deep Learning_ section of the I2 course! Like last uni
 
 ## <u>Technical Track Content</u>
 
-### **Task 1:** 
+### **<u>Task 1:</u>** 
 
 *Navigate to the relevant section of the I2 Grimoire using the link below. Read the textbook and answer all synthesis questions to the best of your ability. Be sure to save these somewhere for future reference.*
 
@@ -18,7 +18,7 @@ Hello and welcome to the _Deep Learning_ section of the I2 course! Like last uni
 
 ---
 
-### **Task 2:** 
+### **<u>Task 2:</u>** 
 
 *Solve the coding challenges within the Jupyter notebook linked below (through Colab). If you encounter any issues with the notebook not functioning as described, please let us know!*
 
@@ -35,9 +35,13 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the basics of Deep Neural Network structure, how they learn, and how to create one using Python!
 
+---
+---
+---
+
 ## <u>Literacy Track Content</u>
 
-### **Task 1:** 
+### **<u>Task 1:</u>** 
 
 *Read the article below, and answer any synthesis questions placed along the way.*
 
@@ -123,7 +127,7 @@ This was a good introduction. Now lets turn to some amazing videos on the topic 
 
 ---
 
-### **Task 2:** 
+### **<u>Task 2:</u>** 
 
 *Complete the following writing activity.*
 

@@ -16,7 +16,7 @@ Welcome to the AI Ethics section of the I2 course! In this pivotal module, we'll
 
 ## <u>Literacy & Technical Track Content</u>
 
-### **Task 1:** 
+### **<u>Task 1:</u>** 
 
 *Read the articles and watch the videos below. Answer any synthesis questions placed along the way.*
 
@@ -80,7 +80,7 @@ Welcome to the AI Ethics section of the I2 course! In this pivotal module, we'll
 
 ---
 
-### **Task 2:** 
+### **<u>Task 2:</u>** 
 
 *Create the following small presentation, with the expectation of presenting to a group.*
 

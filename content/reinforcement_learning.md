@@ -11,7 +11,7 @@ thinking about NeuroAI. Be sure to ask lots of questions!
 
 ## <u>Technical Track Content</u>
 
-### **Task 1:** 
+### **<u>Task 1:</u>** 
 
 *Navigate to the relevant section of the I2 Grimoire using the link below. Read the textbook and answer all synthesis questions to the best of your ability. Be sure to save these somewhere for future reference.*
 
@@ -19,7 +19,7 @@ thinking about NeuroAI. Be sure to ask lots of questions!
 
 ---
 
-### **Task 2:** 
+### **<u>Task 2:</u>** 
 
 *Solve the coding challenges within the Jupyter notebook linked below (through Colab). If you encounter any issues with the notebook not functioning as described, please let us know!*
 
@@ -35,9 +35,13 @@ Remember that this is all for your learning, so do your best and don’t stress!
 
 Congratulations! You now understand the (_incredibly basic)_ basics of Deep RL!
 
+---
+---
+---
+
 ## <u>Literacy Track Content</u>
 
-### **Task 1:** 
+### **<u>Task 1:</u>** 
 
 *Read the article below, and answer any synthesis questions placed along the way.*
 
@@ -110,7 +114,7 @@ Now let's watch some videos on RL.
 
 ---
 
-### **Task 2:** 
+### **<u>Task 2:</u>** 
 
 *Complete the following writing activity.*
 
