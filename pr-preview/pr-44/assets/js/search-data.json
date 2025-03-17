@@ -323,235 +323,228 @@
   },"46": {
     "doc": "Language Modeling",
     "title": "Literacy Track Content",
-    "content": "Task 1: . Read the article below, and answer any synthesis questions placed along the way. This article will cover the idea of language modeling and how computers process human language. Put simply, the goal of language modeling is to predict the next word in a sentence using information about the definitions and grammatical rules of particular words as well as the contexts in which they appear. For example consider this sentence: . I want to cook an omelet, so I went to the store to buy some ___ . What comes next in this sentence? Chances are, you said “eggs.” There are plenty of “correct” answers—maybe you were out of salt and pepper—but it’s the most likely answer. Based on the sentence, we know that whatever comes next should be a noun phrase, and it’s probably related to the omelet we’re going to cook, and it’s something you can buy in a store. Given all that information, we conclude that we can fill in the blank with “eggs.” The goal of language modeling is to do something similar—that is, predict the next word in these sentences using probabilistic information about the sentence. There are two main types of language models: statistical language models and neural language models. Statistical language models use statistics and probability directly to predict the likely next word in a sentence of phrase. They generally get these statistics from a sample set of data. Based on this data, the model can identify patterns in the text and come up with predictions. Statistical language models usually take the form of an n-gram model. This model predicts the probability of a word in a sequence given the n previous words in the sequence. For example, a unigram predicts the probability of a word given the immediate previous word; a bigram predicts the probability given the two previous words; a trigram uses the three previous words, and so on. However, statistical language models have their limitations. For one, they will struggle with new words or phrases that don’t appear often in the original set of data (for example, if the phrase “time complexity” rarely appears in the original data, the model may struggle to predict that the word “complexity” can follow the word “time”). In addition, because these models look back at a fixed number of words, they can struggle to track and consider the long-term effects of a word on a phrase. This is where the other type of model, neural language models, come in. Neural language models use neural networks to predict the next word in a sequence. These models are able to handle more complex and diverse sets of training data and are better at handling context clues and long-term effects of words. We’ll continue to discuss neural language models in greater detail through these videos. Specifically, we’ll look at two types of neural language models: recurrent neural networks and transformers. Watch the following videos! . Video 1: Illustrated Guide to Recurrent Neural Networks: Understanding the Intuition (10 min) . Synthesis Questions . | How does an RNN interact with a feed-forward neural network? What role does the RNN play in this process? | Describe the vanishing gradient problem in your own words. Does it relate to the drawbacks of statistical language models? | The video describes a few solutions to the short-term memory of RNNs. What changes do they make to address the problem? | . Video 2: Transformers, explained: Understand the model behind GPT, BERT, and T5 (9 min) . Synthesis Questions . | What are some of the limitations of previous NLP models, and how did transformers address these? | Describe the ideas of positional encoding and attention in your own words. | Like the “server” example at 6:50 in the video, create two sentences that can be disambiguated using self-attention. | . Optional: Natural Language Processing: Crash Course AI #7 (13 min) . Great resource if you’re still having trouble with NLP! . ",
+    "content": "Task 1: . Read the article below, and answer any synthesis questions placed along the way. This article will cover the idea of language modeling and how computers process human language. Put simply, the goal of language modeling is to predict the next word in a sentence using information about the definitions and grammatical rules of particular words as well as the contexts in which they appear. For example consider this sentence: . I want to cook an omelet, so I went to the store to buy some ___ . What comes next in this sentence? Chances are, you said “eggs.” There are plenty of “correct” answers—maybe you were out of salt and pepper—but it’s the most likely answer. Based on the sentence, we know that whatever comes next should be a noun phrase, and it’s probably related to the omelet we’re going to cook, and it’s something you can buy in a store. Given all that information, we conclude that we can fill in the blank with “eggs.” The goal of language modeling is to do something similar—that is, predict the next word in these sentences using probabilistic information about the sentence. There are two main types of language models: statistical language models and neural language models. Statistical language models use statistics and probability directly to predict the likely next word in a sentence of phrase. They generally get these statistics from a sample set of data. Based on this data, the model can identify patterns in the text and come up with predictions. Statistical language models usually take the form of an n-gram model. This model predicts the probability of a word in a sequence given the n previous words in the sequence. For example, a unigram predicts the probability of a word given the immediate previous word; a bigram predicts the probability given the two previous words; a trigram uses the three previous words, and so on. However, statistical language models have their limitations. For one, they will struggle with new words or phrases that don’t appear often in the original set of data (for example, if the phrase “time complexity” rarely appears in the original data, the model may struggle to predict that the word “complexity” can follow the word “time”). In addition, because these models look back at a fixed number of words, they can struggle to track and consider the long-term effects of a word on a phrase. This is where the other type of model, neural language models, come in. Neural language models use neural networks to predict the next word in a sequence. These models are able to handle more complex and diverse sets of training data and are better at handling context clues and long-term effects of words. We’ll continue to discuss neural language models in greater detail through these videos. Specifically, we’ll look at two types of neural language models: recurrent neural networks and transformers. Watch the following videos! . Video 1: Illustrated Guide to Recurrent Neural Networks: Understanding the Intuition (10 min) . Synthesis Questions . | How does an RNN interact with a feed-forward neural network? What role does the RNN play in this process? | Describe the vanishing gradient problem in your own words. Does it relate to the drawbacks of statistical language models? | The video describes a few solutions to the short-term memory of RNNs. What changes do they make to address the problem? | . Video 2: Transformers, explained: Understand the model behind GPT, BERT, and T5 (9 min) . Synthesis Questions . | What are some of the limitations of previous NLP models, and how did transformers address these? | Describe the ideas of positional encoding and attention in your own words. | Like the “server” example at 6:50 in the video, create two sentences that can be disambiguated using self-attention. | . Optional: Natural Language Processing: Crash Course AI #7 (13 min) . Great resource if you’re still having trouble with NLP! . Task 2: . Complete the following writing activity. The non-technical project for this unit will involve some writing! Choose 3 of the prompts below and write at least 200 (meaningful!) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience! . | What ethical considerations arise when developing language models that are inspired by neural processes involved in language? | To what extent do models used in language processing reflect the actual neural networks involved with language tasks in the brain? | How can insights from neuroscience be leveraged to enhance the design and development of language models? | Reflecting on you learning from this unit, what is the one thing you found to be most interesting? | What is one concept from this unit that you would like to learn more about and why? | . ",
     "url": "/pr-preview/pr-44/content/language_modeling/#literacy-track-content",
     
     "relUrl": "/content/language_modeling/#literacy-track-content"
   },"47": {
-    "doc": "Language Modeling",
-    "title": "Unit 8 Project Specs",
-    "content": "Homework Help: if you’re having trouble with the technical homework, try following along with this video first! It also uses Python in Google Colab and should give you some good practice. Reach out to a TA if you have any questions! . Make an AI sound like a YouTuber (LAB): Crash Course AI #8 . Task 2: . Complete the following writing activity. The non-technical project for this unit will involve some writing! Choose 3 of the prompts below and write at least 200 (meaningful!) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience! . | What ethical considerations arise when developing language models that are inspired by neural processes involved in language? | To what extent do models used in language processing reflect the actual neural networks involved with language tasks in the brain? | How can insights from neuroscience be leveraged to enhance the design and development of language models? | Reflecting on you learning from this unit, what is the one thing you found to be most interesting? | What is one concept from this unit that you would like to learn more about and why? | . ",
-    "url": "/pr-preview/pr-44/content/language_modeling/#unit-8-project-specs",
-    
-    "relUrl": "/content/language_modeling/#unit-8-project-specs"
-  },"48": {
     "doc": "Machine Learning",
     "title": "Machine Learning",
     "content": "Hello and welcome to the Machine Learning section of the I2 course! Our content will be split into two categories: literacy and technical tracks. These topics are fundamental to the entire rest of our course, so please don’t hesitate to reach out to the course staff if you have any questions! . ",
     "url": "/pr-preview/pr-44/content/machine_learning/",
     
     "relUrl": "/content/machine_learning/"
-  },"49": {
+  },"48": {
     "doc": "Machine Learning",
     "title": "Technical Track Content",
     "content": "Task 1: . Navigate to the relevant section of the I2 Grimoire using the link below. Read the textbook and answer all synthesis questions to the best of your ability. Be sure to save these somewhere for future reference. I2 Grimoire: Machine Learning . Task 2: . Solve the coding challenges within the Jupyter notebook linked below (through Colab). If you encounter any issues with the notebook not functioning as described, please let us know! . Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head. This project will be going over k-means clustering and PCA (unsupervised ML). We will be using the Scikit-Learn library. Check out this handy image that gives popular sk-learn clustering algorithms and their usages: . Also this image visualizing the clustering algorithms: . Read up on k-means clustering in the provided link (Images provided above also contained here). Feel free to check out the other algorithms as well: SK-Learn Clustering . Now, follow the instructions on this Jupyter notebook (hosted on Google Colab) to implement some of the things we talked about! Be sure to save a local copy of the template so you can edit it. Colab Link: Machine Learning Colab Template (30 min) . When you are finished with your code, independently verify that it works and have fun with it! You could try this method on different datasets, such as this one for example. If you add any additional functionality be sure to talk about it with others and give them ideas. Remember that this is all for your learning, so do your best and don’t stress! . Congratulations! You now understand the basics of Clustering and PCA! . ",
     "url": "/pr-preview/pr-44/content/machine_learning/#technical-track-content",
     
     "relUrl": "/content/machine_learning/#technical-track-content"
-  },"50": {
+  },"49": {
     "doc": "Machine Learning",
     "title": "Literacy Track Content",
     "content": "Task 1: . Read the article below, and answer any synthesis questions placed along the way. This article is going to cover what machine learning is at a conceptual level. The general idea behind machine learning is that a machine uses known information to make predictions about unknown information—much like humans. For a long time, we used computer programming to manually give computers instructions on how to do things. But there are a lot of things that we may want computers to do that are far too advanced to manually instruct them on. The goal of machine learning, then, is to get computers to “learn” how to do tasks so that we don’t have to give it explicit instructions. To better understand this, let’s look at an example. Imagine we want our computer to identify pictures of cats and pictures of pigs. Our computer has never seen a pig or a cat before, so we have to give it some information to help it get started. Let’s feed our computer the following images. We’ll label the pictures of cats “cat” and the pictures of pigs “pig,” so the computer knows which is which. Now the computer has to figure out what makes the cat pictures different from the pig pictures. What does it notice? Well, all the cats are furry and all the pigs are pink. So the computer comes up with the following system: . | if the picture has a furry, non-pink animal, it’s a cat | if the picture has a non-furry, pink animal, it’s a pig | otherwise the computer isn’t sure | . Okay, let’s see how it does! We give the computer these three pictures and ask it to classify them as “cat” or “pig.” . The computer classifies the first animal, which is furry and not pink, as a cat—perfect! But it classifies the second, which is not furry and pink, as a pig, and the third, which is furry and not pink, as a cat. Now we have to correct our computer. We let it know that it was right about the first image, but the other two were wrong. Here’s where the crucial part of machine learning comes in: the computer looks at the images again and learns why it was wrong. It realizes that not all cats are furry and not all pigs are pink. Maybe it also realizes that all the cats we provided have long tails, and all the pigs have long snouts. Whatever the case, the computer learns how to better classify the animals based on the data we provided. It learns which features are crucial and which features are optional in its decision, and the more data we provide, the more it refines its processes and produces accurate predictions. This occurs over many, many, many trials, until it finally begins to make perfect predictions. This is the very general idea of how machine learning works. But what does it mean for a computer to “learn”? How does a machine “learn” anything, the way humans learn? For that matter, how can the computer tell that the pictures of cats have fur in them, or that the pictures of pigs contain long snouts? . These are exactly the questions that this course aims to answer. We’ll learn how humans learn, how machines learn, and how our understanding of one allows us to develop our understanding of the other. We’ll also learn how humans interpret images and pictures, and how we can use that information to get computers to do the same thing. Synthesis Questions . | What are the limitations of early “if this, then that” logic? | Why do we need a teach-build cycle to get our machine to learn? | Why does this teach-build-teach-build cycle work? How do the \"bots\" get better over time? | Why is it so important for companies to use a good dataset to teach their bots? | . TODO: Add more to the literacy article . Task 2: . Complete the following writing activity. The non-technical project for this unit will involve some writing! Choose 3 of the prompts below and write at least 200 (meaningful!) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience! . | TODO: Create prompts based off literacy article | . ",
     "url": "/pr-preview/pr-44/content/machine_learning/#literacy-track-content",
     
     "relUrl": "/content/machine_learning/#literacy-track-content"
-  },"51": {
+  },"50": {
     "doc": "Movement",
     "title": "Unit 13: Intro to Movement",
     "content": "We are now going to be learning about how your brain makes you act and move in your environment. We start by investigating the cerebellum. This will tie into Reinforcement Learning (RL), so pay attention! . First, a few useful vocab words: . Afferent: Conducting towards something . Efferent: Conducting away from something . Task 1: Read the sections entitled “Feed forward control systems” and “The cerebellum may be a feedforward control system” from the notes here to get a sense for the purpose of the cerebellum. Cerebellum – The University of Texas Medical School . Then, watch the following brief videos, take notes if you’d like! . 2-Minute Neuroscience: Cerebellum . 19.3 Cerebellar Information Flow . Synthesis Questions: . | Explain the difference between mossy fibers and climbing fibers and their respective functions. | Which cells or fibers may be responsible for sending error signals to the cerebellum? | What is the function of a Purkinje cell? To what do they output? What do they look like? Why might they look like this? | What are the primary input sources of the cerebellum? Where do these signals originate? | . For more depth on these topics, here are some more fabulous resources. Bonus Videos: . 19.4 Cerebellar Circuits . 19.5 Afferent Tracts to the Cerebellum . ",
     "url": "/pr-preview/pr-44/addcontent/movement/#unit-13-intro-to-movement",
     
     "relUrl": "/addcontent/movement/#unit-13-intro-to-movement"
-  },"52": {
+  },"51": {
     "doc": "Movement",
     "title": "Project Spec",
     "content": "There is no project for this unit yet. We hope to make one soon! . ",
     "url": "/pr-preview/pr-44/addcontent/movement/#project-spec",
     
     "relUrl": "/addcontent/movement/#project-spec"
-  },"53": {
+  },"52": {
     "doc": "Movement",
     "title": "Movement",
     "content": " ",
     "url": "/pr-preview/pr-44/addcontent/movement/",
     
     "relUrl": "/addcontent/movement/"
-  },"54": {
+  },"53": {
     "doc": "Reinforcement Learning",
     "title": "Reinforcement Learning",
     "content": "Welcome to the Reinforcement Learning section of the I2 Course! The topics in this unit should get you really thinking about NeuroAI. Be sure to ask lots of questions! . ",
     "url": "/pr-preview/pr-44/content/reinforcement_learning/",
     
     "relUrl": "/content/reinforcement_learning/"
-  },"55": {
+  },"54": {
     "doc": "Reinforcement Learning",
     "title": "Technical Track Content",
     "content": "Task 1: . Navigate to the relevant section of the I2 Grimoire using the link below. Read the textbook and answer all synthesis questions to the best of your ability. Be sure to save these somewhere for future reference. I2 Grimoire: Reinforcement Learning . Task 2: . Solve the coding challenges within the Jupyter notebook linked below (through Colab). If you encounter any issues with the notebook not functioning as described, please let us know! . Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head. In this project, you will be implementing parts of a simple Q-Learning algorithm for a “cartpole” environment. Colab Link: Reinforcement Learning Colab Notebook (1.5 hr) . When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas. Remember that this is all for your learning, so do your best and don’t stress! . Congratulations! You now understand the (incredibly basic) basics of Deep RL! . ",
     "url": "/pr-preview/pr-44/content/reinforcement_learning/#technical-track-content",
     
     "relUrl": "/content/reinforcement_learning/#technical-track-content"
-  },"56": {
+  },"55": {
     "doc": "Reinforcement Learning",
     "title": "Literacy Track Content",
     "content": "Task 1: . Read the article below, and answer any synthesis questions placed along the way. Welcome to one of the most important units in this course—and one of the most challenging! Like all our articles, the goal of this article is to give you an intuitive understanding of reinforcement learning so that you can recognize it in daily life and apply it to technical projects. Reinforcement learning is the study of how a free object, or agent, moves around and accomplishes tasks in an environment, either real or simulated. The very general idea involves rewarding the object for desirable actions (i.e. reinforcing that behavior) and punishing it for undesirable actions. For example, suppose we’re teaching a computer how to play chess against a human. In this case, the agent would be the computer and the environment would be the chess game (i.e. the opponent, board, and pieces). The computer starts by taking an action–in other words, it does something. In this case, say the computer captures one of the human opponent’s pawns. Now the environment (the chess game) looks different from before the computer took its action; the computer has changed the state of the environment. The state of the environment is favorable—we’re glad the computer took this action, and we want to reinforce it (we want it to keep taking actions like this). So we give the computer a reward that’s proportional to how desirable the action was. In this case, the reward is pretty moderate—capturing a pawn is good, but it’s not one of the best moves the computer can make. If the computer had captured the opponent’s queen, for example, we’d give it more of a reward because that’s a more desirable action. Suppose the computer takes a different action: instead of capturing a pawn, it knocks over the entire board. Again, our environment is in a new state as a result of this action. Unfortunately, this new state is very bad for the computer because there’s no way it can win the game now. So we want to punish this action and make sure the computer avoids it in the future. We can do this by giving it a negative reward to indicate that it’s an undesirable action. The computer decides what steps to take using something called a policy. A computer uses a policy to decide what its next step should be. For example, maybe the computer’s policy is to maximize its rewards. Then, every single action it takes is the action that produces the highest reward. This helps it avoid undesirable actions, like knocking over the board, because they have such low rewards. This isn’t always the best policy, though. We said earlier that capturing the opponent’s queen is a very high-reward action. Suppose the computer is in a position where it can capture its opponent’s queen, but in doing so leaves its king vulnerable. In this case, maybe taking the highest-reward action isn’t the best way to go. We would have to use a different policy in our decision-making. Deep reinforcement learning combines deep learning and reinforcement learning. Its goal is to get the computer to learn to do something, and it teaches the computer using the principles of RL. Take a look at the short video below, which tries to teach a robot to walk using deep reinforcement learning (don’t worry, you’ll have fewer Synthesis Questions to make up for the extra video!). Video 1: AI Learns to Walk (deep reinforcement learning) (9 min) . Notice that the robot wasn’t given any directions. It was given a target, and every action it took was rewarded or punished, but it ultimately had to learn the correct sequence of actions that would allow it to walk. If we apply this to our chess example, the target might be to win the game by capturing the opponent’s king. We won’t tell the computer how to do that, but every time it takes an action we can reward or punish it. That way, it starts to learn the correct sequence of actions that it needs to take in order to win the game. Also, like in the video, we can put our chess computer in different environments to force it to learn new actions. For example, we can start it out in an environment where its opponent is a three-year-old. As the computer gets better, we can put it in new environments with more and more advanced opponents to force it to learn new skills, in the same way the robot in the video became better at walking by crossing more and more difficult terrain. Now let’s watch some videos on RL. Video 1: Reinforcement Learning: Crash Course AI #9 (12 min) . Synthesis Questions . | When does it make sense to use reinforcement learning vs. other methods of machine learning to accomplish a task? | How do the agent, action, and environment interact in reinforcement learning? | Give an example of two different policies in a reinforcement learning environment that’s NOT the cookie-jar example from the video (but you can use the chess game, the walking robot, or something you come up with yourself!). | . Video 2: Reinforcement Learning from scratch (8 min) . Synthesis Questions . | What is the purpose of a sigmoid function, and what does its value tell us? What about an error function? | Describe the idea of gradient descent and how we use it in reinforcement learning. | . Task 2: . Complete the following writing activity. The non-technical project for this unit will involve some writing! Choose 3 of the prompts below and write at least 200 (meaningful!) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience! . | Can you provide examples of experimental evidence linking reinforcement learning algorithms to observed synaptic changes in the brain? | How do human neural systems encode reward signals and how does this relate to the concept of rewards in reinforcement learning models? | What ethical considerations should be taken into account when developing interventions based on neuroscientific findings, and how can accountability be established for the potential impacts of such interventions? | Reflecting on you have learned from this unit, what is one thing you found to be most interesting? | What is one concept from this unit that you would like to learn more about and why? | . ",
     "url": "/pr-preview/pr-44/content/reinforcement_learning/#literacy-track-content",
     
     "relUrl": "/content/reinforcement_learning/#literacy-track-content"
-  },"57": {
+  },"56": {
     "doc": "Schedule",
     "title": "Schedule",
     "content": " ",
     "url": "/pr-preview/pr-44/schedule/",
     
     "relUrl": "/schedule/"
-  },"58": {
+  },"57": {
     "doc": "Schedule",
     "title": "Week 0: Course Overview, Prerequisite Knowledge",
     "content": "Purpose . | Gen acquainted with the course | Learn some of the pre-reqs necessary (Python) | Learn some of the pre-reqs necessary (calculus, linear algebra) | . Resources . Python Resources: . | CS50x Intro to Python Course | CS231n notes on Python, Numpy, and Jupyter Notebooks | . Math Resources: . | Linear Algebra Review and Reference (Just Unit 1) | Vector Basics | Hyperplane Definition | Hyperplane Math | Partial Derivatives (Mathematical) | Partial Derivatives (Graphical) | . Assignment . IMPORTANT!: If you already know a topic, DO NOT waste your time re-doing it. This week is just to refresh your mind . That being said, if you are unfamiliar with most of the items here, focus on Python and be sure to ask lots of questions! . Python Assignments: . | Complete units in the CS50x Intro to Python Course as needed (If you are confident, feel free to skip a section). I recommend: . | 0: Functions, Variables | 1: Conditionals | 2: Loops | 4: Libraries | 9: Et Cetera | . | Read through CS231n Notes, focusing on: . | Containers | Numpy | MatPlotLib | . | . Math Assignments: . | Read/Watch provided resources to learn/refresh your math knowledge. | If you are already familiar with the concepts listed above, feel free to skip them. I would, however, reccomend you explore linear algebra in high dimensional spaces (specifically hyperplanes) and revisit partial derivatives. | . Summary Questions . | What topics did you learn this week (Python or math)? | . ",
     "url": "/pr-preview/pr-44/schedule/#week-0-course-overview-prerequisite-knowledge",
     
     "relUrl": "/schedule/#week-0-course-overview-prerequisite-knowledge"
-  },"59": {
+  },"58": {
     "doc": "Schedule",
     "title": "Week 1: Introduction to Machine Learning",
     "content": "Purpose . An introduction to the foundation of modern AI! . | Introduction to Machine Learning (ML) | Math behind Linear Regression, SVM, PCA | Basic Unsupervised Clustering | . Resources . | Megadoc Unit 1 | . Assignment . | Complete Unit 1 in the megadoc (synthesis questions included) | Either Scikit-Learn ML Technical-Project (in megadoc) | Or Non-Technical Writing Project (bottom of megadoc) | . Summary Questions . | Synthesis questions in the megadoc | . ",
     "url": "/pr-preview/pr-44/schedule/#week-1-introduction-to-machine-learning",
     
     "relUrl": "/schedule/#week-1-introduction-to-machine-learning"
-  },"60": {
+  },"59": {
     "doc": "Schedule",
     "title": "Week 2: Introduction to Neural Networks",
     "content": "Purpose . Our first foray into more complex networks and how they learn. | Introduction to Deep Learning (DL) | Introduction to Neural Networks | Introduction to Backpropagation | . Resources . | Megadoc Unit 2 | CS231n Notes on Neural Networks. See Module 1: Neural Networks - great written resource for the basics. | . Assignment . | Complete Unit 2 in the megadoc (synthesis questions included) | Basic MNIST Classifier (in megadoc/github) | . Summary Questions . | Synthesis questions in the megadoc | . ",
     "url": "/pr-preview/pr-44/schedule/#week-2-introduction-to-neural-networks",
     
     "relUrl": "/schedule/#week-2-introduction-to-neural-networks"
-  },"61": {
+  },"60": {
     "doc": "Schedule",
     "title": "Week 3: Basic Neuroanatomy",
     "content": "Purpose . Welcome to a beginner’s introduction to neuroscience! We will . | Learn several basic regions of the brain | Learn fundamentals of the neuron and biological computation -Begin to hypothesize about the parallels and divergences of machine learning and the brain | . Resources . | Megadoc Unit 3 | . Assignment . | Complete Unit 3 in the megadoc (synthesis questions included) | Basic Neuroanatomy Project (LaTeX template in github) | . Summary Questions . | Synthesis questions in the megadoc | . ",
     "url": "/pr-preview/pr-44/schedule/#week-3-basic-neuroanatomy",
     
     "relUrl": "/schedule/#week-3-basic-neuroanatomy"
-  },"62": {
+  },"61": {
     "doc": "Schedule",
     "title": "Week 4: Convolutional Neural Networks",
     "content": "Purpose . | Deep Learning for Vision | Learn about Convolutional Neural Networks | . Resources . | Megadoc Unit 4 | . Assignment . | Complete Unit 4 in the megadoc (synthesis questions included) | ConvNet Project (in megadoc/github) | . Summary Questions . | Synthesis questions in the megadoc | . ",
     "url": "/pr-preview/pr-44/schedule/#week-4-convolutional-neural-networks",
     
     "relUrl": "/schedule/#week-4-convolutional-neural-networks"
-  },"63": {
+  },"62": {
     "doc": "Schedule",
     "title": "Week 5: The Visual System",
     "content": "Purpose . This week we take a small break from computation and return to the brain, specifically your insanely complex and elegant visual system! We will . | Learn the basic anatomical and functional regions of the visual system | Compare biological solutions to visual tasks with computational solutions | . Resources . | Megadoc Unit 5 | . ",
     "url": "/pr-preview/pr-44/schedule/#week-5-the-visual-system",
     
     "relUrl": "/schedule/#week-5-the-visual-system"
-  },"64": {
+  },"63": {
     "doc": "Schedule",
     "title": "Week 6: Reinforcement Learning",
     "content": "Purpose . | Go over basics of RL | Learn about Deep Q Learning | . Resources . | Megadoc Unit 6 | Spinning Up | . Assignment . | Complete Unit 6 in the megadoc (synthesis questions included) | . Summary Questions . | Synthesis questions in the megadoc | What’s one resource that was helpful (suggested or found on your own)? | . ",
     "url": "/pr-preview/pr-44/schedule/#week-6-reinforcement-learning",
     
     "relUrl": "/schedule/#week-6-reinforcement-learning"
-  },"65": {
+  },"64": {
     "doc": "Schedule",
     "title": "Week 7: AI Ethics",
     "content": "Purpose . | Learn about ethics in AI and think about how ethical AI is developed. | . Resources . | Megadoc Unit 7 | . Assignment . | Create a slideshow, details in the megadoc | . Summary Questions . | Synthesis questions in the megadoc | . ",
     "url": "/pr-preview/pr-44/schedule/#week-7-ai-ethics",
     
     "relUrl": "/schedule/#week-7-ai-ethics"
-  },"66": {
+  },"65": {
     "doc": "Schedule",
     "title": "Week 8: Language Modeling",
     "content": "Purpose . | Learn about word embeddings | Learn about Recurrent Neural Networks | Learn about Transformers | Learn about fine-tuning foundation models like GPT | Gain a basic intuition about transformer and language models | . Resources . | Megadoc Unit 8 | . Assignment . | Complete Unit 8 in the megadoc (synthesis questions included) | HuggingFace Project Part 1 (in megadoc) | HuggingFace Project Part 2 (in megadoc) | . Summary Questions . | Synthesis questions in the megadoc | . ",
     "url": "/pr-preview/pr-44/schedule/#week-8-language-modeling",
     
     "relUrl": "/schedule/#week-8-language-modeling"
-  },"67": {
+  },"66": {
     "doc": "Schedule",
     "title": "Week 9: Certificates + Unit 11",
     "content": "Purpose . | Certificates! | Celebrate your good work | Introduce Unit 11 as a fun side quest :) | . Resources . | Megadoc Unit 11 | . ",
     "url": "/pr-preview/pr-44/schedule/#week-9-certificates-unit-11",
     
     "relUrl": "/schedule/#week-9-certificates-unit-11"
-  },"68": {
+  },"67": {
     "doc": "Course Staff",
     "title": "Current Course Staff",
     "content": "Here are the awesome people who made this course possible. Feel free to contact us if you have any issues! . ",
     "url": "/pr-preview/pr-44/staff/#current-course-staff",
     
     "relUrl": "/staff/#current-course-staff"
-  },"69": {
+  },"68": {
     "doc": "Course Staff",
     "title": "Education Leads",
     "content": "Arya Sanjay . aryas1@cs.washington.edu . Hey, I’m Arya, one of the Education Leads of the I2 Intro Course! I took the intro course myself because I was interested in ML and ethics, and wanted to learn more, but didn’t know where to start. I really enjoyed the intro course, and since I love teaching, I was a TA for it. Now, I’m excited to co-lead it and work with the rest of leadership to make this the best quarter yet! I’m a CS student at UW, and outside of school, I like exploring new food spots, music, and trying new things. Misha Nivota . mnivota@uw.edu . Hey, I’m Misha, one of the Education Leads for the I2 Intro Course! I am a CS student at UW focused on machine learning and its applications in neuroscience. I became part of the I2 leadership because I really enjoy teaching and helping other students recognize their potential. Through my roles in the Intro Course and the Data Science Initiative, I aim to help more students learn practical skills in ML, AI, and neuroscience, and feel more confident in these subjects. Outside of college, I am a classical Indian dancer and write poetry. I love Bollywood (movies and music), playing ultimate frisbee, and traveling. ",
     "url": "/pr-preview/pr-44/staff/#education-leads",
     
     "relUrl": "/staff/#education-leads"
-  },"70": {
+  },"69": {
     "doc": "Course Staff",
     "title": "Previous Course Staff",
     "content": " ",
     "url": "/pr-preview/pr-44/staff/#previous-course-staff",
     
     "relUrl": "/staff/#previous-course-staff"
-  },"71": {
+  },"70": {
     "doc": "Course Staff",
     "title": "The Creators",
     "content": "Carter Swartout . swartout@uw.edu . Hi, I’m Carter! I’m a CS student studying deep learning, primarily NLP. I’ve always had a childlike wonder with “intelligent computers” and I’m delighted I get to improve them with I2. Outside of school I love reading, biking, and being confused by puzzles! . Chaytan Inman . chaytan@uw.edu . I’m Chaytan. I guess the first thing to know about me is that I love rain, trees, fungi, and plants, and they’re what made me want to form this team. I think that technology has enabled humans to destroy ourselves and organisms around us, but I’m hoping that the right technology can also enable us to reevaluate how we think and act. To me this team is an environment about experimenting and discovering those technologies: codifying generally intelligent computation and environmental understanding through environmental interaction. Varun Ananth . varunananth1@gmail.com . Hey there! My name is Varun. I have been working on this course for a while and with the help of some amazing people, it came together. I really believe in the power of education and teaching and how it can shape lives. I attribute my successes today to my teachers, peer or adult. With this course I aim to spark interest for Neuro/AI in college students around the world. My specialty within DL is Reinforcement Learning, and I hope to be able to continue research in that field. Apart from nerdy stuff, I enjoy guitar, skateboarding, and videogames. So basically more nerdy stuff. ",
     "url": "/pr-preview/pr-44/staff/#the-creators",
     
     "relUrl": "/staff/#the-creators"
-  },"72": {
+  },"71": {
     "doc": "Course Staff",
     "title": "Previous Education Leads",
     "content": "Ameya Agrawal . aameya16@cs.washington.edu . Hey there, I’m Ameya! I took the intro course myself the first time it was run and absolutely loved it, so I decided to TA for it, and now I’m leading it! I am fortunate to be surrounded by intelligent, dedicated i2 leadership who share a common passion for Neuro/AI and are always happy to help. I really enjoyed this course as it provided me with a great starting point to further explore Neuro/AI and I hope it does the same for you. Outside of i2, I’m a junior in CS at UW, and I absolutely love solving puzzles, playing video games and am always down for a game of pool! . Vibhav Peri . vperi@uw.edu . Hey, I’m Vibhav! I’m currently a junior here at UW in CS. I had been interested in learning ML since I came to the university, but was completely overwhelmed by where to start. The intro course was exactly what I needed! I liked the course enough to TA it the following quarter, and now I’m thrilled to be leading it with Ameya! In my free time I enjoy running and videogames among many other nerdy things. ",
     "url": "/pr-preview/pr-44/staff/#previous-education-leads",
     
     "relUrl": "/staff/#previous-education-leads"
-  },"73": {
+  },"72": {
     "doc": "Course Staff",
     "title": "Autumn 2024 Teaching Assistants",
     "content": "Adam Skoglund . ajskog@uw.edu . Hello! I’m Adam, and I am a current third year student studying Informatics: Data Science and minoring in Statistics. Outside of education, I like games, music, and movies! . Ankit Gowda . agowda@cs.washington.edu . Hi! I’m Ankit, and I am a current second year studying Computer Science with an interest in computational biology and things of that nature. Outside of academics, I really enjoy nature, hiking, skiing, and playing tennis. I look forward to meeting everyone! . Anthony Xing . aazing51@uw.edu . Hello! I’m a 3rd-year double majoring in CS and MATH. I am interested in and would like to learn more about many things! . Anupritaa Parasnis . aparas2@uw.edu . Hey, I’m Anupritaa! I’m a sophomore at UW intending to major in Computer Science or ACMS. I really enjoyed taking the Intro Course and learning about the interconnections between neuroscience and AI, so I decided to become a TA. Outside of school, I like reading, working out and playing piano! . Jeffrey Lee . jlee622@uw.edu . Hello! I’m an intended Computer Science major with an interest in machine learning. In my spare time, I like to go to the gym, go on walks, and eat food. I really enjoyed taking the I2 course so I decided to TA for it! . Prayug Sigdel . prayug@uw.edu . Hi, I’m Prayug! I’m currently a sophomore at UW studying computer science. In my free time, I like going to the gym, watching football, and listening to music. ",
     "url": "/pr-preview/pr-44/staff/#autumn-2024-teaching-assistants",
     
     "relUrl": "/staff/#autumn-2024-teaching-assistants"
-  },"74": {
+  },"73": {
     "doc": "Course Staff",
     "title": "Spring 2024 Teaching Assistants",
     "content": "Arya Sanjay . aryas1@cs.washington.edu . Hey, I’m Arya. I really enjoyed the intro course due to my interest in the intersection of ethics and applied machine learning, and since I’m passionate about teaching, I wanted to TA! I’m a CS student at UW, and outside of school, I like exploring new food spots, reading, and trying new things. Jeffrey Junio . jeffrj3@uw.edu . I’m Jeffrey J, a second year, and I’m interested in I2 because of AI &amp; ML, as I plan to use it to eventually take over the world. Other than that, I’m still learning, and am also interested in how it can make education more accessible and personalized. Outside of I2, I have a lot of other interests that change semi-frequently. Right now, I’m into cardistry/magic and Roblox game development. Pushpesh Thakur . pthakur@uw.edu . Hi, I’m Pushpesh! I’m majoring in CS and am interested in AI. I took the i2 intro course and gained a lot of foundational knowledge about AI because of it. In my spare time, I love to play the piano and pretty much any sport (watching sports is an also a hobby). Shey Gao . shengg6@uw.edu . Hi I’m Shey! I’m a junior majoring in computer science, and I’m interested in how AI can contribute to healthcare. I found the I2 Intro Neuro/AI course to be a good starting point for developing interest and exploring more outside of class. One more cool thing I want to explore is freestyle skiing, feel free to reach out if you’re interested as well! . Shravani Bhujbal . sbhujb21@uw.edu . Hi, I am Shravani, and I am a Computer Science major at UW. I enjoyed the Intro course because it gave me a basic knowledge of many subfields in AI. It was really interesting exploring the overlaps of neuroscience and AI. Outside academics, I enjoy traveling, watching movies, and Sudoku. Soham Bhosale . sohamb5@uw.edu . Hey, I’m Soham! I am a freshman majoring in computer science and very interested in AI and its applications in the medical field as well as AI ethics. I really enjoyed exploring and learning about these topics in the I2 Intro Course and that is why I wanted to TA for it. Outside of school, I like traveling, reading and playing tennis! . ",
     "url": "/pr-preview/pr-44/staff/#spring-2024-teaching-assistants",
     
     "relUrl": "/staff/#spring-2024-teaching-assistants"
-  },"75": {
+  },"74": {
     "doc": "Course Staff",
     "title": "Autumn 2023 Teaching Assistants",
     "content": "Eric Ye . ericy4@uw.edu . Hello, I’m Eric, and I joined this club mostly because I found the idea of intelligence really interesting. Is it something that is special and unique, or is it something that could be recreated? I’m leaning towards the latter due to the impressive recent advancements in AI. In my spare time, I enjoy reading and hiking, and I occasionally play tennis. Frank Li . angli23@uw.edu . Hey, this is Frank. I’m a CS junior with a preference for AI and systems. I like learning and fiddling with complex stuff that I don’t understand. In my free time I like to play FPS with my friends while screaming, code some useless things, and read about new tech. Jay Yu . hjyu@cs.washington.edu . Hi, my name is Hongjian /xoŋtɕiɛn/, you can call me Jay for simplicity. I gained a lot from I2’s intro course and hope to help you learn as I did. I major in linguistics and cs. In my spare time I listen to a ton of j-pop and classical. Justin Dong . justindong231@gmail.com . Hi, my name is Justin. I joined I2 to explore an interest in artificial intelligence and machine learning, and being apart of the intro course last year helped me do just that. My hobbies include volleyball, video games, and looking mysterious in libraries. Kelland Harrison . knyo@uw.edu . My name is Kelland. I read a lot of sci-fi as a kid, so I’ve been thinking about AI for a while. I2 has been a great place for me to explore these ideas, and I hope to give you the same experience. I also like electronic music and german poetry. ",
     "url": "/pr-preview/pr-44/staff/#autumn-2023-teaching-assistants",
     
     "relUrl": "/staff/#autumn-2023-teaching-assistants"
-  },"76": {
+  },"75": {
     "doc": "Course Staff",
     "title": "Course Staff",
     "content": " ",
     "url": "/pr-preview/pr-44/staff/",
     
     "relUrl": "/staff/"
-  },"77": {
+  },"76": {
     "doc": "Visual System",
     "title": "Intro to the Visual System",
     "content": "Welcome to the visual system. Before we dive into how computer scientists have hacked together mathematical filters and matrix multiplication to process visual information and extract meaningful output, we will take a hard look at how your eyes and neurons process a continuous bombardment of photons. ",
     "url": "/pr-preview/pr-44/content/visual_system/#intro-to-the-visual-system",
     
     "relUrl": "/content/visual_system/#intro-to-the-visual-system"
-  },"78": {
+  },"77": {
     "doc": "Visual System",
     "title": "Literacy &amp; Technical Track Content",
     "content": "Task 1: . Watch the videos below, and answer any synthesis questions placed along the way. First, some vocab. Dorsal: Upper or back side of something (like a dorsal fin on an orca!) . Ventral: Underside or underbelly of something . Receptive Field: An input that produces the biggest response in some area or neuron is said to be its receptive field . Watch the following videos and answer the questions! You know the drill. The first one will teach us about the physiology of processing light, the complex first layer of our own biological neural network. Video 1: Vision: Crash Course Anatomy &amp; Physiology # 18 . Synthesis Questions: . | Where in the brain do signals from the retina go before reaching the visual cortex? | What are some differences between rods and cones? | Describe the phenomena of retinal neurons that \"get tired\". Do you think there are analogous processes in deep learning or convolutional neural networks? | . The next video will describe the path of information flow through the visual cortex and some core properties of the structure of this process. Video 2: Perception: 3.2 Primary Visual Cortex . Synthesis Questions: . | What wavelengths of light can humans detect? Why might we only be able to detect such a narrow band of light wavelengths? What would be an advantage and downside of processing more? | What is V1 in the visual cortex? What are those cells most sensitive to? | What is the fovea best at detecting? | Describe the retinotopic nature of the visual cortex (7:58) in your own words. Hypothesize whether convolutional neural networks might be organized as \"retinotopic\". | Describe cortical magnification and the causes of the trade-off between acuity and sensitivity. What are several reasons we can't see details from extremely far away, as for example, hawks can? | Brains are constrained by space, which as we have seen with vision, drives trade-offs in our processing. Do neural networks have analogous constraints? What are the effects of this? | Brains are constrained by space, which as we have seen with vision, drives trade-offs in our processing. Do neural networks have analogous constraints? What are the effects of this? | . This final video gives a swift overview of many functional modules of visual processing. This is a great time to start thinking about how all this vision processing compares to our methods of processing information with neural networks! . Video 3: Perception: 3.3 Functional Areas, Pathways, and Modules . Synthesis Questions: . | Describe at least 5 functional parts of the visual system | Explain the hierarchical model of the visual system | What is the \"what\" stream? What does it do? | What is the \"where\" stream? What does it do? | What is a region that processes faces? What inputs does it receive? What other regions is it near? | . This last video is optional but it’s highly recommended that you watch it. This video does a good job at synthesizing all 3 videos and goes more in-depth into certain mechanisms: Visual Processing and the Visual Cortex Here’s some questions to think about as you watch the video: . | What direction does light go versus information in the retina? | What cells are in the retina? | How do rod photoreceptors adapt to light and dark? | How does each hemisphere receive information from the contralateral visual field? | What is the blind spot? | . Task 2: . Complete the following writing activity. Imagine you got a little too into neural networks and decided to replace your eyes with convolutional neural networks. You may use any sensors, hardware, brain computer interfaces, fungi, wires, Von Neumann computing, neuromorphic computing, or robots that you like (that seem vaguely feasible). How would you replace the algorithms run by the visual cortex with algorithms like those of convolution neural networks? Be creative and let your imagination run free! . Draw your system in detail and write a short paragraph on the following: . | Why did you make the design decisions you made? | What would be the advantages of your system? | What would be the disadvantages? | What hardware did you use to implement this? In your opinion, is it possible to use the existing biological nervous system to run computation algorithms like CNNs? Why? | . ",
     "url": "/pr-preview/pr-44/content/visual_system/#literacy--technical-track-content",
     
     "relUrl": "/content/visual_system/#literacy--technical-track-content"
-  },"79": {
+  },"78": {
     "doc": "Visual System",
     "title": "Visual System",
     "content": " ",
