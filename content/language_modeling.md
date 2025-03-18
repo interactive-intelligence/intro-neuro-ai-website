@@ -73,12 +73,20 @@ This is where the other type of model, neural language models, come in. Neural l
 We’ll continue to discuss neural language models in greater detail through these videos. Specifically, we’ll look at two types of neural language models: **recurrent neural networks** and **transformers**. Watch the following videos!
 
 ### **Video 1:** [Illustrated Guide to Recurrent Neural Networks: Understanding the Intuition](https://www.youtube.com/watch?v=LHXXI4-IEns) **(10 min)**
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LHXXI4-IEns?si=-ACfyBwj_xTHCpII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions*
 * `How does an RNN interact with a feed-forward neural network? What role does the RNN play in this process?`
 * `Describe the vanishing gradient problem in your own words. Does it relate to the drawbacks of statistical language models?`
 * `The video describes a few solutions to the short-term memory of RNNs. What changes do they make to address the problem?`
 
 ### **Video 2:** [Transformers, explained: Understand the model behind GPT, BERT, and T5](https://www.youtube.com/watch?v=SZorAJ4I-sA) **(9 min)**
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SZorAJ4I-sA?si=wjTAV0Bpqfer93b3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions*
 * `What are some of the limitations of previous NLP models, and how did transformers address these?`
 * `Describe the ideas of positional encoding and attention in your own words.`
@@ -86,6 +94,9 @@ We’ll continue to discuss neural language models in greater detail through the
 
 ### **Optional:** [Natural Language Processing: Crash Course AI #7](https://www.youtube.com/watch?v=oi0JXuL19TA&list=PL8dPuuaLjXtO65LeD2p4_Sb5XQ51par_b&index=8) **(13 min)**
 **Great resource if you're still having trouble with NLP!**
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oi0JXuL19TA?si=bF_DLRWwnYUXqdk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <!-- ## Unit 8 Project Specs
 **<mark style="background-color: lightblue">Homework Help:</mark>** if you’re having trouble with the technical homework, try following along with this video first! It also uses Python in Google Colab and should give you some good practice. Reach out to a TA if you have any questions! 

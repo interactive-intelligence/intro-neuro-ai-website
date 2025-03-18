@@ -23,9 +23,14 @@ First, a few useful vocab words:
 Then, watch the following brief videos, take notes if you’d like!
 
 [2-Minute Neuroscience: Cerebellum](https://www.youtube.com/watch?v=Fir-v6EoZNE)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Fir-v6EoZNE?si=oFPr7h6iN60rQa-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 [19.3 Cerebellar Information Flow](https://www.youtube.com/watch?v=phi_13iP4mM)
-
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/phi_13iP4mM?si=0mFVRjvKHPv8xiGd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### `Synthesis Questions:`
 
@@ -40,8 +45,14 @@ For more depth on these topics, here are some more fabulous resources.
 **Bonus Videos:**
 
 [19.4 Cerebellar Circuits](https://www.youtube.com/watch?v=V0hLdqaH-7w)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/V0hLdqaH-7w?si=YujUP0UPKAStJV_6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 [19.5 Afferent Tracts to the Cerebellum](https://www.youtube.com/watch?v=jYD91uxWUys)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jYD91uxWUys?si=Jya3zAeP-Pb91gbm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ---
 

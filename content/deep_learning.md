@@ -101,6 +101,10 @@ Once we’ve exhausted our training data, and the computer has made all its conn
 This was a good introduction. Now lets turn to some amazing videos on the topic of Neural Networks that will deepen your understanding. Watch the following videos and answer the associated questions.
 
 ### **Video 1:** [But what is a neural network? | Chapter 1, Deep learning](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) **(20 min)**
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aircAruvnKk?si=RmnZFvn_yWmeKVse" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions*
 * `What is a neuron (in terms of Neural Networks) and what does its "activation" represent?`
     * `Bonus: Research and consider the correlation between a biological neuron and an artificial neuron. How are they similar/different?`
@@ -112,6 +116,10 @@ This was a good introduction. Now lets turn to some amazing videos on the topic 
 * `What is the purpose of the sigmoid function?`
 
 ### **Video 2:** [Gradient descent, how neural networks learn | Chapter 2, Deep learning](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3piå) **(20 min)**
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IHZwWFHWa-w?si=Bojkhjorygxlds-6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions*
 * `Why is there a need for a train/test split for a neural network? Why is it important for a NN to be able to generalize to examples it has not seen?`
 * `Describe the Mean Squared Error (MSE) cost function. What does a higher value mean? What does a lower value mean? (For one training example)`
@@ -121,6 +129,10 @@ This was a good introduction. Now lets turn to some amazing videos on the topic 
 * `Do the hidden layers of a basic NN encode any useful information assuming you use the MSE Loss function? Why or why not?`
 
 ### **Video 3:** [Neural Networks and Deep Learning | Crash Course AI #3](https://youtu.be/oV3ZY6tJiA0?si=AYWscg7BYV8u7J7X) **(12 min)**
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oV3ZY6tJiA0?si=OgQblULj0RpyIT9C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions*
 * `Why was ImageNet significant to the development of neural networks? What about AlexNet?`
 * `What are some real-world applications of neural networks? What are some ethical considerations associated with them?`

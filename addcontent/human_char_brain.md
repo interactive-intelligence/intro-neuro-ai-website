@@ -10,7 +10,9 @@ Several traits of humans appear to be unique to our species and may be essential
 **Task 1:** Complete the following lecture and synthesis questions.
 
 [20. Theory of Mind & Mentalizing](https://www.youtube.com/watch?v=pfZY5aDJazA&list=PLUl4u3cNGP60IKRN_pFptIBxeiMc0MCJP&index=15)
-
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pfZY5aDJazA?si=ZtU3f_L2Yz_RV64_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### `Synthesis Questions:`
 
@@ -23,15 +25,23 @@ Several traits of humans appear to be unique to our species and may be essential
 If we have not completed the LM unit yet, Attention in ML may not be the most familiar. If you would like, here are some resources to prime your understanding:
 
 Optional: A very comprehensive and visually helpful intuition for what the attention mechanism actually does: [Attention Mechanism In a Nutshell](https://www.youtube.com/watch?v=oMeIDqRguLY)  
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oMeIDqRguLY?si=4o4WK9DPvtRcXdXX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 Optional: If you want to play with the math behind LLMs, this is pretty cool: [3Blue1Brown: Attention in Transformers](https://www.youtube.com/watch?v=eMlx5fFNoYc)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eMlx5fFNoYc?si=qUloF_i5KG-m2Zrz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 Optional: [Self Attention Colab Notebook](https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap12/12_1_Self_Attention.ipynb)
 
 For a deeper dive, feel free to take a look at the Language Modeling chapter of this document. Now we will dive into the capabilities of the brain and its own beautiful, endogenous attention mechanisms!
 
 [24. Attention and Awareness](https://www.youtube.com/watch?v=B4a0WdGp52g&list=PLUl4u3cNGP60IKRN_pFptIBxeiMc0MCJP&index=17)
-
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B4a0WdGp52g?si=O6hzb_AHuBwqbLFH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### `Synthesis Questions:`
 

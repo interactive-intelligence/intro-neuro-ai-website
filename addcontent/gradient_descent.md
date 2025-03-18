@@ -10,6 +10,9 @@ A deeper dive into Gradient Descent where you will be implementing backpropagati
 **Task 1:** Watch the following video and implement _micrograd_ as specified:
 
 [The spelled-out intro to neural networks and backpropagation: building micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VMj-3S1tku0?si=kKlEtDTJHUaOLrHi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 The templates we made for you can be found [here](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-A/starter_micrograd.ipynb).
 
