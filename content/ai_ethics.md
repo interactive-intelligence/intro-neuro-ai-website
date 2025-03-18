@@ -21,6 +21,10 @@ Welcome to the AI Ethics section of the I2 course! In this pivotal module, we'll
 *Read the articles and watch the videos below. Answer any synthesis questions placed along the way.*
 
 ### **Video:** [Introduction to AI Ethics](https://www.youtube.com/watch?v=VqFqWIqOB1g&ab_channel=UNESCO) (7 min)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VqFqWIqOB1g?si=xk1uSBqcCUA3jbe5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### **Article:** [Principles of AI Ethics](https://www.prolific.com/blog/what-are-ai-ethics-5-principles-explained) (3 min)
 ### *Synthesis Questions:*
 * `How have the core principles of AI ethics evolved over time?`
@@ -31,6 +35,10 @@ Welcome to the AI Ethics section of the I2 course! In this pivotal module, we'll
 
 
 ### **Video:** [Bias Explained](https://www.youtube.com/watch?v=bWOUw8omUVg&ab_channel=TRTWorld) (3 min)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bWOUw8omUVg?si=7Z_-9uuDKC3vjK-u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions:*
 * `How has bias in AI affected real-world decision-making in sectors like finance or healthcare?
 * `In what ways might biased data skew the outcomes of an AI system?`
@@ -40,6 +48,10 @@ Welcome to the AI Ethics section of the I2 course! In this pivotal module, we'll
 
 
 ### **Video:** [Data Privacy and AI](https://www.youtube.com/watch?v=q55Tusc-rxc&ab_channel=ForeignPolicyAssociation) (7 min)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/q55Tusc-rxc?si=geQfXVTxBKZNbELx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### **Article:** [Social Impact of AI and Data Privacy Issues](https://www.red-gate.com/simple-talk/development/data-science-development/the-social-impact-of-artificial-intelligence-and-data-privacy-issues )(8 min)
 ### *Synthesis Questions:*
 `How has AI impacted personal privacy in the age of social media?`
@@ -50,6 +62,10 @@ Welcome to the AI Ethics section of the I2 course! In this pivotal module, we'll
 
 
 ### **Video:** [Self-driving Cars: An Ethical Quandary](https://www.youtube.com/watch?v=ixIoDYVfKA0&ab_channel=TED-Ed) (7 min)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ixIoDYVfKA0?si=qvB-DcEHqOCpsuV9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### **Article:** [Case Study: Ethical Pitfalls in Healthcare AI](https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/bulletin/2023/february-2023-volume-108-issue-2/ethical-concerns-grow-as-ai-takes-on-greater-decision-making-role/) (8 min)
 ### *Synthesis Questions:*
 * `How do self-driving cars display the ethical challenges posed by AI?`
@@ -60,6 +76,10 @@ Welcome to the AI Ethics section of the I2 course! In this pivotal module, we'll
 
 
 ### **Video:** [The Ethical Boundaries of AI in Warfare](https://www.youtube.com/watch?v=XAgXwUwQoPA&ab_channel=Veritasium) (7 min)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XAgXwUwQoPA?si=iWHcXQuZvMaW9vTh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### **Article:** [The Dual-Use Dilemma in AI Research](https://www.adalovelaceinstitute.org/blog/ai-research-ethics-collective-problem/) (7 min - Only Read First Half)
 ### *Synthesis Questions:*
 * `How does the potential use of AI in warfare raise ethical red flags?`
@@ -70,6 +90,10 @@ Welcome to the AI Ethics section of the I2 course! In this pivotal module, we'll
 
 
 ### **Video:** [Cultural Nuances in AI Ethics](https://www.youtube.com/watch?v=AiK0iYZuNS0&ab_channel=UNESCO) (6 min)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AiK0iYZuNS0?si=kn3xW022FAyD46E8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions:*
 * `How might Western and Eastern perspectives on AI ethics differ?`
 * `Describe a cultural or societal factor that could influence AI ethics in a particular region.`

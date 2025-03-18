@@ -26,6 +26,10 @@ First, some vocab.
 
 Watch the following videos and answer the questions! You know the drill. The first one will teach us about the physiology of processing light, the complex first layer of our own biological neural network.
 ### **Video 1:** [Vision: Crash Course Anatomy & Physiology # 18](https://www.youtube.com/watch?v=o0DYP-u1rNM)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/o0DYP-u1rNM?si=pXXue9jLbCAYqKX1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions:*
 * `Where in the brain do signals from the retina go before reaching the visual cortex?`
 * `What are some differences between rods and cones?`
@@ -33,6 +37,10 @@ Watch the following videos and answer the questions! You know the drill. The fir
 
 The next video will describe the path of information flow through the visual cortex and some core properties of the structure of this process.
 ### **Video 2:**  [Perception: 3.2 Primary Visual Cortex](https://www.youtube.com/watch?v=rrG-Y41Omi4)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rrG-Y41Omi4?si=hXcjt72JaH3fB1oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions:*
 * `What wavelengths of light can humans detect? Why might we only be able to detect such a narrow band of light wavelengths? What would be an advantage and downside of processing more?`
 * `What is V1 in the visual cortex? What are those cells most sensitive to?`
@@ -45,6 +53,10 @@ The next video will describe the path of information flow through the visual cor
 This final video gives a swift overview of many functional modules of visual processing. This is a great time to start thinking about how all this vision processing compares to our methods of processing information with neural networks! 
 
 ### **Video 3:** [Perception: 3.3 Functional Areas, Pathways, and Modules](https://www.youtube.com/watch?v=vTIxvw9QAY8)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vTIxvw9QAY8?si=GHIS0Iq1F4N2gCOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions:*
 * `Describe at least 5 functional parts of the visual system`
 * `Explain the hierarchical model of the visual system`
@@ -54,6 +66,10 @@ This final video gives a swift overview of many functional modules of visual pro
 
 This last video is optional but it’s highly recommended that you watch it. This video does a good job at synthesizing all 3 videos and goes more in-depth into certain mechanisms:
 [Visual Processing and the Visual Cortex](https://youtu.be/MgMNUne9j9c?si=9pEM9EFYdv-9tq3y)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MgMNUne9j9c?si=aZ5ErjI056OwXD4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 Here’s some questions to think about as you watch the video:
 * `What direction does light go versus information in the retina?`
 * `What cells are in the retina?`
