@@ -1,6 +1,6 @@
 ---
-title: Unit 12
-parent: Megadoc
+title: Human Brain Characteristics
+parent: Additional Content
 ---
 
 # Unit 12: Human Characteristics of the Brain

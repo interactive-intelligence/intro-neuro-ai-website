@@ -1,0 +1,19 @@
+.graduate {
+  display: flex;
+  margin: $sp-4 0;
+
+  p,
+  .graduate-name {
+    margin: $sp-1 !important;
+  }
+
+  .graduate-pronouns {
+    @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
+
+    user-select: none;
+  }
+
+  .graduate-meta {
+    @extend .text-grey-dk-000;
+  }
+}

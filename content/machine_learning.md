@@ -1,23 +1,63 @@
 ---
-title: "Unit 01"
-parent: Megadoc
+title: "Machine Learning"
+parent: Core Content
+nav_order: 1 ### Unit Number
 ---
-# Unit 1: The (machine learning) Basics
+# <u>Machine Learning</u>
 
-Hello and welcome to the _Basics_ section of the I2 megadoc! Our content will be split into two categories: literacy and technical understanding. These topics are fundamental to the entire rest of our course, so please don't hesitate to reach out to the course staff if you have any questions! 
+Hello and welcome to the _Machine Learning_ section of the I2 course! Our content will be split into two categories: literacy and technical tracks. These topics are fundamental to the entire rest of our course, so please don't hesitate to reach out to the course staff if you have any questions! 
 
-**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked below to get an intuitive understanding of machine learning. <span style="color:red">**This is required.**</span>
+## <u>Technical Track Content</u>
 
-#### [Unit 01 Technical Article](unit-01-tech-article.md)
+### **<u>Task 1:</u>** 
 
-&nbsp;
-**Task 2:** Go through the text and videos in your respective article and answer the provided synthesis questions. Submit your answers to your intro course TA. Make sure to indicate in your submission or file name which article (technical or literacy) you read and which questions you're answering.
-[Link to this task](https://course.uw-i2.org/megadoc/unit-01/#unit-1-synthesis-questions)
+*Navigate to the relevant section of the I2 Grimoire using the link below. Read the textbook and answer all synthesis questions to the best of your ability. Be sure to save these somewhere for future reference.*
 
-**Task 3:** Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
-[Link to this task](https://course.uw-i2.org/megadoc/unit-01/#unit-1-project-specs) 
 
-## Back to Basics: Machine Learning
+### [I2 Grimoire: Machine Learning](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/units/Machine%20Learning.pdf) 
+
+---
+
+### **<u>Task 2:</u>** 
+
+*Solve the coding challenges within the Jupyter notebook linked below (through Colab). If you encounter any issues with the notebook not functioning as described, please let us know!*
+
+Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
+
+This project will be going over **k-means clustering and PCA** (unsupervised ML). We will be using the Scikit-Learn library.
+
+Check out this handy image that gives popular sk-learn clustering algorithms and their usages:
+
+![alt_text](../assets/unit1/unit1_cluster_desc.png)
+
+
+Also this image visualizing the clustering algorithms:
+
+
+![alt_text](../assets/unit1/unit1_cluster_viz.png)
+
+
+Read up on k-means clustering in the provided link (Images provided above also contained here). Feel free to check out the other algorithms as well: [SK-Learn Clustering](https://scikit-learn.org/stable/modules/clustering.html#k-means)
+
+Now, follow the instructions on this Jupyter notebook (hosted on Google Colab) to implement some of the things we talked about! Be sure to save a local copy of the template so you can edit it.
+
+**Colab Link:** [Machine Learning Colab Template](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-01/clustering-pca.ipynb) **(30 min)**
+
+When you are finished with your code, independently verify that it works and have fun with it! You could try this method on different datasets, such as [this one for example](https://www.kaggle.com/datasets/ashwingupta3012/human-faces). If you add any additional functionality be sure to talk about it with others and give them ideas.
+
+Remember that this is all for your learning, so do your best and don’t stress!
+
+Congratulations! You now understand the basics of Clustering and PCA!
+
+---
+---
+---
+
+## <u>Literacy Track Content</u>
+
+### **<u>Task 1:</u>** 
+
+*Read the article below, and answer any synthesis questions placed along the way.*
 
 This article is going to cover what machine learning is at a conceptual level.
 
@@ -65,19 +105,27 @@ But what does it mean for a computer to “learn”? How does a machine “learn
 
 These are exactly the questions that this course aims to answer. We’ll learn how humans learn, how machines learn, and how our understanding of one allows us to develop our understanding of the other. We’ll also learn how humans interpret images and pictures, and how we can use that information to get computers to do the same thing. 
 
-For now, though, check out the rest of the homework and the synthesis questions provided. 
+### *Synthesis Questions*
+* `What are the limitations of early “if this, then that” logic?`
+* `Why do we need a teach-build cycle to get our machine to learn?`
+* `Why does this teach-build-teach-build cycle work? How do the "bots" get better over time?`
+* `Why is it so important for companies to use a good dataset to teach their bots?`
 
-## Unit 1 Synthesis Questions
+TODO: Add more to the literacy article
 
-### **Video 1:** [How AIs, like ChatGPT, Learn](https://www.youtube.com/watch?v=R9OHn5ZF4Uo)  **(9 min)**
+---
+
+### **<u>Task 2:</u>** 
+
+*Complete the following writing activity.*
+
+The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
+
+* TODO: Create prompts based off literacy article
+
+<!-- ### **Video 1:** [How AIs, like ChatGPT, Learn](https://www.youtube.com/watch?v=R9OHn5ZF4Uo)  **(9 min)**
 
 This first video describes how exactly a machine “learns”—we’ll talk about this even more in Unit 2!
-
-*Synthesis Questions:*
-* *What are the limitations of early “if this, then that” logic?*
-* *Why do we need a teach-build cycle to get our machine to learn?*
-* *Why does this teach-build-teach-build cycle work? How do the "bots" get better over time?*
-* *Why is it so important for companies to use a good dataset to teach their bots?*
 
 ### **Article 1:** (this is the same article from later in this megadoc!)
 
@@ -176,59 +224,7 @@ In some cases a closed form solution will not exist. There are ways around this,
     * *If you modify the  $w_1$ term and the SSE goes up, was that a good modification?*
 * *How is the bias term implicitly encoded?*
 * *Write out the linear regression formula when you wish to estimate the impact of age, height, and weight of someone on their marital status.*
-    * *Hint: How many x terms will there be? How many features?*
-
-## Unit 1 Project Specs
-### **Non-Technical Project Spec:**
-
-The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
-
-* What might be some applications of principle component analysis (PCA) in neuroscience research? Explain your ideas.
-* What might be some advantages and disadvantages of applying machine learning to neuroscience?
-* What are the ethical implications of using machine learning in neuroscience research?
-* What might be some applications of support vector machines (SVM) in neuroscience? Be creative!
-* Reflecting on your learning from this unit, what is one thing you found to be most interesting? Something that
-* What is one concept from this unit that you would like to learn more about and why?
-
-Be sure to submit your work through google drive using the submission form!
-We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
-
-### **Technical Project Spec:**
-
-The project for this “_Basics_” section will **have you finish a code template through Google Colab.** Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
-
-This project will be going over k-means clustering (unsupervised ML). We will be using the Scikit-Learn library.
-
-A few general helpful tips (if applicable):
-* Be sure to appropriately make a copy of the Colab template before starting to save your progress!
-* Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
-* Leave comments to cement your understanding. Link syntax to ideas.
-
-Check out this handy image that gives popular sk-learn clustering algorithms and their usages:
-
-
-![alt_text](../assets/unit1/unit1_cluster_desc.png)
-
-
-Also this image visualizing the clustering algorithms:
-
-
-![alt_text](../assets/unit1/unit1_cluster_viz.png)
-
-
-Read up on k-means clustering in the provided link (Images provided above also contained here). Feel free to check out the other algorithms as well: [SK-Learn Clustering](https://scikit-learn.org/stable/modules/clustering.html#k-means)
-
-Now, follow the instructions on this Jupyter notebook (hosted on Google Colab) to implement some of the things we talked about! The notebook contains a link to the answers for this project. To use it, you will need to import the '.ipynb' file to a new Colab project yourself. It is highly recommended that you only use this to check your answers after you are done completing the project yourself. This is a trust-based system!
-
-**Colab Link:** [Unit 1 Colab Template](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-01/clustering-pca.ipynb) **(30 min)**
-
-When you are finished with your code, independently verify that it works and have fun with it! You could try this method on different datasets, such as [this one for example](https://www.kaggle.com/datasets/ashwingupta3012/human-faces). If you add any additional functionality be sure to talk about it with others and give them ideas.
-
-Remember that this is all for your learning, so do your best and don’t stress!
-
-Congratulations! You now understand the basics of Clustering and PCA!
-
-### [Download Unit 01 Technical Article (PDF)](/assets/unit1/Unit_01_Technical_Article.pdf)
+    * *Hint: How many x terms will there be? How many features?* -->
 
 <!---
 # Old Intro Course Content

@@ -1,6 +1,6 @@
 ---
-title: Unit 11
-parent: Megadoc
+title: Build a Brain
+parent: Additional Content
 ---
 
 # Unit 11: Building a Brain: Networks and Systems

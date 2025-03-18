@@ -1,24 +1,50 @@
 ---
-title: Unit 06
-parent: Megadoc
+title: Reinforcement Learning
+parent: Core Content
+nav_order: 6 ### Unit Number
 ---
 
-# Unit 6: Reinforcement Learning
-Hello and welcome to the _Basics_ section of the I2 megadoc! 
+# <u>Reinforcement Learning</u>
 
-**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked below to get an intuitive understanding of reinforcement learning. <span style="color:red">**This is required.**</span>
+Welcome to the Reinforcement Learning section of the I2 Course! The topics in this unit should get you really
+thinking about NeuroAI. Be sure to ask lots of questions!
 
-#### [Unit 06 Technical Article](unit-06-tech-article.md)
+## <u>Technical Track Content</u>
 
-&nbsp;
+### **<u>Task 1:</u>** 
 
-**Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
-[Link to this task](https://course.uw-i2.org/megadoc/unit-06/#unit-6-synthesis-questions)
+*Navigate to the relevant section of the I2 Grimoire using the link below. Read the textbook and answer all synthesis questions to the best of your ability. Be sure to save these somewhere for future reference.*
 
-**Task 3:** Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
-[Link to this task](https://course.uw-i2.org/megadoc/unit-06/#unit-6-project-specs)
+### [I2 Grimoire: Reinforcement Learning](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/units/Reinforcement%20Learning.pdf) 
 
-## Back to Basics: Reinforcement Learning
+---
+
+### **<u>Task 2:</u>** 
+
+*Solve the coding challenges within the Jupyter notebook linked below (through Colab). If you encounter any issues with the notebook not functioning as described, please let us know!*
+
+Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
+
+In this project, you will be implementing parts of a simple Q-Learning algorithm for a "cartpole" environment.
+
+**Colab Link:** [Reinforcement Learning Colab Notebook](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-06/rl_net.ipynb) **(1.5 hr)**
+
+When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
+
+Remember that this is all for your learning, so do your best and don’t stress!
+
+Congratulations! You now understand the (_incredibly basic)_ basics of Deep RL!
+
+---
+---
+---
+
+## <u>Literacy Track Content</u>
+
+### **<u>Task 1:</u>** 
+
+*Read the article below, and answer any synthesis questions placed along the way.*
+
 Welcome to one of the most important units in this course—and one of the most challenging! Like all our articles, the goal of this article is to give you an intuitive understanding of reinforcement learning so that you can recognize it in daily life and apply it to technical projects.
 
 Reinforcement learning is the study of how a free object, or **agent**, moves around and accomplishes tasks in an **environment**, either real or simulated. The very general idea involves rewarding the object for desirable actions (i.e. reinforcing that behavior) and punishing it for undesirable actions.
@@ -61,7 +87,7 @@ Deep reinforcement learning combines deep learning and reinforcement learning. I
 
 Take a look at the short video below, which tries to teach a robot to walk using deep reinforcement learning (don't worry, you'll have fewer Synthesis Questions to make up for the extra video!).
 
-[AI Learns to Walk (deep reinforcement learning)](https://youtu.be/L_4BPjLBF4E?si=jtH5sPdoihN60MLh) (9 min)
+### **Video 1:** [AI Learns to Walk (deep reinforcement learning)](https://youtu.be/L_4BPjLBF4E?si=jtH5sPdoihN60MLh) (9 min)
 
 Notice that the robot wasn’t given any directions. It was given a target, and every action it took was rewarded or punished, but it ultimately had to learn the correct sequence of actions that would allow it to walk.
 
@@ -73,21 +99,24 @@ Also, like in the video, we can put our chess computer in different environments
     <img src="../assets/unit6/literacy_images/opponents.png" alt="Diagram of how the environment gets more advanced" width="500"/>
 </div>
 
-## Unit 6 Synthesis Questions
+Now let's watch some videos on RL.
 
 ### **Video 1:** [Reinforcement Learning: Crash Course AI #9](https://youtu.be/nIgIv4IfJ6s?si=_ppJ4srBtfy04L7x) **(12 min)**
 ### *Synthesis Questions*
-* *When does it make sense to use reinforcement learning vs. other methods of machine learning to accomplish a task?*
-* *How do the agent, action, and environment interact in reinforcement learning?*
-* *Give an example of two different policies in a reinforcement learning environment that’s NOT the cookie-jar example from the video (but you can use the chess game, the walking robot, or something you come up with yourself!).* 
+* `When does it make sense to use reinforcement learning vs. other methods of machine learning to accomplish a task?`
+* `How do the agent, action, and environment interact in reinforcement learning?`
+* `Give an example of two different policies in a reinforcement learning environment that’s NOT the cookie-jar example from the video (but you can use the chess game, the walking robot, or something you come up with yourself!).`
 
 ### **Video 2:** [Reinforcement Learning from scratch](https://www.youtube.com/watch?v=vXtfdGphr3c) **(8 min)**
 ### *Synthesis Questions*
-* *What is the purpose of a sigmoid function, and what does its value tell us? What about an error function?*
-* *Describe the idea of gradient descent and how we use it in reinforcement learning.*
+* `What is the purpose of a sigmoid function, and what does its value tell us? What about an error function?`
+* `Describe the idea of gradient descent and how we use it in reinforcement learning.`
 
-## Unit 6 Project Specs
-### **Non-Technical Project Spec:**
+---
+
+### **<u>Task 2:</u>** 
+
+*Complete the following writing activity.*
 
 The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
 
@@ -96,31 +125,6 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 * What ethical considerations should be taken into account when developing interventions based on neuroscientific findings, and how can accountability be established for the potential impacts of such interventions?
 * Reflecting on you have learned from this unit, what is one thing you found to be most interesting?
 * What is one concept from this unit that you would like to learn more about and why?
-
-Be sure to submit your work through google drive using the submission form!
-We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
-
-### **Technical Project Spec:**
-
-The project for this “_Reinforcement Learning_” section will be following the tutorial/Jupyter Notebook below. Please ask questions in the discord as you work through this project. Be sure to discuss with others in your group!
-
-
-A few general helpful tips (if applicable):
-* Be sure to appropriately make a copy of the Colab template before starting to save your progress!
-* Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
-* Type most of the code out yourself instead of just copying from the tutorial.
-* Leave comments to cement your understanding. Link syntax to ideas.
-
-Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
-
-**Colab Link:** [Unit 6 Notebook](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-06/rl_net.ipynb) **(1.5 hr)**
-
-When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
-
-Remember that this is all for your learning, so do your best and don’t stress!
-
-Congratulations! You now understand the (_incredibly basic)_ basics of Deep RL!
-
 
 <!---
 # Old Course Content

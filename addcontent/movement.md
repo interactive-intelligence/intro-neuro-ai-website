@@ -1,13 +1,13 @@
 ---
-title: Unit 13
-parent: Megadoc
+title: Movement
+parent: Additional Content
 ---
 
 # Unit 13: Intro to Movement
 
 We are now going to be learning about how your brain makes you act and move in your environment. We start by investigating the cerebellum. This will tie into Reinforcement Learning (RL), so pay attention!
 
-![alt_text](../assets/image1.png "image_tooltip")
+![alt_text](../assets/cerebellum.png "image_tooltip")
 
 
 First, a few useful vocab words:

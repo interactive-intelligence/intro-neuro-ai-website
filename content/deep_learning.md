@@ -1,25 +1,50 @@
 ---
-title: Unit 02
-parent: Megadoc
+title: Deep Learning
+parent: Core Content
+nav_order: 2 ### Unit Number
 ---
 
-# Unit 2: The (deep learning) Basics
+# <u>Deep Learning</u>
 
-Hello and welcome to the _Basics_ section of the I2 megadoc! Like last week, we're going to split our content into literacy and technical understanding. 
+Hello and welcome to the _Deep Learning_ section of the I2 course! Like last unit, we're going to split our content into literacy and technical understanding. 
 
-**Task 1:** Read either the <ins>literacy article</ins> "Back to Basics" or the <ins>technical article</ins> linked below to get an intuitive understanding of neural networks. <span style="color:red">**This is required.**</span>
+## <u>Technical Track Content</u>
 
-#### [Unit 02 Technical Article](unit-02-tech-article.md)
+### **<u>Task 1:</u>** 
 
-&nbsp;
+*Navigate to the relevant section of the I2 Grimoire using the link below. Read the textbook and answer all synthesis questions to the best of your ability. Be sure to save these somewhere for future reference.*
 
-**Task 2:** Go through the following videos/articles and answer the provided synthesis questions. Submit your answers to your intro course TA. 
-[Link to this task](https://course.uw-i2.org/megadoc/unit-02/#unit-2-synthesis-questions)
+### [I2 Grimoire: Deep Learning](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/units/Deep%20Learning.pdf) 
 
-**Task 3:** Complete either the technical project or the non-technical project. Submit your work to the intro course TA.
-[Link to this task](https://course.uw-i2.org/megadoc/unit-02/#unit-2-project-specs)
+---
 
-## Back to Basics: Neural Networks
+### **<u>Task 2:</u>** 
+
+*Solve the coding challenges within the Jupyter notebook linked below (through Colab). If you encounter any issues with the notebook not functioning as described, please let us know!*
+
+Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
+
+In this project, you will be implementing a Deep Neural Network (DNN)! I would suggest to **read up on what [MNIST](https://wiki.pathmind.com/mnist) is** before starting since this is the data you will be working with.
+
+**Colab Link:**
+[Deep Learning Colab Template](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-02/mnist-dnn.ipynb) **(1 hr)**
+
+When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
+
+Remember that this is all for your learning, so do your best and don’t stress!
+
+Congratulations! You now understand the basics of Deep Neural Network structure, how they learn, and how to create one using Python!
+
+---
+---
+---
+
+## <u>Literacy Track Content</u>
+
+### **<u>Task 1:</u>** 
+
+*Read the article below, and answer any synthesis questions placed along the way.*
+
 Simply put, we use neural networks to make computers process information in a way similar to how the human brain processes information.  
 
 Human brains use biological neural networks to process information. They send data from neuron to neuron in the form of electrical signals. A neural network attempts to replicate this processing using a computer. 
@@ -45,7 +70,7 @@ This layer is called a hidden layer because often times, humans can’t understa
 
 Let’s look at an example. Imagine I want my computer to recognize handwritten numbers and convert them into text. How might we do that?
 
-First of all, we need to give the computer some examples. We’re going to use the MNIST database, which contains thousands of images of handwritten digits, each one labeled with its actual number. Here’s an example ([credit](https://etzold.medium.com/mnist-dataset-of-handwritten-digits-f8cf28edafe)):
+First of all, we need to give the computer some examples. We’re going to use the MNIST database, which contains thousands of images of handwritten digits, each one labeled with its actual number. Here’s an example ([Source](https://etzold.medium.com/mnist-dataset-of-handwritten-digits-f8cf28edafe)):
 
 <div style="text-align:center">
     <img src="../assets/unit2/literacy_images/labeled_mnist.webp" alt="Labeled images from the MNIST database" width="500"/>
@@ -73,30 +98,38 @@ The first several are going to be pretty bad because the computer is still figur
 
 Once we’ve exhausted our training data, and the computer has made all its connections, we can test our network. In addition to training data, the dataset has 10,000 designated testing images. Like the training data, these are also labeled: the difference is that the network doesn’t learn from them. We just use them to verify the accuracy of our network.
 
-In the rest of your homework, you’ll learn more about the mathematical aspects of neural networks. You’ll even get to build a neural network yourself!
+This was a good introduction. Now lets turn to some amazing videos on the topic of Neural Networks that will deepen your understanding. Watch the following videos and answer the associated questions.
 
-## Unit 2 Synthesis Questions
-### **Video 1:** [Neural Networks and Deep Learning | Crash Course AI #3](https://youtu.be/oV3ZY6tJiA0?si=AYWscg7BYV8u7J7X) **(12 min)**
+### **Video 1:** [But what is a neural network? | Chapter 1, Deep learning](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) **(20 min)**
 ### *Synthesis Questions*
-* *Why was ImageNet significant to the development of neural networks? What about AlexNet?*
-* *What are some real-world applications of neural networks? What are some ethical considerations associated with them?*
+* `What is a neuron (in terms of Neural Networks) and what does its "activation" represent?`
+    * `Bonus: Research and consider the correlation between a biological neuron and an artificial neuron. How are they similar/different?`
+* `What is a network layer? How is it connected to other network layers?`
+* `How is a picture of a digit decomposed into a network layer?`
+* `What does the final layer of a neural network represent?`
+* `What are weights? What are biases? Can you describe in English how information is passed from one layer to the next?`
+* `A neural network **IS/IS NOT** just a very highly parameterized function (Choose one)`
+* `What is the purpose of the sigmoid function?`
 
-### **Video 2:** [But what is a neural network? | Chapter 1, Deep learning](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) **(20 min)**
+### **Video 2:** [Gradient descent, how neural networks learn | Chapter 2, Deep learning](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3piå) **(20 min)**
 ### *Synthesis Questions*
-* *What is a neuron (in terms of Neural Networks) and what does its "activation" represent?*
-    * *Bonus: Research and consider the correlation between a biological neuron and an artificial neuron. How are they similar/different?*
-* *What is a network layer? How is it connected to other network layers?*
-* *How is a picture of a digit decomposed into a network layer?*
-* *What does the final layer of a neural network represent?*
-* *What are weights? What are biases? Can you describe in English how information is passed from one layer to the next?*
-* *A neural network <strong>IS/IS NOT</strong> just a very highly parameterized function (Choose one)*
-* *What is the purpose of the sigmoid function?*
+* `Why is there a need for a train/test split for a neural network? Why is it important for a NN to be able to generalize to examples it has not seen?`
+* `Describe the Mean Squared Error (MSE) cost function. What does a higher value mean? What does a lower value mean? (For one training example)`
+    * `Bonus: Assume you have a binary classifier neural network that outputs the vector [0.25, 0.75] and you are using the MSE Loss function to train the Network. The data label indicates that the output for this training example should have been [0, 1]. What is the MSE Loss for this training example?`
+* `What is the gradient of a function? What is gradient descent?`
+* `What does minimizing the loss function do to the network's performance over time?`
+* `Do the hidden layers of a basic NN encode any useful information assuming you use the MSE Loss function? Why or why not?`
 
-## Unit 2 Project Specs
-**<mark style="background-color: lightblue">Homework Help:</mark>** if you’re having trouble with the technical homework, or just want to try a slightly easier version, try following along with this video! It references the Crash Course video from the synthesis questions, so make sure you watch that first. Reach out to a TA if you have any questions!
+### **Video 3:** [Neural Networks and Deep Learning | Crash Course AI #3](https://youtu.be/oV3ZY6tJiA0?si=AYWscg7BYV8u7J7X) **(12 min)**
+### *Synthesis Questions*
+* `Why was ImageNet significant to the development of neural networks? What about AlexNet?`
+* `What are some real-world applications of neural networks? What are some ethical considerations associated with them?`
 
-**[How to make an AI read your handwriting (LAB): Crash Course AI #5](https://youtu.be/6nGCGYWMObE?si=DHk1j96LDHETD-h4)**
-### **Non-Technical Project Spec:**
+---
+
+### **<u>Task 2:</u>** 
+
+*Complete the following writing activity.*
 
 The non-technical project for this unit will involve some writing! **Choose 3** of the prompts below and write **at least 200** (_meaningful!_) words on each one! We will not be strictly grading you on correctness or anything like that. This is an opportunity to deeply engage with the material you have just learned about, and creatively connect it to neuroscience!
 
@@ -108,33 +141,10 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 * Reflecting on you learning from this unit, what is one thing you found to be most interesting about DNNs?
 * What is one concept from this unit that you would like to learn more about and why?
 
-Be sure to submit your work through google drive using the submission form!
-We would prefer that you upload it to your own Drive first, then use the submission form dropbox to connect that file to your submission!
 
-### **Technical Project Spec:**
+<!-- **<mark style="background-color: lightblue">Homework Help:</mark>** if you’re having trouble with the technical homework, or just want to try a slightly easier version, try following along with this video! It references the Crash Course video from the synthesis questions, so make sure you watch that first. Reach out to a TA if you have any questions!
 
-The project for this “_Basics_” section will **have you finish a code template through Google Colab.** Please ask questions as you work through this project. Be sure to discuss with others in your group if you have one! Share your answers as you like, the goal is to learn and we’re not holding grades over your head.
-
-In this project, you will be implementing a Deep Neural Network (DNN)!
-
-A few general helpful tips (if applicable):
-* Be sure to appropriately make a copy of the Colab template before starting to save your progress!
-* Renaming your copy to something that contains your name is a good idea, it will make it easier for us to review your submissions.
-* Leave comments to cement your understanding. Link syntax to ideas.
-* **Read up on what [MNIST](https://wiki.pathmind.com/mnist) is.**
-
-Now, follow the instructions on this Jupyter notebook to implement some of the things we talked about. There is an "answers" link at the bottom of the notebook that you can use if stuck. You will need to download the '.ipynb' found in that directory and open it either locally or in a new colab project yourself. Ask around if you are unable to get it working!
-
-**Colab Link:**
-[Unit 2 Notebook](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-02/mnist-dnn.ipynb) **(1 hr)**
-
-When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
-
-Remember that this is all for your learning, so do your best and don’t stress!
-
-Congratulations! You now understand the basics of Deep Neural Network structure, how they learn, and how to create one using Python!
-
-
+**[How to make an AI read your handwriting (LAB): Crash Course AI #5](https://youtu.be/6nGCGYWMObE?si=DHk1j96LDHETD-h4)** -->
 <!---
 # Old Course Content
 Hello and welcome to the _Basics_ section of the I2 megadoc! We will start by throwing a few videos at you that we believe give incredibly intuitive explanations of one of the foundational building blocks of modern Deep Learning.
