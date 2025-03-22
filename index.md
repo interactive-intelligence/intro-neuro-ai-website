@@ -33,9 +33,6 @@ Please remember:
 - Be helpful, be kind, and have fun!
 
 
-Here's the link to our **course textbook**, the [**I2 Grimoire**](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/I2%20Grimoire.pdf).
-
-We’ll be referencing it throughout the course, so be sure to check it out!
 
 What basics you will learn (a more detailed list can be found in the announcements):
 - ML
@@ -55,6 +52,5 @@ And also:
 - LaTeX
 - Self-learning skills
 
-## If you wish to contrubute, check out the wiki tab!
 
-## **Also please check out the [i2 Labs Website](https://i2-labs.org/) and register your team!**
+Here's the link to our **course textbook**, the [**I2 Grimoire**](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/I2%20Grimoire.pdf). We’ll be referencing it throughout the course, so be sure to check it out!
