@@ -32,6 +32,11 @@ Please remember:
 - Contact any mentor at any point if you have any questions. **Seriously, we are here to help <3**
 - Be helpful, be kind, and have fun!
 
+
+Here's the link to our **course textbook**, the [**I2 Grimoire**](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/I2%20Grimoire.pdf).
+
+We’ll be referencing it throughout the course, so be sure to check it out!
+
 What basics you will learn (a more detailed list can be found in the announcements):
 - ML
 - DL
