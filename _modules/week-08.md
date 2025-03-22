@@ -12,7 +12,7 @@ title: "Week 8: Language Modeling"
 
 ### Resources
 
-- [Megadoc Unit 8](../megadoc/unit-08)
+- [Megadoc Unit 8](../content/language_modeling/)
 
 ### Assignment
 

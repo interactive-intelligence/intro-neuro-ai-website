@@ -7,7 +7,7 @@ title: "Week 7: AI Ethics"
 - Learn about ethics in AI and think about how ethical AI is developed.
 
 ### Resources
-- [Megadoc Unit 7](../megadoc/unit-07)
+- [Megadoc Unit 7](../content/ai_ethics/)
 
 ### Assignment
 

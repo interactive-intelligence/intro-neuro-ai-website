@@ -9,7 +9,7 @@ title: "Week 4: Convolutional Neural Networks"
 
 ### Resources
 
-- [Megadoc Unit 4](../megadoc/unit-04)
+- [Megadoc Unit 4](../content/computer_vision/)
 
 ### Assignment
 

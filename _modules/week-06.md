@@ -9,7 +9,7 @@ title: "Week 6: Reinforcement Learning"
 
 ### Resources
 
-- [Megadoc Unit 6](../megadoc/unit-06)
+- [Megadoc Unit 6](../content/reinforcement_learning/)
 - [Spinning Up](https://spinningup.openai.com)
 
 ### Assignment
