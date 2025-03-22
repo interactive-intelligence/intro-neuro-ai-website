@@ -11,4 +11,4 @@ title: "Week 9: Certificates + Unit 11"
 
 ### Resources
 
-- [Megadoc Unit 11](../megadoc/unit-11)
+- [Megadoc Unit 11](../addcontent/build_a_brain/)

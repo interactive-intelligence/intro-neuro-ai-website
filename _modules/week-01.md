@@ -11,7 +11,7 @@ An introduction to the foundation of modern AI!
 
 ### Resources
 
-- [Megadoc Unit 1](../megadoc/unit-01)
+- [Megadoc Unit 1](../content/machine_learning/)
 
 ### Assignment
 
