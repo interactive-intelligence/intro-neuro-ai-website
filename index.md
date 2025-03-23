@@ -25,13 +25,14 @@ Please follow the following links!
 
 Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)!
 
+Here's the link to our **course textbook**, the [**I2 Grimoire**](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/I2%20Grimoire.pdf). We’ll be referencing it throughout the course, so be sure to check it out!
+
 Please remember:
 - We are all trying to learn, and learn at different speeds.
 - This course is somewhat of a commitment. You will get out what you put in
 - There are no grades! This is all for your learning alone.
 - Contact any mentor at any point if you have any questions. **Seriously, we are here to help <3**
 - Be helpful, be kind, and have fun!
-
 
 
 What basics you will learn (a more detailed list can be found in the announcements):
@@ -51,6 +52,3 @@ And also:
 - Jupyter notebooks
 - LaTeX
 - Self-learning skills
-
-
-Here's the link to our **course textbook**, the [**I2 Grimoire**](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/I2%20Grimoire.pdf). We’ll be referencing it throughout the course, so be sure to check it out!
