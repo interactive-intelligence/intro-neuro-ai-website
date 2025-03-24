@@ -88,6 +88,9 @@ Deep reinforcement learning combines deep learning and reinforcement learning. I
 Take a look at the short video below, which tries to teach a robot to walk using deep reinforcement learning (don't worry, you'll have fewer Synthesis Questions to make up for the extra video!).
 
 ### **Video 1:** [AI Learns to Walk (deep reinforcement learning)](https://youtu.be/L_4BPjLBF4E?si=jtH5sPdoihN60MLh) (9 min)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L_4BPjLBF4E?si=OKOq_guDYy8hBWnz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 Notice that the robot wasn’t given any directions. It was given a target, and every action it took was rewarded or punished, but it ultimately had to learn the correct sequence of actions that would allow it to walk.
 
@@ -102,12 +105,20 @@ Also, like in the video, we can put our chess computer in different environments
 Now let's watch some videos on RL.
 
 ### **Video 1:** [Reinforcement Learning: Crash Course AI #9](https://youtu.be/nIgIv4IfJ6s?si=_ppJ4srBtfy04L7x) **(12 min)**
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nIgIv4IfJ6s?si=wrB1HOnov8x10WJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions*
 * `When does it make sense to use reinforcement learning vs. other methods of machine learning to accomplish a task?`
 * `How do the agent, action, and environment interact in reinforcement learning?`
 * `Give an example of two different policies in a reinforcement learning environment that’s NOT the cookie-jar example from the video (but you can use the chess game, the walking robot, or something you come up with yourself!).`
 
 ### **Video 2:** [Reinforcement Learning from scratch](https://www.youtube.com/watch?v=vXtfdGphr3c) **(8 min)**
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vXtfdGphr3c?si=gcG5swQQ7qncnt7j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions*
 * `What is the purpose of a sigmoid function, and what does its value tell us? What about an error function?`
 * `Describe the idea of gradient descent and how we use it in reinforcement learning.`

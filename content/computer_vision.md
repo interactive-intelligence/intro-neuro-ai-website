@@ -122,6 +122,10 @@ This was a lot of information, so please reach out to someone if you’re having
 
 ### **Video 1:** [How Convolutional Neural Networks work](https://youtu.be/FmpDIaiMIeA?t=840) **(12 min)**
 **Note:** Watch from 13:54 onward to answer the questions below. Before that is mainly review from this article (but you may find it useful to skim through, as it covers helpful math concepts!). 
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FmpDIaiMIeA?si=NsjD1QZB_v7itFpK&amp;start=834" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions*
 * `How is backpropagation used in CNNs, and how does it differ from backpropagation in standard neural networks?`
 * `What outcomes can a designer achieve from adjusting the hyperparameters or architecture of a CNN?`
@@ -129,6 +133,9 @@ This was a lot of information, so please reach out to someone if you’re having
 
 ### **Video 2:** [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA) **(14 min)**
 **Note:** Watch up to 13:42 in this video; the rest is beyond the scope of this course. 
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KuXjwB4LzSA?si=GTq2Z7DT4y9WyF6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 ### *Synthesis Questions*
 * `What is the name for the smaller grid that convolves over a larger image?`
     * `Hint: Starts with a "k"`

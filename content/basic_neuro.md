@@ -18,6 +18,10 @@ Welcome to the first lesson studying the most powerful and intelligent computer 
 
 First, we will begin with Mr. Andersen’s lovely introduction to the structure of the foundation of our biological computation: the neuron!
 ### **Video 1:** [The Neuron!](https://www.youtube.com/watch?v=HZh0A-lWSmY) 
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HZh0A-lWSmY?si=udg_eqQ4V8Z3MsQG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### *Synthesis Questions:*
 * `Recall the main parts of a neuron and list their functions. Write 1 sentence for each.`
 * `Fill out the following sentence: An action potential travels from the direction of the __, along the __, before reaching the __.`
@@ -29,6 +33,9 @@ First, we will begin with Mr. Andersen’s lovely introduction to the structure 
 
 Next, a crash course on the large modules of the brain before we go even deeper into the amazing functions of the brain.
 ### **Video 2:** [The Brain: Structure and Function](https://www.youtube.com/watch?v=kMKc8nfPATI)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kMKc8nfPATI?si=_0Awgwd1V5RT_mfC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 ### *Synthesis Questions:*
 * `What distinguishes the forebrain, midbrain, and hindbrain? `
 * `What are several parts of the midbrain and what are their functions?`
@@ -37,6 +44,9 @@ Next, a crash course on the large modules of the brain before we go even deeper 
 
 Watch and understand this beautiful lecture, then answer the synthesis questions provided below.
 ### **Video 3:** [MIT Neuroanatomy Lecture](https://www.youtube.com/watch?v=bAkuNXtgrLA&list=PLUl4u3cNGP60IKRN_pFptIBxeiMc0MCJP&index=2)
+<div class="center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bAkuNXtgrLA?si=umRz9vDxAOxdxPWL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 ### *Synthesis Questions:*
 * `What are the four major parts of the brain?`
 * `Summarize the main functions of each of the four major components above, or jot down some details about each`
