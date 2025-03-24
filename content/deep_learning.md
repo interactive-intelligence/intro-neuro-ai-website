@@ -14,7 +14,7 @@ Hello and welcome to the _Deep Learning_ section of the I2 course! Like last uni
 
 *Navigate to the relevant section of the I2 Grimoire using the link below. Read the textbook and answer all synthesis questions to the best of your ability. Be sure to save these somewhere for future reference.*
 
-### [I2 Grimoire: Deep Learning](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/units/Deep%20Learning.pdf) 
+### [I2 Grimoire: Deep Learning](https://grimoire.uw-i2.org/units/Deep%20Learning.pdf) 
 
 ---
 

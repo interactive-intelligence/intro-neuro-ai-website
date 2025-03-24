@@ -23,7 +23,7 @@ Please follow the following links!
 ---
 
 
-Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)! Here's the link to our **course textbook**, the [**I2 Grimoire**](https://github.com/interactive-intelligence/I2-grimoire/blob/PDF/I2%20Grimoire.pdf). We’ll be referencing it throughout the course, so be sure to check it out.
+Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)! Here's the link to our **course textbook**, the [**I2 Grimoire**](https://grimoire.uw-i2.org). We’ll be referencing it throughout the course, so be sure to check it out.
 
 Please remember:
 - We are all trying to learn, and learn at different speeds.
