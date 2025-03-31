@@ -213,7 +213,7 @@ The non-technical project for this unit will involve some writing! **Choose 3** 
 * Recall that Machine Learning focuses on algorithms that learn from data in order to make predictions or decisions. What kinds of applications are you most interested in, and what would be the input and the output of the model?
 * Do you believe a model, just by producing outputs given inputs, can understand the world the way humans can? For example, ChatGPT is a machine learning model because it tries to predict an appropriate response given an input sequence based on their probability, but does it actually understand what it is talking about? Argue why or why not.
 * Machine learning models learn from the data they are given rather than explicit programming. There is a concept in AI known as "Garbage in, Garbage out", referring to the fact that if you feed a machine learning model poor and unreliable data, the model itself will also be poor and unreliable. Think about an application you might train a model for. Then, think about the ways the data might be unreliable, and what steps might you take to mitigate this?
-* What are some ethical implications of appling machine learning models to the real world? For example, think about what might happen if a person does not fit societal norms and gets misclassified.
+* What are some ethical implications of applying machine learning models to the real world? For example, think about what might happen if a person does not fit societal norms and gets misclassified.
 * Write about anything interesting that remotely relates to this unit!
 
 <!-- ### **Video 1:** [How AIs, like ChatGPT, Learn](https://www.youtube.com/watch?v=R9OHn5ZF4Uo)  **(9 min)**
