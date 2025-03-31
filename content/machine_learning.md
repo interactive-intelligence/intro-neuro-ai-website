@@ -153,7 +153,7 @@ classification.
 example, classifying an image as either a “cat” or a “dog.” The output is typically a
 discrete label, such as “yes” or “no,” or in this case, “cat” or “pig.”
 
-On the other hand, <ins>regession</ins> is about predicting a value, which cannot be broken up into separate classes. For
+On the other hand, <ins>regression</ins> is about predicting a value, which cannot be broken up into separate classes. For
 instance, predicting a person’s weight based on their height is a regression task,
 where height is the input feature and weight is the predicted continuous value. In
 multiple regression, multiple features (like height, age, etc.) are used to predict an output,
