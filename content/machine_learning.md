@@ -173,8 +173,7 @@ between input features and the ouput by simply fitting a straight line, somethin
 A key concept is that the line tries to minimize the distance to all of the points.
 
 ### Logistic Regression (Classification)
-Instead of a straight line, logistic regression takes the form of an $S$-shaped curve, with the outpus bounded between 0 and 1.
-
+Instead of a straight line, logistic regression takes the form of an $S$-shaped curve, with the outputs bounded between 0 and 1.
 <div class="center">
     <img src="../assets/unit1/literacy_images/logistic_curve.png" />
 </div>
