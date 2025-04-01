@@ -186,13 +186,39 @@ there is "regression" in the name.
 There are ways extending logistic regression beyond two classes, such as One vs Rest, where we train $k$ separate classifiers for $k$ classes, and take the
 largest value, but that is beyond the scope of this course.
 
+### More Classification: Decision Trees
+
+Let's move on to a more intuitive type of classification algorithm. Suppose you want to classify animals. One of the most intuitive ways is to group animals by
+features and break them up into small logical decisions. You might end up with a tree like this:
+```
+                Is it a Mammal?
+                  /        \
+                Yes        No
+               /            \
+      Has Fur?           Has Feathers?
+       /    \              /      \
+     Yes     No         Yes       No
+     /        \         /          \
+   Dog       Dolphin  Bird      Lives in Water?
+                                   /     \
+                                 Yes     No
+                                 /         \
+                              Fish      Reptile
+```
+This is exactly what a decision tree is! The algorithm tries to find the best ways to split data each step so that using only
+a series of binary questions ("Does the animal have wings?", or "Is the height greater than 10 cm"), we can narrow down to the true class.
+
+There are also ensemble classifiers such as Random Forests, which consists of many different decision trees that "vote" on the answer, leading to greater accuracy
+and better generalization.
+
 ### *Synthesis Questions*
 * `What is the difference between regression and classification?`
 * `What kind of function does linear regression use?`
 * `What kind of function does logistic regression use?`
+* `How does a decision tree work?`
 * `Why does logistic regression have "regression" in the name?`
 
-### KMeans: Unsupervised Learning
+### K-Means: Unsupervised Learning
 In the previous sections, we talked about <ins>supervised learning</ins>, where we had to teach the model with explicit labels for our data. In this section,
 we will explore <ins>unsupervised learning</ins>, where the labels are not provided, and the model aims to find hidden patterns and structure inside of our data.
 One powerful example of unsupervised learning is <ins>k-means clustering</ins>. This algorithm attempts to group the data into $k$ clusters, where each cluster
