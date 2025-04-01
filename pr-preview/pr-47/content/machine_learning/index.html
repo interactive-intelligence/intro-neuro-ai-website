@@ -291,6 +291,29 @@ is 1, while if the model outputs a number that is closer to 0.5, it is less conf
 there is “regression” in the name.</p>
 <p>There are ways extending logistic regression beyond two classes, such as One vs Rest, where we train $k$ separate classifiers for $k$ classes, and take the
 largest value, but that is beyond the scope of this course.</p>
+<h3 id="more-classification-decision-trees">
+    <a href="#more-classification-decision-trees" class="anchor-heading" aria-labelledby="more-classification-decision-trees"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> More Classification: Decision Trees
+</h3>
+<p>Let’s move on to a more intuitive type of classification algorithm. Suppose you want to classify animals. One of the most intuitive ways is to group animals by
+features and break them up into small logical decisions. You might end up with a tree like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                Is it a Mammal?
+                  /        \
+                Yes        No
+               /            \
+      Has Fur?           Has Feathers?
+       /    \              /      \
+     Yes     No         Yes       No
+     /        \         /          \
+   Dog       Dolphin  Bird      Lives in Water?
+                                   /     \
+                                 Yes     No
+                                 /         \
+                              Fish      Reptile
+</code></pre></div></div>
+<p>This is exactly what a decision tree is! The algorithm tries to find the best ways to split data each step so that using only
+a series of binary questions (“Does the animal have wings?”, or “Is the height greater than 10 cm”), we can narrow down to the true class.</p>
+<p>There are also ensemble classifiers such as Random Forests, which consists of many different decision trees that “vote” on the answer, leading to greater accuracy
+and better generalization.</p>
 <h3 id="synthesis-questions-1">
     <a href="#synthesis-questions-1" class="anchor-heading" aria-labelledby="synthesis-questions-1"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <em>Synthesis Questions</em>
 </h3>
@@ -298,10 +321,11 @@ largest value, but that is beyond the scope of this course.</p>
  <li><code class="language-plaintext highlighter-rouge">What is the difference between regression and classification?</code>
  <li><code class="language-plaintext highlighter-rouge">What kind of function does linear regression use?</code>
  <li><code class="language-plaintext highlighter-rouge">What kind of function does logistic regression use?</code>
+ <li><code class="language-plaintext highlighter-rouge">How does a decision tree work?</code>
  <li><code class="language-plaintext highlighter-rouge">Why does logistic regression have "regression" in the name?</code>
 </ul>
-<h3 id="kmeans-unsupervised-learning">
-    <a href="#kmeans-unsupervised-learning" class="anchor-heading" aria-labelledby="kmeans-unsupervised-learning"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> KMeans: Unsupervised Learning
+<h3 id="k-means-unsupervised-learning">
+    <a href="#k-means-unsupervised-learning" class="anchor-heading" aria-labelledby="k-means-unsupervised-learning"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> K-Means: Unsupervised Learning
 </h3>
 <p>In the previous sections, we talked about <ins>supervised learning</ins>, where we had to teach the model with explicit labels for our data. In this section,
 we will explore <ins>unsupervised learning</ins>, where the labels are not provided, and the model aims to find hidden patterns and structure inside of our data.
