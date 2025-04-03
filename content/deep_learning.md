@@ -6,7 +6,7 @@ nav_order: 3 ### Unit Number
 
 # <u>Deep Learning</u>
 
-Hello and welcome to the _Deep Learning_ section of the I2 course! Like last unit, we're going to split our content into literacy and technical understanding. 
+Hello and welcome to the _Deep Learning_ section of the I2 course! Like the machine learning unit, we're going to split our content into literacy and technical understanding. 
 
 ## <u>Technical Track Content</u>
 
