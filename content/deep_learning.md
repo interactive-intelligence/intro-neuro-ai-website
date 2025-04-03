@@ -1,7 +1,7 @@
 ---
 title: Deep Learning
 parent: Core Content
-nav_order: 2 ### Unit Number
+nav_order: 3 ### Unit Number
 ---
 
 # <u>Deep Learning</u>

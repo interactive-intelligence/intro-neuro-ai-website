@@ -1,23 +1,21 @@
 ---
-title: "Week 2: Introduction to Neural Networks"
+title: "Week 2: Basic Neuroanatomy"
 ---
 
 ### Purpose
 
-Our first foray into more complex networks and how they learn.
-- Introduction to Deep Learning (DL)
-- Introduction to Neural Networks
-- Introduction to Backpropagation
+Welcome to a beginner's introduction to neuroscience! We will
+- Learn several basic regions of the brain
+- Learn fundamentals of the neuron and biological computation
+ -Begin to hypothesize about the parallels and divergences of machine learning and the brain
 
 ### Resources
-
-- [Megadoc Unit 2](../content/deep_learning/)
-- [CS231n Notes on Neural Networks.](https://cs231n.github.io/) See Module 1: Neural Networks - great written resource for the basics.
+- [Megadoc Unit 3](../content/basic_neuro/)
 
 ### Assignment
 
-- Complete Unit 2 in the megadoc (synthesis questions included)
-- Basic MNIST Classifier (in megadoc/github)
+- Complete Unit 3 in the megadoc (synthesis questions included)
+- Basic Neuroanatomy Project (LaTeX template in github)
 
 ### Summary Questions
 

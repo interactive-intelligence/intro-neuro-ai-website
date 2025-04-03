@@ -1,7 +1,7 @@
 ---
 title: Basic Neuroanatomy
 parent: Core Content
-nav_order: 3 ### Unit Number
+nav_order: 2 ### Unit Number
 ---
 
 # <u>Basic Neuroanatomy</u>
