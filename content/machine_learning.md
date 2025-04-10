@@ -184,7 +184,7 @@ between 0 and 1, which we can use as a "confidence" score. If the model outputs 
 is 1, while if the model outputs a number that is closer to 0.5, it is less confident. Since the model actually predicts a value instead of a class,
 there is "regression" in the name.
 
-There are ways extending logistic regression beyond two classes, such as One vs Rest, where we train $k$ separate classifiers for $k$ classes, and take the
+There are ways to logistic regression beyond two classes, such as One vs Rest, where we train $k$ separate classifiers for $k$ classes, and take the
 largest value, but that is beyond the scope of this course.
 
 ### More Classification: Decision Trees
