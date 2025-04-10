@@ -125,7 +125,8 @@ In order to make sure this is not happening, we can use train and test splits to
 
 Train/Test Split refers to this method of dividing the dataset, typically using an
 80-20 or 70-30 ratio. For example, in an 80-20 split, 80% of the data is used for
-training, and the remaining 20% is held back for testing.
+training, and the remaining 20% is held back for testing. Note that you should ***NEVER***
+train on your test data, which includes tuning your model on it.
 
 <div class="center">
     <img src="../assets/unit1/literacy_images/train_test_split.svg" alt="Train test split"/>
