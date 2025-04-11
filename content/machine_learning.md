@@ -41,7 +41,7 @@ Read up on k-means clustering in the provided link (Images provided above also c
 
 Now, follow the instructions on this Jupyter notebook (hosted on Google Colab) to implement some of the things we talked about! Be sure to save a local copy of the template so you can edit it.
 
-**Colab Link:** [Machine Learning Colab Template](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-01/clustering-pca.ipynb) **(30 min)**
+**Colab Link:** [Machine Learning Colab Template](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-01/lin_reg.ipynb) **(30 min)**
 
 When you are finished with your code, independently verify that it works and have fun with it! You could try this method on different datasets, such as [this one for example](https://www.kaggle.com/datasets/ashwingupta3012/human-faces). If you add any additional functionality be sure to talk about it with others and give them ideas.
 
