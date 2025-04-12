@@ -16,7 +16,7 @@ Our first foray into more complex networks and how they learn.
 
 ### Assignment
 
-- Complete Unit 2 in the megadoc (synthesis questions included)
+- Complete Unit 3 in the megadoc (synthesis questions included)
 - Basic MNIST Classifier (in megadoc/github)
 
 ### Summary Questions
