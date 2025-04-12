@@ -14,7 +14,7 @@ Welcome to a beginner's introduction to neuroscience! We will
 
 ### Assignment
 
-- Complete Unit 3 in the megadoc (synthesis questions included)
+- Complete Unit 2 in the megadoc (synthesis questions included)
 - Basic Neuroanatomy Project (LaTeX template in github)
 
 ### Summary Questions
