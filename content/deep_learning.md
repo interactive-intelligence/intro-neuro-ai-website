@@ -27,7 +27,7 @@ Please ask questions as you work through this project. Be sure to discuss with o
 In this project, you will be implementing a Deep Neural Network (DNN)! I would suggest to **read up on what [MNIST](https://wiki.pathmind.com/mnist) is** before starting since this is the data you will be working with.
 
 **Colab Link:**
-[Deep Learning Colab Template](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-02/mnist-dnn.ipynb) **(1 hr)**
+[Deep Learning Colab Template](https://colab.research.google.com/github/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-03/mnist-dnn.ipynb) **(1 hr)**
 
 When you are finished with your code, independently verify that it works and have fun with it! If you add any additional functionality be sure to talk about it with others and give them ideas.
 

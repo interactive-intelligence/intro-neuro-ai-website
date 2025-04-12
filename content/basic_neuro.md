@@ -71,7 +71,7 @@ Overleaf project and type your answers into the `TODO` areas. Be sure to hit the
 Since this is the "project" section of the unit, your responses to the questions we provide should be more complex than 
 your responses to the synthesis questions.
 
-**GH Link:** [Unit 3 Template](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-03/basic_neuro_project.tex) **(30 min)**
+**GH Link:** [Unit 2 Template](https://github.com/interactive-intelligence/intro-neuro-ai-website/blob/main/notebooks/unit-02/basic_neuro_project.tex) **(30 min)**
 
 **The questions in the template are also written below:**
 
