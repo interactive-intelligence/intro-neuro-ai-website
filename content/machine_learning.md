@@ -127,12 +127,12 @@ Train/Test Split refers to this method of dividing the dataset, typically using 
 80-20 or 70-30 ratio. For example, in an 80-20 split, 80% of the data is used for
 training, and the remaining 20% is held back for testing.
 
-{: .warning}
-You should ***NEVER*** train on your test data, which includes tuning your model on it.
-
 <div class="center">
     <img src="../assets/unit1/literacy_images/train_test_split.svg" alt="Train test split"/>
 </div>
+
+{: .warning}
+You should ***NEVER*** train on your test data, which includes tuning your model on it.
 
 In practice, the following steps are often taken when working with train/test splits:
 - Step 1: Data Splitting. Split the data into training and test sets before
