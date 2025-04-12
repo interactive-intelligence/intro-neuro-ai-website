@@ -82,3 +82,11 @@ compress_html:
   startings: true
   blanklines: true
   profile: false
+
+callouts:
+  warning:
+    title: Warning
+    color: yellow
+  info:
+    title: Info
+    color: blue
