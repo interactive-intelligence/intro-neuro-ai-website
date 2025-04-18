@@ -27,7 +27,6 @@ First, we will begin with Mr. Andersen’s lovely introduction to the structure 
 * `Fill out the following sentence: An action potential travels from the direction of the __, along the __, before reaching the __.`
 * `What happens if a neuron becomes unmyelinated?`
 * `What is a synapse? What does it do?`
-* `Now that you understand the basics of a biological neuron, how is it similar/different to a neuron in a Neural Network? Feel free to review content from Unit 2 if needed.`
 
 **Bonus Video:** If you are interested in the gritty details of how computation works biologically, I suggest this video as a bonus: [The Action Potential](https://www.youtube.com/watch?v=HYLyhXRp298) (the brain is like a salty banana!)
 
