@@ -12,7 +12,7 @@ seo:
 
 ---
 
-## *Fall 2025 Intro Course Applications Open!*
+## *Autumn 2025 Intro Course Applications Open!*
 
 Please follow the following links!
 
