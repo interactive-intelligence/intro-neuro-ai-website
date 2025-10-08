@@ -31,6 +31,7 @@ It is recommended to read the listed papers in order, and to at least skim each 
 11. [The Modern Mathematics of Deep Learning](https://arxiv.org/pdf/2105.04026.pdf). A landmark work in developing a mathematical theory of deep learning. Skim sections 2.3, 3.2, 3.3, and 4. Make sure you at least understand the results at a high level.
 12. [Language Models (Mostly) Know What They Know](https://arxiv.org/pdf/2207.05221.pdf). A theoretical method for probing language model knowledge reveals interesting epistemic structures. 
 13. Bonus: [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html). Think you know how transformers work? Think again!
+14. Bonus: [Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/). An interesting analysis on how the training objective during training incentivizes hallucinations.
 
 **Fairness, Responsibility, Safety**
 
