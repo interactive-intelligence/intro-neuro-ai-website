@@ -66,17 +66,6 @@ Statistical language models use statistics and probability directly to predict t
 
 Statistical language models usually take the form of an **n-gram model**. This model predicts the probability of a word in a sequence given the n previous words in the sequence. For example, a unigram predicts the probability of a word given the immediate previous word; a bigram predicts the probability given the two previous words; a trigram uses the three previous words, and so on. 
 
-```mermaid
-graph TD
-    subgraph Trigram Graph
-        I --> love
-        love --> coding
-        coding --> and
-        and --> I
-        love --> AI
-    end
-```
-
 However, statistical language models have their limitations. For one, they will struggle with new words or phrases that don’t appear often in the original set of data (for example, if the phrase “time complexity” rarely appears in the original data, the model may struggle to predict that the word “complexity” can follow the word “time”). In addition, because these models look back at a fixed number of words, they can struggle to track and consider the long-term effects of a word on a phrase. 
 
 This is where the other type of model, neural language models, come in. Neural language models use neural networks to predict the next word in a sequence. These models are able to handle more complex and diverse sets of training data and are better at handling context clues and long-term effects of words. 
