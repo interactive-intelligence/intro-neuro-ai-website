@@ -68,19 +68,12 @@ Statistical language models usually take the form of an **n-gram model**. This m
 
 ```mermaid
 graph TD
-    subgraph "3-Gram Pass Through Sentence"
-        A["I want to"] --> B["want to cook"];
-        B --> C["to cook an"];
-        C --> D["cook an omelet,"];
-        D --> E["an omelet, so"];
-        E --> F["omelet, so I"];
-        F --> G["so I went"];
-        G --> H["I went to"];
-        H --> I["went to the"];
-        I --> J["to the store"];
-        J --> K["the store to"];
-        K --> L["store to buy"];
-        L --> M["to buy some"];
+    subgraph Trigram Graph
+        I --> love
+        love --> coding
+        coding --> and
+        and --> I
+        love --> AI
     end
 ```
 
