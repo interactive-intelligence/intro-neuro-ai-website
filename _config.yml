@@ -24,6 +24,12 @@ exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 # LaTeX rendering via "katex" (KaTeX, default) or "mathjax" (MathJax) or "none" / "off" (NO rendering)
 latex: katex
 
+# Support mermaid diagrams!
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.12.0"
+
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.4.2
 color_scheme: dark

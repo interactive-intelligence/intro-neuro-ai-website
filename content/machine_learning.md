@@ -193,20 +193,17 @@ largest value, but that is beyond the scope of this course.
 
 Let's move on to a more intuitive type of classification algorithm. Suppose you want to classify animals. One of the most intuitive ways is to group animals by
 features and break them up into small logical decisions. You might end up with a tree like this:
-```
-                Is it a Mammal?
-                  /        \
-                Yes        No
-               /            \
-      Has Fur?           Has Feathers?
-       /    \              /      \
-     Yes     No         Yes       No
-     /        \         /          \
-   Dog       Dolphin  Bird      Lives in Water?
-                                   /     \
-                                 Yes     No
-                                 /         \
-                              Fish      Reptile
+```mermaid
+flowchart TD
+    A[Is it a Mammal?]
+    A -->|Yes| D[Has Fur?]
+    A -->|No| E[Has Feathers?]
+    D -->|Yes| J[Dog]
+    D -->|No| K[Dolphin]
+    E -->|Yes| L[Bird]
+    E -->|No| M[Lives in Water?]
+    M -->|Yes| P[Fish]
+    M -->|No| Q[Reptile]
 ```
 This is exactly what a decision tree is! The algorithm tries to find the best ways to split data each step so that using only
 a series of binary questions ("Does the animal have wings?", or "Is the height greater than 10 cm"), we can narrow down to the true class.
