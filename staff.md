@@ -31,6 +31,13 @@ Here are the awesome people who made this course possible. Feel free to contact 
 {{ staffer }}
 {% endfor %}
 
+## Spring 2025 Teaching Assistants
+
+{% assign teaching_assistants = site.staffers | where: 'role', '25sp Teaching Assistant' %}
+{% for staffer in teaching_assistants %}
+{{ staffer }}
+{% endfor %}
+
 ## Autumn 2024 Teaching Assistants
 
 {% assign teaching_assistants = site.staffers | where: 'role', '24au Teaching Assistant' %}
