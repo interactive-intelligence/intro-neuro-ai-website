@@ -15,6 +15,13 @@ Here are the awesome people who made this course possible. Feel free to contact 
 {{ staffer }}
 {% endfor %}
 
+## Teaching Assistants
+
+{% assign teaching_assistants = site.staffers | where: 'role', '26sp Teaching Assistant' %}
+{% for staffer in teaching_assistants %}
+{{ staffer }}
+{% endfor %}
+
 # Previous Course Staff
 
 ## The Creators
