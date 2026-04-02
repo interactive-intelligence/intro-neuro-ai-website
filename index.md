@@ -1,6 +1,6 @@
 ---
 layout: home
-title: I2 Course
+title: i2 Course
 nav_exclude: true
 permalink: /:path/
 seo:
@@ -8,7 +8,7 @@ seo:
   name: Just the Class
 ---
 
-# I2 Intro Neuro/AI Course
+# i2 Intro Neuro/AI Course
 
 ---
 
@@ -18,12 +18,12 @@ Please follow the following links!
 
 [**Course Application** (non-competitive)](https://docs.google.com/forms/d/e/1FAIpQLScE2-kAFNop9FIGqQkRWJdLW03xaLrKm4DxA1uW2j1UMbK5BQ/viewform?usp=header)
 
-[**I2 Discord**](https://discord.com/invite/Ph8njzHedC)
+[**i2 Discord**](https://discord.com/invite/Ph8njzHedC)
 
 ---
 
 
-Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)! Here's the link to our **course textbook**, the [**I2 Grimoire**](https://grimoire.uw-i2.org). We’ll be referencing it throughout the course, so be sure to check it out.
+Hello! Welcome to the Introduction to Neuro/AI Interactive Intelligence (i2) crash course (now opencourseware)! Here's the link to our **course textbook**, the [**i2 Grimoire**](https://grimoire.uw-i2.org). We’ll be referencing it throughout the course, so be sure to check it out.
 
 Please remember:
 - We are all trying to learn, and learn at different speeds.
