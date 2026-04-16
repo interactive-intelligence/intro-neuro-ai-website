@@ -10,49 +10,98 @@ Welcome to the first lesson studying the most powerful and intelligent computer 
 
 ## <u>Literacy & Technical Track Content</u>
 
-### **<u>Task 1:</u>** 
-
-*Watch the videos below, and answer any synthesis questions placed along the way.*
-
 ![alt_text](../assets/unit3/brain_diagram.png "image_tooltip")
 
-First, we will begin with Mr. Andersen’s lovely introduction to the structure of the foundation of our biological computation: the neuron!
-### **Video 1:** [The Neuron!](https://www.youtube.com/watch?v=HZh0A-lWSmY) 
-<div class="center">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HZh0A-lWSmY?si=udg_eqQ4V8Z3MsQG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+### **<u>Task 1:</u>** 
 
-### *Synthesis Questions:*
-* `Recall the main parts of a neuron and list their functions. Write 1 sentence for each.`
-* `Fill out the following sentence: An action potential travels from the direction of the __, along the __, before reaching the __.`
-* `What happens if a neuron becomes unmyelinated?`
-* `What is a synapse? What does it do?`
+*Read the article below, and answer the following synthesis questions.*
 
-**Bonus Video:** If you are interested in the gritty details of how computation works biologically, I suggest this video as a bonus: [The Action Potential](https://www.youtube.com/watch?v=HYLyhXRp298) (the brain is like a salty banana!)
+#### Introduction
 
-Next, a crash course on the large modules of the brain before we go even deeper into the amazing functions of the brain.
-### **Video 2:** [The Brain: Structure and Function](https://www.youtube.com/watch?v=kMKc8nfPATI)
-<div class="center">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kMKc8nfPATI?si=_0Awgwd1V5RT_mfC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-### *Synthesis Questions:*
-* `What distinguishes the forebrain, midbrain, and hindbrain? `
-* `What are several parts of the midbrain and what are their functions?`
-* `How did we discover what function(s) certain areas of the brain have?`
-* `What are the 4 lobes of the brain and their general functions? Write 2 sentences for each.`
+The human brain is composed of multiple layers, and understanding each part is crucial for learning how brain cognition works. Besides just the chemical communication from neurons we learned from the lecture, the brain organizes information throughout its distinctive structures, each with specific roles and pathways. 
 
-Watch and understand this beautiful lecture, then answer the synthesis questions provided below.
-### **Video 3:** [MIT Neuroanatomy Lecture](https://www.youtube.com/watch?v=bAkuNXtgrLA&list=PLUl4u3cNGP60IKRN_pFptIBxeiMc0MCJP&index=2)
-<div class="center">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bAkuNXtgrLA?si=umRz9vDxAOxdxPWL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-### *Synthesis Questions:*
-* `What are the four major parts of the brain?`
-* `Summarize the main functions of each of the four major components above, or jot down some details about each`
-* `What is a receptive field?`
-* `Describe characteristics of a cortical area. Find your favorite cortical area not described in the lecture and describe some things that make it interesting :)`
+First, let’s look at the structure of neuroanatomy. You may have seen an image like this before ([source](https://socialsci.libretexts.org/Bookshelves/Early_Childhood_Education/Child_Development_%28Cummings-Clay%29/01%3A_Introduction_to_Child_Development/1.02%3A_Development_of_the_Human_Brain)):
 
-Congratulations! That was a lot of neuroscience! On to some more creative ways of learning in the project section.
+![Diagram of the parts of the brain](../assets/unit3/brain_structure.png "image_tooltip")
+
+The brain has three major regions: Forebrain, Midbrain, and Hindbrain, and the “-encephalon” term reflects an embryological subdivision of the brain. During early embryonic development, the brain primary appears as three vesicles (prosencephalon, mesencephalon, and rhombencephalon) and spinal cord, which then differentiate into more specialized subregions as development proceeds. Since embryological subdivision is the root of all brain structure, developmental origin constrains anatomical boundaries, connectivity, and function in grown human brain. 
+
+Now, let's talk about each region and its subdivisions. 
+
+#### The Forebrain
+
+The Forebrain contains its subdivisions: the **Telecephalon** and **Diencephalon**. 
+
+The **Telecephalon** contains the Cerebral cortex, Basal ganglia, and Limbic system, and it supports perception, motivation, and even memory.
+	
+The **Cerebral cortex** is a gray matter which contains its subdivisions of four Lobes and the **Insula** (visceral sensation). 
+
+The four Lobes function differently in learning and cognitive processes  
+
+* Frontal lobe; executive function, decision-making, motor planning  
+* Parietal lobe; somatosensory processing and spatial integration  
+* Occipital lobe; visual processing  
+* Temporal lobe; auditory processing, language, and memory
+
+The **Insula** is a cortical region involved in visceral sensation, interoception, and awareness of internal bodily states.   
+	  
+There is a structure called the **corpus callosum,** a major white-matter tract within the **telencephalon**, that connects the left and right cerebral hemispheres and enables information exchange across cortical regions. This lets cerebral hemispheres communicate with each other and integrating perception, action, and cognition into a coherent experience. 
+
+**Basal ganglia** contains its subdivisions Caudate nucleus, Putamen and the Globus pallidus
+
+* Caudate nucleus; processes goal-directed learning, working memory.  
+* Patumen; related to motor skills, planning and preparation  
+* Globus palildus
+
+**Limbic system** contains its subdivisions Amygdala and Hippocampus
+
+* Amygdala; rapid evaluation of sensory information, emotional responses to external stimuli  
+* Hippocampus; spatial navigation and episodic memory  
+    
+While the **Diencephalon** contains **Thalamas** and **Hypothalamas**, which control attention and physiological state by regulating signals.   
+    
+**Thalamas** routes sensory information to the appropriate cortical areas and modulates attention. Rather than transmitting information itself, the **Thalamus** filters and prioritizes signals based on relevance and feedback.   
+    
+**Hypothalamus** regulates the body’s internal physiological state, such as temperature, hunger, and thirst, and process motivation, arousal, and autonomic nervous system control. It makes sure that our cognition is context-dependent and bodily grounded.
+
+#### The Midbrain
+The **Midbrain** is divided into **Tectum** and **Tegmentum**; where the **Tectum** is dorsal which contains **Superior colliculus** and **Inferior colliculus**, and the **Tegmentum** is ventral and contains **Substantia nigra**, **VTA(ventral tegmental area)** and **Periaqueductal** **gray**.
+
+**Tectum**
+
+* **Superior colliculus** processes visual stimuli and coordinating rapid movements of the eyes and head. This area supports physical implementation of spatial attention for motor responses.   
+* **Inferior colliculus** processes auditory information to sound localization. This area supports reflexive responses to auditory stimuli. 
+
+**Tegmentum**
+
+* The **Tegmentum** contains the **Substantia nigra**, which is a dopaminergic nucleus that is functionally connected to the basal ganglia and plays a critical role in movement and reward-based learning (this is what we call as an reinforcement learning\!).  
+* The **Tegmentum** contains the **VTA, a.k.a ventral tegmental area,** which is another dopaminergic nucleus within the tegmentum. It involves motivation and reward processing, learning, assigning value to stimuli and actions (also connected with reinforcement learning).   
+*  The **Tegmentum** contains the **Periaqueductal gray,** which surrounds the cerebral aqueduct and is involved in defensive, autonomic responses to threat. 
+
+#### The Hindbrain
+The Hindbrain contains its subdivisions: the **Metencephalon** and **Myelencephalon**.   
+The **Metencephalon** contains the **Pons** and **Cerebellum**. 
+
+* The **Pon** controls sleep and wakefulness, relaying of signals between the cerebellum and cerebrum.   
+* The **Cerebellum** is often called the “little brain” by psychologists since it coordinates movement and balance, and associative learning. 
+
+The **Myelencephalon** contains the **Medulla**. 
+
+* The **Medulla** controls vital autonomic functions like the respiratory system, heart rate, and blood pressure
+
+Congratulations\! That was a lot of neuroscience\! On to some more creative ways of learning in the project section. Now, let’s move on to memory and how memory works within brain anatomy. 
+
+#### Types of Memory in Human Cognition
+Memory is not just regulated by a certain part of the brain. It is a network, just like this: 
+
+![Flow diagram of the structure of the memory system](../assets/unit3/memory_structure.png "image_tooltip")
+
+The **hippocampus** in the medial temporal lobe is critical for forming new episodic memories and converting short-term memories into long-term storage. The **amygdala** strengthens memories that are emotionally significant, such as fear or stressful events. The **prefrontal cortex** supports **working memory** and helps retrieve and organize stored information during thinking and decision-making. In contrast, **procedural memories** (skills and habits) rely more on the **basal ganglia** and **cerebellum**, which support motor learning and automatic behaviors.
+
+### *Synthesis Questions*
+- `How does the anatomical division of the brain into the telencephalon, diencephalon, and midbrain reflect differences in their functional roles in cognition and behavior?`
+- `How does the subdivision of telencephalon and diencephalon interact together for attention and memory processes?`
+- `Modern deep learning systems successfully model aspects of telencephalic processing. Which functions associated with the diencephalon and midbrain remain poorly captured in current AI systems, and why might this matter?`
 
 ---
 
@@ -74,7 +123,7 @@ your responses to the synthesis questions.
 
 **The questions in the template are also written below:**
 
-Unfortunately, we have neither brains nor creatures for you to dissect. However, for this project, we will be asking you to use your imagination and newfound biological and artificially-intelligible knowledge to 
+Unfortunately, we have neither brains nor creatures for you to dissect. However, for this project, we will be asking you to use your imagination and newfound biological and artificially-intelligible knowledge to: 
 
 * Describe several advantages and disadvantages of biological computation with the brain compared to machine learning
 * Speculate what aspects of the architecture of the brain may cause these advantages or disadvantages, and similarly comment on aspects of machine learning’s architecture
