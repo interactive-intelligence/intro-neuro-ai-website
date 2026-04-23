@@ -6,7 +6,7 @@ nav_order: 2 ### Unit Number
 
 # <u>Basic Neuroanatomy</u>
 
-Welcome to the first lesson studying the most powerful and intelligent computer known to date – the brain. We will begin by studying what exactly it is. This is called neuroanatomy, and luckily for us, MIT OpenCourseware has a fabulous lecture on exactly that, which we will pair with some nice quick overviews from none other than Mr. Paul Andersen. In addition, we will attempt to tie in topics from the deep learning unit to get you thinking more about NeuroAI. Have a look!
+Welcome to the first lesson studying the most powerful and intelligent computer known to date - the brain. We will begin by studying what the brain is exactly. This is called neuroanatomy/brain anatomy. The reason why we start with neuroanatomy is that deep learning does not attempt to model the “mind” itself (yet). However, it closely mirrors how the brain structurally processes the information. 
 
 ## <u>Literacy & Technical Track Content</u>
 
