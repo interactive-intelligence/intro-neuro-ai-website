@@ -48,7 +48,6 @@ The next video will describe the path of information flow through the visual cor
 * `Describe the retinotopic nature of the visual cortex (7:58) in your own words. Hypothesize whether convolutional neural networks might be organized as "retinotopic". `
 * `Describe cortical magnification and the causes of the trade-off between acuity and sensitivity. What are several reasons we can't see details from extremely far away, as for example, hawks can?`
 * `Brains are constrained by space, which as we have seen with vision, drives trade-offs in our processing. Do neural networks have analogous constraints? What are the effects of this?`
-* `Brains are constrained by space, which as we have seen with vision, drives trade-offs in our processing. Do neural networks have analogous constraints? What are the effects of this?`
 
 This final video gives a swift overview of many functional modules of visual processing. This is a great time to start thinking about how all this vision processing compares to our methods of processing information with neural networks! 
 
