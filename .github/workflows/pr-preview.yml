@@ -36,6 +36,6 @@ jobs:
           source-dir: ./output/
           pages-base-url: intro-neuro-ai-website-pr-preview.onrender.com
       
-      - name: Notify render.com to update
+      - name: Notify render.com to update (If this fails, please contact me (Eric)!)
         run: curl 'https://api.render.com/deploy/srv-csesvobtq21c738gku6g?key=d7aearqEmeM'
         shell: bash
