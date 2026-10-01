@@ -12,11 +12,11 @@ seo:
 
 ---
 
-## *Autumn 2025 Intro Course Applications Open!*
+## *Autumn 2026 Intro Course Applications Open!*
 
 Please follow the following links!
 
-[**Course Application** (non-competitive)](https://docs.google.com/forms/d/e/1FAIpQLScE2-kAFNop9FIGqQkRWJdLW03xaLrKm4DxA1uW2j1UMbK5BQ/viewform?usp=header)
+[**Course Application** (non-competitive)](https://forms.gle/SPGCFpwDP9c7gd6v5)
 
 [**i2 Discord**](https://discord.com/invite/Ph8njzHedC)
 
